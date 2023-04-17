@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'template_rapport.blg'
+[16] biber:315> INFO - === lun. avril 17, 2023, 10:21:01
+[31] Biber.pm:371> INFO - Reading 'template_rapport.bcf'
+[70] Biber.pm:889> INFO - Found 3 citekeys in bib section 0
+[78] Biber.pm:4093> INFO - Processing section 0
+[86] Biber.pm:4254> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[89] bibtex.pm:1512> INFO - LaTeX decoding ...
+[139] bibtex.pm:1329> INFO - Found BibTeX data source 'biblio.bib'
+[151] Utils.pm:193> WARN - ISBN '978-3-319-15155-7 978-3-319-15156-4' in entry 'kolev_multiphase_2015' is invalid - run biber with '--validate_datamodel' for details.
+[167] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[167] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[167] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[167] Biber.pm:3927> INFO - No sort tailoring available for locale 'fr-FR'
+[171] bbl.pm:636> INFO - Writing 'template_rapport.bbl' with encoding 'UTF-8'
+[173] bbl.pm:739> INFO - Output to template_rapport.bbl
+[173] Biber.pm:110> INFO - WARNINGS: 1

@@ -1,0 +1,154 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{kolev_multiphase_2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b4bec71da3b1acf56c431c460b9dcc6b}{%
+           family={Kolev},
+           familyi={K\bibinitperiod},
+           given={Nikolay\bibnamedelima Ivanov},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{fullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{bibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{authorbibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{authornamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{authorfullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-319-15155-7 978-3-319-15156-4}
+      \field{langid}{english}
+      \field{shorttitle}{Multiphase Flow Dynamics 5}
+      \field{title}{Multiphase Flow Dynamics 5: Nuclear Thermal Hydraulics}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-15156-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/VIC9MA2V/Kolev - 2015 - Multiphase Flow Dynamics 5 Nuclear Thermal Hydrau.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-319-15156-4
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-319-15156-4
+      \endverb
+      \keyw{fluid- and aerodynamics,Multiphase Dynamics,Multiphase Flow,Multiphase Flow Dynamics,Nuclear Reactor Safety,Nuclear Thermal Hydraulics}
+    \endentry
+    \entry{samkhaniani_evaluation_2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1f14e2734d91fd75d3d0806152fcec70}{%
+           family={Samkhaniani},
+           familyi={S\bibinitperiod},
+           given={Nima},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ecccca6f706b238fff6e8384dfac5df2}{%
+           family={Ansari},
+           familyi={A\bibinitperiod},
+           given={Mohamad\bibnamedelima Reza},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
+      \strng{fullhash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
+      \strng{bibnamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
+      \strng{authorbibnamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
+      \strng{authornamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
+      \strng{authorfullhash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the present study, a new solver named {phaseChangeHeatFoam} is implemented on the {OpenFOAM} cfd package to simulate boiling and condensation. The solver is capturing the interface between two immiscible phases with a color function volume of fluid ({CF}-{VOF}) method. The two fluids (vapor and liquid) are assumed Newtonian and incompressible. The surface tension is modeled with continuous surface force ({CSF}) which is improved with a Lafaurie filter to suppress the spurious current. The mass flux across the interface in the phase change process is determined by either Lee or Tanasawa mass transfer models. Additionally, the slight variation of saturation temperature with local pressure is considered with the simplified Clausius–Clapeyron relation. The coupled velocity pressure equation is solved using the {PIMPLE} algorithm. The new solver is validated and examined with (i) Stefan problem, (ii) two-dimensional film boiling, (iii) the film condensation on a horizontal plate, (iv) the laminar film condensation over a vertical plate, and (v) bubble condensation in subcooled boiling. The present study shows the capability of a diffuse interface method in accurate simulation of the phase change process and it is expected to be instructive for further numerical studies in this area.}
+      \field{issn}{1523-1496}
+      \field{journaltitle}{Heat Transfer—Asian Research}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/htj.21268}
+      \field{number}{8}
+      \field{title}{The evaluation of the diffuse interface method for phase change simulations using {OpenFOAM}}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{46}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1173\bibrangedash 1203}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1002/htj.21268
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/C5YRK8VK/Samkhaniani et Ansari - 2017 - The evaluation of the diffuse interface method for.pdf:application/pdf;Snapshot:/home/cp273896/Zotero/storage/4KM8W74N/htj.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/htj.21268
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/htj.21268
+      \endverb
+      \keyw{boiling,condensation,{interFoam},{OpenFOAM},volume of fluid}
+    \endentry
+    \entry{introini_suivi_nodate}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=813bfa2d98f04d016b954dd1f9c22a01}{%
+           family={Introïni},
+           familyi={I\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ab3bd5d781df93b0756b597c10dee2ee}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{fullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{bibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{authorbibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{authornamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{authorfullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Suivi d’interfaces diffuses par une méthode de champ de phase, Séminaire Méthodes d’Interfaces, organisé par le réseau de numériciens de Cadarache/{IRESNE}}
+      \verb{file}
+      \verb Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:/home/cp273896/Zotero/storage/V5NDBPZK/Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:application/pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
