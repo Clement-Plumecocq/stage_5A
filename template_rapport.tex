@@ -4,7 +4,7 @@
 % LICENSE file in the root directory of this source tree.
 
 % ========== Classe du document ==========
-\documentclass[a4paper,11pt]{report}    % A4, police taille 11, report pour avoir les chapitres
+\documentclass[a4paper,11pt,fleqn]{report}    % A4, police taille 11, report pour avoir les chapitres, fleqn pour avoir les équations alignées à gauche
 
 % ========== Langue française pour le document ==========
 \usepackage{latexsym}       % Police latex de base
@@ -135,7 +135,7 @@ pdfauthor={Auteur},
 \usepackage{graphicx}               % Plus d'arguments pour la fonction \includegraphics
 \graphicspath{{Images/}}            % Path des images
 
-\counterwithin{figure}{section}     % Numérotation des figures à partir des sections
+%\counterwithin{figure}{section}     % Numérotation des figures à partir des sections
 \setcounter{lofdepth}{2}            % Afficher jusqu'aux sous-figures dans la liste des figures
 \cftsetindents{figure}{0em}{3.5em}  % Réglage de l'espace entre le numéro et le nom de la figure dans la liste
 \setlength\cftbeforefigskip{5pt}    % Réglage de l'espacement entre les figures dans la liste
@@ -151,7 +151,7 @@ pdfauthor={Auteur},
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}  % Paramètres sympa d'après Xm1Math
 \newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}    % Paramètres sympa d'après Xm1Math
 
-\counterwithin{table}{section}      % Numérotation des tableaux à partir des sections
+%\counterwithin{table}{section}      % Numérotation des tableaux à partir des sections
 \setcounter{lotdepth}{2}            % Afficher jusqu'aux sous-tableaux dans la liste des tableaux
 \cftsetindents{table}{0em}{3.5em}   % Réglage de l'espace entre le numéro et le nom du tableau dans la liste
 \setlength\cftbeforetabskip{5pt}    % Réglage de l'espacement entre les figures dans la liste
@@ -500,7 +500,7 @@ Dans le cas où $\doubleoverline{\kappa}$ = $\doubleoverline{0}$ on retrouve une
 \section{Couplage avec les équations de Navier-Stokes incompressible}
 Dans le cadre de cette étude les équations de Cahn-Hilliard sont couplées aux équations de conservation de masse et de quantité de mouvement imcompressible avec l'hypothèse de Boussinesq. On rappel les équations de Navier-Stokes avec ces hypothèses :
 \begin{align}
-&\bm{\nabla} \cdot \mathbf{u} = 0\\
+&\nabla \cdot \mathbf{u} = 0\\
 &\rho(\bm{\phi}) \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot {\nabla})\mathbf{u}\right) = -{\nabla} P +\eta(\bm{\phi}){\Delta} \mathbf{u}+\sum_{i=1}^{N-1} \tilde\mu_i{\nabla} \phi_i + \rho(\bm{\phi}) \mathbf{g}
 \end{align}
 avec $\mathbf{u}$ la vitesse, $P$ la pression, $\tilde{\mu_i}$ le potentiel chimique du composant $i$,$\mathbf{g} = -g \mathbf{e_z}$,$\eta$ la viscosité cinématique,$\rho$ la masse volumique\\
