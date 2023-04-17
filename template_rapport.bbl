@@ -148,6 +148,75 @@
       \verb Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:/home/cp273896/Zotero/storage/V5NDBPZK/Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:application/pdf
       \endverb
     \endentry
+    \entry{aursand_spinodal_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8ca181cd6834a8f0b4a08595789b23ac}{%
+           family={Aursand},
+           familyi={A\bibinitperiod},
+           given={Peder},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b0fcb722ea2f4dd3f48bd5fbfb2ae6e8}{%
+           family={Gjennestad},
+           familyi={G\bibinitperiod},
+           given={Magnus\bibnamedelima Aa.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=607e7617bbce5e15a258c554a532863d}{%
+           family={Aursand},
+           familyi={A\bibinitperiod},
+           given={Eskil},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8dc81a6de6181a79ba53653b01e611e6}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod}}}%
+        {{hash=803ea30dc52f485e4e4cb0dfd2b6d2bc}{%
+           family={Wilhelmsen},
+           familyi={W\bibinitperiod},
+           given={Øivind},
+           giveni={Ø\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{fullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
+      \strng{bibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{authorbibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{authornamehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{authorfullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The spinodal represents the limit of thermodynamic stability of a homogeneous fluid. In this work, we present a robust methodology to obtain the spinodal of multicomponent fluids described even with the most sophisticated equations of state ({EoS}) available. We elaborate how information about the spinodal and its uncertainty can contribute both in the development of modern {EoS} and to estimate their uncertainty in the metastable regions. Inequality constraints are presented that can be exploited in the fitting of modern {EoS} of single-component fluids to avoid inadmissible pseudo-stable states between the vapor and liquid spinodals. We find that even cubic {EoS} violate some of these constraints. With the use of a selection of {EoS} representative of modern applications, we compare vapor and liquid spinodal curves, superheat and supersaturation limits from classic nucleation theory ({CNT}), and available experimental data for the superheat limit. Computations are performed with pure species found in natural gas, binary mixtures, as well as a multi-component natural gas mixture in order to demonstrate the scalability of the approach. We demonstrate that there are large inconsistencies in predicted spinodals from a wide range of {EoS} such as cubic {EoS}, extended corresponding state {EoS}, {SAFT} and multiparameter {EoS}. The overall standard deviation in the prediction of the spinodal temperatures were 1.4 K and 2.7 K for single- and multi-component liquid-spinodals and 6.3 K and 26.9 K for single- and multi-component vapor spinodals. The relationship between the measurable limit of superheat, or supersaturation, and the theoretical concept of the spinodal is discussed. While nucleation rates from {CNT} can deviate orders of magnitude from experiments, we find that the limit of superheat from experiments agree within 1.0 K and 2.4 K with predictions from {CNT} for single- and multi-component fluids respectively. We demonstrate that a large part of the metastable domain of the phase diagram is currently unavailable to experiments, in particular for metastable vapor. Novel techniques, experimental or with computational simulations, should be developed to characterize the thermodynamic properties in these regions, and to identify the thermodynamic states that define the spinodal.}
+      \field{day}{25}
+      \field{issn}{0378-3812}
+      \field{journaltitle}{Fluid Phase Equilibria}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Fluid Phase Equilibria}
+      \field{title}{The spinodal of single- and multi-component fluids and its role in the development of modern equations of state}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{volume}{436}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{98\bibrangedash 112}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.fluid.2016.12.018
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/cp273896/Zotero/storage/48XJCRPU/S0378381216306227.html:text/html;Version acceptée:/home/cp273896/Zotero/storage/CV5KG2ZA/Aursand et al. - 2017 - The spinodal of single- and multi-component fluids.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
+      \endverb
+      \keyw{Equation of state,Nucleation,Phase stability,Spinodal,Superheat limit,Thermodynamics}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

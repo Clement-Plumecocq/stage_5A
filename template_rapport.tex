@@ -8,6 +8,7 @@
 
 % ========== Langue française pour le document ==========
 \usepackage{latexsym}       % Police latex de base
+
 \usepackage[french]{babel}  % Dictionnaire français (indentation, caractères spéciaux, tirets...)
 \usepackage[utf8]{inputenc} % Encodage d'entrée pour les caractères accentués
 \usepackage[T1]{fontenc}    % Affichage correct des caractères accentués notamment
@@ -50,7 +51,7 @@
 pdftitle={Titre},
 pdfsubject={Sujet},
 pdfauthor={Auteur},
-pdfkeywords={keyword1} {keyword2} {keyword3}
+	pdfkeywords={keyword1} {keyword2} {keyword3}
 }
 
 % ========== Graphique, police, maths ==========
@@ -487,7 +488,7 @@ L'équation de Cahn-Hillard pour $N$ composants, avec $i\in \{1,..,N \}$
 \end{equation}
 avec : $M_{ik}$ la mobilité (paramètre cinétique),  $\phi$ le paramètre d'ordre. \\
 on définit le potentiel chimique $\tilde\mu$ tel que : \begin{equation}
-\mathcal{F} = \int_{\mathcal{V}}f_0(\phi,\mathbf{x},t)- \sum_{i=1}^{N-1}\sum_{j=1}^{N-1}\frac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j dV
+\mathcal{F} = \int_{\mathcal{V}}f_0(\bm{\phi},\mathbf{x},t)- \sum_{i=1}^{N-1}\sum_{j=1}^{N-1}\frac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j dV
 \end{equation}
 Où le premier terme représente la densité d'énergie liée au volume et le second terme l'énergie liée aux interfaces. $\kappa$ est alors un coefficient de gradient. \\
 De tel sorte que : 
@@ -500,12 +501,12 @@ Dans le cas où $\doubleoverline{\kappa}$ = $\doubleoverline{0}$ on retrouve une
 Dans le cadre de cette étude les équations de Cahn-Hilliard sont couplées aux équations de conservation de masse et de quantité de mouvement imcompressible avec l'hypothèse de Boussinesq. On rappel les équations de Navier-Stokes avec ces hypothèses :
 \begin{align}
 &\bm{\nabla} \cdot \mathbf{u} = 0\\
-&\rho(\phi_1,..,\phi_{N-1}) \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \bm{\nabla})\mathbf{u}\right) = -\bm{\nabla} P +\eta(\phi,..,\phi_N)\bm{\Delta} \mathbf{u}+\sum_{i=1}^{N-1} \tilde\mu_i\bm{\nabla} \phi_i + \rho(\phi_1,..,\phi_{N-1}) \mathbf{g}
+&\rho(\bm{\phi}) \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot {\nabla})\mathbf{u}\right) = -{\nabla} P +\eta(\bm{\phi}){\Delta} \mathbf{u}+\sum_{i=1}^{N-1} \tilde\mu_i{\nabla} \phi_i + \rho(\bm{\phi}) \mathbf{g}
 \end{align}
 avec $\mathbf{u}$ la vitesse, $P$ la pression, $\tilde{\mu_i}$ le potentiel chimique du composant $i$,$\mathbf{g} = -g \mathbf{e_z}$,$\eta$ la viscosité cinématique,$\rho$ la masse volumique\\
 La densité est alors calculé : 
 \begin{equation}
-	\rho(\phi_1,..,\phi_N-1) = \rho_0\left(1+\sum_{i=1}^{N-1}\beta_i \phi_i\right)
+	\rho(\bm{\phi}) = \rho_0\left(1+\sum_{i=1}^{N-1}\beta_i \phi_i\right)
 \end{equation}
 Les paramètres $\beta$ sont à déterminer en fonction du système étudié, $\rho_0$ correspond à une masse volumique de référence. L'équation de Cahn-Hilliard étant d'ordre 4, une résolution implicite est préférée pour la suite de ce travail.
 \section{Paysage thermodynamique analytique}
@@ -515,9 +516,9 @@ L'objectif est de déterminer le paramètre de densité d'énergie liée au volu
 \end{equation}
 Avec $\alpha$ un pré-facteur correctif et $g^{liq}$ l'énergie libre de Gibbs par unité de volume. On définit également un pseudo grand potentiel correspondant à l'énergie nécessaire pour changer de minimum d'énergie.
 \begin{equation}
-\Omega^{\star} =\Omega - \Omega^{eq} =  \tilde{g}^{liq} - \sum_i \tilde{\mu}_i^{eq}\phi_i - \left( \tilde{g}^{liq,eq} -  \sum_i \tilde{\mu}_i^{eq}\phi_i^{eq} \right) 
+\Omega^{\star} =\Omega - \Omega^{eq} =  {g}^{liq} - \sum_i \tilde{\mu}_i^{eq}\phi_i - \left( {g}^{liq,eq} -  \sum_i \tilde{\mu}_i^{eq}\phi_i^{eq} \right) 
 \end{equation}
-Les bases thermodynamiques étant peu développé aux point d'intérêt (Température supérieur à 2000 \textdegree C) on cherche à définir ce potentiel grâce à une formulation analytique que l'on note :
+Les bases thermodynamiques étant peu développées aux points d'intérêt (Température supérieure à 2000 \textdegree C) on cherche à définir ce potentiel grâce à une formulation analytique que l'on note :
 \begin{equation}
 	\Omega^{\star}  = P^{dis} \times P^{cont}
 \end{equation}
@@ -527,11 +528,50 @@ Où $P^{dis}, P^{cont}$ représente deux paraboloïdes correspondant à la phase
 	P^{k}=\left(\frac{\co{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \sinus{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{a_{A}^{k}}\right)^{2}+\\ \left(\frac{-\sinus{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \co{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{a_{B}^{k}}\right)^{2}
 	\label{eq:paraboloid_general_}
 \end{multline} 
+Avec $k = \{disp,cont\}$ la phase (dispersée ou continue), $a_A$ (respectivement $a_B$) le demi-grand (resp petit) puits, $theta_k$ l'angle de rotation associé au puits de la phase $k$\\
+On cherche alors à tracer ce paysage. \\
+On retrouve dès lors le potentiel chimique grâce à la relation :
+\begin{equation}\label{calul_potentiel}
+	\tilde{\mu}_i = \left.\frac{\partial g^{liq}}{\partial \phi_i}\right|_{P,T,\phi_{j\neq i}} 
+\end{equation}
+soit : 
+\begin{align*}
+	\tilde{\mu}_i &= \frac{\partial}{\partial \phi_i}\left\lbrace 
+	\Omega^{\star} + \sum_j \tilde{\mu}_j^{eq}\phi_j + \left( {g}^{liq,eq} -  \sum_j \tilde{\mu}_j^{eq}\phi_j^{eq} \right)\right\rbrace \\
+	&= \frac{\partial \Omega^{\star}}{\partial \phi_i} + \frac{\partial g^{liq,eq}}{\partial \phi_i} + \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - \phi_j^{eq}\right)}{\partial  \phi_i}
+\end{align*}
+avec 
+\begin{align*}
+	& \frac{\partial g^{liq,eq}}{\partial \phi_i} = 0 \\
+		& \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - \phi_j^{eq}\right)}{\partial  \phi_i} = \tilde{\mu}_i^{eq} +\tilde{\mu}_{j\neq i}^{eq} \frac{\partial \phi_{j\neq i}}{\partial \phi_i} = \tilde{\mu}_i^{eq}
+\end{align*}
+car les variables sont indépendantes. Finalement on écrit :
+\begin{equation}
+\tilde{\mu}_i =	P^{dis}\frac{\partial P^{cont}}{\partial \phi_i} + P^{cont}\frac{\partial P^{dis}}{\partial \phi_i} + \tilde{\mu}_i^{eq}
+\end{equation}
+L'objectif est alors de déterminer les paramètres des paraboloïdes pour obtenir des résultats consistants.
 
-On cherche alors à tracer ce paysage.
-
-
-
+\section{Élément de stabilité de phase}
+Le calcul du paysage nous permet d'avoir des informations sur l'énergie du système pour une certaine composition, cependant on ne connaît aucunement le nombre de phase du système. On cherche alors à déterminer la phase instable ou les deux éléments sont mélangés. Pour cela on calcul la matrice Hessienne définit tel que : 
+\begin{equation}
+	\Mb{\doubleoverline{H}}_{g^{liq}} = \left.\frac{\partial^2 g^{liq}}{\partial \phi_i \partial \phi_j}\right|_{T,P,\phi_k\neq i,j}
+	=\left.\frac{\partial^2 \Omega^{\star}}{\partial \phi_i \partial \phi_j}\right|_{T,P,\phi_k\neq i,j}
+\end{equation}
+L'égalité des matrices hessienne du pseudo-grand potentiel et de l'énergie libre de Gibbs est ici immédiate. D'après \cite{aursand_spinodal_2017} les zones spinodale, instable et stable sont définit tel que :
+\begin{itemize}
+	\item zone stable : $\displaystyle eig\left\{\Mb{\doubleoverline{H}}_{g^{liq}} \right\} > 0$, deux phases coexistent \\ 
+	\item spinodale : $\displaystyle \min \left( eig \left\{\Mb{\doubleoverline{H}}_{g^{liq}}\right\} \right) > 0$, décomposition spinodale \\
+	\item zone instable : $\displaystyle eig\left\{\Mb{\doubleoverline{H}}_{g^{liq}} \right\} < 0$, une phase en présence \\ 
+\end{itemize}
+Le calcul des valeurs propres en chaque point du paysage pouvant être coûteux on rappel que par théorème le produit des valeurs propres d'une matrice est égale au déterminant de cette matrice. Ainsi si on note $\lambda_i$ les valeurs propres de $\Mb{\doubleoverline{H}}_{g^{liq}}$ on a :
+\begin{equation}
+	\det{\Mb{\doubleoverline{H}}_{g^{liq}}} = \prod_i \lambda_i
+\end{equation}
+Pour le cas ternaire le calcul du déterminant est direct :
+\begin{equation}
+	\text{det}  \Mb{\doubleoverline{H}}   =  \frac{\partial^2 g^{liq}}{\partial \phi_i^2}
+	\frac{\partial^2 g^{liq}}{\partial \phi_j^2}-\left(\frac{\partial^2 g^{liq} }{\partial \phi_i \partial \phi_j} \right)^2
+\end{equation}
 
 % ======================================== Fin Document ========================================
 
