@@ -11,4 +11,5 @@
 \contentsline {section}{\numberline {3.3}Couplage avec les \IeC {\'e}quations de Navier-Stokes incompressible}{9}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Paysage thermodynamique analytique}{9}{section.3.4}%
 \contentsline {section}{\numberline {3.5}\IeC {\'E}l\IeC {\'e}ment de stabilit\IeC {\'e} de phase}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.6}\IeC {\'E}valuation des parabolo\IeC {\"\i }des}{11}{section.3.6}%
 \contentsfinish

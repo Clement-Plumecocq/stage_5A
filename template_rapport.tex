@@ -105,10 +105,10 @@ pdfauthor={Auteur},
 
 
 % ========== Glossaire ==========
-\usepackage[acronym,toc]{glossaries}    % Gestion d'un glossaire et d'une liste d'acronymes,
+%\usepackage[acronym,toc]{glossaries}    % Gestion d'un glossaire et d'une liste d'acronymes,
                                         % et ajout dans la toc de la position de ces derniers
-\input{glossary}                        % Récupère les informations du fichier glossary.tex
-\makeglossaries                         % Génère le glossaire avec les informations récupérées
+%\input{glossary}                        % Récupère les informations du fichier glossary.tex
+%\makeglossaries                         % Génère le glossaire avec les informations récupérées
 
 % ========== Nomenclature ==========
 \usepackage[intoc]{nomencl}         % Gestion d'une nomenclature avec position dans la toc
@@ -223,7 +223,6 @@ sorting=none
 \newcommand{\Lapl}[1]{\Delta #1}
 \newcommand{\boundary}[1]{\partial \domain{#1}}
 \newcommand{\doubleoverline}[1]{\bar{\bar{#1}}} 			% notation matrice
-
 \newcommand{\co}[1]{\text{cos}\left(#1\right)}
 \newcommand{\sinus}[1]{\text{sin}\left(#1\right)}
 
@@ -484,16 +483,16 @@ ainsi pour $N$ phase on a :
 Ainsi pour un mélange à $N$ composant on suit uniquement $N-1$ phases.
 L'équation de Cahn-Hillard pour $N$ composants, avec $i\in \{1,..,N \}$
 \begin{equation}
-\cfrac{\partial \phi_i}{\partial t} + \nabla \cdot \mathbf{u}\phi_i=  \nabla \cdot \left(\sum_{j=1}^{N-1} M_{ij} \nabla \frac{\partial \mathcal{F}}{\partial \phi_j} \right)
+\cfrac{\partial \phi_i}{\partial t} + \nabla \cdot \mathbf{u}\phi_i=  \nabla \cdot \left(\sum_{j=1}^{N-1} \cfrac{\mathcal{M}_{ij}}{\lambda} \nabla \frac{\partial \mathcal{F}}{\partial \phi_j} \right)
 \end{equation}
-avec : $M_{ik}$ la mobilité (paramètre cinétique),  $\phi$ le paramètre d'ordre. \\
+avec : $\mathcal{M}_{ik}$ la mobilité (paramètre cinétique),  $\phi$ le paramètre d'ordre. \\
 on définit le potentiel chimique $\tilde\mu$ tel que : \begin{equation}
 \mathcal{F} = \int_{\mathcal{V}}f_0(\bm{\phi},\mathbf{x},t)- \sum_{i=1}^{N-1}\sum_{j=1}^{N-1}\frac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j dV
 \end{equation}
 Où le premier terme représente la densité d'énergie liée au volume et le second terme l'énergie liée aux interfaces. $\kappa$ est alors un coefficient de gradient. \\
 De tel sorte que : 
 \begin{equation}\label{eq_potentiel}
-	\frac{\partial \mathcal{F}}{\partial \phi_j} = \frac{\partial f_0}{\partial \phi_j} -\sum_k \kappa_{jk} \Delta \phi_k = \tilde{\mu}_j
+	\frac{\partial \mathcal{F}}{\partial \phi_j} = \frac{\partial f_0}{\partial \phi_j} -\sum_{k=1}^{N-1} \kappa_{jk} \Delta \phi_k = {\mu}_j
 \end{equation}
 avec $\tilde{\mu}$ le potentiel chimique. \\
 Dans le cas où $\doubleoverline{\kappa}$ = $\doubleoverline{0}$ on retrouve une équation d'advection-diffusion classique, dans le cas contraire on obtient une équation d'ordre 4. Une des principale difficulté dans la mise en place de méthode champ de phase repose sur le paramétrage des simulations.
@@ -511,15 +510,15 @@ La densité est alors calculé :
 Les paramètres $\beta$ sont à déterminer en fonction du système étudié, $\rho_0$ correspond à une masse volumique de référence. L'équation de Cahn-Hilliard étant d'ordre 4, une résolution implicite est préférée pour la suite de ce travail.
 \section{Paysage thermodynamique analytique}
 L'objectif est de déterminer le paramètre de densité d'énergie liée au volume $f_0$. Dans l'hypothèse de température et pression constante on écrit : 
-\begin{equation}
-	f_0 = \alpha g^{liq}
+\begin{equation}\label{calul_potentiel}
+\tilde{\mu}_i = \left.\frac{\partial g^{liq}}{\partial \phi_i}\right|_{P,T,\phi_{j\neq i}} 
 \end{equation}
 Avec $\alpha$ un pré-facteur correctif et $g^{liq}$ l'énergie libre de Gibbs par unité de volume. On définit également un pseudo grand potentiel correspondant à l'énergie nécessaire pour changer de minimum d'énergie.
 \begin{equation}
 \Omega^{\star} =\Omega - \Omega^{eq} =  {g}^{liq} - \sum_i \tilde{\mu}_i^{eq}\phi_i - \left( {g}^{liq,eq} -  \sum_i \tilde{\mu}_i^{eq}\phi_i^{eq} \right) 
 \end{equation}
 Les bases thermodynamiques étant peu développées aux points d'intérêt (Température supérieure à 2000 \textdegree C) on cherche à définir ce potentiel grâce à une formulation analytique que l'on note :
-\begin{equation}
+\begin{equation}\label{double_puit}
 	\Omega^{\star}  = P^{dis} \times P^{cont}
 \end{equation}
 Où $P^{dis}, P^{cont}$ représente deux paraboloïdes correspondant à la phase dispersée et continue. Dans le cas ternaire, avec les éléments $A$ et $B$, les paraboloïdes sont de la forme : 
@@ -528,13 +527,9 @@ Où $P^{dis}, P^{cont}$ représente deux paraboloïdes correspondant à la phase
 	P^{k}=\left(\frac{\co{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \sinus{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{a_{A}^{k}}\right)^{2}+\\ \left(\frac{-\sinus{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \co{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{a_{B}^{k}}\right)^{2}
 	\label{eq:paraboloid_general_}
 \end{multline} 
-Avec $k = \{disp,cont\}$ la phase (dispersée ou continue), $a_A$ (respectivement $a_B$) le demi-grand (resp petit) puits, $theta_k$ l'angle de rotation associé au puits de la phase $k$\\
+Avec $k = \{disp,cont\}$ la phase (dispersée ou continue), $a_A$ (respectivement $a_B$) le demi-grand (resp petit) puits, $\theta_k$ l'angle de rotation associé au puits de la phase $k$\\
 On cherche alors à tracer ce paysage. \\
-On retrouve dès lors le potentiel chimique grâce à la relation :
-\begin{equation}\label{calul_potentiel}
-	\tilde{\mu}_i = \left.\frac{\partial g^{liq}}{\partial \phi_i}\right|_{P,T,\phi_{j\neq i}} 
-\end{equation}
-soit : 
+On retrouve dès lors le potentiel chimique grâce à la formulation analytique (\ref{double_puit}) :
 \begin{align*}
 	\tilde{\mu}_i &= \frac{\partial}{\partial \phi_i}\left\lbrace 
 	\Omega^{\star} + \sum_j \tilde{\mu}_j^{eq}\phi_j + \left( {g}^{liq,eq} -  \sum_j \tilde{\mu}_j^{eq}\phi_j^{eq} \right)\right\rbrace \\
@@ -571,6 +566,21 @@ Pour le cas ternaire le calcul du déterminant est direct :
 \begin{equation}
 	\text{det}  \Mb{\doubleoverline{H}}   =  \frac{\partial^2 g^{liq}}{\partial \phi_i^2}
 	\frac{\partial^2 g^{liq}}{\partial \phi_j^2}-\left(\frac{\partial^2 g^{liq} }{\partial \phi_i \partial \phi_j} \right)^2
+\end{equation}
+
+
+\section{Évaluation des paraboloïdes}
+
+L'objectif est de paramétrer les paraboloïdes afin d'obtenir des valeurs proches de la réalité. Malheureusement du au trop grand nombre de paramètres, les algorithmes de fit 'classique' ne converge pas vers une solution satisfaisante. \\
+Pour remédier à ce problème on découpe le problème en deux sous problèmes:
+\begin{enumerate}
+	\item On transforme le produit des deux paraboloïdes en un polynôme de degré 4 
+	\item On résout un système linéaire liant les coefficients polynomiaux aux paramètres des paraboloïdes
+\end{enumerate} 
+
+Ainsi on exprime :
+\begin{equation}
+	\Omega^{\star} = \sum_{i,j} c_{ij}\left.\phi^{misc}\right.^i\left.\phi^{immi}\right.^j
 \end{equation}
 
 % ======================================== Fin Document ========================================
