@@ -511,27 +511,38 @@ Soit pour la $N$-ième phase on a :
 \begin{equation}
 \phi_N =1 - \sum_{i=1}^{N-1} \phi_i
 \end{equation} 
-Ainsi pour un mélange à $N$ composants, seul $N-1$ équations de Cahn-Hilliard sont à écrire.
-Finalement les équations de Cahn-Hillard pour $N$ composants, avec $i\in \{1,..,N-1 \}$ s'écrivent sous la forme :
+Ainsi pour un mélange à $n$ composants, seul $n-1$ équations de Cahn-Hilliard sont à écrire.
+Finalement les équations de Cahn-Hillard pour $n$ composants, avec $i\in \{1,..,N-1 \}$ s'écrivent sous la forme :
 \begin{equation}
-\cfrac{\partial \phi_i}{\partial t} + \left(\mathbf{u} \cdot \nabla\right) \phi_i=  \nabla \cdot \left(\sum_{j=1}^{N-1}{\mathcal{M}_{ij}} \nabla\left( \frac{\partial \mathbb{F}}{\partial \phi_j}\right) \right) 
+\cfrac{\partial \phi_i}{\partial t} + \left(\mathbf{u} \cdot \nabla\right) \phi_i=  \nabla \cdot \left(\sum_{j=1}^{n-1}{\mathcal{M}_{ij}} \nabla\left( \frac{\partial \mathbb{F}}{\partial \phi_j}\right) \right) 
 \end{equation}
 avec : $\mathcal{M}_{ik}$ la mobilité (paramètre cinétique),  $\phi$ le paramètre d'ordre, $\mathbf{u}$ la vitesse et $\mathbb{F}$ une fonctionnelle de Ginzburg-Landeau définit tel que : \\
  \begin{equation}
-\mathbb{F} = \int_{\mathcal{V}}f_0(\bm{\phi},\mathbf{x},t)+ \sum_{i=1}^{N-1}\sum_{j=1}^{N-1}\cfrac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j dV
+\mathbb{F} = \int_{\mathcal{V}}\tilde{f}_0(\bm{\phi},\mathbf{x},t)+ \sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\cfrac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j dV
 \end{equation}
 Où le premier terme représente la densité d'énergie liée au volume et le second terme l'énergie liée aux interfaces que l'on pourra relier, par la suite, à la tension de surface. $\kappa$ est alors un coefficient de gradient. \\
 Finalement la dérivé variationnelle de cette fonctionnelle d'énergie libre peut être définit comme un potentiel de diffusion $\tilde{\mu}$: 
 \begin{equation}\label{eq_potentiel}
-	\frac{\partial \mathbb{F}}{\partial \phi_j} =\lambda \frac{\partial f_0}{\partial \phi_j} -\sum_{k=1}^{N-1} \kappa_{jk} \Delta \phi_k = \tilde{\mu}_j
+	\frac{\partial \mathbb{F}}{\partial \phi_j} =\lambda \frac{\partial \tilde{f}_0}{\partial \phi_j} -\sum_{k=1}^{n-1} \kappa_{jk} \Delta \phi_k = \tilde{\mu}_j
 \end{equation}
 avec $\mu_j$ le potentiel chimique de l'espèce $j$ et $\lambda$ un paramètre d'upscalling numérique ajouté pour augmenter l'épaisseur de l'interface, dans le cas où $\lambda=1$ l'interface est d'épaisseur "réelle" soit de l'ordre de l'angstr\oe m, les capacités de calcul ne permettant pas de pouvoir faire des calculs avec des maillages contenant de si petit éléments. \\
+Le potentiel de diffusion peut être relier au potentiel chimique tel que :
+\begin{equation}
+	\tilde{\mu}_i = \frac{1}{V_m}\left(\mu_i - \mu_n\right)
+\end{equation}
+Avec $\tilde{\mu}_i$ (en J.m$^{-3}$) représente le potentiel de diffusion de l'élément $i$, et $V_m$ le volume molaire.\\
+Le potentiel chimique étant classiquement définit tel que :
+\begin{equation}
+	\mu_i = \left.\frac{\partial F}{\partial n_i}\right|_{n_{j\neq i }}
+	  \textrm{                        avec} F = V_m f_0
+\end{equation}
+Avec $F$ l'énergie libre (en J) et $n_i$ la quantité de matière de l'élément $i$ (en mol). Dans notre cas on se place dans une transformation isochore et isotherme, on privilégiera donc l'énergie de libre de Gibbs.
 Dans le cas où $\doubleoverline{\kappa}$ = $\doubleoverline{0}$ on retrouve une équation d'advection-diffusion classique, dans le cas contraire on obtient une équation d'ordre 4. Une des principale difficulté dans la mise en place de méthode champ de phase repose sur le paramétrage des simulations.
 \section{Couplage avec les équations de Navier-Stokes incompressible}
 Dans le cadre de cette étude les équations de Cahn-Hilliard sont couplées aux équations de conservation de masse et de quantité de mouvement imcompressible en utilisant l'approximation de Boussinesq. Finalement d'après \cite{kim_phase-field_2012} le système d'équation s'écrit sous la forme :
 \begin{align}
 &\nabla \cdot \mathbf{u} = 0\\
-&\rho^* \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot {\nabla})\mathbf{u}\right) = -{\nabla} P +\eta \Delta \mathbf{u}+\sum_{i=1}^{N-1} \mu_i{\nabla} \phi_i + \rho(\bm{\phi}) \mathbf{g}
+&\rho^* \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot {\nabla})\mathbf{u}\right) = -{\nabla} P +\eta \Delta \mathbf{u}+\sum_{i=1}^{N-1} \tilde{\mu}_i{\nabla} \phi_i + \rho(\bm{\phi}) \mathbf{g}
 \end{align}
 avec $\mathbf{u}$ la vitesse, $P$ la pression, $\mu_i$ le potentiel chimique du composant $i$, $\mathbf{g} = \{ 0,0,-g\}^T $, $\eta$ la viscosité cinématique, $\rho^*$ la masse volumique du solvant\\
 La densité est alors calculé : 
@@ -540,13 +551,9 @@ La densité est alors calculé :
 \end{equation}
 Les paramètres $\beta$ sont à déterminer en fonction du système étudié, $\rho_0$ correspond à une masse volumique de référence. L'équation de Cahn-Hilliard étant d'ordre 4, une résolution implicite est préférée pour la suite de ce travail.
 \section{Paysage thermodynamique analytique}
-L'objectif est de déterminer le paramètre de densité d'énergie liée au volume $f_0$. Dans l'hypothèse de température et pression constante on écrit : 
-\begin{equation}\label{calul_potentiel}
-\tilde{\mu}_i = \left.\frac{\partial g^{liq}}{\partial \phi_i}\right|_{P,T,\phi_{j\neq i}} = \frac{1}{V_m}\left(\mu_i^{eq}-\mu_N^{eq}\right)
-\end{equation}
-Avec $\tilde{\mu}_i$ (en J.m$^{-3}$) représente le potentiel de diffusion de l'élément $i$ à l'équilibre, $g^{liq}$ (en J.m$^{-3}$) l'énergie libre de diffusion de Gibbs et $V_m$ le volume molaire. On définit également un pseudo grand potentiel correspondant à l'énergie nécessaire pour changer de minimum d'énergie.
+On définit également un pseudo grand potentiel correspondant à l'énergie nécessaire pour changer de minimum d'énergie.
 \begin{equation}
-\Omega^{\star} =\Omega - \Omega^{eq} =  {g}^{liq} - \sum_i \tilde{\mu}_i^{eq}\phi_i - \left( {g}^{liq,eq} -  \sum_i \tilde{\mu}_i^{eq}\phi_i^{eq} \right) 
+\Omega^{\star} =\Omega - \Omega^{eq} =  \tilde{g}^{liq} - \sum_i \tilde{\mu}_i^{eq}\phi_i - \left(  \tilde{g}^{liq,eq} -  \sum_i \tilde{\mu}_i^{eq}\phi_i^{eq} \right) 
 \end{equation}
 Les bases thermodynamiques étant peu développées aux points d'intérêt (Température supérieure à 2000 \textdegree C) on cherche à définir ce potentiel grâce à une formulation analytique que l'on note :
 \begin{equation}\label{double_puit}
