@@ -1995,12 +1995,16 @@
     <bcf:datasource type="file" datatype="bibtex">biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">kolev_multiphase_2015</bcf:citekey>
-    <bcf:citekey order="2">samkhaniani_evaluation_2017</bcf:citekey>
-    <bcf:citekey order="3">samkhaniani_evaluation_2017</bcf:citekey>
-    <bcf:citekey order="4">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="5">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="6">aursand_spinodal_2017</bcf:citekey>
+    <bcf:citekey order="1">clement_les_2020</bcf:citekey>
+    <bcf:citekey order="2">clement_les_2020</bcf:citekey>
+    <bcf:citekey order="3">kolev_multiphase_2015</bcf:citekey>
+    <bcf:citekey order="4">samkhaniani_evaluation_2017</bcf:citekey>
+    <bcf:citekey order="5">samkhaniani_evaluation_2017</bcf:citekey>
+    <bcf:citekey order="6">introini_suivi_nodate</bcf:citekey>
+    <bcf:citekey order="7">introini_suivi_nodate</bcf:citekey>
+    <bcf:citekey order="8">kim_phase-field_2012</bcf:citekey>
+    <bcf:citekey order="9">aursand_spinodal_2017</bcf:citekey>
+    <bcf:citekey order="10">rao_influence_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
