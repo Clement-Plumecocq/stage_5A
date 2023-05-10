@@ -19,7 +19,9 @@
 % \raggedbottom % This makes the last line of each page be at exactly the same place on the sheet of paper
 % \flushbottom  % All pages will not necessarily have exactly the same height, but ‘almost the same height’
 \setlength{\parskip}{1em}   % Définition de l'espace entre les paragraphes
-\setlength{\parindent}{4em} % Définition de la longueur du "tab" = indentation
+\setlength{\parindent}{2em} % Définition de la longueur du "tab" = indentation
+\usepackage{setspace}
+\setstretch{1}
 \usepackage{fancyhdr}       % Permet en-tête et pied de page
 \pagestyle{fancyplain}      % Pour avoir le même style sur les pages fancy et sur celles plains comme la toc
 \renewcommand\plainheadrulewidth{.4pt}  % Le trait noir sous les logos sur les pages plain
@@ -319,7 +321,7 @@ sorting=none
         \vspace*{1cm}
 
         \Huge
-        \textbf{Validation et amélioration d'un code CFD couplant hydrodynamique et transfert de masse}
+        \textbf{Validation d'un code CFD couplant hydrodynamique et transfert de masse}
 
         \vspace{0.5cm}
         \LARGE
@@ -398,7 +400,7 @@ sorting=none
 \chapter{Présentation des accidents graves dans les réacteurs à eau pressurisée}
 \section{Fonctionnement d'un réacteur à eau pressurisée}
 
-En France 56 réacteurs nucléaire dispersé sur 18 sites de type réacteur à eau pressurisée (REP) sont actuellement en service. Ces réacteurs représentent 70\% de la production électrique dans l'hexagone en 2019 d'après RTE et en 2018 la France a été le deuxième plus gros producteur d'énergie nucléaire après les États-Unis. Les puissances fournis par ces réacteurs varient entre 900 MWe et 1450 MWe. Les réacteurs français actuellement en fonctionnement sont dit de deuxième génération. Un réacteur de troisième génération d'une puissance de 1650 MWe (EPR - European pressurized reactor) est actuellement en construction sur le site de Flamanville, ce type de réacteur prend en compte le retour d'expérience des réacteurs actuels. La construction de 6 nouveaux EPR à été annoncé et 8 autres pourraient voir le jour. \\
+En France 56 réacteurs nucléaires dispersés sur 18 sites sont actuellement en service, ce parc est uniquement composé de réacteur à eau pressurisée (REP). Ces réacteurs représentent 70\% de la production électrique dans l'hexagone en 2019 d'après RTE, la France étant le deuxième plus gros producteur d'énergie nucléaire dans le monde après les États-Unis. Les puissances fournies par ces réacteurs dit de deuxième génération varient entre 900 MWe et 1450 MWe. Un réacteur de troisième génération d'une puissance de 1650 MWe (EPR - European pressurized reactor) est actuellement en construction sur le site de Flamanville, ce type de réacteur prend en compte le retour d'expérience des réacteurs actuels intégrant notamment plus d'éléments de sûreté. La construction de 6 nouveaux EPR a été annoncée et 8 autres pourraient voir le jour. \\
 
 \begin{figure}[h!]
 	\centering
@@ -406,9 +408,9 @@ En France 56 réacteurs nucléaire dispersé sur 18 sites de type réacteur à e
 	\caption[Schéma de principe d'une centrale nucléaire de type REP]{Schéma de principe d'une centrale nucléaire de type REP, (d'après manuelnumeriquemax.belin.education)}
 	\label{fig:schcentrale1}
 \end{figure} 
-Les REP sont des réacteurs de la famille des réacteurs à eau légère, de l'eau est utilisée comme fluide caloporteur et modérateur, de plus cette eau est pressurisée à 155 bar pour éviter un changement d'état liquide-gaz dans le circuit primaire et ainsi obtenir un meilleurs coefficient d'échange thermique, à l'entrée de la cuve la température de l'eau est 290\textdegree C et la température de sortie de cuve en fonctionnement nominal est de 330\textdegree C.
+Les REP sont des réacteurs de la famille des réacteurs à eau légère, de l'eau est utilisée comme fluide caloporteur et modérateur, de plus cette eau est pressurisée à 155 bars pour éviter un changement d'état liquide-gaz dans le circuit primaire et ainsi obtenir un meilleur coefficient d'échange thermique, à l'entrée de la cuve la température de l'eau est 290\textdegree C et la température de sortie de cuve en fonctionnement nominal est de 330\textdegree C.
 
-Le c\oe ur du réacteur est composé d'assemblage combustible comportant chacun 264 crayons combustibles, 24 tubes pouvant contenir les crayons d'une grappe de commande ainsi qu'un tube servant à l'instrumentation. La gaine est constituée de Zircaloy qui est un alliage composé principalement de Zirconium ($Zr$), les pastilles ont un diamètre de 8.2mm et sont empilées dans une gaine d'épaisseur 0.6mm et d'une longueur d'environ 4m (dépendante du palier du réacteur). Le zirconium est utilisé pour sa bonne résistance à la corrosion et sa faible absorption neutronique. Chaque c\oe ur est composé d'un ensemble d'assemblage combustible (241 pour l'EPR, embarquant au total 144.2 tonnes d'uranium enrichi) qui doivent être renouvelé périodiquement tous les 12 à 18 mois par quart ou tiers de c\oe ur.
+Le c\oe ur du réacteur est composé d'assemblages combustibles comportant chacun 264 crayons combustibles, 24 tubes pouvant contenir les crayons d'une grappe de commande ainsi qu'un tube servant à l'instrumentation. La gaine est constituée de Zircaloy qui est un alliage composé principalement de zirconium ($Zr$), les pastilles ont un diamètre de 8.2mm et sont empilées dans une gaine d'épaisseur 0.6mm et d'une longueur d'environ 4m (dépendante du palier du réacteur). Le zirconium est utilisé pour sa bonne résistance à la corrosion et sa faible absorption neutronique. Chaque c\oe ur est composé d'un ensemble d'assemblage combustible (241 pour l'EPR, embarquant au total 144.2 tonnes d'uranium enrichi) qui doivent être renouvelés périodiquement tous les 12 à 18 mois par quart ou tiers de c\oe ur.
 
 \begin{figure}[H]
 	     \begin{subfigure}[t]{0.45\textwidth}
@@ -428,7 +430,7 @@ Le c\oe ur du réacteur est composé d'assemblage combustible comportant chacun 
 	     \label{fig:test_subfigure}
 	\end{figure}
 \section{Sûreté et accidents graves pour les REP}
-Les questions de sûreté sont intrinsèquement liées à l'exploitation d'une centrale nucléaire tant les conséquence d'un potentiel accident peuvent être importante. Ainsi dès le début des années 1970 le concept de défense en profondeur a été mis en place, ce concept se matérialise par la mise en place de lignes de défense successive indépendante. Pour les REP on compte 3 barrières de confinement de la radioactivité :
+Les questions de sûreté sont intrinsèquement liées à l'exploitation d'une centrale nucléaire tant les conséquences d'un potentiel accident peuvent être importantes. Ainsi dès le début des années 1970 le concept de défense en profondeur a été mis en place, ce concept se matérialise par la mise en place de lignes de défense successive indépendante. Pour les REP on compte 3 barrières de confinement de la radioactivité :
  \\
 \begin{minipage}[c]{0.3\linewidth}
 	\begin{enumerate}
@@ -445,14 +447,14 @@ Les questions de sûreté sont intrinsèquement liées à l'exploitation d'une c
 \vspace{0.5cm}
 
 
-De plus les variation par rapport au régime nominal sont classés selon l'échelle INES (International Nuclear Scale Event), cette échelle permet de classifier les accident et leurs gravité, elle comporte huit échelons allant d'un simple écart (plusieurs centaines de cas par an en France) à l'accident majeur. Les accidents correspondent aux paliers 4 à 7 et se différencient de l'incident du fait de la perte d'intégrité de la première barrière résultante de la fusion du c\oe ur, le produit de cette fusion est alors appelé corium.
+De plus les variations par rapport au régime nominal sont classés selon l'échelle INES (International Nuclear Scale Event), cette échelle permet de classifier les accidents et leurs gravités, elle comporte huit échelons allant d'un simple écart (plusieurs centaines de cas par an en France) à l'accident majeur. Les accidents correspondent aux paliers 4 à 7 et se différencient de l'incident du fait de la perte d'intégrité de la première barrière résultante de la fusion du c\oe ur, le produit de cette fusion est alors appelé corium.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\linewidth]{figure/echelle-ines-article}
 	\caption[Echelle de classification des écarts aux régimes nominal INES]{Echelle de classification des écarts aux régimes nominal INES (d'après ASN)}
 	\label{fig:echelle-ines-article}
 \end{figure}\\
-Les accidents possible dans les REP sont séparés en deux grandes catégories, les accidents de réactivité et les Accidents de Perte de Réfrigérant Primaire (APRP). Les accidents de réactivité sont du à une accélération brutale de la réaction en chaîne entraînant une augmentation de puissance thermique produite. Les Accidents de Perte de Réfrigérant Primaire (APRP) résultent quant à eux d'une fuite dans le circuit primaire ou un arrêt de la circulation du fluide caloporteur. Dans la suite nous traiterons uniquement de cette seconde famille d'accident.
+Les accidents possibles dans les REP sont séparés en deux grandes catégories, les accidents de réactivité et les Accidents de Perte de Réfrigérant Primaire (APRP). Les accidents de réactivité sont dû à une accélération brutale de la réaction en chaîne entraînant une augmentation de puissance thermique produite. Les Accidents de Perte de Réfrigérant Primaire (APRP) résultent quant à eux d'une fuite dans le circuit primaire ou un arrêt de la circulation du fluide caloporteur. Dans la suite nous traiterons uniquement de cette seconde famille d'accident.
 D'après \cite{kolev_multiphase_2015} voici le scénario de fonte du c\oe ur :
 \begin{itemize}
 	\item[$\bullet$] \underline{Entre 800 et 900 \textdegree C :} L'augmentation de la pression à l'intérieur de la gaine en zirconium provoque un gonflement puis une rupture de cette dernière.
@@ -465,36 +467,39 @@ D'après \cite{kolev_multiphase_2015} voici le scénario de fonte du c\oe ur :
 Une fois le c\oe ur fondu celui-ci se relocalise dans le fond de la cuve réacteur et il devient nécessaire d'adopter une stratégie pour refroidir ce bain.
 
 \section{Stratégie de rétention du corium en fond de cuve (IVR)}
-Une fois le c\oe ur fondu celui-ci se relocalise au fond de la cuve du réacteur. Pour limiter les conséquences d'un accident un stratégie vise à maintenir ce corium dans le fond de cette cuve, c'est la stratégie d'In-Vessel Retention (IVR). Pour cela on cherche à refroidir la cuve par l'extérieur. Cette stratégie est étudié depuis les années 90 et mise en \oe uvre sur des réacteurs de faible puissance. \\
+Une fois le c\oe ur fondu celui-ci se relocalise au fond de la cuve du réacteur. Pour limiter les conséquences d'un accident une stratégie vise à maintenir ce corium dans le fond de cette cuve, c'est la stratégie d'In-Vessel Retention (IVR). Pour cela on cherche à refroidir la cuve par l'extérieur. Cette stratégie est étudiée depuis les années 90 et mise en \oe uvre sur des réacteurs de faible puissance. \\
 Le comportement du corium en fond de cuve est alors régi par deux principaux phénomènes :
-La thermohydraulique du bain, avec un écoulement turbulent soumis à des rouleaux de convection (instabilité de Rayleigh-Bénard) dans la phase oxyde. D'autre part la thermochimie régi quant à elle le comportement des phases et leurs équilibres. \\
-Les premières études du comportement du bain de corium ont été réalisés pour des bains stationnaire. Il a été montré qu'en régime stationnaire le bain est stratifié avec une phase oxyde et une phase métal, cependant en fonction de l'accident la couche de métal peut être lourde (i.e plus que l'oxyde et donc être en dessous) ou légère. Les différents cas sont obtenus via des différences de conditions initiales (fraction massique d'acier, degré d'oxydation du zirconium, le rapport molaire entre l'uranium et le zirconium dans la phase oxyde et la température du bain). Des études plus récente ont montré que le transitoire reste plus contraignant et fait donc l'objet d'étude plus poussée. Lors du transitoire des phénomène d'inversion de phase sont observé, un partie du métal de la phase légère s'alourdie sous l'effet d'un transfert de masse et des gouttes tombent, puis sous l'effet d'un même transfert de masse la phase lourde remonte. On observe alors trois couches : une couche d'oxyde, une de métal léger localiser au dessus de la couche d'oxyde et une couche de métal lourd en fond de cuve ainsi qu'une croûte située entre les phases liquides et la cuve est également présente. Finalement on se retrouve dans la situation suivante :
+La thermohydraulique du bain, avec un écoulement turbulent soumis à des rouleaux de convection (instabilité de Rayleigh-Bénard) dans la phase oxyde, d'autre part la thermochimie régit quant à elle le comportement des phases et leurs équilibres. \\
+Les premières études du comportement du bain de corium ont été réalisés pour des bains stationnaires. Il a été montré qu'en régime stationnaire le bain est stratifié avec une phase oxyde et une phase métal, cependant en fonction de l'accident la couche de métal peut être lourde (i.e plus que l'oxyde et donc être en dessous) ou légère. Les différents cas sont obtenus via des différences de conditions initiales (fraction massique d'acier, degré d'oxydation du zirconium, le rapport molaire entre l'uranium et le zirconium dans la phase oxyde et la température du bain). Des études plus récentes ont montré que le transitoire reste plus contraignant et fait donc l'objet d'étude plus poussée. Lors du transitoire des phénomènes d'inversion de phase sont observés, une partie du métal de la phase légère s'alourdit sous l'effet d'un transfert de masse et des gouttes tombent, puis sous l'effet d'un même transfert de masse la phase lourde remonte. On observe alors trois couches : une couche d'oxyde, une de métal léger localiser au dessus de la couche d'oxyde et une couche de métal lourd en fond de cuve ainsi qu'une croûte située entre les phases liquides et la cuve est également présente. Finalement on se retrouve dans la situation suivante :
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6\linewidth]{figure/IVR_schema}
 	\caption[Schéma du comportement du corium en fond de cuve]{Schéma du comportement du corium en fond de cuve, d'après pourlascience.fr}
 	\label{fig:ivrschema}
+\end{figure}\\
+
+ 
+
+La couche de métal lourd se forme à partir d'un transfert de masse entre la phase oxyde et métal léger créant des gouttes d'acier lourd se relocalisant en fond de cuve. L'essai expérimental MASCA RCW, au cours duquel 45kg de corium ont été mis en contact avec 4kg d'acier de telle sorte que l'ensemble soit sous équilibre thermochimique dans un état de stratification comportant une phase lourde,a permis d'observer les gouttes lors de la descente, cependant la remontée de la phase lourde vers la phase légère n'a jamais été observée, l'essai ayant été arrêté au bout de 20 minutes le régime stationnaire n'a pas été atteint (voir figure \ref{fig:masca}).
+ \begin{figure}[th!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figure/masca}
+	\caption[Résultat MASCA-RCW 100]{Résultat MASCA-RCW 100 ,d'après \cite{}}
+	\label{fig:masca}
 \end{figure}
-
-
-La couche de métal lourd est dû à un transfert de masse entre la phase oxyde et métal léger créant des gouttes d'acier lourd se relocalisant en fond de cuve. Les différents essais expérimentaux nous permettent de savoir que la phase de métal lourd se forme via des gouttes, cependant la remonté de la phase lourd vers la phase légère n'a jamais été observé.
-
-
-
 
 
 \chapter{Modélisation par une méthode champ de phase}
 \section{Méthode d'interface diffuse}
 
-Les méthodes de suivi d'interfaces peuvent se découper en deux principaux paradigme concernant le traitement de l'interface, cette dernière peut être raide ou diffuse. Dans le second cas l'interface est modélisé comme une zone de transition d'épaisseur connue entre les deux phases ou les deux fluides cohabitent de manière à ce que les variables observé varient continuellement, facilitant ainsi le traitement numérique de l'interface, les gradient à l'interface n'étant plus infinis.
+Les méthodes de suivi d'interfaces peuvent se découper en deux principaux paradigmes concernant le traitement de l'interface, cette dernière peut être raide ou diffuse. Dans le second cas l'interface est modélisée comme une zone de transition d'épaisseur connue entre les deux phases ou les deux fluides cohabitent de manière à ce que les variables observées varient continuellement, facilitant ainsi le traitement numérique de l'interface, les gradients à l'interface n'étant plus infinis. Le concept d'interface diffuse date du XIX-ième siècle et est introduit par Van Der Walls sans susciter d'intérêt jusqu'au années 1950 avec la description de l'énergie libre par Ginzburg et Landau et la description thermodynamique de l'interface en utilisant cette description par Cahn et Hilliard en 1958 et 1959.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.3\linewidth]{figure/diffuse_interface}
 	\caption[Schéma d'une interface raide et d'une interface diffuse]{Schéma d'une interface raide et d'une interface diffuse, tirée de \cite{samkhaniani_evaluation_2017}}
 	\label{fig:diffuseinterface}
 \end{figure} \\
-L'interface est alors suivi implicitement grâce à une fonction champ de phase qui est définie à partir de grandeurs thermodynamiques. Cette fonction champ de phase prend des valeurs constantes et connue dans chaque phase. Dans la suite on notera cette variable champ de phase $\phi$. Cette méthode est utilisée dans de nombreux domaines.
-
+L'interface est alors suivie implicitement grâce à une fonction champ de phase qui est définie à partir de grandeurs thermodynamiques. Cette fonction champ de phase prend des valeurs constantes et connues dans chaque phase. Dans la suite on notera cette variable champ de phase $\phi$. Cette méthode est utilisée dans de nombreux domaines.
 
 \begin{figure}[h!]
 	\centering
@@ -507,51 +512,66 @@ Comme expliqué précédemment la méthode de champ de phase repose sur le suivi
 \begin{equation}
 \sum_i \phi_i =1
 \end{equation} 
-Soit pour la $N$-ième phase on a :
+Soit pour la $n$-ième phase :
 \begin{equation}
-\phi_N =1 - \sum_{i=1}^{N-1} \phi_i
+\phi_n =1 - \sum_{i=1}^{n-1} \phi_i
 \end{equation} 
-Ainsi pour un mélange à $n$ composants, seul $n-1$ équations de Cahn-Hilliard sont à écrire.
-Finalement les équations de Cahn-Hillard pour $n$ composants, avec $i\in \{1,..,N-1 \}$ s'écrivent sous la forme :
+Ainsi pour un mélange à $n$ composants, seul $n-1$ variables sont indépendantes et autant d'équations de Cahn-Hilliard sont à écrire. Dans certains cas le système peut également être décrit avec des variables non conservées telles que des indicatrices de phases ou des grandeurs liées à des réactions chimiques, les comportements de ces variables sont alors régis par une équation de réaction-diffusion dite d'Allen-Cahn, dans notre étude cette équation ne sera pas résolue car l'ensemble des paramètres d'ordre sont conservés. Dans le cadre de variables conservées les équations de Cahn-Hillard pour $n$ composants, avec $i\in \{1,..,n-1 \}$ s'écrivent sous la forme :
 \begin{equation}
 \cfrac{\partial \phi_i}{\partial t} + \left(\mathbf{u} \cdot \nabla\right) \phi_i=  \nabla \cdot \left(\sum_{j=1}^{n-1}{\mathcal{M}_{ij}} \nabla\left( \frac{\partial \mathbb{F}}{\partial \phi_j}\right) \right) 
 \end{equation}
-avec : $\mathcal{M}_{ik}$ la mobilité (paramètre cinétique),  $\phi$ le paramètre d'ordre, $\mathbf{u}$ la vitesse et $\mathbb{F}$ une fonctionnelle de Ginzburg-Landeau définit tel que : \\
+avec : $\mathcal{M}_{ik}$ la mobilité (paramètre cinétique),  $\phi$ le paramètre d'ordre, $\mathbf{u}$ la vitesse et $\mathbb{F}$ une fonctionnelle de Ginzburg-Landeau généralisée \cite{cardon_modelisation_2016} définit tel que : 
  \begin{equation}
-\mathbb{F} = \int_{\mathcal{V}}\tilde{f}_0(\bm{\phi},\mathbf{x},t)+ \sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\cfrac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j dV
+\mathbb{F}[\phi_1,..,\phi_n] = \int_{\mathcal{V}}\tilde{f}_0(\bm{\phi},\mathbf{x},t)+ \sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\cfrac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j dV
 \end{equation}
-Où le premier terme représente la densité d'énergie liée au volume et le second terme l'énergie liée aux interfaces que l'on pourra relier, par la suite, à la tension de surface. $\kappa$ est alors un coefficient de gradient. \\
+Où le premier terme représente la densité d'énergie liée aux valeurs locales de composition, traduisant l'équilibre des phases ainsi que leurs existences ou coexistence. Pour deux phases $\alpha$ et $\beta$, on rappel l'équilibre thermodynamique donné par :
+\begin{subequations}
+	\begin{align}
+		&\left.\frac{\partial \tilde{f}}{\partial \phi_i}\right|_{\phi_i^{\alpha,eq}} = \left.\frac{\partial \tilde{f}}{\partial \phi_i}\right|_{\phi_i^{\beta,eq}} = \tilde{\mu}_i^{eq} \hspace{1cm} \Leftrightarrow   \hspace{1cm} \tilde{\mu}_i^{\alpha,eq} = \tilde{\mu}_i^{\beta,eq} \\
+		& 		\tilde{f}_0^{\alpha,eq} - \sum_{i=1}^{n-1}\tilde{\mu}_i^{eq}\phi_i^{\alpha,eq} = 	\tilde{f}_0^{\beta,eq} - \sum_{i=1}^{n-1}\tilde{\mu}_i^{eq}\phi_i^{\beta,eq}
+	\end{align} 
+\end{subequations}
+Le second terme représente la contribution des interfaces, le coefficient $\kappa$, dit coefficient de gradient, tient compte du coût énergétique engendré par l'interface, par la suite ce paramètre pourra être relié à la tension de surface. \\
 Finalement la dérivé variationnelle de cette fonctionnelle d'énergie libre peut être définit comme un potentiel de diffusion $\tilde{\mu}$: 
 \begin{equation}\label{eq_potentiel}
 	\frac{\partial \mathbb{F}}{\partial \phi_j} =\lambda \frac{\partial \tilde{f}_0}{\partial \phi_j} -\sum_{k=1}^{n-1} \kappa_{jk} \Delta \phi_k = \tilde{\mu}_j
 \end{equation}
-avec $\mu_j$ le potentiel chimique de l'espèce $j$ et $\lambda$ un paramètre d'upscalling numérique ajouté pour augmenter l'épaisseur de l'interface, dans le cas où $\lambda=1$ l'interface est d'épaisseur "réelle" soit de l'ordre de l'angstr\oe m, les capacités de calcul ne permettant pas de pouvoir faire des calculs avec des maillages contenant de si petit éléments. \\
+avec $\lambda$ un paramètre d'upscalling numérique ajouté pour augmenter l'épaisseur de l'interface, dans le cas où $\lambda=1$ l'interface est d'épaisseur "réelle" soit de l'ordre de l'angstr\oe m, les capacités de calcul ne permettant pas de pouvoir faire des calculs avec des maillages contenant de si petits éléments. \\
 Le potentiel de diffusion peut être relier au potentiel chimique tel que :
 \begin{equation}
 	\tilde{\mu}_i = \frac{1}{V_m}\left(\mu_i - \mu_n\right)
 \end{equation}
-Avec $\tilde{\mu}_i$ (en J.m$^{-3}$) représente le potentiel de diffusion de l'élément $i$, et $V_m$ le volume molaire.\\
+Avec $\tilde{\mu}_i$ (en J.m$^{-3}$) représente le potentiel de diffusion de l'élément $i$, et $V_m$ le volume molaire supposé constant dans tout le système.\\
 Le potentiel chimique étant classiquement définit tel que :
 \begin{equation}
-	\mu_i = \left.\frac{\partial F}{\partial n_i}\right|_{n_{j\neq i }}
-	  \textrm{                        avec} F = V_m f_0
+	\mu_i = \left.\frac{\partial G}{\partial n_i}\right|_{P,T,n_{j\neq i }} = \left.\frac{\partial F}{\partial n_i}\right|_{V,T,n_{j\neq i }}
+	  \textrm{                        où           } F = V_m f_0
 \end{equation}
-Avec $F$ l'énergie libre (en J) et $n_i$ la quantité de matière de l'élément $i$ (en mol). Dans notre cas on se place dans une transformation isochore et isotherme, on privilégiera donc l'énergie de libre de Gibbs.
+Avec $F$ (resp. $G$) l'énergie libre d'Helmotz (resp. Gibbs) (en J) et $n_i$ la quantité de matière de l'élément $i$ (en mol). Dans notre cas on se place dans une transformation isobare et isotherme, on privilégiera donc l'énergie de libre de Gibbs.
 Dans le cas où $\doubleoverline{\kappa}$ = $\doubleoverline{0}$ on retrouve une équation d'advection-diffusion classique, dans le cas contraire on obtient une équation d'ordre 4. Une des principale difficulté dans la mise en place de méthode champ de phase repose sur le paramétrage des simulations.
 \section{Couplage avec les équations de Navier-Stokes incompressible}
-Dans le cadre de cette étude les équations de Cahn-Hilliard sont couplées aux équations de conservation de masse et de quantité de mouvement imcompressible en utilisant l'approximation de Boussinesq. Finalement d'après \cite{kim_phase-field_2012} le système d'équation s'écrit sous la forme :
+Dans le cadre de cette étude les équations de Cahn-Hilliard sont couplées aux équations de conservation de masse et de quantité de mouvement incompressible sous l'approximation de Boussinesq, d'après \cite{kim_phase-field_2012} le système d'équations s'écrit sous la forme :
+\begin{subequations}
 \begin{align}
 &\nabla \cdot \mathbf{u} = 0\\
-&\rho^* \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot {\nabla})\mathbf{u}\right) = -{\nabla} P +\eta \Delta \mathbf{u}+\sum_{i=1}^{N-1} \tilde{\mu}_i{\nabla} \phi_i + \rho(\bm{\phi}) \mathbf{g}
+&\rho^* \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot {\nabla})\mathbf{u}\right) = -{\nabla} P +\eta \Delta \mathbf{u}+\sum_{i=1}^{n-1} \tilde{\mu}_i{\nabla} \phi_i + \rho(\bm{\phi}) \mathbf{g}
 \end{align}
-avec $\mathbf{u}$ la vitesse, $P$ la pression, $\mu_i$ le potentiel chimique du composant $i$, $\mathbf{g} = \{ 0,0,-g\}^T $, $\eta$ la viscosité cinématique, $\rho^*$ la masse volumique du solvant\\
+\end{subequations}
+avec $\mathbf{u}$ la vitesse, $P$ la pression, $\mu_i$ le potentiel chimique du composant $i$, $\mathbf{g} = \{ 0,0,-g\}^T $, $\eta$ la viscosité cinématique supposée constante, $\rho^*$ la masse volumique du solvant \\
 La densité est alors calculé : 
 \begin{equation}
 	\rho(\bm{\phi}) = \rho^*\left(1+\sum_{i=1}^{N-1}\beta_i \phi_i\right)
 \end{equation}
-Les paramètres $\beta$ sont à déterminer en fonction du système étudié, $\rho_0$ correspond à une masse volumique de référence. L'équation de Cahn-Hilliard étant d'ordre 4, une résolution implicite est préférée pour la suite de ce travail.
+Les paramètres $\beta$ sont à déterminer en fonction du système étudié, $\rho_0$ correspond à une masse volumique de référence. L'équation de Cahn-Hilliard étant d'ordre 4, une résolution implicite est alors préférée pour les simulations.
 \section{Paysage thermodynamique analytique}
-On définit également un pseudo grand potentiel correspondant à l'énergie nécessaire pour changer de minimum d'énergie.
+L'objectif présenté dans \cite{noauthor_numerical_nodate} est de d'obtenir une formulation analytique du terme homogène de la fonctionnelle de Ginzburg-Landau. Dans le cas binaire, cette contribution est de la forme d'un double puit d'ordre 4.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.4\linewidth]{figure/DP}
+	\caption[Exemple d'une contribution homogène à l'énergie]{Exemple d'une contribution homogène à l'énergie, d'après \cite{introini_suivi_nodate}}
+	\label{fig:dp}
+\end{figure}\\
+L'objectif est de généraliser ce double puit pour un système ternaire, ainsi on introduit un pseudo grand potentiel correspondant à l'énergie nécessaire pour changer de minimum d'énergie \cite{cardon_modelisation_2016}.
 \begin{equation}
 \Omega^{\star} =\Omega - \Omega^{eq} =  \tilde{g}^{liq} - \sum_i \tilde{\mu}_i^{eq}\phi_i - \left(  \tilde{g}^{liq,eq} -  \sum_i \tilde{\mu}_i^{eq}\phi_i^{eq} \right) 
 \end{equation}
@@ -559,33 +579,40 @@ Les bases thermodynamiques étant peu développées aux points d'intérêt (Temp
 \begin{equation}\label{double_puit}
 	\Omega^{\star}  = P^{dis} \times P^{cont}
 \end{equation}
-Où $P^{dis}, P^{cont}$ représente deux paraboloïdes correspondant à la phase dispersée et continue. Dans le cas ternaire, avec les éléments $A$ et $B$, les paraboloïdes sont de la forme : 
-
+Où $P^{dis}, P^{cont}$ représente deux paraboloïdes correspondant à la phase dispersée et continue. Dans le cas ternaire, avec les éléments $A$ et $B$ d'intérêt, les paraboloïdes sont de la forme : 
 \begin{multline}
 	P^{k}=\left(\frac{\co{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \sinus{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{a_{A}^{k}}\right)^{2}+\\ \left(\frac{-\sinus{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \co{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{a_{B}^{k}}\right)^{2}
 	\label{eq:paraboloid_general_}
 \end{multline} 
 Avec $k = \{disp,cont\}$ la phase (dispersée ou continue), $a_A$ (respectivement $a_B$) le demi-grand (resp petit) puits, $\theta_k$ l'angle de rotation associé au puits de la phase $k$\\
-On cherche alors à tracer ce paysage. \\
-On retrouve dès lors le potentiel chimique grâce à la formulation analytique (\ref{double_puit}) :
-\begin{align*}
-	\tilde{\mu}_i &= \frac{\partial}{\partial \phi_i}\left\lbrace 
+On cherche alors à tracer ce paysage.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figure/landscape}
+	\caption{Exemple de paysage thermodynamique, en rouge la droite reliant les concentration initiales et en bleu la droite reliant les concentrations à l'équilibre, les pointillés réprésentant la zone instable présenté ci-dessous}
+	\label{fig:landscape}
+\end{figure}
+On peut dès lors calculer le potentiel de diffusion homogène grâce à la formulation analytique (\ref{double_puit}) :
+\begin{align}
+	\tilde{\mu}_i & \nonumber= \frac{\partial}{\partial \phi_i}\left\lbrace 
 	\Omega^{\star} + \sum_j \tilde{\mu}_j^{eq}\phi_j + \left( {g}^{liq,eq} -  \sum_j \tilde{\mu}_j^{eq}\phi_j^{eq} \right)\right\rbrace \\
-	&= \frac{\partial \Omega^{\star}}{\partial \phi_i} + \frac{\partial g^{liq,eq}}{\partial \phi_i} + \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - \phi_j^{eq}\right)}{\partial  \phi_i}
-\end{align*}
-avec 
-\begin{align*}
-	& \frac{\partial g^{liq,eq}}{\partial \phi_i} = 0 \\
-		& \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - \phi_j^{eq}\right)}{\partial  \phi_i} = \tilde{\mu}_i^{eq} +\tilde{\mu}_{j\neq i}^{eq} \frac{\partial \phi_{j\neq i}}{\partial \phi_i} = \tilde{\mu}_i^{eq}
-\end{align*}
-car les variables sont indépendantes. Finalement on écrit :
-\begin{equation}
-\tilde{\mu}_i =	P^{dis}\frac{\partial P^{cont}}{\partial \phi_i} + P^{cont}\frac{\partial P^{dis}}{\partial \phi_i} + \tilde{\mu}_i^{eq}
-\end{equation}
-L'objectif est alors de déterminer les paramètres des paraboloïdes pour obtenir des résultats consistants.
-
+	&\nonumber = \frac{\partial \Omega^{\star}}{\partial \phi_i} + \frac{\partial g^{liq,eq}}{\partial \phi_i} + \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - \phi_j^{eq}\right)}{\partial  \phi_i}\\
+	\tilde{\mu}_i &=	P^{dis}\frac{\partial P^{cont}}{\partial \phi_i} + P^{cont}\frac{\partial P^{dis}}{\partial \phi_i} + \tilde{\mu}_i^{eq}
+\end{align} 
+%\begin{align*}
+	%& \frac{\partial g^{liq,eq}}{\partial \phi_i} = 0 \\
+		%& \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - %\phi_j^{eq}\right)}{\partial  \phi_i} = \tilde{\mu}_i^{eq} %+\tilde{\mu}_{j\neq i}^{eq} \frac{\partial \phi_{j\neq i}}{\partial %\phi_i} = \tilde{\mu}_i^{eq}
+%\end{align*}
+L'objectif est alors de déterminer les paramètres des paraboloïdes pour obtenir des résultats consistants thermodynamiquement.
 \section{Éléments de stabilité de phase}
-Le calcul du paysage nous permet d'avoir des informations sur l'énergie du système pour une certaine composition, cependant on ne connaît aucunement le nombre de phase du système. On cherche alors à déterminer la phase instable ou les deux éléments sont mélangés. Pour cela on calcul la matrice Hessienne définit tel que : 
+Dans le cadre de notre étude nous nous intéressons à deux phases en coexistence, une phase dite continue et l'autre dispersée. La détermination de la stabilité des phases est essentielle pour pouvoir tracer le paysage thermodynamique. La courbe binodale correspond à la condition pour laquelle deux phases peuvent coexister, c'est-à-dire que sous la courbe binodale le système peut être composé d'une seul phase, il le sera dans la zone instable et pourra l'être dans la zone métastable.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\linewidth]{figure/metastable}
+	\caption[Exemple de diagramme de stabilité de phase pour un cas binaire, d'apres]{Exemple de diagramme de stabilité de phase pour un cas binaire, d'apres}
+	\label{fig:metastable}
+\end{figure}
+Cependant le calcul de la zone instable est beaucoup plus simple que celui de la zone métastable. Pour déterminer cette zone instable on calcul la matrice Hessienne définit tel que : 
 \begin{equation}
 	\Mb{\doubleoverline{H}}_{g^{liq}} = \left.\frac{\partial^2 g^{liq}}{\partial \phi_i \partial \phi_j}\right|_{T,P,\phi_k\neq i,j}
 	=\left.\frac{\partial^2 \Omega^{\star}}{\partial \phi_i \partial \phi_j}\right|_{T,P,\phi_k\neq i,j}
@@ -602,9 +629,44 @@ Le calcul des valeurs propres en chaque point du paysage pouvant être coûteux 
 \end{equation}
 Pour le cas ternaire le calcul du déterminant est direct :
 \begin{equation}
-	\text{det}  \Mb{\doubleoverline{H}}   =  \frac{\partial^2 g^{liq}}{\partial \phi_i^2}
+	\text{det}  \Mb{\doubleoverline{H}}_{g^{liq}}   =  \frac{\partial^2 g^{liq}}{\partial \phi_i^2}
 	\frac{\partial^2 g^{liq}}{\partial \phi_j^2}-\left(\frac{\partial^2 g^{liq} }{\partial \phi_i \partial \phi_j} \right)^2
 \end{equation}
+Ainsi la zone instable correspond à la zone où le determinant de la matrice hessienne est négatif.
+
+
+\section{Expérience numérique}
+
+L'objectif est de réaliser numériquement l'expérience proposée par Abhijit Rao et al. dans \cite{rao_influence_2015}. Pour cette expérience une goutte composée d'Acetonitrile et de Chlorobenzene est placée dans de l'eau. l'acetonitrile est miscible dans l'eau contrairement au chlorobenzene qui est immiscible. Initialement la goutte est plus légère que l'eau environnante et monte puis sous l'effet du transfert de masse la densité de la goutte augmente jusqu’à une inversion du rapport de densité conduisant à la redescente de la goutte.
+\subsection{Choix des conditions initiales}
+Les conditions initiales choisies pour la concentration sont de la forme tangente hyperbolique.
+\begin{equation}
+	\phi_{i}(\mathbf{x},t=0) = \frac{\phi^{init,cont}_i + \phi^{init,disp}_i  }{2} +  \frac{\phi^{init,cont}_i - \phi^{init,disp}_i }{2}\tanh\left(\cfrac{\sqrt{(x-x_0)^2+(y-y_0)^2}-R}{\varepsilon} \right)
+\end{equation}
+Avec ($x_0$, $y_0$) les coordonnées du centre de la goutte, $R$ le rayon de la goutte, $\varepsilon$ l'épaisseur de l'interface (paramètre numérique) et $\phi_i^{init,cont}$ (resp. $\phi_i^{init,disp}$) la concentration initiale de l'élément $i$ dans la phase continue (resp. dispersée) .\\
+Cette solution analytique provient d'un problème avec une interface plane (sans courbure), dans la littérature il n'existe pas de solution analytique pour une interface courbée, l'effet de Gibbs-Thomsom n'est donc pas pris en compte, ainsi on observe un léger mouvement de l'interface lors du premier pas de temps. \\
+Pour s'assurer de la sphéricité de la goutte lors de la simulation on calcule le nombre adimensionné de Bond  représentant le ratio entre les forces de gravité et la tension de surface tel que :
+\begin{equation}
+	Bo = \cfrac{\Delta \rho g D^2}{\sigma}
+\end{equation}
+avec $\Delta\rho$ la différence de densité entre les deux phases, $D$ le diamètre de la goutte et $\sigma$ la tension de surface.\\
+On considère que pour $Bo \ll 1$ la tension de surface domine et la goutte reste sphérique.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figure/contour_bond}
+	\caption[Valeur du nombre de Bond en fonction de la différence de densité et de la tension de surface entre les phases]{Valeur du nombre de Bond en fonction de la différence de densité entre les phases et le rayon de la goutte, le marqueur représente l'état initial}
+	\label{fig:contourbond}
+\end{figure}\\
+Il est alors possible, dans notre cas, de discuter de la sphéricité de la goutte au vu de la valeur ici $Bo = 0.32$
+
+% ======================================== Fin Document ========================================
+
+% ======================================== Début Listes & Co ========================================
+
+
+\newpage
+\printbibliography
+\end{document}
 
 
 \section{Évaluation des paraboloïdes}
@@ -617,43 +679,11 @@ Pour remédier à ce problème on découpe le problème en deux sous problèmes:
 \end{enumerate} 
 Ainsi on exprime :
 \begin{equation}
-	\Omega^{\star} = \sum_{i,j} c_{ij}\left.\phi^{misc}\right.^i\left.\phi^{immi}\right.^j
+\Omega^{\star} = \sum_{i,j} c_{ij}\left.\phi^{misc}\right.^i\left.\phi^{immi}\right.^j
 \end{equation}
 On note alors $\bm{\Gamma} = \left.\phi^{misc}\right.^i\left.\phi^{immi}\right.^j $ la matrice contenant les variables du polynôme, $\bm{c} = c_{ij}$ le vecteur contenant les coefficient polynomiaux et $\bm{\Theta} $ le vecteur contenant les valeurs issus d'Open-CALPHAD. Ainsi on cherche à résoudre :
 \begin{equation}
-	\bm{\Gamma c = \Theta}
+\bm{\Gamma c = \Theta}
 \end{equation}
 Or on a cond($\Gamma$)$ \simeq 20626\gg 1$ ainsi le problème est mal conditionné (sur-déterminé) et les résultats ne peuvent être satisfaisant.
 
-\section{Expérience numérique}
-
-L'objectif est de refaire numériquement l'expérience proposée par Abhijit Rao et al. dans \cite{rao_influence_2015}. Pour cette expérience une goutte composée d'Acetonitrile et de Chlorobenzene est placée dans de l'eau. l'acetonitrile est miscible dans l'eau contrairement au chlorobenzene qui est immiscible. Initialement la goutte est plus légère que l'eau environnante et monte puis sous l'effet du transfert de masse la densité de la goutte augmente jusqu’à une inversion du rapport de densité conduisant à la redescente de la goutte.
-\subsection{Choix des conditions initiales}
-Les conditions initiales choisies pour la concentration sont de la forme tangente hyperbolique.
-\begin{equation}
-	\phi_{i}(\mathbf{x},t=0) = \frac{\phi^{init,cont}_i + \phi^{init,disp}_i  }{2} +  \frac{\phi^{init,cont}_i - \phi^{init,disp}_i }{2}\tanh\left(\cfrac{\sqrt{(x-x_0)^2+(y-y_0)^2}-R}{\varepsilon} \right)
-\end{equation}
-Avec ($x_0$, $y_0$) les coordonnées du centre de la goutte, $R$ le rayon de la goutte, $\varepsilon$ l'épaisseur de l'interface (paramètre numérique) et $\phi_i^{init,cont}$ (resp. $\phi_i^{init,disp}$) la concentration initiale de l'élément $i$ dans la phase continue (resp. dispersée) .\\
-Cette solution analytique provient d'un problème avec une interface plane (sans courbure), dans la littérature il n'existe pas de solution analytique pour une interface courbée, l'effet de Gibbs-Thomsom n'est donc pas pris en compte, ainsi on observe un léger mouvement de l'interface lors du premier pas de temps. \\
-Pour cette expérience, le caractère sphérique de la goutte est supposé vrai sur toute la durée de la simulation, pour s'assurer de la sphéricité de la goutte on calcul le nombre adimensionné de Bond  qui represente le ratio entre les forces de gravité et la tension de surface tel que :
-\begin{equation}
-	Bo = \cfrac{\Delta \rho g D^2}{\sigma}
-\end{equation}
-avec $\Delta\rho$ la différence de densité entre les deux phases, $D$ le diamètre de la goutte et $\sigma$ la tension de surface.\\
-On considère que pour $Bo \ll 1$ la tension de surface domine et la goutte reste sphérique.
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.7\linewidth]{figure/contour_bond}
-	\caption[Valeur du nombre de Bond en fonction de la différence de densité et de la tension de surface entre les phases]{Valeur du nombre de Bond en fonction de la différence de densité et de la tension de surface entre les phases, le marqueur représente l'état initial}
-	\label{fig:contourbond}
-\end{figure}\\
-Il est alors possible, dans notre cas, de discuter de la sphéricité de la goutte au vu de la valeurici $Bo = 0.32$
-
-% ======================================== Fin Document ========================================
-
-% ======================================== Début Listes & Co ========================================
-
-
-\newpage
-\printbibliography
-\end{document}

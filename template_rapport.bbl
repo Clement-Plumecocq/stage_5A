@@ -157,8 +157,8 @@
       \strng{authorbibnamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
       \strng{authornamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
       \strng{authorfullhash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In the present study, a new solver named {phaseChangeHeatFoam} is implemented on the {OpenFOAM} cfd package to simulate boiling and condensation. The solver is capturing the interface between two immiscible phases with a color function volume of fluid ({CF}-{VOF}) method. The two fluids (vapor and liquid) are assumed Newtonian and incompressible. The surface tension is modeled with continuous surface force ({CSF}) which is improved with a Lafaurie filter to suppress the spurious current. The mass flux across the interface in the phase change process is determined by either Lee or Tanasawa mass transfer models. Additionally, the slight variation of saturation temperature with local pressure is considered with the simplified Clausius–Clapeyron relation. The coupled velocity pressure equation is solved using the {PIMPLE} algorithm. The new solver is validated and examined with (i) Stefan problem, (ii) two-dimensional film boiling, (iii) the film condensation on a horizontal plate, (iv) the laminar film condensation over a vertical plate, and (v) bubble condensation in subcooled boiling. The present study shows the capability of a diffuse interface method in accurate simulation of the phase change process and it is expected to be instructive for further numerical studies in this area.}
@@ -210,8 +210,8 @@
       \strng{authorbibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
       \strng{authornamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
       \strng{authorfullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Suivi d’interfaces diffuses par une méthode de champ de phase, Séminaire Méthodes d’Interfaces, organisé par le réseau de numériciens de Cadarache/{IRESNE}}
@@ -233,8 +233,8 @@
       \strng{authorbibnamehash}{30cf8944aef5c84ff549c5ad627a9adf}
       \strng{authornamehash}{30cf8944aef5c84ff549c5ad627a9adf}
       \strng{authorfullhash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we review the recent development of phase-field models and their numerical methods for multi-component fluid flows with interfacial phenomena. The models consist of a Navier-Stokes system coupled with a multi-component Cahn-Hilliard system through a phase-field dependent surface tension force, variable density and viscosity, and the advection term. The classical infinitely thin boundary of separation between two immiscible fluids is replaced by a transition region of a small but finite width, across which the composition of the mixture changes continuously. A constant level set of the phase-field is used to capture the interface between two immiscible fluids. Phase-field methods are capable of computing topological changes such as splitting and merging, and thus have been applied successfully to multi-component fluid flows involving large interface deformations. Practical applications are provided to illustrate the usefulness of using a phase-field method. Computational results of various experiments show the accuracy and effectiveness of phase-field models.}
@@ -267,6 +267,81 @@
       \verb https://www.cambridge.org/core/journals/communications-in-computational-physics/article/phasefield-models-for-multicomponent-fluid-flows/0672FBD318BBE2621A51AE0F2C9C2FE3
       \endverb
       \keyw{76D05,76D45,76T30,82C26,Cahn-Hilliard,interface capturing,interface dynamics,multi-component,Navier-Stokes,phase-field model,surface tension}
+    \endentry
+    \entry{noauthor_numerical_nodate}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Un éditeur {LaTeX} en ligne facile à utiliser. Pas d’installation, collaboration en temps réel, gestion des versions, des centaines de modèles de documents {LaTeX}, et plus encore.}
+      \field{langid}{french}
+      \field{title}{Numerical Simulation of the Dynamics of a Multicomponent Droplet in Water using the Phase-Field Model of {TrioCFD} Code}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Numerical Simulation of the Dynamics of a Multicom.pdf:/home/cp273896/Zotero/storage/NRKZ3F9I/Numerical Simulation of the Dynamics of a Multicom.pdf:application/pdf;Snapshot:/home/cp273896/Zotero/storage/8YBQE7Y8/63fc85bf75cafd151f3ae56b.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
+      \endverb
+      \verb{url}
+      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
+      \endverb
+    \endentry
+    \entry{cardon_modelisation_2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a1b6021652a92199ab9cef6de9e21d8e}{%
+           family={Cardon},
+           familyi={C\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=8131f638a4e5209909177e19b5afe8ca}{%
+           family={Plapp},
+           familyi={P\bibinitperiod},
+           given={Mathis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Université Paris-Saclay ({ComUE})}%
+      }
+      \strng{namehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{fullhash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{bibnamehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{authorbibnamehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{authornamehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{authorfullhash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{editorabibnamehash}{8131f638a4e5209909177e19b5afe8ca}
+      \strng{editoranamehash}{8131f638a4e5209909177e19b5afe8ca}
+      \strng{editorafullhash}{8131f638a4e5209909177e19b5afe8ca}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ce travail de thèse porte sur la modélisation de la cinétique de stratification des phases liquides oxyde et métallique dans un bain de corium (système U-O-Zr-acier) du point de vue de la diffusion multi-composants et multiphasique. Cette démarche de recherche s’inscrit dans le cadre du développement d’une modélisation « fine » du comportement d’un bain de corium basée sur une approche {CFD} (« Computational Fluid Dynamics ») de la thermo-hydraulique. Elle vise à améliorer la compréhension des phénomènes mis en jeu et construire des lois de fermetures adéquates pour des modèles macroscopiques intégraux.Pour ce faire, la méthode du champ de phase couplée avec une fonctionnelle d’énergie utilisant la méthode {CALPHAD} se révèle être un outil pertinent.Dans une première partie, nous nous sommes intéressés au système binaire U-O. Nous avons développé un modèle à interface diffuse (basé sur une équation de Cahn-Hilliard) pour décrire la diffusion dans ce système. Nous avons procédé à la mise en place du couplage entre ce modèle et une base de données thermodynamiques {CALPHAD}, ainsi qu’au paramétrage d’un tel modèle avec en particulier une procédure d’élargissement de l’interface.Ensuite, dans le cadre d’une modélisation sur le système ternaire U-O-Zr nous avons proposé une généralisation du modèle à interface diffuse par le biais d’une hypothèse d’équilibre local des mécanismes d’oxydo-réduction. Nous avons porté une attention particulière à l’analyse de ce modèle par le biais de simulations numériques 1D en nous intéressant notamment à l’état stationnaire et aux profils de composition obtenus.Finalement, nous avons montré l’application de ce modèle au système U-O-Zr-Fe. Pour cela, nous avons considéré une configuration similaire aux essais expérimentaux à « petite échelle » relatifs à l’étude de la stratification d’un bain oxyde-métal.}
+      \field{day}{21}
+      \field{editoratype}{collaborator}
+      \field{month}{11}
+      \field{title}{Modélisation de la diffusion multi-composants dans un bain de corium diphasique oxyde-métal par une méthode d'interface diffuse}
+      \field{type}{These de doctorat}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Cardon - 2016 - Modélisation de la diffusion multi-composants dans.pdf:/home/cp273896/Zotero/storage/7YMA2DVG/Cardon - 2016 - Modélisation de la diffusion multi-composants dans.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.theses.fr/2016SACLX096
+      \endverb
+      \verb{url}
+      \verb https://www.theses.fr/2016SACLX096
+      \endverb
+      \keyw{Accidents Graves,Accidents nucléaires,Calphad,Corium,Diffuse interface method,Méthode d'interface diffuse,Modélisation,Modelling,Severe accidents,Stratification,Thermochimie}
     \endentry
     \entry{aursand_spinodal_2017}{article}{}
       \name{author}{5}{}{%
@@ -302,8 +377,8 @@
       \strng{authorbibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
       \strng{authornamehash}{cdb36b22fd54c38c077383e97ccff6f4}
       \strng{authorfullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The spinodal represents the limit of thermodynamic stability of a homogeneous fluid. In this work, we present a robust methodology to obtain the spinodal of multicomponent fluids described even with the most sophisticated equations of state ({EoS}) available. We elaborate how information about the spinodal and its uncertainty can contribute both in the development of modern {EoS} and to estimate their uncertainty in the metastable regions. Inequality constraints are presented that can be exploited in the fitting of modern {EoS} of single-component fluids to avoid inadmissible pseudo-stable states between the vapor and liquid spinodals. We find that even cubic {EoS} violate some of these constraints. With the use of a selection of {EoS} representative of modern applications, we compare vapor and liquid spinodal curves, superheat and supersaturation limits from classic nucleation theory ({CNT}), and available experimental data for the superheat limit. Computations are performed with pure species found in natural gas, binary mixtures, as well as a multi-component natural gas mixture in order to demonstrate the scalability of the approach. We demonstrate that there are large inconsistencies in predicted spinodals from a wide range of {EoS} such as cubic {EoS}, extended corresponding state {EoS}, {SAFT} and multiparameter {EoS}. The overall standard deviation in the prediction of the spinodal temperatures were 1.4 K and 2.7 K for single- and multi-component liquid-spinodals and 6.3 K and 26.9 K for single- and multi-component vapor spinodals. The relationship between the measurable limit of superheat, or supersaturation, and the theoretical concept of the spinodal is discussed. While nucleation rates from {CNT} can deviate orders of magnitude from experiments, we find that the limit of superheat from experiments agree within 1.0 K and 2.4 K with predictions from {CNT} for single- and multi-component fluids respectively. We demonstrate that a large part of the metastable domain of the phase diagram is currently unavailable to experiments, in particular for metastable vapor. Novel techniques, experimental or with computational simulations, should be developed to characterize the thermodynamic properties in these regions, and to identify the thermodynamic states that define the spinodal.}
