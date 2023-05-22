@@ -7,10 +7,14 @@
 \contentsline {section}{\numberline {2.3}Strat\IeC {\'e}gie de r\IeC {\'e}tention du corium en fond de cuve (IVR)}{7}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Mod\IeC {\'e}lisation par une m\IeC {\'e}thode champ de phase}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}M\IeC {\'e}thode d'interface diffuse}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Equation de Cahn-Hilliard g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}e}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Couplage avec les \IeC {\'e}quations de Navier-Stokes incompressible}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.2}Equation de Cahn-Hilliard g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}e}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Couplage avec les \IeC {\'e}quations de Navier-Stokes incompressible}{12}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Paysage thermodynamique analytique}{12}{section.3.4}%
 \contentsline {section}{\numberline {3.5}\IeC {\'E}l\IeC {\'e}ments de stabilit\IeC {\'e} de phase}{13}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Exp\IeC {\'e}rience num\IeC {\'e}rique}{14}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Exp\IeC {\'e}rience num\IeC {\'e}rique}{15}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Choix des conditions initiales}{15}{subsection.3.6.1}%
+\contentsline {chapter}{\numberline {A}Solution analytique pour une interface plane}{19}{chapter.1}%
+\contentsline {chapter}{\numberline {B}De la tension de surface au coefficients de gradient}{21}{chapter.2}%
+\contentsline {section}{\numberline {B.1}M\IeC {\'e}thode g\IeC {\'e}n\IeC {\'e}rale}{21}{section.2.1}%
+\contentsline {section}{\numberline {B.2}M\IeC {\'e}thode de calcul}{22}{section.2.2}%
 \contentsfinish

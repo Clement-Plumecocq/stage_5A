@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2023.3.15)  10 MAY 2023 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2023.3.15)  22 MAY 2023 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -17,8 +17,8 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -1721,18 +1721,18 @@ LaTeX Info: Redefining \up on input line 314.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=731.80032pt
+* \textheight=737.0pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-86.49635pt
 * \headheight=56.9055pt
 * \headsep=14.22636pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1864,7 +1864,7 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 314
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 314.
+(Font)              <12> on input line 314.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 314.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1907,12 +1907,12 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 314
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package hyperref Info: Option `pageanchor' set `false' on input line 318.
-<logo_iresne.png, id=59, 1505.625pt x 550.055pt>
+<logo_iresne.png, id=71, 1505.625pt x 550.055pt>
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
 Package pdftex.def Info: logo_iresne.png  used on input line 338.
 (pdftex.def)             Requested size: 225.834pt x 82.50468pt.
-<polytech.jpg, id=61, 1204.5pt x 473.77pt>
+<polytech.jpg, id=73, 1204.5pt x 473.77pt>
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
 Package pdftex.def Info: polytech.jpg  used on input line 338.
@@ -2037,18 +2037,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
 
-<figure/sch_centrale1.png, id=104, 746.79pt x 360.34625pt>
+<figure/sch_centrale1.png, id=118, 746.79pt x 360.34625pt>
 File: figure/sch_centrale1.png Graphic file (type png)
 <use figure/sch_centrale1.png>
 Package pdftex.def Info: figure/sch_centrale1.png  used on input line 407.
 (pdftex.def)             Requested size: 386.95897pt x 186.7158pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 414.
+Package pdftex.def Info: logo_iresne.png  used on input line 413.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 414.
+Package pdftex.def Info: polytech.jpg  used on input line 413.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -2065,12 +2065,12 @@ Package pdftex.def Info: polytech.jpg  used on input line 414.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/assemb.png, id=113, 531.9875pt x 550.055pt>
+<figure/assemb.png, id=126, 531.9875pt x 550.055pt>
 File: figure/assemb.png Graphic file (type png)
 <use figure/assemb.png>
 Package pdftex.def Info: figure/assemb.png  used on input line 418.
 (pdftex.def)             Requested size: 217.66211pt x 225.05399pt.
-<figure/coeur_complet.png, id=114, 426.59375pt x 465.74pt>
+<figure/coeur_complet.png, id=127, 426.59375pt x 465.74pt>
 File: figure/coeur_complet.png Graphic file (type png)
 <use figure/coeur_complet.png>
 Package pdftex.def Info: figure/coeur_complet.png  used on input line 425.
@@ -2085,7 +2085,7 @@ put line 429.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/irsn_barriere-confinement.png, id=117, 393.72093pt x 256.70906pt>
+<figure/irsn_barriere-confinement.png, id=130, 393.72093pt x 256.70906pt>
 File: figure/irsn_barriere-confinement.png Graphic file (type png)
 <use figure/irsn_barriere-confinement.png>
 Package pdftex.def Info: figure/irsn_barriere-confinement.png  used on input li
@@ -2097,7 +2097,24 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 445.
 See the caption package documentation for explanation.
 
-<figure/echelle-ines-article.png, id=118, 1387.1825pt x 827.09pt>
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 448.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 448.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+[5 <./figure/assemb.png> <./figure/coeur_complet.png>] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+<figure/echelle-ines-article.png, id=143, 1387.1825pt x 827.09pt>
 File: figure/echelle-ines-article.png Graphic file (type png)
 <use figure/echelle-ines-article.png>
 Package pdftex.def Info: figure/echelle-ines-article.png  used on input line 45
@@ -2109,23 +2126,26 @@ Package pdftex.def Info: figure/echelle-ines-article.png  used on input line 45
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 460.
+Package pdftex.def Info: logo_iresne.png  used on input line 462.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 460.
+Package pdftex.def Info: polytech.jpg  used on input line 462.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[5 <./figure/assemb.png> <./figure/coeur_complet.png> <./figure/irsn_barriere-c
-onfinement.png>] (./template_rapport.mw)
+
+[6 <./figure/irsn_barriere-confinement.png> <./figure/echelle-ines-article.png>
+] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-\openout6 = `template_rapport.mw'.
 
-\openout6 = `template_rapport.mw'.
+Overfull \hbox (0.65701pt too wide) in paragraph at lines 462--463
+[]$[]$ \T1/lmr/m/n/12 Ap-pa-ri-tion d'al-liages consti-tu�s des ma-t�-riaux com
+-po-sant la gaine
+ []
 
-<figure/IVR_schema.png, id=134, 248.78787pt x 140.70265pt>
+<figure/IVR_schema.png, id=157, 248.78787pt x 140.70265pt>
 File: figure/IVR_schema.png Graphic file (type png)
 <use figure/IVR_schema.png>
 Package pdftex.def Info: figure/IVR_schema.png  used on input line 476.
@@ -2135,35 +2155,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 470--480
 
  []
 
-File: logo_iresne.png Graphic file (type png)
-<use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 480.
-(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
-File: polytech.jpg Graphic file (type jpg)
-<use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 480.
-(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
-\openout6 = `template_rapport.mw'.
 
-[6 <./figure/echelle-ines-article.png>] (./template_rapport.mw)
-\openout6 = `template_rapport.mw'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure/masca.png, id=145, 696.6025pt x 401.5pt>
+<figure/masca.png, id=159, 696.6025pt x 401.5pt>
 File: figure/masca.png Graphic file (type png)
 <use figure/masca.png>
 Package pdftex.def Info: figure/masca.png  used on input line 486.
 (pdftex.def)             Requested size: 338.58632pt x 195.14998pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 492.
+Package pdftex.def Info: logo_iresne.png  used on input line 490.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 492.
+Package pdftex.def Info: polytech.jpg  used on input line 490.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [7 <./figure/IVR_schema.png>] (./template_rapport.mw)
+[7] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -2180,13 +2190,13 @@ Package pdftex.def Info: polytech.jpg  used on input line 492.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [8 <./figure/masca.png>]
+ [8 <./figure/IVR_schema.png> <./figure/masca.png>]
 (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 
 Chapitre 3.
-<figure/diffuse_interface.jpg, id=157, 836.12375pt x 571.13374pt>
+<figure/diffuse_interface.jpg, id=172, 836.12375pt x 571.13374pt>
 File: figure/diffuse_interface.jpg Graphic file (type jpg)
 <use figure/diffuse_interface.jpg>
 Package pdftex.def Info: figure/diffuse_interface.jpg  used on input line 498.
@@ -2199,7 +2209,7 @@ Package pdftex.def Info: figure/diffuse_interface.jpg  used on input line 498.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/champ_phase.png, id=160, 1312.905pt x 779.91376pt>
+<figure/champ_phase.png, id=175, 1312.905pt x 779.91376pt>
 File: figure/champ_phase.png Graphic file (type png)
 <use figure/champ_phase.png>
 Package pdftex.def Info: figure/champ_phase.png  used on input line 506.
@@ -2217,11 +2227,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 518.
+Package pdftex.def Info: logo_iresne.png  used on input line 514.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 518.
+Package pdftex.def Info: polytech.jpg  used on input line 514.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -2242,34 +2252,21 @@ Package pdftex.def Info: polytech.jpg  used on input line 518.
 
 \openout6 = `template_rapport.mw'.
 
-\openout6 = `template_rapport.mw'.
-
-\openout6 = `template_rapport.mw'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.532 	\end{align}
-                  
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 536.
+Package pdftex.def Info: logo_iresne.png  used on input line 532.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 536.
+Package pdftex.def Info: polytech.jpg  used on input line 532.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [10pdfTeX warning (ext4): destination with the same identifier (name{equation.
-3.2}) has been already used, duplicate ignored
+ [10 <./figure/champ_phase.png>] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
 
-\__morewrites_shipout_ii: ...rewrites_shipout_box 
-                                                  \__morewrites_after_shipout: 
-l.536 \begin{equation}
-                      \label{eq_potentiel} <./figure/champ_phase.png>]
-(./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -2287,11 +2284,36 @@ ame{equation.3.2}) has been already used, duplicate ignored
                    \relax 
 l.558 \end{align}
                  
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 558.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 558.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+ [11pdfTeX warning (ext4): destination with the same identifier (name{equation.
+3.1}) has been already used, duplicate ignored
+
+\__morewrites_shipout_ii: ...rewrites_shipout_box 
+                                                  \__morewrites_after_shipout: 
+l.558 \end{align}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{equation.3.2}) has been already used, duplicate ignored
+
+\__morewrites_shipout_ii: ...rewrites_shipout_box 
+                                                  \__morewrites_after_shipout: 
+l.558 \end{align}
+                 ] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/DP.png, id=194, 451.6875pt x 409.53pt>
+\openout6 = `template_rapport.mw'.
+
+<figure/DP.png, id=219, 451.6875pt x 409.53pt>
 File: figure/DP.png Graphic file (type png)
 <use figure/DP.png>
 Package pdftex.def Info: figure/DP.png  used on input line 570.
@@ -2310,22 +2332,27 @@ Package pdftex.def Info: figure/DP.png  used on input line 570.
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 575.
+Package pdftex.def Info: logo_iresne.png  used on input line 577.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 575.
+Package pdftex.def Info: polytech.jpg  used on input line 577.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [11] (./template_rapport.mw)
+ [12 <./figure/DP.png>]
+(./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/landscape.png, id=211, 650.43pt x 650.43pt>
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+<figure/landscape.png, id=233, 650.43pt x 650.43pt>
 File: figure/landscape.png Graphic file (type png)
 <use figure/landscape.png>
 Package pdftex.def Info: figure/landscape.png  used on input line 591.
@@ -2334,29 +2361,11 @@ Package pdftex.def Info: figure/landscape.png  used on input line 591.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: logo_iresne.png Graphic file (type png)
-<use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 601.
-(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
-File: polytech.jpg Graphic file (type jpg)
-<use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 601.
-(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
-\openout6 = `template_rapport.mw'.
-
-[12 <./figure/DP.png>] (./template_rapport.mw)
-\openout6 = `template_rapport.mw'.
-
-\openout6 = `template_rapport.mw'.
-
-\openout6 = `template_rapport.mw'.
-
-<figure/metastable.png, id=223, 375.4025pt x 263.98625pt>
+<figure/metastable.png, id=235, 375.4025pt x 263.98625pt>
 File: figure/metastable.png Graphic file (type png)
 <use figure/metastable.png>
 Package pdftex.def Info: figure/metastable.png  used on input line 611.
 (pdftex.def)             Requested size: 241.84843pt x 170.07445pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2370,7 +2379,7 @@ Package pdftex.def Info: polytech.jpg  used on input line 619.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[13 <./figure/landscape.png>] (./template_rapport.mw)
+[13] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -2385,6 +2394,19 @@ Package pdftex.def Info: polytech.jpg  used on input line 619.
 Underfull \hbox (badness 10000) in paragraph at lines 622--623
 
  []
+
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 623.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 623.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+[14 <./figure/landscape.png> <./figure/metastable.png>] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 623--624
@@ -2402,22 +2424,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 624--625
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 645.
+Package pdftex.def Info: logo_iresne.png  used on input line 651.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 645.
+Package pdftex.def Info: polytech.jpg  used on input line 651.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[14 <./figure/metastable.png>] (./template_rapport.mw)
+[15] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/contour_bond.png, id=244, 462.528pt x 346.896pt>
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+<figure/contour_bond.png, id=264, 462.528pt x 346.896pt>
 File: figure/contour_bond.png Graphic file (type png)
 <use figure/contour_bond.png>
 Package pdftex.def Info: figure/contour_bond.png  used on input line 656.
@@ -2432,11 +2458,8 @@ Package pdftex.def Info: polytech.jpg  used on input line 667.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [15 <./figure/contour_bond.png>] (./template_rapport.mw)
-\openout6 = `template_rapport.mw'.
-
-\openout6 = `template_rapport.mw'.
-
+ [16 <./figure/contour_bond.png>]
+(./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 668.
@@ -2444,16 +2467,18 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 668.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (6.95883pt too wide) in paragraph at lines 669--669
-\T1/lmtt/m/n/10.95 phasefield -[] models -[] for -[] multicomponent -[] fluid -
-[] flows / 0672FBD318BBE2621A51AE0F2C9C2FE3$[]
+Overfull \hbox (2.03424pt too wide) in paragraph at lines 669--669
+[]\T1/lmr/m/n/12 Nikolay Iva-nov \T1/lmr/m/sc/12 Ko-lev\T1/lmr/m/n/12 . \T1/lmr
+/m/it/12 Mul-ti-phase Flow Dy-na-mics 5 : Nu-clear Ther-mal Hy-drau-lics\T1/lmr
+/m/n/12 . Cham :
  []
 
 
-Overfull \hbox (32.76491pt too wide) in paragraph at lines 669--669
-\T1/lmr/m/it/10.95 Field Mo-del of TrioCFD Code\T1/lmr/m/n/10.95 . \T1/lmr/m/sc
-/10.95 url \T1/lmr/m/n/10.95 : []$\T1/lmtt/m/n/10.95 https : / / fr . overleaf 
-. com / project / 63fc85bf75cafd151f3ae56b$[]
+Overfull \hbox (0.10532pt too wide) in paragraph at lines 669--669
+\T1/lmr/m/n/12 p. 1173-1203. \T1/lmr/m/sc/12 issn \T1/lmr/m/n/12 : 1523-1496. \
+T1/lmr/m/sc/12 doi \T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 10 . 1002 / htj . 21268$
+[]\T1/lmr/m/n/12 . \T1/lmr/m/sc/12 url \T1/lmr/m/n/12 : []$\T1/lmtt/m/n/12 http
+s : / / onlinelibrary .
  []
 
 File: logo_iresne.png Graphic file (type png)
@@ -2466,26 +2491,125 @@ Package pdftex.def Info: polytech.jpg  used on input line 668.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[16
+[17
 
 ] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
+ (./Annexes/annexe1.tex
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 669.
+Package pdftex.def Info: logo_iresne.png  used on input line 2.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 669.
+Package pdftex.def Info: polytech.jpg  used on input line 2.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [17] (./template_rapport.mw)
+ [18] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 669.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 669.
+pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 ...lution analytique pour une interface plane}
+                                                  
+Annexe A.
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 33.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 33.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+[19
+
+] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 55.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 55.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+ [20] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 ...on de surface au coefficients de gradient}
+                                                  
+Annexe B.
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \section{Méthode générale}
+                                  
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 82.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 82.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+ [21
+
+] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94 \section{Méthode de calcul}
+                                 )
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 670.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 670.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+ [22] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 670.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 670.
 
 (./template_rapport.aux
 \openout6 = `template_rapport.mw'.
@@ -2552,13 +2676,29 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 669.
 
 \openout6 = `template_rapport.mw'.
 
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 669.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 669.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 670.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 670.
 \openout6 = `template_rapport.out'.
 
 Package rerunfilecheck Info: File `template_rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 72BB8EE6121815F27D155B1BDE3B7AB0;1148.
+(rerunfilecheck)             Checksum: 5401E9CC26FC8D7F04A9DBD493042082;1455.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2580,11 +2720,11 @@ Package logreq Info: Writing requests to 'template_rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42809 strings out of 492615
- 813490 string characters out of 6131390
- 1461629 words of memory out of 5000000
- 45941 multiletter control sequences out of 15000+600000
- 618275 words of font info for 89 fonts, out of 8000000 for 9000
+ 42853 strings out of 492615
+ 814087 string characters out of 6131390
+ 1462698 words of memory out of 5000000
+ 45948 multiletter control sequences out of 15000+600000
+ 618318 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,17n,77p,2450b,1971s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -2592,24 +2732,25 @@ ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive
 /texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
-hvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on template_rapport.pdf (19 pages, 2006849 bytes).
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb>
+Output written on template_rapport.pdf (24 pages, 1999943 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

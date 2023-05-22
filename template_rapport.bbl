@@ -219,6 +219,60 @@
       \verb Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:/home/cp273896/Zotero/storage/V5NDBPZK/Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:application/pdf
       \endverb
     \endentry
+    \entry{cardon_modelisation_2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a1b6021652a92199ab9cef6de9e21d8e}{%
+           family={Cardon},
+           familyi={C\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editora}{1}{}{%
+        {{hash=8131f638a4e5209909177e19b5afe8ca}{%
+           family={Plapp},
+           familyi={P\bibinitperiod},
+           given={Mathis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Université Paris-Saclay ({ComUE})}%
+      }
+      \strng{namehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{fullhash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{bibnamehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{authorbibnamehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{authornamehash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{authorfullhash}{a1b6021652a92199ab9cef6de9e21d8e}
+      \strng{editorabibnamehash}{8131f638a4e5209909177e19b5afe8ca}
+      \strng{editoranamehash}{8131f638a4e5209909177e19b5afe8ca}
+      \strng{editorafullhash}{8131f638a4e5209909177e19b5afe8ca}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ce travail de thèse porte sur la modélisation de la cinétique de stratification des phases liquides oxyde et métallique dans un bain de corium (système U-O-Zr-acier) du point de vue de la diffusion multi-composants et multiphasique. Cette démarche de recherche s’inscrit dans le cadre du développement d’une modélisation « fine » du comportement d’un bain de corium basée sur une approche {CFD} (« Computational Fluid Dynamics ») de la thermo-hydraulique. Elle vise à améliorer la compréhension des phénomènes mis en jeu et construire des lois de fermetures adéquates pour des modèles macroscopiques intégraux.Pour ce faire, la méthode du champ de phase couplée avec une fonctionnelle d’énergie utilisant la méthode {CALPHAD} se révèle être un outil pertinent.Dans une première partie, nous nous sommes intéressés au système binaire U-O. Nous avons développé un modèle à interface diffuse (basé sur une équation de Cahn-Hilliard) pour décrire la diffusion dans ce système. Nous avons procédé à la mise en place du couplage entre ce modèle et une base de données thermodynamiques {CALPHAD}, ainsi qu’au paramétrage d’un tel modèle avec en particulier une procédure d’élargissement de l’interface.Ensuite, dans le cadre d’une modélisation sur le système ternaire U-O-Zr nous avons proposé une généralisation du modèle à interface diffuse par le biais d’une hypothèse d’équilibre local des mécanismes d’oxydo-réduction. Nous avons porté une attention particulière à l’analyse de ce modèle par le biais de simulations numériques 1D en nous intéressant notamment à l’état stationnaire et aux profils de composition obtenus.Finalement, nous avons montré l’application de ce modèle au système U-O-Zr-Fe. Pour cela, nous avons considéré une configuration similaire aux essais expérimentaux à « petite échelle » relatifs à l’étude de la stratification d’un bain oxyde-métal.}
+      \field{day}{21}
+      \field{editoratype}{collaborator}
+      \field{month}{11}
+      \field{title}{Modélisation de la diffusion multi-composants dans un bain de corium diphasique oxyde-métal par une méthode d'interface diffuse}
+      \field{type}{These de doctorat}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Cardon - 2016 - Modélisation de la diffusion multi-composants dans.pdf:/home/cp273896/Zotero/storage/7YMA2DVG/Cardon - 2016 - Modélisation de la diffusion multi-composants dans.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.theses.fr/2016SACLX096
+      \endverb
+      \verb{url}
+      \verb https://www.theses.fr/2016SACLX096
+      \endverb
+      \keyw{Accidents Graves,Accidents nucléaires,Calphad,Corium,Diffuse interface method,Méthode d'interface diffuse,Modélisation,Modelling,Severe accidents,Stratification,Thermochimie}
+    \endentry
     \entry{kim_phase-field_2012}{article}{}
       \name{author}{1}{}{%
         {{hash=30cf8944aef5c84ff549c5ad627a9adf}{%
@@ -288,60 +342,6 @@
       \verb{url}
       \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
       \endverb
-    \endentry
-    \entry{cardon_modelisation_2016}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=a1b6021652a92199ab9cef6de9e21d8e}{%
-           family={Cardon},
-           familyi={C\bibinitperiod},
-           given={Clément},
-           giveni={C\bibinitperiod}}}%
-      }
-      \name{editora}{1}{}{%
-        {{hash=8131f638a4e5209909177e19b5afe8ca}{%
-           family={Plapp},
-           familyi={P\bibinitperiod},
-           given={Mathis},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Université Paris-Saclay ({ComUE})}%
-      }
-      \strng{namehash}{a1b6021652a92199ab9cef6de9e21d8e}
-      \strng{fullhash}{a1b6021652a92199ab9cef6de9e21d8e}
-      \strng{bibnamehash}{a1b6021652a92199ab9cef6de9e21d8e}
-      \strng{authorbibnamehash}{a1b6021652a92199ab9cef6de9e21d8e}
-      \strng{authornamehash}{a1b6021652a92199ab9cef6de9e21d8e}
-      \strng{authorfullhash}{a1b6021652a92199ab9cef6de9e21d8e}
-      \strng{editorabibnamehash}{8131f638a4e5209909177e19b5afe8ca}
-      \strng{editoranamehash}{8131f638a4e5209909177e19b5afe8ca}
-      \strng{editorafullhash}{8131f638a4e5209909177e19b5afe8ca}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Ce travail de thèse porte sur la modélisation de la cinétique de stratification des phases liquides oxyde et métallique dans un bain de corium (système U-O-Zr-acier) du point de vue de la diffusion multi-composants et multiphasique. Cette démarche de recherche s’inscrit dans le cadre du développement d’une modélisation « fine » du comportement d’un bain de corium basée sur une approche {CFD} (« Computational Fluid Dynamics ») de la thermo-hydraulique. Elle vise à améliorer la compréhension des phénomènes mis en jeu et construire des lois de fermetures adéquates pour des modèles macroscopiques intégraux.Pour ce faire, la méthode du champ de phase couplée avec une fonctionnelle d’énergie utilisant la méthode {CALPHAD} se révèle être un outil pertinent.Dans une première partie, nous nous sommes intéressés au système binaire U-O. Nous avons développé un modèle à interface diffuse (basé sur une équation de Cahn-Hilliard) pour décrire la diffusion dans ce système. Nous avons procédé à la mise en place du couplage entre ce modèle et une base de données thermodynamiques {CALPHAD}, ainsi qu’au paramétrage d’un tel modèle avec en particulier une procédure d’élargissement de l’interface.Ensuite, dans le cadre d’une modélisation sur le système ternaire U-O-Zr nous avons proposé une généralisation du modèle à interface diffuse par le biais d’une hypothèse d’équilibre local des mécanismes d’oxydo-réduction. Nous avons porté une attention particulière à l’analyse de ce modèle par le biais de simulations numériques 1D en nous intéressant notamment à l’état stationnaire et aux profils de composition obtenus.Finalement, nous avons montré l’application de ce modèle au système U-O-Zr-Fe. Pour cela, nous avons considéré une configuration similaire aux essais expérimentaux à « petite échelle » relatifs à l’étude de la stratification d’un bain oxyde-métal.}
-      \field{day}{21}
-      \field{editoratype}{collaborator}
-      \field{month}{11}
-      \field{title}{Modélisation de la diffusion multi-composants dans un bain de corium diphasique oxyde-métal par une méthode d'interface diffuse}
-      \field{type}{These de doctorat}
-      \field{urlday}{12}
-      \field{urlmonth}{4}
-      \field{urlyear}{2023}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Cardon - 2016 - Modélisation de la diffusion multi-composants dans.pdf:/home/cp273896/Zotero/storage/7YMA2DVG/Cardon - 2016 - Modélisation de la diffusion multi-composants dans.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.theses.fr/2016SACLX096
-      \endverb
-      \verb{url}
-      \verb https://www.theses.fr/2016SACLX096
-      \endverb
-      \keyw{Accidents Graves,Accidents nucléaires,Calphad,Corium,Diffuse interface method,Méthode d'interface diffuse,Modélisation,Modelling,Severe accidents,Stratification,Thermochimie}
     \endentry
     \entry{aursand_spinodal_2017}{article}{}
       \name{author}{5}{}{%
