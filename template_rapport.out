@@ -3,15 +3,16 @@
 \BOOKMARK [1][-]{section.2.1}{Fonctionnement d'un r\351acteur \340 eau pressuris\351e}{chapter.2}% 3
 \BOOKMARK [1][-]{section.2.2}{S\373ret\351 et accidents graves pour les REP}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.3}{Strat\351gie de r\351tention du corium en fond de cuve \(IVR\)}{chapter.2}% 5
-\BOOKMARK [0][-]{chapter.3}{Mod\351lisation par une m\351thode champ de phase}{}% 6
-\BOOKMARK [1][-]{section.3.1}{M\351thode d'interface diffuse}{chapter.3}% 7
-\BOOKMARK [1][-]{section.3.2}{Equation de Cahn-Hilliard g\351n\351ralis\351e}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.3}{Couplage avec les \351quations de Navier-Stokes incompressible}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.4}{Paysage thermodynamique analytique}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.5}{\311l\351ments de stabilit\351 de phase}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.6}{Exp\351rience num\351rique}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.6.1}{Choix des conditions initiales}{section.3.6}% 13
-\BOOKMARK [0][-]{chapter.1}{Solution analytique pour une interface plane}{}% 14
-\BOOKMARK [0][-]{chapter.2}{De la tension de surface au coefficients de gradient}{}% 15
-\BOOKMARK [1][-]{section.2.1}{M\351thode g\351n\351rale}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.2}{M\351thode de calcul}{chapter.2}% 17
+\BOOKMARK [0][-]{chapter.3}{\311l\351ments th\351oriques sur la m\351thode de champ de phase}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Pr\351sentation des principales m\351thodes de suivi et de capture d'interface}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{M\351thode d'interface diffuse}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.3}{\311quation de Cahn-Hilliard g\351n\351ralis\351e}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.4}{Couplage avec les \351quations de Navier-Stokes incompressible}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.5}{Paysage thermodynamique analytique}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.6}{\311l\351ments de stabilit\351 de phase}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.7}{Exp\351rience num\351rique}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.7.1}{Choix des conditions initiales}{section.3.7}% 14
+\BOOKMARK [0][-]{chapter.1}{Solution analytique pour une interface plane}{}% 15
+\BOOKMARK [1][-]{section.1.1}{M\351thode de calcul}{chapter.1}% 16
+\BOOKMARK [0][-]{chapter.2}{De la tension de surface au coefficients de gradient}{}% 17
+\BOOKMARK [1][-]{section.2.1}{M\351thode g\351n\351rale}{chapter.2}% 18

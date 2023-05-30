@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'template_rapport.blg'
-[15] biber:315> INFO - === mar. mai 16, 2023, 15:04:59
-[27] Biber.pm:371> INFO - Reading 'template_rapport.bcf'
-[65] Biber.pm:889> INFO - Found 9 citekeys in bib section 0
-[73] Biber.pm:4093> INFO - Processing section 0
-[79] Biber.pm:4254> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[83] bibtex.pm:1512> INFO - LaTeX decoding ...
-[140] bibtex.pm:1329> INFO - Found BibTeX data source 'biblio.bib'
-[159] Utils.pm:193> WARN - ISBN '978-3-319-15155-7 978-3-319-15156-4' in entry 'kolev_multiphase_2015' is invalid - run biber with '--validate_datamodel' for details.
-[195] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[195] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[195] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
-[195] Biber.pm:3927> INFO - No sort tailoring available for locale 'fr-FR'
-[201] bbl.pm:636> INFO - Writing 'template_rapport.bbl' with encoding 'UTF-8'
-[205] bbl.pm:739> INFO - Output to template_rapport.bbl
-[205] Biber.pm:110> INFO - WARNINGS: 1
+[16] biber:315> INFO - === mar. mai 23, 2023, 09:18:08
+[29] Biber.pm:371> INFO - Reading 'template_rapport.bcf'
+[67] Biber.pm:889> INFO - Found 9 citekeys in bib section 0
+[75] Biber.pm:4093> INFO - Processing section 0
+[82] Biber.pm:4254> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[85] bibtex.pm:1512> INFO - LaTeX decoding ...
+[141] bibtex.pm:1329> INFO - Found BibTeX data source 'biblio.bib'
+[161] Utils.pm:193> WARN - ISBN '978-3-319-15155-7 978-3-319-15156-4' in entry 'kolev_multiphase_2015' is invalid - run biber with '--validate_datamodel' for details.
+[197] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[197] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[197] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[197] Biber.pm:3927> INFO - No sort tailoring available for locale 'fr-FR'
+[203] bbl.pm:636> INFO - Writing 'template_rapport.bbl' with encoding 'UTF-8'
+[206] bbl.pm:739> INFO - Output to template_rapport.bbl
+[207] Biber.pm:110> INFO - WARNINGS: 1

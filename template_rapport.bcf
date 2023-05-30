@@ -1998,17 +1998,17 @@
     <bcf:citekey order="1">clement_les_2020</bcf:citekey>
     <bcf:citekey order="2">clement_les_2020</bcf:citekey>
     <bcf:citekey order="3">kolev_multiphase_2015</bcf:citekey>
-    <bcf:citekey order="6">samkhaniani_evaluation_2017</bcf:citekey>
-    <bcf:citekey order="7">samkhaniani_evaluation_2017</bcf:citekey>
-    <bcf:citekey order="8">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="9">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="10">cardon_modelisation_2016</bcf:citekey>
-    <bcf:citekey order="11">kim_phase-field_2012</bcf:citekey>
-    <bcf:citekey order="12">noauthor_numerical_nodate</bcf:citekey>
-    <bcf:citekey order="13">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="14">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="15">cardon_modelisation_2016</bcf:citekey>
-    <bcf:citekey order="16">aursand_spinodal_2017</bcf:citekey>
+    <bcf:citekey order="6">introini_suivi_nodate</bcf:citekey>
+    <bcf:citekey order="7">introini_suivi_nodate</bcf:citekey>
+    <bcf:citekey order="8">cardon_modelisation_2016</bcf:citekey>
+    <bcf:citekey order="9">kim_phase-field_2012</bcf:citekey>
+    <bcf:citekey order="10">noauthor_numerical_nodate</bcf:citekey>
+    <bcf:citekey order="11">introini_suivi_nodate</bcf:citekey>
+    <bcf:citekey order="12">introini_suivi_nodate</bcf:citekey>
+    <bcf:citekey order="13">cardon_modelisation_2016</bcf:citekey>
+    <bcf:citekey order="14">aursand_spinodal_2017</bcf:citekey>
+    <bcf:citekey order="15">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="16">rao_influence_2015</bcf:citekey>
     <bcf:citekey order="17">rao_influence_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

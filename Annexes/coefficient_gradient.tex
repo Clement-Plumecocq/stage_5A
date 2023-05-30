@@ -1,0 +1,40 @@
+
+\chapter{De la tension de surface au coefficients de gradient}
+\section{Méthode générale}
+Cette deuxième annexe présente la méthode de calcul des coefficients de gradient à partir de la tension de surface qui est une donnée physique du système. Physiquement la tension interfaciale $\sigma$ représente l'excès d'énergie libre par unité de surface associé à la présence d'une interface entre deux phases distinctes, on peut ainsi la écrire :
+\begin{equation}
+\sigma = \cfrac{\mathbb{F}-\mathbb{F}^{hom}}{S}
+\end{equation}
+Où $S$ représente la surface de l'interface, $\mathbb{F}$ l'énergie libre du système et $\mathbb{F}$ l'énergie libre homogène du système, c'est-à-dire l'énergie libre du système dénuée d'interface. 
+Dans un premier temps on rappel la forme des fonctionnelles de Ginzburg-Landau associées à ses deux systèmes :
+\begin{align*}
+&\mathbb{F} = \int_{V}\sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\frac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j + f(\phi_1,..,\phi_{n-1}) - \sum_{1}^{n-1}\tilde{\mu}_i^{eq}\phi_i dV \\
+&\mathbb{F}^{hom} = \int_V f^{\alpha,eq}  - \sum_{1}^{n-1}\tilde{\mu}_i^{eq}\phi_i^{\alpha,eq} dV 
+\end{align*}
+Ainsi en combinant les deux équations précédentes : 
+\begin{equation}
+\sigma = \int_{V}\sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\frac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j + f(\phi_1,..,\phi_{n-1}) - f^{\alpha,eq} - \sum_{1}^{n-1}\tilde{\mu}_i^{eq}(\phi_i-\phi_i^{\alpha,eq}) dV
+\end{equation}
+Dans le cas 1D suivant $z$ l'équation précédente devient : 
+\begin{equation}
+\sigma = \int_{0}^L\sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\frac{\kappa_{ij}}{2}\frac{ d\phi_i}{dz} \frac{ d\phi_j}{dz} + f(\phi_1,..,\phi_{n-1}) - f^{\alpha,eq} - \sum_{1}^{n-1}\tilde{\mu}_i^{eq}(\phi_i-\phi_i^{\alpha,eq}) dz
+\end{equation}
+La condition d'équilibre s'écrit :
+\begin{equation}
+\sum_{j=1}^{n-1} \kappa_{i,j} \frac{d^2\phi_j}{dz^2} = \left.\frac{\partial f}{\partial \phi_i}\right|_{\phi_{j\neq i}} - \tilde{\mu}_i^{eq}
+\end{equation}
+Après multiplication par $\displaystyle \frac{d\phi_i}{dz}$ et intégration on trouve :
+\begin{equation}
+\sigma = \int_0^L \sum_{i=1}^{n-1}\sum_{j=1}^{n-1} \kappa_{i,j}\frac{d\phi_i}{dz}\frac{d\phi_j}{dz}dz
+\end{equation}
+On retrouve alors la relation permettant la détermination de ce coefficient dans le cas binaire en posant $n=2$
+\begin{equation}
+\sigma = \int_0^L\kappa^{bin}\left(\frac{d\phi}{dz}\right)^2dz
+\end{equation}
+Sauf mention contraire, dans le cadre de l'étude on considère :
+\begin{equation}
+\bm{\bar{\bar{\kappa}}} =    \begin{pmatrix} 
+\kappa^{bin}& 0 \\ 
+0				& \kappa^{bin} 
+\end{pmatrix} 
+\end{equation}

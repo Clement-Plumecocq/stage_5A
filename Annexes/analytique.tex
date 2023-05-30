@@ -1,0 +1,60 @@
+
+\chapter{Solution analytique pour une interface plane}
+La solution analytique stationnaire permet de donner des conditions initiales cohérentes, ainsi on s'intéresse au cas binaire "classique" (avec un seul paramètre d'ordre noté $\phi$) avec des points d'équilibres placés aux extremums, le composé est choisi comme complètement miscible. La densité d'énergie est alors choisit sous une forme analytique polynomiale d'ordre 4 en double puits :
+\begin{equation}
+	f(\phi) = \phi^2 (1-\phi)^2
+	\label{eq:anal_bin}
+\end{equation}
+On rappel fonctionnelle de Ginzburg-Landau :
+\begin{equation}
+	\mathbb{F} =\int_V \lambda f(\phi) + \frac{1}{2}\kappa ||\nabla \phi||^2 dV
+\end{equation}
+Avec $\lambda$ un paramètre d'upscalling présenté précédemment, $\kappa$ un coefficient de gradient.
+La condition d'équilibre est définit tel que :
+\begin{equation}
+	\kappa \frac{d^2\phi}{dz^2} = \lambda \frac{d f(\phi)}{d\phi}
+\end{equation}
+L'astuce consiste alors par multiplier l'équation par $\displaystyle \frac{d\phi}{dz}$ puis d'intégrer entre 0 et $z$, soit :
+\begin{align}
+	& \kappa \frac{d^2\phi}{dz^2}\frac{d\phi}{dz} = \lambda \frac{d f(\phi)}{d\phi}\frac{d\phi}{dz} \\
+	\Rightarrow & \kappa \int_0^z \frac{d^2\phi}{dz^2}\frac{d\phi}{dz} dz= \int_0^z \frac{d f(\phi)}{dz} dz
+\end{align}
+Loin de l'interface, en $z=0$ on considère le système à l'équilibre soit $\frac{d\phi}{dz} = 0$ et on fixe une condition au limite de type Dirichlet homogène :
+\begin{equation}
+	\phi (z= 0) = 0 \Rightarrow f(0) = 0
+\end{equation}
+Finalement le résultat de l'intégration précédente nous donne :
+\begin{equation}
+		\cfrac{\kappa}{2} \frac{d\phi}{dz} = \lambda f(\phi)
+\end{equation}
+En remplaçant $f(\phi)$ par sa formulation analytique \ref{eq:anal_bin} : 
+\begin{equation}
+	\frac{d\phi}{\phi(1-\phi)} = \sqrt{\frac{2\lambda}{\kappa}} dz
+	\label{solution_statio_plane}
+\end{equation}
+En posant $u = 2\phi - 1$ soit $du = 2d\phi$
+\begin{align*}
+	 \cfrac{d\phi}{\phi(1-\phi)} &= \cfrac{\cfrac{du}{2}}{\left(\cfrac{u+1}{2}\right)\left( 1 -\cfrac{u+1}{2}\right)} \\
+	 & = \frac{2du}{(1+u)(1-u)} \\
+	 & = 2\frac{du}{1-u^2}
+\end{align*}
+Finalement l'équation \ref{solution_statio_plane} devient :
+\begin{equation}
+	\frac{du}{1-u^2} = \cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}}dz
+\end{equation}
+On remarque que le termes de gauche correspond à la dérivée de la fonction réciproque de la tangente hyperbolique, soit :
+\begin{equation}
+	\text{arctanh}(u) = \cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}} z + C
+\end{equation}
+Avec $C$ une constante d'intégration.
+En réutilisant le changement de variable il est immédiat que :
+ \begin{equation}
+ \phi(z) = \frac{1}{2}\left(\tanh \left(\cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}}z +C\right)+1\right)
+ \end{equation}
+La constante $C$ peut être déterminé à partir d'une valeur moyenne du paramètre d'ordre, cette résolution ne sera pas explicité ici.
+
+\section{Méthode de calcul}
+
+
+
+
