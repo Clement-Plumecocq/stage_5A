@@ -19,177 +19,66 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{clement_les_2020}{book}{}
-      \name{author}{4}{}{%
-        {{hash=4f018ffbd37807bc0758a265852d85b6}{%
-           family={Clément},
-           familyi={C\bibinitperiod},
-           given={Bernard},
-           giveni={B\bibinitperiod}}}%
-        {{hash=c2b49a6cc5bb527929e53238cbf85772}{%
-           family={Bentaïb},
-           familyi={B\bibinitperiod},
-           given={Ahmed},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3ba09184bde95791d434bad5293bcca9}{%
-           family={Bonneville},
-           familyi={B\bibinitperiod},
-           given={Hervé},
-           giveni={H\bibinitperiod}}}%
-        {{hash=8e397f478647d47cbbdc5156feb27f95}{%
-           family={Cénérino},
-           familyi={C\bibinitperiod},
-           given={Gérard},
-           giveni={G\bibinitperiod}}}%
+    \entry{rasolofomanana_modelisation_nodate}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a161c54d886ebe1bfa4189bdc2fbbc62}{%
+           family={Rasolofomanana},
+           familyi={R\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
       }
-      \name{editor}{1}{}{%
-        {{hash=615a54f7380b52d7f165e4491401f215}{%
-           family={Jacquemain},
-           familyi={J\bibinitperiod},
-           given={Didier},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{EDP} Sciences}%
-      }
-      \strng{namehash}{ecf9c1b8ad49bc94c293b7c344435f08}
-      \strng{fullhash}{5854f9c81d5a6b86ee6ac29423874f6a}
-      \strng{bibnamehash}{ecf9c1b8ad49bc94c293b7c344435f08}
-      \strng{authorbibnamehash}{ecf9c1b8ad49bc94c293b7c344435f08}
-      \strng{authornamehash}{ecf9c1b8ad49bc94c293b7c344435f08}
-      \strng{authorfullhash}{5854f9c81d5a6b86ee6ac29423874f6a}
-      \strng{editorbibnamehash}{615a54f7380b52d7f165e4491401f215}
-      \strng{editornamehash}{615a54f7380b52d7f165e4491401f215}
-      \strng{editorfullhash}{615a54f7380b52d7f165e4491401f215}
+      \strng{namehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{fullhash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{bibnamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{authorbibnamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{authornamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{authorfullhash}{a161c54d886ebe1bfa4189bdc2fbbc62}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{day}{4}
-      \field{isbn}{978-2-7598-1846-4}
-      \field{langid}{french}
-      \field{month}{11}
-      \field{shorttitle}{Les accidents de fusion du coeur des réacteurs nucléaires de puissance}
-      \field{title}{Les accidents de fusion du coeur des réacteurs nucléaires de puissance: Etat des connaissances}
-      \field{urlday}{3}
-      \field{urlmonth}{5}
-      \field{urlyear}{2023}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1051/978-2-7598-1846-4
-      \endverb
-      \verb{file}
-      \verb Clément et al. - 2020 - Les accidents de fusion du coeur des réacteurs nuc.pdf:/home/cp273896/Zotero/storage/7TPHFUNT/Clément et al. - 2020 - Les accidents de fusion du coeur des réacteurs nuc.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.degruyter.com/document/doi/10.1051/978-2-7598-1846-4/html
-      \endverb
-      \verb{url}
-      \verb https://www.degruyter.com/document/doi/10.1051/978-2-7598-1846-4/html
-      \endverb
+      \field{labeltitlesource}{title}
+      \field{title}{Modélisation à interface diffuse et simulation numérique de la thermohydraulique d'un bain liquide diphasique avec transfert de masse interfacial}
+      \field{type}{phdthesis}
     \endentry
-    \entry{kolev_multiphase_2015}{book}{}
+    \entry{tellier_interfaces_2019}{article}{}
       \name{author}{1}{}{%
-        {{hash=b4bec71da3b1acf56c431c460b9dcc6b}{%
-           family={Kolev},
-           familyi={K\bibinitperiod},
-           given={Nikolay\bibnamedelima Ivanov},
-           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=55daa7f8eedf106e4b24a5a32f95df42}{%
+           family={Tellier},
+           familyi={T\bibinitperiod},
+           given={Romain\bibnamedelima Le},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{fullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{bibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{authorbibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{authornamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{authorfullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{namehash}{55daa7f8eedf106e4b24a5a32f95df42}
+      \strng{fullhash}{55daa7f8eedf106e4b24a5a32f95df42}
+      \strng{bibnamehash}{55daa7f8eedf106e4b24a5a32f95df42}
+      \strng{authorbibnamehash}{55daa7f8eedf106e4b24a5a32f95df42}
+      \strng{authornamehash}{55daa7f8eedf106e4b24a5a32f95df42}
+      \strng{authorfullhash}{55daa7f8eedf106e4b24a5a32f95df42}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-3-319-15155-7 978-3-319-15156-4}
-      \field{langid}{english}
-      \field{shorttitle}{Multiphase Flow Dynamics 5}
-      \field{title}{Multiphase Flow Dynamics 5: Nuclear Thermal Hydraulics}
-      \field{urlday}{12}
-      \field{urlmonth}{4}
-      \field{urlyear}{2023}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1007/978-3-319-15156-4
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/cp273896/Zotero/storage/VIC9MA2V/Kolev - 2015 - Multiphase Flow Dynamics 5 Nuclear Thermal Hydrau.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-3-319-15156-4
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/978-3-319-15156-4
-      \endverb
-      \keyw{fluid- and aerodynamics,Multiphase Dynamics,Multiphase Flow,Multiphase Flow Dynamics,Nuclear Reactor Safety,Nuclear Thermal Hydraulics}
-    \endentry
-    \entry{samkhaniani_evaluation_2017}{article}{}
-      \name{author}{2}{}{%
-        {{hash=1f14e2734d91fd75d3d0806152fcec70}{%
-           family={Samkhaniani},
-           familyi={S\bibinitperiod},
-           given={Nima},
-           giveni={N\bibinitperiod}}}%
-        {{hash=ecccca6f706b238fff6e8384dfac5df2}{%
-           family={Ansari},
-           familyi={A\bibinitperiod},
-           given={Mohamad\bibnamedelima Reza},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
-      \strng{fullhash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
-      \strng{bibnamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
-      \strng{authorbibnamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
-      \strng{authornamehash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
-      \strng{authorfullhash}{98a9b3eae63fd7b83a14d80b5d46aa5c}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In the present study, a new solver named {phaseChangeHeatFoam} is implemented on the {OpenFOAM} cfd package to simulate boiling and condensation. The solver is capturing the interface between two immiscible phases with a color function volume of fluid ({CF}-{VOF}) method. The two fluids (vapor and liquid) are assumed Newtonian and incompressible. The surface tension is modeled with continuous surface force ({CSF}) which is improved with a Lafaurie filter to suppress the spurious current. The mass flux across the interface in the phase change process is determined by either Lee or Tanasawa mass transfer models. Additionally, the slight variation of saturation temperature with local pressure is considered with the simplified Clausius–Clapeyron relation. The coupled velocity pressure equation is solved using the {PIMPLE} algorithm. The new solver is validated and examined with (i) Stefan problem, (ii) two-dimensional film boiling, (iii) the film condensation on a horizontal plate, (iv) the laminar film condensation over a vertical plate, and (v) bubble condensation in subcooled boiling. The present study shows the capability of a diffuse interface method in accurate simulation of the phase change process and it is expected to be instructive for further numerical studies in this area.}
-      \field{issn}{1523-1496}
-      \field{journaltitle}{Heat Transfer—Asian Research}
-      \field{langid}{english}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/htj.21268}
-      \field{number}{8}
-      \field{title}{The evaluation of the diffuse interface method for phase change simulations using {OpenFOAM}}
-      \field{urlday}{16}
-      \field{urlmonth}{3}
+      \field{langid}{french}
+      \field{note}{Publisher: Unpublished}
+      \field{title}{Interfaces en physique des réacteurs nucléaires - Contribution à la modélisation et au développement de méthodes numériques associées en neutronique et physique du corium}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
       \field{urlyear}{2023}
-      \field{volume}{46}
-      \field{year}{2017}
+      \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{1173\bibrangedash 1203}
-      \range{pages}{31}
       \verb{doi}
-      \verb 10.1002/htj.21268
+      \verb 10.13140/RG.2.2.27006.84801
       \endverb
       \verb{file}
-      \verb Full Text PDF:/home/cp273896/Zotero/storage/C5YRK8VK/Samkhaniani et Ansari - 2017 - The evaluation of the diffuse interface method for.pdf:application/pdf;Snapshot:/home/cp273896/Zotero/storage/4KM8W74N/htj.html:text/html
+      \verb Tellier - 2019 - Interfaces en physique des réacteurs nucléaires - .pdf:/home/cp273896/Zotero/storage/CJR4RXU4/Tellier - 2019 - Interfaces en physique des réacteurs nucléaires - .pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/htj.21268
+      \verb http://rgdoi.net/10.13140/RG.2.2.27006.84801
       \endverb
       \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/htj.21268
+      \verb http://rgdoi.net/10.13140/RG.2.2.27006.84801
       \endverb
-      \keyw{boiling,condensation,{interFoam},{OpenFOAM},volume of fluid}
     \endentry
     \entry{introini_suivi_nodate}{misc}{}
       \name{author}{2}{}{%
@@ -210,8 +99,8 @@
       \strng{authorbibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
       \strng{authornamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
       \strng{authorfullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Suivi d’interfaces diffuses par une méthode de champ de phase, Séminaire Méthodes d’Interfaces, organisé par le réseau de numériciens de Cadarache/{IRESNE}}
@@ -246,8 +135,8 @@
       \strng{editorabibnamehash}{8131f638a4e5209909177e19b5afe8ca}
       \strng{editoranamehash}{8131f638a4e5209909177e19b5afe8ca}
       \strng{editorafullhash}{8131f638a4e5209909177e19b5afe8ca}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ce travail de thèse porte sur la modélisation de la cinétique de stratification des phases liquides oxyde et métallique dans un bain de corium (système U-O-Zr-acier) du point de vue de la diffusion multi-composants et multiphasique. Cette démarche de recherche s’inscrit dans le cadre du développement d’une modélisation « fine » du comportement d’un bain de corium basée sur une approche {CFD} (« Computational Fluid Dynamics ») de la thermo-hydraulique. Elle vise à améliorer la compréhension des phénomènes mis en jeu et construire des lois de fermetures adéquates pour des modèles macroscopiques intégraux.Pour ce faire, la méthode du champ de phase couplée avec une fonctionnelle d’énergie utilisant la méthode {CALPHAD} se révèle être un outil pertinent.Dans une première partie, nous nous sommes intéressés au système binaire U-O. Nous avons développé un modèle à interface diffuse (basé sur une équation de Cahn-Hilliard) pour décrire la diffusion dans ce système. Nous avons procédé à la mise en place du couplage entre ce modèle et une base de données thermodynamiques {CALPHAD}, ainsi qu’au paramétrage d’un tel modèle avec en particulier une procédure d’élargissement de l’interface.Ensuite, dans le cadre d’une modélisation sur le système ternaire U-O-Zr nous avons proposé une généralisation du modèle à interface diffuse par le biais d’une hypothèse d’équilibre local des mécanismes d’oxydo-réduction. Nous avons porté une attention particulière à l’analyse de ce modèle par le biais de simulations numériques 1D en nous intéressant notamment à l’état stationnaire et aux profils de composition obtenus.Finalement, nous avons montré l’application de ce modèle au système U-O-Zr-Fe. Pour cela, nous avons considéré une configuration similaire aux essais expérimentaux à « petite échelle » relatifs à l’étude de la stratification d’un bain oxyde-métal.}
@@ -287,8 +176,8 @@
       \strng{authorbibnamehash}{30cf8944aef5c84ff549c5ad627a9adf}
       \strng{authornamehash}{30cf8944aef5c84ff549c5ad627a9adf}
       \strng{authorfullhash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we review the recent development of phase-field models and their numerical methods for multi-component fluid flows with interfacial phenomena. The models consist of a Navier-Stokes system coupled with a multi-component Cahn-Hilliard system through a phase-field dependent surface tension force, variable density and viscosity, and the advection term. The classical infinitely thin boundary of separation between two immiscible fluids is replaced by a transition region of a small but finite width, across which the composition of the mixture changes continuously. A constant level set of the phase-field is used to capture the interface between two immiscible fluids. Phase-field methods are capable of computing topological changes such as splitting and merging, and thus have been applied successfully to multi-component fluid flows involving large interface deformations. Practical applications are provided to illustrate the usefulness of using a phase-field method. Computational results of various experiments show the accuracy and effectiveness of phase-field models.}
@@ -323,8 +212,8 @@
       \keyw{76D05,76D45,76T30,82C26,Cahn-Hilliard,interface capturing,interface dynamics,multi-component,Navier-Stokes,phase-field model,surface tension}
     \endentry
     \entry{noauthor_numerical_nodate}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labeltitlesource}{title}
       \field{abstract}{Un éditeur {LaTeX} en ligne facile à utiliser. Pas d’installation, collaboration en temps réel, gestion des versions, des centaines de modèles de documents {LaTeX}, et plus encore.}
       \field{langid}{french}
@@ -485,6 +374,54 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/aic.14612
       \endverb
       \keyw{volume of fluid,computational fluid dynamics,droplet dynamics,mass-transfer coefficient,transport processes,unsteady mass transfer}
+    \endentry
+    \entry{kolev_multiphase_2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b4bec71da3b1acf56c431c460b9dcc6b}{%
+           family={Kolev},
+           familyi={K\bibinitperiod},
+           given={Nikolay\bibnamedelima Ivanov},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{fullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{bibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{authorbibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{authornamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \strng{authorfullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-319-15155-7 978-3-319-15156-4}
+      \field{langid}{english}
+      \field{shorttitle}{Multiphase Flow Dynamics 5}
+      \field{title}{Multiphase Flow Dynamics 5: Nuclear Thermal Hydraulics}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-15156-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/VIC9MA2V/Kolev - 2015 - Multiphase Flow Dynamics 5 Nuclear Thermal Hydrau.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-319-15156-4
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-319-15156-4
+      \endverb
+      \keyw{fluid- and aerodynamics,Multiphase Dynamics,Multiphase Flow,Multiphase Flow Dynamics,Nuclear Reactor Safety,Nuclear Thermal Hydraulics}
     \endentry
   \enddatalist
 \endrefsection

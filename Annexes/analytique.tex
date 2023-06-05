@@ -32,7 +32,7 @@ En remplaçant $f(\phi)$ par sa formulation analytique \ref{eq:anal_bin} :
 	\frac{d\phi}{\phi(1-\phi)} = \sqrt{\frac{2\lambda}{\kappa}} dz
 	\label{solution_statio_plane}
 \end{equation}
-En posant $u = 2\phi - 1$ soit $du = 2d\phi$
+Classiquement, la résolution s'effectue grâce un changement de variable en posant $u = 2\phi - 1$ soit $du = 2d\phi$
 \begin{align*}
 	 \cfrac{d\phi}{\phi(1-\phi)} &= \cfrac{\cfrac{du}{2}}{\left(\cfrac{u+1}{2}\right)\left( 1 -\cfrac{u+1}{2}\right)} \\
 	 & = \frac{2du}{(1+u)(1-u)} \\
@@ -49,11 +49,10 @@ On remarque que le termes de gauche correspond à la dérivée de la fonction r�
 Avec $C$ une constante d'intégration.
 En réutilisant le changement de variable il est immédiat que :
  \begin{equation}
- \phi(z) = \frac{1}{2}\left(\tanh \left(\cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}}z +C\right)+1\right)
+ \phi(z) = \cfrac{1}{2} + \frac{1}{2}\tanh \left(\cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}}z +C\right)
  \end{equation}
 La constante $C$ peut être déterminé à partir d'une valeur moyenne du paramètre d'ordre, cette résolution ne sera pas explicité ici.
 
-\section{Méthode de calcul}
 
 
 
