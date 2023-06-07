@@ -80,34 +80,6 @@
       \verb http://rgdoi.net/10.13140/RG.2.2.27006.84801
       \endverb
     \endentry
-    \entry{introini_suivi_nodate}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=813bfa2d98f04d016b954dd1f9c22a01}{%
-           family={Introïni},
-           familyi={I\bibinitperiod},
-           given={Clément},
-           giveni={C\bibinitperiod}}}%
-        {{hash=ab3bd5d781df93b0756b597c10dee2ee}{%
-           family={Le\bibnamedelima Tellier},
-           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={Romain},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \strng{fullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \strng{bibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \strng{authorbibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \strng{authornamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \strng{authorfullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Suivi d’interfaces diffuses par une méthode de champ de phase, Séminaire Méthodes d’Interfaces, organisé par le réseau de numériciens de Cadarache/{IRESNE}}
-      \verb{file}
-      \verb Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:/home/cp273896/Zotero/storage/V5NDBPZK/Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{cardon_modelisation_2016}{thesis}{}
       \name{author}{1}{}{%
         {{hash=a1b6021652a92199ab9cef6de9e21d8e}{%
@@ -135,8 +107,8 @@
       \strng{editorabibnamehash}{8131f638a4e5209909177e19b5afe8ca}
       \strng{editoranamehash}{8131f638a4e5209909177e19b5afe8ca}
       \strng{editorafullhash}{8131f638a4e5209909177e19b5afe8ca}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ce travail de thèse porte sur la modélisation de la cinétique de stratification des phases liquides oxyde et métallique dans un bain de corium (système U-O-Zr-acier) du point de vue de la diffusion multi-composants et multiphasique. Cette démarche de recherche s’inscrit dans le cadre du développement d’une modélisation « fine » du comportement d’un bain de corium basée sur une approche {CFD} (« Computational Fluid Dynamics ») de la thermo-hydraulique. Elle vise à améliorer la compréhension des phénomènes mis en jeu et construire des lois de fermetures adéquates pour des modèles macroscopiques intégraux.Pour ce faire, la méthode du champ de phase couplée avec une fonctionnelle d’énergie utilisant la méthode {CALPHAD} se révèle être un outil pertinent.Dans une première partie, nous nous sommes intéressés au système binaire U-O. Nous avons développé un modèle à interface diffuse (basé sur une équation de Cahn-Hilliard) pour décrire la diffusion dans ce système. Nous avons procédé à la mise en place du couplage entre ce modèle et une base de données thermodynamiques {CALPHAD}, ainsi qu’au paramétrage d’un tel modèle avec en particulier une procédure d’élargissement de l’interface.Ensuite, dans le cadre d’une modélisation sur le système ternaire U-O-Zr nous avons proposé une généralisation du modèle à interface diffuse par le biais d’une hypothèse d’équilibre local des mécanismes d’oxydo-réduction. Nous avons porté une attention particulière à l’analyse de ce modèle par le biais de simulations numériques 1D en nous intéressant notamment à l’état stationnaire et aux profils de composition obtenus.Finalement, nous avons montré l’application de ce modèle au système U-O-Zr-Fe. Pour cela, nous avons considéré une configuration similaire aux essais expérimentaux à « petite échelle » relatifs à l’étude de la stratification d’un bain oxyde-métal.}
@@ -162,144 +134,48 @@
       \endverb
       \keyw{Accidents Graves,Accidents nucléaires,Calphad,Corium,Diffuse interface method,Méthode d'interface diffuse,Modélisation,Modelling,Severe accidents,Stratification,Thermochimie}
     \endentry
-    \entry{kim_phase-field_2012}{article}{}
+    \entry{tiwari_consistent_2019}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=30cf8944aef5c84ff549c5ad627a9adf}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Junseok},
-           giveni={J\bibinitperiod}}}%
+        {{hash=20c5172984f811d2bd7b583b25eb9a9d}{%
+           family={Tiwari},
+           familyi={T\bibinitperiod},
+           given={Vaishnvi},
+           giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \strng{fullhash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \strng{bibnamehash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \strng{authorbibnamehash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \strng{authornamehash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \strng{authorfullhash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \list{institution}{1}{%
+        {Université Paris Saclay ({COmUE})}%
+      }
+      \strng{namehash}{20c5172984f811d2bd7b583b25eb9a9d}
+      \strng{fullhash}{20c5172984f811d2bd7b583b25eb9a9d}
+      \strng{bibnamehash}{20c5172984f811d2bd7b583b25eb9a9d}
+      \strng{authorbibnamehash}{20c5172984f811d2bd7b583b25eb9a9d}
+      \strng{authornamehash}{20c5172984f811d2bd7b583b25eb9a9d}
+      \strng{authorfullhash}{20c5172984f811d2bd7b583b25eb9a9d}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this paper, we review the recent development of phase-field models and their numerical methods for multi-component fluid flows with interfacial phenomena. The models consist of a Navier-Stokes system coupled with a multi-component Cahn-Hilliard system through a phase-field dependent surface tension force, variable density and viscosity, and the advection term. The classical infinitely thin boundary of separation between two immiscible fluids is replaced by a transition region of a small but finite width, across which the composition of the mixture changes continuously. A constant level set of the phase-field is used to capture the interface between two immiscible fluids. Phase-field methods are capable of computing topological changes such as splitting and merging, and thus have been applied successfully to multi-component fluid flows involving large interface deformations. Practical applications are provided to illustrate the usefulness of using a phase-field method. Computational results of various experiments show the accuracy and effectiveness of phase-field models.}
-      \field{issn}{1815-2406, 1991-7120}
-      \field{journaltitle}{Communications in Computational Physics}
+      \field{abstract}{This Ph.D. thesis is focused on ensuring a thermodynamically consistent representation of in-vessel corium (a high temperature mixture of molten reactor core and structural materials, described as a U-O-Zr-steel system) in the coupled thermohydraulic-thermochemical models that are used for performing Severe Accident ({SA}) analysis of nuclear Light Water Reactors ({LWRs}); in particular, the In-Vessel Melt Retention ({IVMR}) Strategy. In this context, the use of a thermodynamic database obtained by the {CALPHAD} method seems relevant by providing closures and inputs to the thermohydraulic and thermochemical models respectively. These databases consist of models for Gibbs energy functions of the possible phases for a system that can be used to obtain the equilibrium thermodynamic description for the system as well as material thermodynamic properties for out-of-equilibrium conditions.Through this work, a systematic approach for ensuring extensive utilization of {CALPHAD} data in the coupled models has been developed, and the associated questions have been answered for ‘mock-up’ macroscopic and mesoscopic models developed for describing some of the phenomena pertaining to in-vessel corium behaviour.As a first step, the feasibility of using {CALPHAD} based closures (in the form of enthalpy-temperature relations and local equilibrium conditions) has been tested on the macroscopic model developed using the lumped parameter approach. Considering the ternary U-O-Zr system, this model describes the plane front solidification process at the boundary of a molten corium pool. The second part of the work is focused on the development of a general formulation for diffuse interface models under the phase-field approach, which can be used to simulate the kinetics of various thermochemical processes under non-isothermal conditions such as solidification and phase segregation. The questions related to the thermodynamic consistency of the model as well as its parameterization (in particular with respect to the up-scaling of the interface thickness) have been addressed and the numerical results have been discussed for binary U-Zr and U-O systems under isothermal conditions.}
+      \field{day}{26}
       \field{langid}{english}
-      \field{month}{9}
-      \field{note}{Publisher: Cambridge University Press}
-      \field{number}{3}
-      \field{title}{Phase-Field Models for Multi-Component Fluid Flows}
-      \field{urlday}{4}
-      \field{urlmonth}{5}
+      \field{month}{11}
+      \field{title}{A consistent approach for coupling lumped-parameter and phase-field models for in-vessel corium to thermodynamic databases.}
+      \field{type}{phdthesis}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
       \field{urlyear}{2023}
-      \field{volume}{12}
-      \field{year}{2012}
+      \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{613\bibrangedash 661}
-      \range{pages}{49}
-      \verb{doi}
-      \verb 10.4208/cicp.301110.040811a
-      \endverb
       \verb{file}
-      \verb Full Text PDF:/home/cp273896/Zotero/storage/FC2USMG9/Kim - 2012 - Phase-Field Models for Multi-Component Fluid Flows.pdf:application/pdf
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/UQ6RRETN/Tiwari - 2019 - A consistent approach for coupling lumped-paramete.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.cambridge.org/core/journals/communications-in-computational-physics/article/phasefield-models-for-multicomponent-fluid-flows/0672FBD318BBE2621A51AE0F2C9C2FE3
+      \verb https://theses.hal.science/tel-02489384
       \endverb
       \verb{url}
-      \verb https://www.cambridge.org/core/journals/communications-in-computational-physics/article/phasefield-models-for-multicomponent-fluid-flows/0672FBD318BBE2621A51AE0F2C9C2FE3
+      \verb https://theses.hal.science/tel-02489384
       \endverb
-      \keyw{76D05,76D45,76T30,82C26,Cahn-Hilliard,interface capturing,interface dynamics,multi-component,Navier-Stokes,phase-field model,surface tension}
-    \endentry
-    \entry{noauthor_numerical_nodate}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Un éditeur {LaTeX} en ligne facile à utiliser. Pas d’installation, collaboration en temps réel, gestion des versions, des centaines de modèles de documents {LaTeX}, et plus encore.}
-      \field{langid}{french}
-      \field{title}{Numerical Simulation of the Dynamics of a Multicomponent Droplet in Water using the Phase-Field Model of {TrioCFD} Code}
-      \field{urlday}{4}
-      \field{urlmonth}{5}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Numerical Simulation of the Dynamics of a Multicom.pdf:/home/cp273896/Zotero/storage/NRKZ3F9I/Numerical Simulation of the Dynamics of a Multicom.pdf:application/pdf;Snapshot:/home/cp273896/Zotero/storage/8YBQE7Y8/63fc85bf75cafd151f3ae56b.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
-      \endverb
-      \verb{url}
-      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
-      \endverb
-    \endentry
-    \entry{aursand_spinodal_2017}{article}{}
-      \name{author}{5}{}{%
-        {{hash=8ca181cd6834a8f0b4a08595789b23ac}{%
-           family={Aursand},
-           familyi={A\bibinitperiod},
-           given={Peder},
-           giveni={P\bibinitperiod}}}%
-        {{hash=b0fcb722ea2f4dd3f48bd5fbfb2ae6e8}{%
-           family={Gjennestad},
-           familyi={G\bibinitperiod},
-           given={Magnus\bibnamedelima Aa.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=607e7617bbce5e15a258c554a532863d}{%
-           family={Aursand},
-           familyi={A\bibinitperiod},
-           given={Eskil},
-           giveni={E\bibinitperiod}}}%
-        {{hash=8dc81a6de6181a79ba53653b01e611e6}{%
-           family={Hammer},
-           familyi={H\bibinitperiod},
-           given={Morten},
-           giveni={M\bibinitperiod}}}%
-        {{hash=803ea30dc52f485e4e4cb0dfd2b6d2bc}{%
-           family={Wilhelmsen},
-           familyi={W\bibinitperiod},
-           given={Øivind},
-           giveni={Ø\bibinitperiod}}}%
-      }
-      \strng{namehash}{cdb36b22fd54c38c077383e97ccff6f4}
-      \strng{fullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
-      \strng{bibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
-      \strng{authorbibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
-      \strng{authornamehash}{cdb36b22fd54c38c077383e97ccff6f4}
-      \strng{authorfullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The spinodal represents the limit of thermodynamic stability of a homogeneous fluid. In this work, we present a robust methodology to obtain the spinodal of multicomponent fluids described even with the most sophisticated equations of state ({EoS}) available. We elaborate how information about the spinodal and its uncertainty can contribute both in the development of modern {EoS} and to estimate their uncertainty in the metastable regions. Inequality constraints are presented that can be exploited in the fitting of modern {EoS} of single-component fluids to avoid inadmissible pseudo-stable states between the vapor and liquid spinodals. We find that even cubic {EoS} violate some of these constraints. With the use of a selection of {EoS} representative of modern applications, we compare vapor and liquid spinodal curves, superheat and supersaturation limits from classic nucleation theory ({CNT}), and available experimental data for the superheat limit. Computations are performed with pure species found in natural gas, binary mixtures, as well as a multi-component natural gas mixture in order to demonstrate the scalability of the approach. We demonstrate that there are large inconsistencies in predicted spinodals from a wide range of {EoS} such as cubic {EoS}, extended corresponding state {EoS}, {SAFT} and multiparameter {EoS}. The overall standard deviation in the prediction of the spinodal temperatures were 1.4 K and 2.7 K for single- and multi-component liquid-spinodals and 6.3 K and 26.9 K for single- and multi-component vapor spinodals. The relationship between the measurable limit of superheat, or supersaturation, and the theoretical concept of the spinodal is discussed. While nucleation rates from {CNT} can deviate orders of magnitude from experiments, we find that the limit of superheat from experiments agree within 1.0 K and 2.4 K with predictions from {CNT} for single- and multi-component fluids respectively. We demonstrate that a large part of the metastable domain of the phase diagram is currently unavailable to experiments, in particular for metastable vapor. Novel techniques, experimental or with computational simulations, should be developed to characterize the thermodynamic properties in these regions, and to identify the thermodynamic states that define the spinodal.}
-      \field{day}{25}
-      \field{issn}{0378-3812}
-      \field{journaltitle}{Fluid Phase Equilibria}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{shortjournal}{Fluid Phase Equilibria}
-      \field{title}{The spinodal of single- and multi-component fluids and its role in the development of modern equations of state}
-      \field{urlday}{17}
-      \field{urlmonth}{4}
-      \field{urlyear}{2023}
-      \field{volume}{436}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{98\bibrangedash 112}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1016/j.fluid.2016.12.018
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Snapshot:/home/cp273896/Zotero/storage/48XJCRPU/S0378381216306227.html:text/html;Version acceptée:/home/cp273896/Zotero/storage/CV5KG2ZA/Aursand et al. - 2017 - The spinodal of single- and multi-component fluids.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
-      \endverb
-      \keyw{Equation of state,Nucleation,Phase stability,Spinodal,Superheat limit,Thermodynamics}
     \endentry
     \entry{rao_influence_2015}{article}{}
       \name{author}{6}{}{%
@@ -340,8 +216,8 @@
       \strng{authorbibnamehash}{8bfb2efd18a5cd04e63f8995efdfcdc9}
       \strng{authornamehash}{8bfb2efd18a5cd04e63f8995efdfcdc9}
       \strng{authorfullhash}{cb196ed4e8af3082ba0e97b746b6723b}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Experimental and numerical investigations were conducted to study the effect of unsteady mass transfer on the dynamics of an organic droplet released in quiescent water. The situation is important and relevant to deep sea oil spill scenario. The droplet contains two components, one is heavier (immiscible) than water and other is lighter (miscible). When released, with an initial mixture density (890–975 kg/m3) lower than that of surrounding water, droplet rises in the column. The mass transfer of lighter solute component into water causes the droplet density to increase and droplet sinks when the density exceeds that of water. A mass-transfer correlation accounting for the loss of the solute, based on Reynolds, Grashoff, and Schmidt numbers was developed. A two-dimensional axisymmetric Computational Fluid Dynamics ({CFD}) model accounting for species transport was developed to emulate the experimental observations. The study also helped in identifying dominant mass-transfer mechanisms during different stages of droplet motion. © 2014 American Institute of Chemical Engineers {AIChE} J, 61: 342–354, 2015}
@@ -375,6 +251,296 @@
       \endverb
       \keyw{volume of fluid,computational fluid dynamics,droplet dynamics,mass-transfer coefficient,transport processes,unsteady mass transfer}
     \endentry
+    \entry{cahn_free_1958}{article}{}
+      \name{author}{2}{}{%
+        {{hash=52dbce452736c579ce3afd0bc41401e2}{%
+           family={Cahn},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=615753f3c0be7941ef6c9f7de03513e4}{%
+           family={Hilliard},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{803d7022f245ce9165424789e4bba28f}
+      \strng{fullhash}{803d7022f245ce9165424789e4bba28f}
+      \strng{bibnamehash}{803d7022f245ce9165424789e4bba28f}
+      \strng{authorbibnamehash}{803d7022f245ce9165424789e4bba28f}
+      \strng{authornamehash}{803d7022f245ce9165424789e4bba28f}
+      \strng{authorfullhash}{803d7022f245ce9165424789e4bba28f}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9606, 1089-7690}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{The Journal of Chemical Physics}
+      \field{title}{Free Energy of a Nonuniform System. I. Interfacial Free Energy}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{28}
+      \field{year}{1958}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{258\bibrangedash 267}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1063/1.1744102
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aip.org/aip/jcp/article/28/2/258-267/74794
+      \endverb
+      \verb{url}
+      \verb https://pubs.aip.org/aip/jcp/article/28/2/258-267/74794
+      \endverb
+    \endentry
+    \entry{introini_suivi_nodate}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=813bfa2d98f04d016b954dd1f9c22a01}{%
+           family={Introïni},
+           familyi={I\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ab3bd5d781df93b0756b597c10dee2ee}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{fullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{bibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{authorbibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{authornamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \strng{authorfullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Suivi d’interfaces diffuses par une méthode de champ de phase, Séminaire Méthodes d’Interfaces, organisé par le réseau de numériciens de Cadarache/{IRESNE}}
+      \verb{file}
+      \verb Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:/home/cp273896/Zotero/storage/V5NDBPZK/Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{kim_phase-field_2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30cf8944aef5c84ff549c5ad627a9adf}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Junseok},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{30cf8944aef5c84ff549c5ad627a9adf}
+      \strng{fullhash}{30cf8944aef5c84ff549c5ad627a9adf}
+      \strng{bibnamehash}{30cf8944aef5c84ff549c5ad627a9adf}
+      \strng{authorbibnamehash}{30cf8944aef5c84ff549c5ad627a9adf}
+      \strng{authornamehash}{30cf8944aef5c84ff549c5ad627a9adf}
+      \strng{authorfullhash}{30cf8944aef5c84ff549c5ad627a9adf}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we review the recent development of phase-field models and their numerical methods for multi-component fluid flows with interfacial phenomena. The models consist of a Navier-Stokes system coupled with a multi-component Cahn-Hilliard system through a phase-field dependent surface tension force, variable density and viscosity, and the advection term. The classical infinitely thin boundary of separation between two immiscible fluids is replaced by a transition region of a small but finite width, across which the composition of the mixture changes continuously. A constant level set of the phase-field is used to capture the interface between two immiscible fluids. Phase-field methods are capable of computing topological changes such as splitting and merging, and thus have been applied successfully to multi-component fluid flows involving large interface deformations. Practical applications are provided to illustrate the usefulness of using a phase-field method. Computational results of various experiments show the accuracy and effectiveness of phase-field models.}
+      \field{issn}{1815-2406, 1991-7120}
+      \field{journaltitle}{Communications in Computational Physics}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{note}{Publisher: Cambridge University Press}
+      \field{number}{3}
+      \field{title}{Phase-Field Models for Multi-Component Fluid Flows}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{613\bibrangedash 661}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.4208/cicp.301110.040811a
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/FC2USMG9/Kim - 2012 - Phase-Field Models for Multi-Component Fluid Flows.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/communications-in-computational-physics/article/phasefield-models-for-multicomponent-fluid-flows/0672FBD318BBE2621A51AE0F2C9C2FE3
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/communications-in-computational-physics/article/phasefield-models-for-multicomponent-fluid-flows/0672FBD318BBE2621A51AE0F2C9C2FE3
+      \endverb
+      \keyw{76D05,76D45,76T30,82C26,Cahn-Hilliard,interface capturing,interface dynamics,multi-component,Navier-Stokes,phase-field model,surface tension}
+    \endentry
+    \entry{noauthor_numerical_nodate}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Un éditeur {LaTeX} en ligne facile à utiliser. Pas d’installation, collaboration en temps réel, gestion des versions, des centaines de modèles de documents {LaTeX}, et plus encore.}
+      \field{langid}{french}
+      \field{title}{Numerical Simulation of the Dynamics of a Multicomponent Droplet in Water using the Phase-Field Model of {TrioCFD} Code}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Numerical Simulation of the Dynamics of a Multicom.pdf:/home/cp273896/Zotero/storage/NRKZ3F9I/Numerical Simulation of the Dynamics of a Multicom.pdf:application/pdf;Snapshot:/home/cp273896/Zotero/storage/8YBQE7Y8/63fc85bf75cafd151f3ae56b.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
+      \endverb
+      \verb{url}
+      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
+      \endverb
+    \endentry
+    \entry{rasolofomanana_diffuse-interface_2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a161c54d886ebe1bfa4189bdc2fbbc62}{%
+           family={Rasolofomanana},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=513ff85985ad3630b492baec4422d527}{%
+           family={Cardon},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=11cc732d0193cdeff4b0317ebf7ee12d}{%
+           family={Plapp},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2c9a60850e2298d5bcb04ca4ec7ddabd}{%
+           family={Philippe},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=685730e71e8fd461fcad1094858bf9f4}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=58515c03c9c9b5d09037874b379c7d7b}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{69666a200d9f1edc99f345bb71f864d3}
+      \strng{fullhash}{d6edf8e276e396b4b131cd3df83285f6}
+      \strng{bibnamehash}{69666a200d9f1edc99f345bb71f864d3}
+      \strng{authorbibnamehash}{69666a200d9f1edc99f345bb71f864d3}
+      \strng{authornamehash}{69666a200d9f1edc99f345bb71f864d3}
+      \strng{authorfullhash}{d6edf8e276e396b4b131cd3df83285f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ternary mixture of uranium, oxygen and zirconium is investigated as a minimal model for corium, the mixture that forms after the meltdown of a nuclear reactor. Like corium, U-O-Zr exhibits a liquid–liquid phase separation between a metal-rich and an oxide-rich phase at high temperatures. A {CALPHAD} database built on an associate model is used to set up a ternary Cahn–Hilliard model, which can describe two-phase patterns in U-O-Zr. The interface structure and properties, which depend on the choice on the gradient energy coefficients in the free-energy functional, are studied in detail. It is found that interface adsorption is generally present due to the diffuse character of the interface, but that its magnitude is small, such that the model remains a robust and useful tool for future simulations of corium pool stratification dynamics.}
+      \field{day}{1}
+      \field{issn}{0927-0256}
+      \field{journaltitle}{Computational Materials Science}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Computational Materials Science}
+      \field{title}{Diffuse-interface modelling of multicomponent diffusion and phase separation in the U-O-Zr ternary system}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{214}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{111650}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.commatsci.2022.111650
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/cp273896/Zotero/storage/VBZIGZPX/Rasolofomanana et al. - 2022 - Diffuse-interface modelling of multicomponent diff.html:text/html;Version soumise:/home/cp273896/Zotero/storage/TMPJK6UW/Rasolofomanana et al. - 2022 - Diffuse-interface modelling of multicomponent diff.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S092702562200386X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S092702562200386X
+      \endverb
+      \keyw{Cahn–Hilliard,{CALPHAD},In-vessel corium,Liquid phase segregation,Multicomponent diffusion,U-O-Zr system}
+    \endentry
+    \entry{aursand_spinodal_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8ca181cd6834a8f0b4a08595789b23ac}{%
+           family={Aursand},
+           familyi={A\bibinitperiod},
+           given={Peder},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b0fcb722ea2f4dd3f48bd5fbfb2ae6e8}{%
+           family={Gjennestad},
+           familyi={G\bibinitperiod},
+           given={Magnus\bibnamedelima Aa.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=607e7617bbce5e15a258c554a532863d}{%
+           family={Aursand},
+           familyi={A\bibinitperiod},
+           given={Eskil},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8dc81a6de6181a79ba53653b01e611e6}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod}}}%
+        {{hash=803ea30dc52f485e4e4cb0dfd2b6d2bc}{%
+           family={Wilhelmsen},
+           familyi={W\bibinitperiod},
+           given={Øivind},
+           giveni={Ø\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{fullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
+      \strng{bibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{authorbibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{authornamehash}{cdb36b22fd54c38c077383e97ccff6f4}
+      \strng{authorfullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The spinodal represents the limit of thermodynamic stability of a homogeneous fluid. In this work, we present a robust methodology to obtain the spinodal of multicomponent fluids described even with the most sophisticated equations of state ({EoS}) available. We elaborate how information about the spinodal and its uncertainty can contribute both in the development of modern {EoS} and to estimate their uncertainty in the metastable regions. Inequality constraints are presented that can be exploited in the fitting of modern {EoS} of single-component fluids to avoid inadmissible pseudo-stable states between the vapor and liquid spinodals. We find that even cubic {EoS} violate some of these constraints. With the use of a selection of {EoS} representative of modern applications, we compare vapor and liquid spinodal curves, superheat and supersaturation limits from classic nucleation theory ({CNT}), and available experimental data for the superheat limit. Computations are performed with pure species found in natural gas, binary mixtures, as well as a multi-component natural gas mixture in order to demonstrate the scalability of the approach. We demonstrate that there are large inconsistencies in predicted spinodals from a wide range of {EoS} such as cubic {EoS}, extended corresponding state {EoS}, {SAFT} and multiparameter {EoS}. The overall standard deviation in the prediction of the spinodal temperatures were 1.4 K and 2.7 K for single- and multi-component liquid-spinodals and 6.3 K and 26.9 K for single- and multi-component vapor spinodals. The relationship between the measurable limit of superheat, or supersaturation, and the theoretical concept of the spinodal is discussed. While nucleation rates from {CNT} can deviate orders of magnitude from experiments, we find that the limit of superheat from experiments agree within 1.0 K and 2.4 K with predictions from {CNT} for single- and multi-component fluids respectively. We demonstrate that a large part of the metastable domain of the phase diagram is currently unavailable to experiments, in particular for metastable vapor. Novel techniques, experimental or with computational simulations, should be developed to characterize the thermodynamic properties in these regions, and to identify the thermodynamic states that define the spinodal.}
+      \field{day}{25}
+      \field{issn}{0378-3812}
+      \field{journaltitle}{Fluid Phase Equilibria}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Fluid Phase Equilibria}
+      \field{title}{The spinodal of single- and multi-component fluids and its role in the development of modern equations of state}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{volume}{436}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{98\bibrangedash 112}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.fluid.2016.12.018
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/home/cp273896/Zotero/storage/48XJCRPU/S0378381216306227.html:text/html;Version acceptée:/home/cp273896/Zotero/storage/CV5KG2ZA/Aursand et al. - 2017 - The spinodal of single- and multi-component fluids.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
+      \endverb
+      \keyw{Equation of state,Nucleation,Phase stability,Spinodal,Superheat limit,Thermodynamics}
+    \endentry
     \entry{kolev_multiphase_2015}{book}{}
       \name{author}{1}{}{%
         {{hash=b4bec71da3b1acf56c431c460b9dcc6b}{%
@@ -395,8 +561,8 @@
       \strng{authorbibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
       \strng{authornamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
       \strng{authorfullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-319-15155-7 978-3-319-15156-4}

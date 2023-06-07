@@ -1,4 +1,4 @@
-\nomenclatureentry{A$c_{air}$@[{$c_{air}$}]\begingroup Célérité du son dans l'air à \SI {15}{\celsius } \nomunit {\SI {340.29}{\meter \per \second }}\nomeqref {0.0}|nompageref}{1}
-\nomenclatureentry{B$T_N$@[{$T_N$}]\begingroup Période propre de l'élément considéré\nomeqref {0.0}|nompageref}{1}
-\nomenclatureentry{B\(E\)@[{\(E\)}]\begingroup {Module d'Young}\nomeqref {0.0}|nompageref}{1}
-\nomenclatureentry{C$\dot {\epsilon }$@[{$\dot {\epsilon }$}]\begingroup Vitesse de déformation \nomunit {\si {\per \second }}\nomeqref {0.0}|nompageref}{1}
+\nomenclatureentry{A$c_{air}$@[{$c_{air}$}]\begingroup Célérité du son dans l'air à \SI {15}{\celsius } \nomunit {\SI {340.29}{\meter \per \second }}\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{B$T_N$@[{$T_N$}]\begingroup Période propre de l'élément considéré\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{B\(E\)@[{\(E\)}]\begingroup {Module d'Young}\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{C$\dot {\epsilon }$@[{$\dot {\epsilon }$}]\begingroup Vitesse de déformation \nomunit {\si {\per \second }}\nomeqref {0}|nompageref}{1}

@@ -1999,19 +1999,26 @@
     <bcf:citekey order="2">rasolofomanana_modelisation_nodate</bcf:citekey>
     <bcf:citekey order="3">tellier_interfaces_2019</bcf:citekey>
     <bcf:citekey order="4">tellier_interfaces_2019</bcf:citekey>
-    <bcf:citekey order="5">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="6">introini_suivi_nodate</bcf:citekey>
-    <bcf:citekey order="7">cardon_modelisation_2016</bcf:citekey>
-    <bcf:citekey order="8">kim_phase-field_2012</bcf:citekey>
-    <bcf:citekey order="9">noauthor_numerical_nodate</bcf:citekey>
+    <bcf:citekey order="5">rasolofomanana_modelisation_nodate</bcf:citekey>
+    <bcf:citekey order="6">cardon_modelisation_2016</bcf:citekey>
+    <bcf:citekey order="7">tiwari_consistent_2019</bcf:citekey>
+    <bcf:citekey order="8">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="9">cahn_free_1958</bcf:citekey>
     <bcf:citekey order="10">introini_suivi_nodate</bcf:citekey>
     <bcf:citekey order="11">introini_suivi_nodate</bcf:citekey>
     <bcf:citekey order="12">cardon_modelisation_2016</bcf:citekey>
-    <bcf:citekey order="13">aursand_spinodal_2017</bcf:citekey>
-    <bcf:citekey order="14">rao_influence_2015</bcf:citekey>
-    <bcf:citekey order="15">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="13">kim_phase-field_2012</bcf:citekey>
+    <bcf:citekey order="14">noauthor_numerical_nodate</bcf:citekey>
+    <bcf:citekey order="15">cardon_modelisation_2016</bcf:citekey>
     <bcf:citekey order="16">rao_influence_2015</bcf:citekey>
-    <bcf:citekey order="17">kolev_multiphase_2015</bcf:citekey>
+    <bcf:citekey order="17">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="18">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="19">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="20">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="21">rao_influence_2015</bcf:citekey>
+    <bcf:citekey order="22">rasolofomanana_diffuse-interface_2022</bcf:citekey>
+    <bcf:citekey order="23">aursand_spinodal_2017</bcf:citekey>
+    <bcf:citekey order="24">kolev_multiphase_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

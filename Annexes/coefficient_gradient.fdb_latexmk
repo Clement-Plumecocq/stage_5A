@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1686120467 "coefficient_gradient.tex" "coefficient_gradient.pdf" "coefficient_gradient" 1686120467
+  "/etc/texmf/web2c/texmf.cnf" 1663060776 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1685023741 4225627 9ce2faf2bad1fe8b26de9b6cc36dad89 ""
+  "coefficient_gradient.aux" 1686120459 8 a94a2480d3289e625eea47cd1b285758 ""
+  "coefficient_gradient.tex" 1686062367 3488 4d35edc6ee0d8317681dfcbdfcd653cd ""
+  (generated)
+  "coefficient_gradient.pdf"
+  "coefficient_gradient.log"

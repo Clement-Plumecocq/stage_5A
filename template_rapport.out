@@ -1,22 +1,30 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction et contexte}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Intro}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Pr\351sentation du laboratoire d'accueil}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.3}{Contexte de l'\351tude}{chapter.1}% 4
 \BOOKMARK [2][-]{subsection.1.3.1}{Contexte industriel}{section.1.3}% 5
-\BOOKMARK [2][-]{subsection.1.3.2}{G\351n\351ralit\351s sur la s\373ret\351 et pr\351sentation des familles d'accident grave pour les REP}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.2}{G\351n\351ralit\351s sur la s\373ret\351 nucl\351aire}{section.1.3}% 6
 \BOOKMARK [2][-]{subsection.1.3.3}{Formation du corium lors d'un accident}{section.1.3}% 7
 \BOOKMARK [2][-]{subsection.1.3.4}{Strat\351gie de r\351tention du corium en fond de cuve \(IVR\)}{section.1.3}% 8
 \BOOKMARK [3][-]{subsubsection.1.3.4.1}{Mod\351lisation stationnaire}{subsection.1.3.4}% 9
 \BOOKMARK [3][-]{subsubsection.1.3.4.2}{Mod\351lisation du r\351gime transitoire}{subsection.1.3.4}% 10
-\BOOKMARK [0][-]{chapter.2}{\311l\351ments th\351oriques sur la m\351thode de champ de phase}{}% 11
-\BOOKMARK [1][-]{section.2.1}{Pr\351sentation des principales m\351thodes de suivi et de capture d'interface}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.2}{M\351thode d'interface diffuse}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.3}{\311quation de Cahn-Hilliard g\351n\351ralis\351e}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.4}{Couplage avec les \351quations de Navier-Stokes incompressible}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.5}{Paysage thermodynamique analytique}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.6}{\311l\351ments de stabilit\351 de phase}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.7}{Exp\351rience num\351rique}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.7.1}{Choix des conditions initiales}{section.2.7}% 19
-\BOOKMARK [0][-]{chapter.1}{Solution analytique pour une interface plane}{}% 20
-\BOOKMARK [0][-]{chapter.2}{De la tension de surface au coefficients de gradient}{}% 21
-\BOOKMARK [0][-]{chapter.3}{S\351quence de d\351gradation du c\234ur}{}% 22
+\BOOKMARK [1][-]{section.1.4}{Objectif du stage}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{\311l\351ments th\351oriques sur la m\351thode de champ de phase}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Pr\351sentation des principales m\351thodes de suivi et de capture d'interface}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{M\351thode d'interface diffuse}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{\311quation de Cahn-Hilliard g\351n\351ralis\351e}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Couplage avec les \351quations de Navier-Stokes incompressible}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Paysage thermodynamique analytique}{section.2.2}% 17
+\BOOKMARK [0][-]{chapter.3}{\311tude hydrodynamique}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Exp\351rience num\351rique}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{Choix des conditions initiales}{section.3.1}% 20
+\BOOKMARK [0][-]{chapter.4}{Comparaison avec un cas de la litt\351rature}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Pr\351sentation du cas de r\351f\351rence}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Simulation r\351alis\351es}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.2.1}{Choix du paysage thermodynamique}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.2}{Validation d'un paysage}{section.4.2}% 25
+\BOOKMARK [0][-]{chapter.1}{Solution analytique pour une interface plane}{}% 26
+\BOOKMARK [0][-]{chapter.2}{Calcul du coefficient de gradient \340 partir de la tension de surface}{}% 27
+\BOOKMARK [0][-]{chapter.3}{D\351termination des param\350tres pour des simulations}{}% 28
+\BOOKMARK [0][-]{chapter.4}{\311l\351ments de stabilit\351 de phase}{}% 29
+\BOOKMARK [0][-]{chapter.5}{S\351quence de d\351gradation du c\234ur}{}% 30

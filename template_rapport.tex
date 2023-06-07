@@ -4,7 +4,7 @@
 % LICENSE file in the root directory of this source tree.
 
 % ========== Classe du document ==========
-\documentclass[a4paper,12pt]{report}    % A4, police taille 11, report pour avoir les chapitres, fleqn pour avoir les équations alignées à gauche
+\documentclass[a4paper,10pt]{report}    % A4, police taille 11, report pour avoir les chapitres, fleqn pour avoir les équations alignées à gauche
 
 % ========== Langue française pour le document ==========
 \usepackage{latexsym}       % Police latex de base
@@ -38,7 +38,8 @@
 % ========== Liens dans le document, méta-datas et références ==========
 \usepackage{xpatch}     % Permet de patcher certaines fonctionnalités de base comme la toc
 \usepackage{float}      % Placement des flottants
-\usepackage{hyperref}   % Liens dans le documents
+%\usepackage{hyperref}   % Liens dans le documents
+\usepackage[colorlinks=true,linkcolor=black]{hyperref}
 \usepackage{caption}    % Légendes dans les environnements "figure" et "float"
 \usepackage[list=true]{subcaption} % Légendes pour les "sous-figures" et "sous-float"
                                    % et affichage des "sous-..." dans la liste des figures
@@ -161,13 +162,13 @@ pdfauthor={Clément PLUMECOCQ},
 \xpretocmd{\listoftables}{\addcontentsline{toc}{chapter}{\listtablename}}{}{}
 
 % ========== Gestion des équations ==========
-\newcommand{\listequationsname}{Liste des équations}    % Renommer la liste des équations
-\newlistof{myequations}{equ}{\listequationsname}
-\newcommand{\myequations}[1]{%
-   \addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}
-}
-\counterwithin{equation}{chapter}           % Numérotation des équations à partir des sections
-\cftsetindents{myequations}{0em}{3.5em}     % Réglage de l'espace entre le numéro et le nom de l'équation dans la liste
+%\newcommand{\listequationsname}{Liste des équations}    % Renommer la liste des équations
+%\newlistof{myequations}{equ}{\listequationsname}
+%\newcommand{\myequations}[1]{%
+%   \addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}
+%}
+%\counterwithin{equation}{chapter}           % Numérotation des équations à partir des sections
+%\cftsetindents{myequations}{0em}{3.5em}     % Réglage de l'espace entre le numéro et le nom de l'équation dans la liste
 
 % Création de la commande \noteworhty pour les équations importantes qui méritent d'être listées
 \newcommand{\noteworthy}[2]{
@@ -177,10 +178,9 @@ pdfauthor={Clément PLUMECOCQ},
 \centering \small \textit{#2}
 
 \endgroup}
-
-\makeatletter   % Espacement des équations plus important entre les chapitres
-\xpretocmd{\@chapter}{\addtocontents{equ}{\protect\addvspace{10\p@}}}{}{}{}%
-\makeatother
+%\makeatletter   % Espacement des équations plus important entre les chapitres
+%\xpretocmd{\@chapter}{\addtocontents{equ}{\protect\addvspace{10\p@}}}{}{}{}%
+%\makeatother
 
 
 
@@ -227,9 +227,10 @@ sorting=none
 \newcommand{\doubleoverline}[1]{\bar{\bar{#1}}} 			% notation matrice
 \newcommand{\co}[1]{\text{cos}\left(#1\right)}
 \newcommand{\sinus}[1]{\text{sin}\left(#1\right)}
-
-
-
+\usepackage[]{tocstyle}
+\usetocstyle{standard}
+\usepackage{breqn}
+\usepackage{pifont}
 
 % ======================================== Fin Préambule Latex ========================================
 
@@ -311,6 +312,7 @@ sorting=none
 %%%%% OPTIONS TIKZ
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{shapes}
+
 \begin{document}
 
 % ======================================== Début Page de Garde ========================================
@@ -343,9 +345,11 @@ sorting=none
         POLYTECH Marseille - Mécanique Énergétique \\ \vfill
         %\par\end{center}
         %\begin{center}
-        Maître de stage : Romain Le Tellier, Ingénieur-Chercheur LMAG \\
-        Encadrant : Mirantsoa-Aimé Rasolofomanana, Doctorant LMAG \\
-        Tuteur école : Marc Médale, Professeur des universités IUSTI-AMU
+	\raggedright 
+	\noindent Maître de stage : Romain Le Tellier, Ingénieur-Chercheur LMAG\\
+	Encadrant :  Mirantsoa-Aimé Rasolofomanana, Doctorant LMAG \\
+	Tuteur école :   Marc Médale, Professeur des universités IUSTI-AMU 
+
         %\par\end{center}
         %\end{minipage}}
     \end{center}
@@ -360,8 +364,6 @@ sorting=none
 \thispagestyle{empty}
 \begin{center}
     \Large
-
-
     \vspace{0.9cm}
     \textbf{Résumé}
 \end{center}
@@ -382,9 +384,9 @@ sorting=none
 
 \newpage
 %\hypersetup{pageanchor=true}
-\renewcommand{\baselinestretch}{0.}\normalsize
+%\renewcommand{\baselinestretch}{0.}\normalsize
 \tableofcontents
-\renewcommand{\baselinestretch}{1.0}\normalsize
+%\renewcommand{\baselinestretch}{1.0}\normalsize
 
 
 
@@ -402,64 +404,25 @@ sorting=none
 
 \section*{Remerciements}
 \setcounter{page}{1}
+\input{Chapitre/chap1.tex}
 \input{Chapitre/chap2.tex}
 \input{Chapitre/chap3.tex}
 % ======================================== Fin Document ========================================
 
 % ======================================== Début Listes & Co ========================================
 
-\begin{figure}[H]
-	\centering
-	\begin{tikzpicture}
-	\node[draw,aspect=1.3, text centered,text width=3cm] (V) at (0,2.3) {Solution initiale };
-	\node[draw,aspect=1.3, text centered,text width=2cm] (T) at (0,1.3) {$n=n+1$ };
-	\node[draw,rectangle, text centered,minimum width=2cm,minimum height=1cm] (A)at(0,0){Estimation du transfert de masse à partir de corrélations};
-	\node[draw,text centered,minimum width=2cm,minimum height=1cm] (B) at (0,-1.5) {Résolution des équations de Navier-Stokes};
-	\node[draw,text centered,text width=10cm,minimum height=1cm] (C) at (0,-3) {Comparaison entre l'altitude de la goutte obtenue par CFD avec l'expérience, res = $f(z_{\text{CFD}},z_{\text{exp}})$};
-	\node[draw,rectangle,diamond, aspect=1.3, text centered,text width=1.5cm] (D) at (0,-5) {res $<\varepsilon$ ? };
 
-	\node[draw,rectangle,diamond, aspect=1.3, text centered,text width=1.5cm] (E) at (0,-7.3
-	) { $t^{f}<t^{n}$ ? };
-	\node[draw,aspect=1.3, text centered,text width=1.5cm] (W) at (0,-9) {Fin};
-	%\node[draw,text centered,text width=2cm,minimum height=1cm] (E) at (0,-6.8) { $t=t^{n+1}$};
-	%\node[draw,text centered,text width=7cm,minimum height=1cm] (Z) at (0,-6.2) { dsq}
-	
-	\node[draw,rectangle,diamond, aspect=1.3, text centered,text width=1cm,color=white] (H)at(-5,-5.9){ };
-	\node[text centered,text width=1cm,color=black] (K1)at(0.5,-5.9){oui};
-	\node[text centered,text width=1cm,color=black] (K2)at(-1.5,-4.8){non};
-	\node[text centered,text width=1cm,color=black] (K3)at(0.5,-8.3){oui};
-	\node[text centered,text width=1cm,color=black] (K4)at(-1.5,-7){non};
-	%\node[draw,rectangle, text centered,diamond, aspect=1.3, text centered,text width=1cm] (I)at(6,-6){i=1 to n-1};
-	\draw[->] (T.south) -- (A.north);
-	\draw[->] (A.south) -- (B.north);
-	\draw[->] (B.south) -- (C.north);
-	\draw[->] (C.south) -- (D.north);
-	\draw[->] (D.south) -- (E.north);
-	\draw[->] (V.south) -- (T.north);
-	\draw[->] (E.south) -- (W.north);
-	\draw[->] (-7,1.3) -- (T.west);
-	
-	
-	
-	\draw (D.west)-- (-6,-5);
-	\draw (-6,-5)-- (-6.,0);
-%	\draw (F.west)-- (-6.,0);
-	\draw[->] (-6.,0) -- (A.west);
-	\draw[-] (E.west) -- (-7,-7.3);
-	\draw[-] (-7,-7.3) -- (-7,1.3);
-	%\draw (G.east)-| (I.south);
-	%\draw[->] (I.north)|- (A.east);
-	
-	\end{tikzpicture}
-	\caption{Algorithme de résolution développé par Rao et al.\cite{rao_influence_2015}}
-\end{figure}
 
 \newpage
 \printbibliography
 \appendix
 \input{Annexes/analytique.tex}
 \input{Annexes/coefficient_gradient.tex}
+\input{Annexes/parametrage.tex}
+\input{Annexes/stab_phases.tex}
 \input{Annexes/deroul_acc.tex}
+
+
 \end{document}
 
 

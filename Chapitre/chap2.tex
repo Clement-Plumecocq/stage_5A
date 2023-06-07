@@ -1,298 +1,162 @@
-\chapter{Introduction et contexte}
-%\section{Fonctionnement d'un réacteur à eau pressurisée}
-%
-\section{Intro}
-\section{Présentation du laboratoire d'accueil}
-Ce stage a eu lieu au Commissariat à l'énergie atomique et aux énergies alternatives (CEA), qui est un acteur majeur de la recherche au service de l'État et des industriels. Le CEA est divisé en quatre directions assurant des missions distinctes telles que la défense et la sécurité nationale (DAM - Direction des Applications Militaires), l'amélioration de la santé publique et l'assistance pour la transition numérique de la société (DRT - Direction de Recherche Technologique), la recherche fondamentale (DRF - Direction de la Recherche Fondamentale) et finalement l'étude des systèmes énergétiques bas-carbone (DES - Direction des Énergies). Ce stage s'est déroulé sur le centre de Cadarache, au Département de Technologie Nucléaire (DTN), appartenant à la direction des Énergies, au sein du Laboratoire de Modélisation des Accidents Graves (LMAG). Les travaux du laboratoire portent sur le comportement du c\oe ur fondu, que l'on nomme corium, en situation accidentelle. Les principaux axes de recherche du laboratoire sont : l'interaction corium-béton (ICB), l'interaction corium-sodium et le comportement du corium en fond de cuve. Ce laboratoire emploie quinze ingénieurs-chercheurs et quatre doctorants qui travaillent principalement sur la modélisation et la simulation numérique, étant ainsi complémentaire au Laboratoire d'Expérimentation des Accidents Graves (LEAG) qui exploite une plateforme expérimentale (PLINIUS) dédiée au corium prototypique. Le stage a été encadré par Mirantsoa-Aimé Rasolofomanana, doctorant et Romain Le Tellier, ingénieur-chercheur.
+\chapter{Éléments théoriques sur la méthode de champ de phase}
+\section{Présentation des principales méthodes de suivi et de capture d'interface}
+
+Le traitement numérique efficace des interfaces représente un enjeu majeur de la simulation numérique tant les application faisant intervenir des interfaces sont importantes. On différencie les méthodes de suivi et de capture d'interface de part leurs philosophie différentes. En effet les méthodes de suivi d'interface sont par nature lagrangienne, ces méthodes placent des marqueurs sur l'interface qui sont suivi au cours du temps. Les méthodes de capture d'interface quant à elle suivent implicitement l'interface au travers de l'évolution d'une fonction couleur. De nombreuses méthodes existent, on présente ici les principales :
+\begin{itemize}
+	\item[$\bullet$] \textit{\textbf{Volume of fluid (VOF) : }} Cette méthode utilise un maillage fixe découpé en cellule représentant des volumes. On associe alors à chacune de ces cellule une fraction volumique de fluide, cette proportion est alors résolu au cours du temps et la position de l'interface peut être reconstruite. Cette reconstruction a pour désavantage de ne fournir que peu d'informations viables sur l'interface. Cette méthode reste donc peu précise et est également difficile à mettre en \oe uvre en trois dimensions.
+	\item[$\bullet$] \textit{\textbf{Méthode Level-Set (LS) : }}	Cette méthode repose sur la résolution implicite de l'interface au travers de la résolution d'une fonction auxiliare dite fonction ligne de niveau, généralement la distance signée à l'interface. Cette fonction se doit d'admettre une valeur nulle à l'interface, ainsi au travers de la résolution d'une équation d'advection sur cette fonction ligne de niveau, l'interface est résolue. Cette méthode convient pour les problèmes à fort changement topologique mais présente le désavantage d'être non-conservative.
+	\item[$\bullet$]\textit{ \textbf{Arbitrary Lagrangian-Eulerian (ALE) : }} La méthode repose sur une double description lagrangienne (maillage mobile) et eulérienne (maillage fixe), à chaque itération temporelle, le maillage autour de l'interface est reconstruit pour s'adapter à la forme de l'interface, ainsi chaque maille contient uniquement un fluide. L'ensemble de ces propriété rend la méthode très précise mais difficile à mettre en \oe uvre en trois dimensions.
+	\item[$\bullet$]\textit{ \textbf{Front-Tracking (FT) : }} La méthode utilise des marqueurs sans masse positionné sur l'interface transporté suivant une description lagrangienne sur un maillage fixe. Cette méthode nécessite l'implémentation d'algorithme pour les cas de coalescence et rupture d'interface et possède comme désavantage de ne pas conserver la masse.
+\end{itemize}
 
 
 
-\section{Contexte de l'étude}
-\subsection{Contexte industriel}
-En France, 56 réacteurs nucléaires dispersés sur 18 sites sont actuellement en service, ce parc est uniquement composé de réacteurs à eau pressurisée (REP) et représente 70\% de la production électrique française. Les puissances fournies par ces réacteurs dit de deuxième génération varient entre 900 MWe et 1450 MWe. Un réacteur de troisième génération d'une puissance de 1650 MWe (EPR - European pressurized reactor) est actuellement en construction sur le site de Flamanville, cette nouvelle génération de réacteur tient compte du retour d'expérience issu de l'exploitation des réacteurs actuels, intégrant notamment plus d'éléments de sûreté. La construction de 6 nouveaux EPR a été annoncée et 8 autres pourraient voir le jour. \\
-Les REP sont des réacteurs de la famille des réacteurs à eau légère, de l'eau est utilisée comme fluide caloporteur et modérateur, de plus cette eau est pressurisée à 155 bars pour éviter un changement d'état liquide-gaz dans le circuit primaire et ainsi obtenir un meilleur coefficient d'échange thermique, le schéma de principe est présenté par la figure \ref{fig:schcentrale1} %, à l'entrée de la cuve la température de l'eau est 290\textdegree C et la température de sortie de cuve en fonctionnement nominal est de 330\textdegree C.
+
+
+
+
+
+\section{Méthode d'interface diffuse}
+Les méthodes de suivi d'interface présenté précédemment décrivent toute l'interface comme une discontinuité, cependant il existe un second paradigme traitant l'interface comme une zone de transition continue, on parle alors d'interface diffuse.
+Dans ce second cas l'interface correspond donc à une zone transition d'épaisseur connue et maîtrisée ou cohabitent les deux phases, le traitement de l'interface est alors facilité, les gradients à l'interface étant finis. Ce concept d'interface diffuse date du XIX$^{\text{ème}}$siècle et est introduit par Van Der Walls. L'intérêt de la communauté scientifique pour cette méthode apparaît dans les années 1950 avec la description de l'énergie libre par Ginzburg et Landau et son utilisation par Cahn et Hilliard en 1958 \cite{cahn_free_1958} pour obtenir une description thermodynamique de l'interface.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{figure/sch_centrale1}
-	\caption[Schéma de principe d'une centrale nucléaire de type REP]{Schéma de principe d'une centrale nucléaire de type REP, (d'après manuelnumeriquemax.belin.education)}
-	\label{fig:schcentrale1}
+	\includegraphics[width=0.7\linewidth]{figure/diffuse_interface}
+	\caption{Comparaison entre une interface raide et une interface diffuse}
+	\label{fig:diffuseinterface}
 \end{figure} 
-%
-%Le c\oe ur du réacteur est composé d'assemblages combustibles comportant chacun 264 crayons combustibles, 24 tubes pouvant contenir les crayons d'une grappe de commande ainsi qu'un tube servant à l'instrumentation. La gaine est constituée de Zircaloy qui est un alliage composé principalement de zirconium ($Zr$), les pastilles ont un diamètre de 8.2mm et sont empilées dans une gaine d'épaisseur 0.6mm et d'une longueur d'environ 4m (dépendante du palier du réacteur). Le zirconium est utilisé pour sa bonne résistance à la corrosion et sa faible absorption neutronique. Chaque c\oe ur est composé d'un ensemble d'assemblage combustible (241 pour l'EPR, embarquant au total 144.2 tonnes d'uranium enrichi) qui doivent être renouvelés périodiquement tous les 12 à 18 mois par quart ou tiers de c\oe ur.
-%
+\noindent L'interface est alors suivie implicitement grâce à une fonction champ de phase définie à partir de grandeurs thermodynamiques au travers d'une variable champ de phase noté $\phi$. Cette méthode aujourd'hui utilisée dans de nombreux domaines très divers.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{figure/champ_phase}
+	\caption[Domaine d'application de la méthode champ de phase]{Domaine d'application de la méthode champ de phase, tirée de \cite{introini_suivi_nodate}}
+	\label{fig:champphase}
+\end{figure} 
+\subsection{Équation de Cahn-Hilliard généralisée}
+Comme expliqué précédemment la méthode de champ de phase repose sur le suivi d'une variable de phase (ou paramètre d'ordre) noté $\phi_i$ pour le composant $i$ et contraint tel que : 
+\begin{equation}
+\sum_i \phi_i =1 \Rightarrow \phi_n =1 - \sum_{i=1}^{n-1} \phi_i
+\end{equation} 
+Ainsi pour un mélange à $n$ composants, seules $n-1$ variables sont indépendantes nécessite un suivi. Dans certains cas le système peut également être décrit avec des variables non conservées telles que des indicatrices de phases ou des grandeurs liées à des réactions chimiques, cela peut être le cas pour le dioxyde de zirconium ZrO$_2$ présent dans le corium selon les conditions initiales. Le comportement de ces variables est alors régis par des équations de réaction-diffusion dites d'Allen-Cahn, dans notre étude ce type d'équation ne sera pas résolue car l'ensemble des paramètres d'ordre sont conservés. Dans le cadre de variables conservées les équations de Cahn-Hillard pour $n$ composants, avec $i\in \{1,..,n-1 \}$ s'écrivent sous la forme :
+\begin{equation}
+	\cfrac{\partial \phi_i}{\partial t} + \left(\mathbf{u} \cdot \nabla\right) \phi_i =  \nabla \cdot \left(\sum_{j=1}^{n-1}{\mathcal{M}_{ij}} \nabla\left( \frac{\delta \mathbb{F}}{\delta \phi_j}\right) \right) 
+\end{equation}
+avec : $\mathcal{M}_{ik}$ la mobilité (paramètre cinétique),  $\phi$ le paramètre d'ordre, $\mathbf{u}$ la vitesse et $\mathbb{F}$ une fonctionnelle de Ginzburg-Landeau généralisée \cite{cardon_modelisation_2016} définit tel que : 
+ \begin{equation}
+\mathbb{F}[\phi_1,..,\phi_n] = \int_{\mathcal{V}}\lambda\tilde{f}_0(\bm{\phi},\mathbf{x},t)+ \sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\cfrac{1}{2}\kappa_{ij}\nabla \phi_i \cdot \nabla \phi_j dV
+\end{equation}
+Où le premier terme représente la densité d'énergie liée aux valeurs locales de composition, traduisant l'équilibre des phases ainsi que leurs existences ou coexistence. Pour deux phases $\alpha$ et $\beta$, on rappel l'équilibre thermodynamique donné par :
+\begin{subequations}
+	\begin{align}
+		&\left.\frac{\partial \tilde{f}}{\partial \phi_i}\right|_{\phi_i^{\alpha,eq}} = \left.\frac{\partial \tilde{f}}{\partial \phi_i}\right|_{\phi_i^{\beta,eq}} = \tilde{\mu}_i^{eq} \hspace{1cm} \Leftrightarrow   \hspace{1cm} \tilde{\mu}_i^{\alpha,eq} = \tilde{\mu}_i^{\beta,eq} \\
+		& 		\tilde{f}_0^{\alpha,eq} - \sum_{i=1}^{n-1}\tilde{\mu}_i^{eq}\phi_i^{\alpha,eq} = 	\tilde{f}_0^{\beta,eq} - \sum_{i=1}^{n-1}\tilde{\mu}_i^{eq}\phi_i^{\beta,eq}
+	\end{align} 
+\end{subequations}
+$\tilde{\mu}_i^{eq}$ représente un potentiel de diffusion de l'élément $i$ à l'équilibre.\\
+Le second terme représente la contribution des interfaces, le coefficient $\kappa$, dit coefficient de gradient, tient compte du coût énergétique engendré par l'interface, par la suite ce paramètre pourra être relié à la tension de surface. \\
+%Dans le cas binaire il est possible de décrire géométriquement l'ensemble des variables : 
 %\begin{figure}[H]
-%	     \begin{subfigure}[t]{0.45\textwidth}
-%	     	\centering
-%	         \includegraphics[width=1\textwidth]{figure/assemb.png}
-%	         \caption{Schéma d'un crayon combustible et d'un assemblage combustible}
-%	         \label{subfig:example-image-c}
-%	     \end{subfigure}%
-%     	\hfil
-%     	\begin{subfigure}[t]{0.45\textwidth}
-%     	\centering
-%     	\includegraphics[width=0.99\textwidth]{figure/coeur_complet.png}
-%     	\caption{Schéma d'ensemble de d'une cuve d'un REP}
-%     	\label{subfig:example-image-c}
-%    	 \end{subfigure}
-%	     \caption{Schéma des constituants d'un c\oe ur de réacteur de type REP d'après \cite{ clement_les_2020} }
-%	     \label{fig:test_subfigure}
-%	\end{figure}
-\subsection{Généralités sur la sûreté et présentation des familles d'accident grave pour les REP}
-
-Les questions de sûreté sont intrinsèquement liées à l'exploitation d'une centrale nucléaire tant les conséquences d'un potentiel accident peuvent être importantes. Ainsi dès le début des années 1970 le concept de défense en profondeur a été mis en place, ce concept se matérialise par la mise en place de lignes de défense successive indépendante. Pour les REP on compte trois barrières de confinement de la radioactivité :
-% \\
-%\begin{minipage}[c]{0.3\linewidth}
-%	\begin{enumerate}
-%		\item La gaine combustible
-%		\item La cuve
-%		\item Le bâtiment réacteur
-%	\end{enumerate}
-%\end{minipage} \hfill
-%\begin{minipage}[c]{0.65\linewidth}
 %	\centering
-%	\includegraphics[width=0.7\linewidth]{figure/irsn_barriere-confinement.png}
-%	\captionof{figure}{Schéma des barrières de confinement (d'après irsn.fr)}
-%\end{minipage}
-%\vspace{0.5cm}
-
-\begin{enumerate}
-	\item La gaine combustible
-	\item La cuve
-	\item Le bâtiment réacteur placé sous atmosphère dépressurisée
-\end{enumerate}
-Les variations par rapport au régime nominal sont classés selon l'échelle INES (International Nuclear Scale Event, figure \ref{fig:echelle-ines-article}), cette échelle permet de classifier les accidents et leurs gravités, elle comporte huit échelons allant d'un simple écart (plusieurs centaines de cas par an en France) à l'accident majeur. Les accidents correspondent aux paliers 4 à 7 et se différencient de l'incident du fait de la perte d'intégrité de la première barrière résultante de la fusion du combustible, le produit de cette fusion est alors appelé corium.
+%	\includegraphics[width=0.45\linewidth]{figure/fig_NRJ}
+%	\caption{Description de l'énergie libre pour un système binaire}
+%	\label{fig:fignrj}
+%\end{figure}
+Finalement la dérivé variationnelle de cette fonctionnelle d'énergie libre peut être définit comme un potentiel de diffusion $\tilde{\mu}$: 
+\begin{equation}\label{eq_potentiel}
+	\frac{\delta \mathbb{F}}{\delta \phi_j} =\lambda \frac{\partial \tilde{f}_0}{\partial \phi_j} -\sum_{k=1}^{n-1} \kappa_{jk} \Delta \phi_k = \tilde{\mu}_j
+\end{equation}
+avec $\lambda$ un paramètre d'upscalling numérique ajouté pour augmenter l'épaisseur de l'interface, dans le cas où $\lambda=1$ l'interface est d'épaisseur "réelle" soit de l'ordre de l'angstr\oe m, les capacités de calcul ne permettant pas de pouvoir faire des calculs avec des maillages contenant de si petits éléments. \\
+Le potentiel de diffusion peut être relier au potentiel chimique classique tel que :
+\begin{equation}
+	\tilde{\mu}_i = \frac{1}{V_m}\left(\mu_i - \mu_n\right)
+\end{equation}
+Avec $\tilde{\mu}_i$ (en J.m$^{-3}$) représente le potentiel de diffusion de l'élément $i$, et $V_m$ le volume molaire supposé constant dans tout le système.\\
+%Le potentiel chimique étant classiquement définit tel que :
+%\begin{equation}
+%	\mu_i = \left.\frac{\partial G}{\partial n_i}\right|_{P,T,n_{j\neq i }} = \left.\frac{\partial F}{\partial n_i}\right|_{V,T,n_{j\neq i }}
+%	  \textrm{                        où           } F = V_m f_0
+%\end{equation}
+%Avec $F$ (resp. $G$) l'énergie libre d'Helmotz (resp. Gibbs) (en J) et $n_i$ la quantité de matière de l'élément $i$ (en mol). Dans notre cas on se place dans une transformation isobare et isotherme, on privilégiera donc l'énergie de libre de Gibbs.
+Dans le cas où $\doubleoverline{\kappa}$ = $\doubleoverline{0}$ on retrouve une équation d'advection-diffusion classique, dans le cas contraire on obtient une équation d'ordre 4. Une des principale difficulté dans la mise en place de méthode champ de phase repose sur le paramétrage des simulations.
+\subsection{Couplage avec les équations de Navier-Stokes incompressible}
+Dans le cadre de cette étude les équations de Cahn-Hilliard sont couplées aux équations de conservation de masse et de quantité de mouvement incompressible sous l'approximation de Boussinesq, d'après \cite{kim_phase-field_2012} le système d'équations s'écrit sous la forme :
+\begin{subequations}
+\begin{align}
+&\nabla \cdot \mathbf{u} = 0\\
+&\rho^* \left (\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot {\nabla})\mathbf{u}\right) = -{\nabla} P +\eta \Delta \mathbf{u}+\sum_{i=1}^{n-1} \tilde{\mu}_i{\nabla} \phi_i + \rho(\bm{\phi}) \mathbf{g}
+\end{align}
+\end{subequations}
+avec $\mathbf{u}$ la vitesse, $P$ la pression, $\mu_i$ le potentiel chimique du composant $i$, $\mathbf{g} = \{ 0,0,-g\}^T $, $\eta$ la viscosité cinématique supposée constante, $\rho^*$ la masse volumique du solvant \\
+L'approximation de Boussinesq est utilisé pour calculé la densité dans le terme de flottabilité :
+\begin{equation}
+	\rho(\bm{\phi}) = \rho^*\left(1+\sum_{i=1}^{n-1}\beta_i \phi_i\right)
+\end{equation}
+Les paramètres $\beta_i$ sont à déterminer en fonction du système étudié, $\rho^*$ correspond à une masse volumique de référence, généralement celle du solvant. L'équation de Cahn-Hilliard étant d'ordre 4, une résolution implicite est alors préférée pour les simulations.
+\subsection{Paysage thermodynamique analytique}
+L'objectif présenté dans \cite{noauthor_numerical_nodate} est de d'obtenir une formulation analytique du terme homogène de la fonctionnelle de Ginzburg-Landau. Dans le cas binaire, cette contribution est de la forme d'un double puits, généralement un polynôme de degré 4 :
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{figure/echelle-ines-article}
-	\caption[Echelle de classification des écarts aux régimes nominal INES]{Echelle de classification des écarts aux régimes nominal INES (d'après ASN)}
-	\label{fig:echelle-ines-article}
+	\includegraphics[width=0.3\linewidth]{figure/figpolydeg4}
+	\caption{Description classique du terme homogène de la description de l'énergie pour un système binaire completement immiscible}
+	\label{fig:figpolydeg4}
 \end{figure}
-Les accidents possibles dans les REP sont séparés en deux grandes catégories, les accidents de criticité et les Accidents de Perte de Réfrigérant Primaire (APRP). Les accidents de criticité sont dû à une accélération brutale de la réaction en chaîne, le c\oe ur est alors en régime sur-critique entraînant une augmentation rapide de puissance thermique produite, l'accident de Tchernobyl en 1986 est un exemple.\\ Les Accidents de Perte de Réfrigérant Primaire (APRP) résultent quant à eux d'une fuite dans le circuit primaire ou d'un arrêt de la circulation du fluide caloporteur privant le c\oe ur du refroidissement nécessaire à son fonctionnement, un cas d'accident de ce type est Fukushima Daiichi en 2011 où le tsunami à détruit l'alimentation électrique de la centrale neutralisant ainsi l'ensemble des pompes. Dans la suite de ce rapport nous traiterons uniquement de cette seconde catégorie d'accident.
-\subsection{Formation du corium lors d'un accident}
-Ainsi lors d'un accident de type APRP, l'élévation de la température dans la cuve provoque l'oxydation fortement exothermique des gaines en zircaloy (alliage composé de 98\% de zirconium), cette augmentation de température provoque un ensemble de réactions chimiques décrite précisément en annexe \ref{annexe:seq_deg}. Finalement se forme un bain comprenant de l'uranium, du zirconium et de l'acier ainsi que leurs oxydes respectif. Le corium est un matériau fortement radioactif et produisant sa propre chaleur, l'objectif est alors de maîtriser sa propagation, pour cela deux stratégies existent : la rétention en fond de cuve avec refroidissement externe (explicité plus bas) et l'étalement sur un radier en béton, cette seconde stratégie est préférée pour les réacteurs de puissance élevée comme l'EPR par exemple. L'objectif est d'étaler le corium sur un radier en béton réfractaire, ce béton est alors progressivement ablaté. Pour limiter cette ablation un refroidissement passif est mis en place via le plancher puis une fois le corium partiellement refroidit, celui-ci est recouvert d'eau évitant ainsi une explosion de vapeur.
-
-%D'après \cite{kolev_multiphase_2015} voici le scénario de fonte du c\oe ur :
-%\begin{itemize}
-%	\item[$\bullet$] \underline{Entre 800 et 900 \textdegree C :} L'augmentation de la pression à l'intérieur de la gaine en zirconium provoque un gonflement puis une rupture de cette dernière.
-%	\item[$\bullet$] \underline{Entre 900 et 1300 \textdegree C :} Début de la réaction fortement exothermique d'oxydation de la gaine. A cet instant une forte proportion de la puissance thermique dégagée provient de cette réaction. La molécule d'eau est dissociée, l'oxygène est absorbé par la surface métallique et l'hydrogène est libéré. L'absorption de l'hydrogène dans les fissures du métal le fragilise davantage et accélère le processus de défaillance de la gaine. De plus l'apparition de fissure augmente la surface de réaction provoquant une accélération de la réaction.
-%	\item[$\bullet$] \underline{Entre 1300 et 1400 \textdegree C :} Apparition d'alliages constitués des matériaux composant la gaine (principalement Zr) et de l'acier présent dans la cuve.
-%	\item[$\bullet$] \underline{Entre 1400 et 1500 \textdegree C :} Fusion et rupture des structures métallique du c\oe ur. Libération des composant en phase gazeuse du combustible.
-%	\item[$\bullet$] \underline{Entre 1500 et 1850 \textdegree C :} Point de fusion du zirconium, dissolution du dioxyde d'uranium UO$_2$ par le zirconium en fusion, apparition de l'alliage (U,O,Zr)
-%	\item[$\bullet$] \underline{Entre 2000 et 2650 \textdegree C :} Fusion du ZrO$_2$, dissolution de l'UO$_2$ dans le ZrO$_2$ fondu et formation de la solution liquide UO$_2$-ZrO$_2$.
-%\end{itemize}
-%Une fois le c\oe ur fondu celui-ci se relocalise dans le fond de la cuve réacteur et il devient nécessaire d'adopter une stratégie pour refroidir ce bain.
-
-\subsection{Stratégie de rétention du corium en fond de cuve (IVR)}
-Une fois le c\oe ur fondu celui-ci se relocalise au fond de la cuve du réacteur. Pour limiter les conséquences d'un accident une stratégie vise à maintenir ce corium dans le fond de cette cuve, c'est la stratégie d'In-Vessel Retention (IVR). Pour cela on cherche à refroidir la cuve par l'extérieur. Cette stratégie est étudiée depuis les années 90 et mise en \oe uvre sur des réacteurs de faible puissance. \\
-Le comportement du corium en fond de cuve est alors régi par deux principaux phénomènes :
-La thermohydraulique du bain, avec un écoulement turbulent soumis à des rouleaux de convection (instabilité de Rayleigh-Bénard) dans la phase oxyde, d'autre part la thermochimie régit quant à elle le comportement des phases et leurs équilibres. \\
-\subsubsection{Modélisation stationnaire}
-Les premières études du comportement du bain de corium ont été réalisés pour des bains stationnaires. Il a été montré qu'en régime stationnaire le bain est stratifié avec une phase oxyde et une phase métal, cependant en fonction de l'accident la couche de métal peut être lourde (i.e plus que l'oxyde et donc être en dessous) ou légère. Les différents cas sont obtenus via des différences de conditions initiales (fraction massique d'acier, degré d'oxydation du zirconium, le rapport molaire entre l'uranium et le zirconium dans la phase oxyde et la température du bain).
-\begin{figure}[H]
-	\begin{subfigure}[H]{0.47\textwidth}
-		\begin{tikzpicture}[scale=0.70]
-		%cuve
-		%couche+croute
-		\fill[red!50] (0.5,0) arc (180:360:4.5) -- cycle;
-		\fill[blue!10!gray!20] rectangle (9.5, 1);
-		\fill[brown!80] (0.5,0) arc (180:360:4.5) -- (9.3,0) arc (360:180:4.3) -- cycle;
-		\fill[brown!80] rectangle (9.5,0.1);
-		\fill[blue!10!gray!20] (2.5,-3.5) ..controls +(0.9,-1.05)and+(-0.9,-1.05) .. (7.5,-3.5) -- cycle ;
-		\fill[black!60] (0,2) -- (0,0) arc (180:360:5) -- (10,2) -- (9.5,2) -- (9.5,0) arc (360:180:4.5) -- (0.5,2) -- cycle;
-		%cuve
-		\draw (0,0) arc (180:360:5);
-		\draw (0.5,0) arc (180:360:4.5);
-		\draw (0,0) -- (0,2);
-		\draw (0.5,0) -- (0.5,2);
-		\draw (10,0) -- (10,2);
-		\draw (9.5,0) -- (9.5,2);
-		
-		\draw (5,0.5) node[ scale=1.3]{couche d'acier};
-		\draw (5,-2) node[ scale=1.5]{oxyde};
-		\draw (5,-3.8) node[ scale=1.3]{métal lourd};
-%		
-%		\draw[->,>=latex, red, line width = 2mm] (1.3, 0.5) to (0.1, 0.5);
-%		\draw[->,>=latex, red, line width = 2mm] (8.7, 0.5) to (9.9, 0.5);
-		
-		%FE
-%		\draw[black, dashed, thick] (3.2,0.2) circle (0.8);
-		%\draw[black, dashed, thick] (9.3,0.5) circle (0.8);
-%		\draw[->,>=latex] (0.5, 0.8) to (4, 2);
-%		\draw[->,>=latex] (9.3, 0.8) to (6, 2);
-%		\draw (5,2.3) node[ scale=1.3]{Focusing Effect};
-		
-		%cuve
-		\draw[->,>=latex] (-0.3, -3) to (1.2, -3);
-		\draw (-0.3, -3) node[ scale=1, left]{cuve};
-		
-		%croute
-		
-		\draw[->,>=latex] (9, -5.2) to (7.8, -3.3);
-		%\draw (1, -4.2) -- (-0.3, -4.2);
-		\draw (11.5, -5.5) node[ scale=1, left]{croûte réfractaire};
-		
-		%echange
-		%\draw[->,>=latex,line width = 0.8mm] (3.2, -0.6) to (3.2, -3.8);
-		
-		
-%		\draw[->,>=latex,line width = 0.5mm] (2.8, 0.8) to (2.8, -1.2);
-%		\draw (2.2,0.7) node[ scale=1]{(Fe)};
-%		\draw[->,>=latex,line width = 0.5mm](3.5, -1.2) to (3.5, 0.8);
-%		\draw (4.2,-1) node[ scale=1]{(U,Zr)};
-		%\draw (2,0.5) node[ scale=1]{(Fe)};
-		%\draw[->,>=latex,line width = 0.5mm](2.7, -1.2) to (2.7, 0.8);
-		%\draw (3.4,-1) node[ scale=1]{(U,Zr)};
-		%\draw[blue, very thick] (7.3, 0.1) -- (7.3, 1);
-		%\draw[blue, thick] (7.2, 0.1) -- (7.4, 0.1);
-		%\draw[blue, thick] (7.2, 1) -- (7.4, 1);
-		%\draw (7.3, 0.5) node[ scale=1.3, right, blue]{$H$};
-		\end{tikzpicture}
-			\caption{Première configuration}
-	\end{subfigure}
-	\hfil
-	\begin{subfigure}[H]{0.47\textwidth}
-	\begin{tikzpicture}[scale=0.70]
-	%cuve
-	%couche+croute
-	\fill[red!50] (0.5,0) arc (180:360:4.5) -- cycle;
-	\fill[blue!10!gray!20] rectangle (9.5, 1);
-	\fill[brown!80] rectangle (9.5,0.1);
-	\fill[blue!10!gray!20] (0.5,0) rectangle (9.5, -1.2);
-%	\fill[blue!10!gray!20] (2.5,-3.5) ..controls +(0.9,-1.05)and+(-0.9,-1.05) .. (7.5,-3.5) -- cycle ;
-	\fill[black!60] (0,2) -- (0,0) arc (180:360:5) -- (10,2) -- (9.5,2) -- (9.5,0) arc (360:180:4.5) -- (0.5,2) -- cycle;
-	\fill[brown!80] (0.5,0) arc (180:360:4.5) -- (9.3,0) arc (360:180:4.3) -- cycle;
-	%cuve
-	\draw (0,0) arc (180:360:5);
-	\draw (0.5,0) arc (180:360:4.5);
-	\draw (0,0) -- (0,2);
-	\draw (0.5,0) -- (0.5,2);
-	\draw (10,0) -- (10,2);
-	\draw (9.5,0) -- (9.5,2);
-	
-	\draw (5,0.5) node[ scale=1.3]{couche d'acier};
-	\draw (5,-0.6) node[ scale=1.3]{métal léger};
-	\draw (5,-2) node[ scale=1.5]{oxyde};
-%	\draw (5,-3.8) node[ scale=1.3]{métal lourd};
-	%		
-	%		\draw[->,>=latex, red, line width = 2mm] (1.3, 0.5) to (0.1, 0.5);
-	%		\draw[->,>=latex, red, line width = 2mm] (8.7, 0.5) to (9.9, 0.5);
-	
-	%FE
-	%		\draw[black, dashed, thick] (3.2,0.2) circle (0.8);
-	%\draw[black, dashed, thick] (9.3,0.5) circle (0.8);
-	%		\draw[->,>=latex] (0.5, 0.8) to (4, 2);
-	%		\draw[->,>=latex] (9.3, 0.8) to (6, 2);
-	%		\draw (5,2.3) node[ scale=1.3]{Focusing Effect};
-	
-	%cuve
-	\draw[->,>=latex] (-0.3, -3) to (1.2, -3);
-	\draw (-0.3, -3) node[ scale=1, left]{cuve};
-	
-	%croute
-	
-		\draw[->,>=latex] (9, -5.2) to (7.8, -3.3);
-%\draw (1, -4.2) -- (-0.3, -4.2);
-\draw (11.5, -5.5) node[ scale=1, left]{croûte réfractaire};
-	
-	%echange
-	%\draw[->,>=latex,line width = 0.8mm] (3.2, -0.6) to (3.2, -3.8);
-	
-	
-	%		\draw[->,>=latex,line width = 0.5mm] (2.8, 0.8) to (2.8, -1.2);
-	%		\draw (2.2,0.7) node[ scale=1]{(Fe)};
-	%		\draw[->,>=latex,line width = 0.5mm](3.5, -1.2) to (3.5, 0.8);
-	%		\draw (4.2,-1) node[ scale=1]{(U,Zr)};
-	%\draw (2,0.5) node[ scale=1]{(Fe)};
-	%\draw[->,>=latex,line width = 0.5mm](2.7, -1.2) to (2.7, 0.8);
-	%\draw (3.4,-1) node[ scale=1]{(U,Zr)};
-	%\draw[blue, very thick] (7.3, 0.1) -- (7.3, 1);
-	%\draw[blue, thick] (7.2, 0.1) -- (7.4, 0.1);
-	%\draw[blue, thick] (7.2, 1) -- (7.4, 1);
-	%\draw (7.3, 0.5) node[ scale=1.3, right, blue]{$H$};
-	\end{tikzpicture}
-	\caption{Seconde configuration}
-\end{subfigure}
-\caption{Présentation des différents régimes de stratification possible}
-\end{figure}
-L'objectif de la rétention en cuve est alors de maintenir ce bain jusqu’à sa solidification, le refroidissement est assuré par convection naturelle sur la paroi de la cuve et par rayonnement sur la face supérieur de la couche d'acier. Cependant la couche supérieure d'acier étant très conductrice et ayant un contact direct avec la cuve sur une surface très faible (la couche d'acier est haute de quelques dizaines de centimètres), la densité de flux transmise est très importante. Cet effet est appelé \textit{"focusing effect"} et représente la principale menace pour l'intégrité de la cuve.
-\subsubsection{Modélisation du régime transitoire}
-Des études plus récentes ont montré que le transitoire reste plus contraignant et fait donc l'objet d'étude plus poussée. Lors du transitoire des phénomènes d'inversion de phase sont observés, une partie du métal de la phase légère s'alourdit sous l'effet d'un transfert de masse et des gouttes tombent, puis sous l'effet d'un même transfert de masse la phase lourde remonte. On observe alors trois couches : une couche d'oxyde, une de métal léger localiser au dessus de la couche d'oxyde et une couche de métal lourd en fond de cuve ainsi qu'une croûte située entre les phases liquides et la cuve est également présente. Finalement on se retrouve dans la situation suivante :
+L'objectif est de généraliser ce double puits pour un système n-aire, ainsi on introduit un pseudo grand potentiel correspondant à la hauteur énergétique nécessaire pour changer de minimum d'énergie \cite{cardon_modelisation_2016}.
+\begin{equation}
+\Omega^{\star} =\Omega - \Omega^{eq} =  \tilde{g}^{liq} - \sum_i \tilde{\mu}_i^{eq}\phi_i - \left(  \tilde{g}^{liq,eq} -  \sum_i \tilde{\mu}_i^{eq}\phi_i^{eq} \right) 
+\end{equation}
+avec $\tilde{g}^{liq}$ l'énergie libre de Gibbs, utilisé comme grandeur d'intérêt ici puisque le système est supposé isotherme et isobare.
+Les bases thermodynamiques étant peu développées aux points d'intérêt (Température supérieure à 2000 \textdegree C) on cherche à définir ce potentiel grâce à une formulation analytique en double puits que l'on note :
+\begin{equation}\label{double_puit}
+	\Omega^{\star}  = P^{dis} \times P^{cont}
+\end{equation}
+Où $P^{dis}, P^{cont}$ représente deux paraboloïdes correspondant à la phase dispersée et continue. Dans le cas ternaire, avec les éléments $A$ et $B$ d'intérêt, les paraboloïdes sont de la forme : 
+\begin{multline}
+P^{k}=\left(\frac{\co{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \sinus{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{a_{}^{k}}\right)^{2}+\\ \left(\frac{-\sinus{\theta^{k}}(\phi_{A}-\phi_{A}^{eq,k}) + \co{\theta^{k}}(\phi_{B}-\phi_{B}^{eq,k})}{b^{k}}\right)^{2}
+\label{eq:paraboloid_general_}
+\end{multline}
+Avec $k = \{disp,cont\}$ la phase (dispersée ou continue), $a$ (resp. $b$) le demi-petit (resp. demi-grand) puits, $\theta^k$ l'angle de rotation associé au puits de la phase $k$.\\
+On trace alors en exemple le cas le plus simple de paysage :
 \begin{figure}[H]
 	\centering
-	\begin{tikzpicture}
-	
-
-	
-	%couche+croute
-	\fill[red!50] (0.5,0) arc (180:360:4.5) -- cycle;
-	\fill[blue!10!gray!20] (0.5,0) rectangle (9.5, 1);
-	
-	\fill[brown!80](0.5,0) rectangle (9.5,0.1);
-	\fill[blue!10!gray!20] (0.5,0) rectangle (9.5, -1.2);
-	\fill[blue!10!gray!20] (2.5,-3.5) ..controls +(0.9,-1.05)and+(-0.9,-1.05) .. (7.5,-3.5) -- cycle ;
-	\fill[brown!80] (0.5,0) arc (180:360:4.5) -- (9.3,0) arc (360:180:4.3) -- cycle;
-	%cuve
-	\fill[black!60] (0,2) -- (0,0) arc (180:360:5) -- (10,2) -- (9.5,2) -- (9.5,0) arc (360:180:4.5) -- (0.5,2) -- cycle;
-	%cuve
-	\draw (0,0) arc (180:360:5);
-	\draw (0.5,0) arc (180:360:4.5);
-	\draw (0,0) -- (0,2);
-	\draw (0.5,0) -- (0.5,2);
-	\draw (10,0) -- (10,2);
-	\draw (9.5,0) -- (9.5,2);
-	
-	\draw (5,0.5) node[ scale=1.3]{couche d'acier};
-	\draw (5,-2) node[ scale=1.5]{oxyde};
-	\draw (5,-3.8) node[ scale=1.3]{métal lourd};
-	\draw (5,-0.6) node[ scale=1.3]{métal léger};
-	
-	\draw[->,>=latex, red, line width = 2mm] (1.3, 0.5) to (0.1, 0.5);
-	\draw[->,>=latex, red, line width = 2mm] (8.7, 0.5) to (9.9, 0.5);
-	
-	%FE
-	%\draw[black, dashed, thick] (3.2,-1) circle (0.5);
-	%\draw[black, dashed, thick] (9.3,0.5) circle (0.8);
-	\draw[->,>=latex] (0.5, 0.8) to (4, 2);
-	\draw[->,>=latex] (9.3, 0.8) to (6, 2);
-	\draw (5,2.3) node[ scale=1.3]{Focusing Effect};
-	
-	%cuve
-	\draw[->,>=latex] (-0.3, -3) to (1.2, -3);
-	\draw (-0.3, -3) node[ scale=1, left]{cuve};
-	
-	%croute
-	
-	\draw[->,>=latex] (9, -4.2) to (7.8, -3.3);
-	%\draw (1, -4.2) -- (-0.3, -4.2);
-	\draw (11.5, -4.5) node[ scale=1, left]{croûte réfractaire};
-	
-	%echange
-	\draw[->,>=latex,line width = 0.8mm] (3.2, -0.9) to (3.2, -3.8);
-	
-	
-	\draw[->,>=latex,line width = 0.5mm] (2.8, -0.5) to (2.8, -1.9);
-	\draw (2.2,-0.7) node[ scale=1]{(Fe)};
-	\draw[->,>=latex,line width = 0.5mm](3.5, -1.9) to (3.5, -0.5);
-	\draw (4.2,-1.5) node[ scale=1]{(U,Zr)};
-	%\draw (2,0.5) node[ scale=1]{(Fe)};
-	%\draw[->,>=latex,line width = 0.5mm](2.7, -1.2) to (2.7, 0.8);
-	%\draw (3.4,-1) node[ scale=1]{(U,Zr)};
-	%\draw[blue, very thick] (7.3, 0.1) -- (7.3, 1);
-	%\draw[blue, thick] (7.2, 0.1) -- (7.4, 0.1);
-	%\draw[blue, thick] (7.2, 1) -- (7.4, 1);
-	%\draw (7.3, 0.5) node[ scale=1.3, right, blue]{$H$};
-	\end{tikzpicture}
-	\caption[]{Schéma du comportement du corium en fond de cuve en régime transitoire, d'après \cite{rasolofomanana_modelisation_nodate}}
-	\label{fig:ivrschema}
+	\includegraphics[width=0.6\linewidth]{figure/landscape}
+	\caption{Exemple de paysage thermodynamique, la zone bleu représente la zone instable}
+	\label{fig:landscape}
 \end{figure}
+Les éléments de calculs pour la détermination de la zone instable sont présentés en annexe \ref{ann:stabphase}. Une représentation dans le plan est possible pour le cas ternaire, pour les cas comprenant un nombre plus important de paramètre d'ordre la visualisation semble plus complexe. Ainsi cette formulation possède deux avantages, en premier lieu elle évite un couplage entre le code CFD et un solveur d'équilibre thermodynamique (Open-Calphad par exemple) réduisant significativement le temps de développement. En effet pour les cas ou le paysage est connu il est alors possible de calibrer les paramètres des paraboloïdes pour obtenir une forme analytique proche du paysage réel. Dans le cas d'un paysage inconnu, par manque d'information thermodynamique, ce paysage permet d'avoir une description cohérente pour des simulations qualitatives.
+%On peut dès lors calculer le potentiel de diffusion homogène grâce à la formulation analytique (\ref{double_puit}) :
+%\begin{align}
+%	\tilde{\mu}_i & \nonumber= \frac{\partial}{\partial \phi_i}\left\lbrace 
+%	\Omega^{\star} + \sum_j \tilde{\mu}_j^{eq}\phi_j + \left( {g}^{liq,eq} -  \sum_j \tilde{\mu}_j^{eq}\phi_j^{eq} \right)\right\rbrace \\
+%	&\nonumber = \frac{\partial \Omega^{\star}}{\partial \phi_i} + \frac{\partial g^{liq,eq}}{\partial \phi_i} + \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - \phi_j^{eq}\right)}{\partial  \phi_i}\\
+%	\tilde{\mu}_i &=	P^{dis}\frac{\partial P^{cont}}{\partial \phi_i} + P^{cont}\frac{\partial P^{dis}}{\partial \phi_i} + \tilde{\mu}_i^{eq}
+%\end{align} 
+%%\begin{align*}
+%	%& \frac{\partial g^{liq,eq}}{\partial \phi_i} = 0 \\
+%		%& \sum_j \frac{\partial \tilde{\mu}_j^{eq}\left(\phi_j - %\phi_j^{eq}\right)}{\partial  \phi_i} = \tilde{\mu}_i^{eq} %+\tilde{\mu}_{j\neq i}^{eq} \frac{\partial \phi_{j\neq i}}{\partial %\phi_i} = \tilde{\mu}_i^{eq}
+%%\end{align*}
+%L'objectif est alors de déterminer les paramètres des paraboloïdes pour obtenir des résultats consistants thermodynamiquement.
 
-La couche de métal lourd se forme à partir d'un transfert de masse entre la phase oxyde et métal léger créant des gouttes d'acier lourd se relocalisant en fond de cuve. L'essai expérimental MASCA RCW, au cours duquel 45kg de corium ont été mis en contact avec 4kg d'acier de telle sorte que l'ensemble soit sous équilibre thermochimique dans un état de stratification comportant une phase lourde,a permis d'observer les gouttes lors de la descente, cependant la remontée de la phase lourde vers la phase légère n'a jamais été observée, l'essai ayant été arrêté au bout de 20 minutes le régime stationnaire n'a pas été atteint (voir figure \ref{fig:masca}).
- \begin{figure}[H]
+\chapter{Étude hydrodynamique}
+\section{Expérience numérique}
+
+L'objectif est de réaliser numériquement l'expérience proposée par Abhijit Rao et al. dans \cite{rao_influence_2015}. Pour cette expérience une goutte composée d'Acetonitrile et de Chlorobenzene est placée dans de l'eau. l'acetonitrile est miscible dans l'eau contrairement au chlorobenzene qui est immiscible. Initialement la goutte est plus légère que l'eau environnante et monte puis sous l'effet du transfert de masse la densité de la goutte augmente jusqu’à une inversion du rapport de densité conduisant à la redescente de la goutte.
+\subsection{Choix des conditions initiales}
+Les conditions initiales choisies pour la concentration sont de la forme tangente hyperbolique.
+\begin{equation}
+	\phi_{i}(\mathbf{x},t=0) = \frac{\phi^{init,cont}_i + \phi^{init,disp}_i  }{2} +  \frac{\phi^{init,cont}_i - \phi^{init,disp}_i }{2}\tanh\left(\cfrac{\sqrt{(x-x_0)^2+(y-y_0)^2}-R}{\varepsilon} \right)
+\end{equation}
+Avec ($x_0$, $y_0$) les coordonnées du centre de la goutte, $R$ le rayon de la goutte, $\varepsilon$ l'épaisseur de l'interface (paramètre numérique) et $\phi_i^{init,cont}$ (resp. $\phi_i^{init,disp}$) la concentration initiale de l'élément $i$ dans la phase continue (resp. dispersée) .\\
+Cette solution analytique provient d'un problème avec une interface plane (sans courbure), dans la littérature il n'existe pas de solution analytique pour une interface courbée, l'effet de Gibbs-Thomsom n'est donc pas pris en compte, ainsi on observe un léger mouvement de l'interface lors du premier pas de temps. \\
+Pour s'assurer de la sphéricité de la goutte lors de la simulation on calcule le nombre adimensionné de Bond  représentant le ratio entre les forces de gravité et la tension de surface tel que :
+\begin{equation}
+	Bo = \cfrac{\Delta \rho g D^2}{\sigma}
+\end{equation}
+avec $\Delta\rho$ la différence de densité entre les deux phases, $D$ le diamètre de la goutte et $\sigma$ la tension de surface.\\
+On considère que pour $Bo \ll 1$ la tension de surface domine et la goutte reste sphérique.
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\linewidth]{figure/MASCA_RCW.png}
-	\caption[Résultat MASCA-RCW 100]{Résultat MASCA-RCW 100 ,d'après \cite{tellier_interfaces_2019}}
-	\label{fig:masca}
+	\includegraphics[width=0.7\linewidth]{figure/contour_bond}
+	\caption[Valeur du nombre de Bond en fonction de la différence de densité et de la tension de surface entre les phases]{Valeur du nombre de Bond en fonction de la différence de densité entre les phases et le rayon de la goutte, le marqueur représente l'état initial}
+	\label{fig:contourbond}
 \end{figure}
-
-
-
+Il est alors possible, dans notre cas, de discuter de la sphéricité de la goutte au vu de la valeur ici $Bo = 0.32$

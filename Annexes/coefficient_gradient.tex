@@ -1,5 +1,5 @@
 
-\chapter{De la tension de surface au coefficients de gradient}
+\chapter{Calcul du coefficient de gradient à partir de la tension de surface}
 Cette deuxième annexe présente la méthode de calcul des coefficients de gradient à partir de la tension de surface qui est une donnée physique du système. Physiquement la tension interfaciale $\sigma$ représente l'excès d'énergie libre par unité de surface associé à la présence d'une interface entre deux phases distinctes, on peut ainsi la écrire :
 \begin{equation}
 \sigma = \cfrac{\mathbb{F}-\mathbb{F}^{hom}}{S}
@@ -14,7 +14,7 @@ Ainsi en combinant les deux équations précédentes :
 \begin{equation}
 \sigma = \int_{V}\sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\frac{\kappa_{ij}}{2}\nabla \phi_i \cdot \nabla \phi_j + f(\phi_1,..,\phi_{n-1}) - f^{\alpha,eq} - \sum_{1}^{n-1}\tilde{\mu}_i^{eq}(\phi_i-\phi_i^{\alpha,eq}) dV
 \end{equation}
-Dans le cas 1D suivant $z$ l'équation précédente devient : 
+Dans le cas unidimensionnel suivant $z$ l'équation précédente devient : 
 \begin{equation}
 \sigma = \int_{0}^L\sum_{i=1}^{n-1}\sum_{j=1}^{n-1}\frac{\kappa_{ij}}{2}\frac{ d\phi_i}{dz} \frac{ d\phi_j}{dz} + f(\phi_1,..,\phi_{n-1}) - f^{\alpha,eq} - \sum_{1}^{n-1}\tilde{\mu}_i^{eq}(\phi_i-\phi_i^{\alpha,eq}) dz
 \end{equation}
@@ -29,6 +29,26 @@ Après multiplication par $\displaystyle \frac{d\phi_i}{dz}$ et intégration on 
 On retrouve alors la relation permettant la détermination de ce coefficient dans le cas binaire en posant $n=2$
 \begin{equation}
 \sigma = \int_0^L\kappa^{bin}\left(\frac{d\phi}{dz}\right)^2dz
+\label{eq:sigmadphidz}
+\end{equation}
+On cherche alors une formulation analytique du terme $\frac{d\phi}{dz}$, pour cela on rappelle l'équation du profil du paramètre d'ordre $\phi$ à l'équilibre : 
+\begin{equation}
+\kappa^{bin} \frac{d^2\phi}{dz^2} =\lambda\left(\frac{\partial \tilde{f}}{\partial \phi}- \tilde{\mu}^{eq}\right)
+\end{equation}
+Cette équation est alors multiplié par $\frac{d\phi}{dz}$, puis intégrée de 0 à $z$ :
+\begin{align*}
+\kappa^{bin} \frac{d\phi}{dz}\frac{d^2\phi}{dz^2} &=\lambda\frac{d\phi}{dz}\frac{\partial \tilde{f}}{\partial \phi}- \lambda\frac{d\phi}{dz}\tilde{\mu}^{eq} \\
+\int_0^z \kappa^{bin} \frac{d\phi}{dz}\frac{d^2\phi}{dz^2} dz & = \lambda\int_0^z \frac{d\phi}{dz}\frac{\partial \tilde{f}}{\partial \phi}- \frac{d\phi}{dz}\tilde{\mu}^{eq} dz \\
+\int_0^z \kappa^{bin} \frac{d\phi}{dz}\frac{d^2\phi}{dz^2} dz & = \lambda\left(\int_0^z \frac{\partial \tilde{f}}{\partial z} dz- \int_{\phi^{\alpha,eq}}^\phi\tilde{\mu}^{eq} d\phi \right)\\
+\left[\frac{1}{2}\kappa^{bin} \left(\frac{d\phi}{dz}\right)^2 \right]_0^z & = \lambda \left(\Big [ \tilde{f}\Big ]_0^z - \Big [ \tilde{\mu}^{eq} \phi\Big ]_{\phi^{\alpha,eq}}^\phi\right)
+\end{align*}
+Par hypothèse, en $z=0$, loin de l'interface, la phase est à l'équilibre $\phi = \phi^{\alpha,eq}$ soit $\displaystyle \left.\frac{d\phi}{dz}\right|_{z=0} = 0$, finalement on trouve :
+\begin{equation}
+	\frac{d\phi}{dz} = \sqrt{\cfrac{2\lambda}{\kappa^{bin}}\Big (\tilde{f} - \tilde{\mu}^{eq} \phi - \left( \tilde{f}^{\alpha,eq} - \tilde{\mu}^{eq} \phi^{\alpha,eq}\right) \Big )} = \sqrt{\cfrac{2\lambda\Omega^{\star}}{\kappa^{bin}}}	
+\end{equation}
+L'équation (\ref{eq:sigmadphidz}) peut alors se réécrire :
+\begin{equation}
+\sigma = \int_{\phi^{\alpha,eq}}^{\phi^{\beta,eq}} \sqrt{{2\lambda\kappa^{bin}\Omega^{\star}}}	 d\phi
 \end{equation}
 Sauf mention contraire, dans le cadre de l'étude on considère :
 \begin{equation}
