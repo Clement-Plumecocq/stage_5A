@@ -1,0 +1,35 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{\(\bm{D}\)}]\begingroup Matrice diagonale de paramétrisation du coefficient de gradient\nomeqref {0}\nompageref{1}
+  \item [{\(\bm{R}\)}]\begingroup Matrice de rotation\nomeqref {0}\nompageref{1}
+  \item [{\(\textbf{u}\)}]\begingroup Vecteur vitesse [m.s$^{-1}$]\nomeqref {0}\nompageref{1}
+  \item [{\(\tilde{f}_0\)}]\begingroup Densité d’énergie libre homogène  [J.m$^{-3}$]\nomeqref {0}\nompageref{1}
+  \item [{\(\tilde{g}^{liq}\)}]\begingroup Densité d’énergie libre homogène de Gibbs [J.m$^{-3}$]\nomeqref {0}\nompageref{1}
+  \item [{\(a,b\)}]\begingroup Demi-grand et Demi-petit puits de paraboloïdes [(J.m$^{-3}$)$^{-1/2}$]\nomeqref {0}\nompageref{1}
+  \item [{\(d\)}]\begingroup Coefficient de paramétrisation du coefficient de gradient [-]\nomeqref {0}\nompageref{1}
+  \item [{\(g\)}]\begingroup Accélération de pesanteur [m.s$^{-2}$]\nomeqref {0}\nompageref{1}
+  \item [{\(L_i\)}]\begingroup Longueur du domaine dans la direction $i \in \{x,y,z\}$ [m]\nomeqref {0}\nompageref{1}
+  \item [{\(n\)}]\begingroup Nombre de composant du système [-]\nomeqref {0}\nompageref{1}
+  \item [{\(P\)}]\begingroup Pression [Pa]\nomeqref {0}\nompageref{1}
+  \item [{\(u_i\)}]\begingroup Composantes de vitesse selon l'axe $i \in \{x,y,z\}$ [m.s$^{-1}$]\nomeqref {0}\nompageref{1}
+  \item [{\(V\)}]\begingroup Volume du domaine [m$^3$]\nomeqref {0}\nompageref{1}
+  \item [{\(V_m\)}]\begingroup Volume molaire [m$^3$.mol$^{-1}$]\nomeqref {0}\nompageref{1}
+\nomgroup{B}
+  \item [{\(\alpha\)}]\begingroup Coefficient de maintient de cohérence pour la paramétrisation du coefficient de gradient [-]\nomeqref {0}\nompageref{1}
+  \item [{\(\kappa\)}]\begingroup Coefficient de gradient []\nomeqref {0}\nompageref{1}
+  \item [{\(\lambda\)}]\begingroup Facteur d'agrandissement [-]\nomeqref {0}\nompageref{1}
+  \item [{\(\phi\)}]\begingroup Paramètre d'ordre [-]\nomeqref {0}\nompageref{1}
+  \item [{\(\rho\)}]\begingroup Masse volumique [kg.m$^{-3}$]\nomeqref {0}\nompageref{1}
+  \item [{\(\sigma\)}]\begingroup Tension superficielle [J.m$^{-2}$]\nomeqref {0}\nompageref{1}
+  \item [{\(\theta\)}]\begingroup Angle de rotation des paraboloïdes [rad]\nomeqref {0}\nompageref{1}
+  \item [{\(\tilde{\mu}\)}]\begingroup Potentiel de diffusion [J.m$^{-3}$]\nomeqref {0}\nompageref{1}
+  \item [{\(\varphi\)}]\begingroup Angle de paramétrisation du coefficient de gradient [rad]\nomeqref {0}\nompageref{1}
+  \item [{\({\beta}\)}]\begingroup Coefficient de loi de densité [-]\nomeqref {0}\nompageref{1}
+  \item [{\({\bm{\bar{\bar{\kappa}}}}\)}]\begingroup Matrice des coefficients de gradient []\nomeqref {0}\nompageref{1}
+  \item [{\({\epsilon}\)}]\begingroup Epaisseur d'interface [m]\nomeqref {0}\nompageref{1}
+  \item [{\({\eta}\)}]\begingroup Viscosité dynamique [Pa.s]\nomeqref {0}\nompageref{1}
+  \item [{\({\mu}\)}]\begingroup Potentiel chimique [J.mol$^{-1}$]\nomeqref {0}\nompageref{1}
+  \item [{\({\Omega}\)}]\begingroup Pseudo-grand potentiel thermodynamique [J.m$^{-3}$]\nomeqref {0}\nompageref{1}
+
+\end{thenomenclature}

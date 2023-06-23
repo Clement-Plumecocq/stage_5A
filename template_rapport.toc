@@ -1,33 +1,19 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {1}Introduction et contexte}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Pr\IeC {\'e}sentation du laboratoire d'accueil}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Contexte de l'\IeC {\'e}tude}{2}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Contexte industriel}{2}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s sur la s\IeC {\^u}ret\IeC {\'e} nucl\IeC {\'e}aire}{3}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Formation du corium lors d'un accident}{4}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Strat\IeC {\'e}gie de r\IeC {\'e}tention du corium en fond de cuve (IVR)}{4}{subsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.4.1}Mod\IeC {\'e}lisation stationnaire}{4}{subsubsection.1.3.4.1}%
-\contentsline {subsubsection}{\numberline {1.3.4.2}Mod\IeC {\'e}lisation du r\IeC {\'e}gime transitoire}{5}{subsubsection.1.3.4.2}%
-\contentsline {section}{\numberline {1.4}Objectif du stage}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.1}Pr\IeC {\'e}sentation du CEA et du laboratoire d'accueil}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Contexte de l'\IeC {\'e}tude}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Contexte industriel}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s sur la s\IeC {\^u}ret\IeC {\'e} nucl\IeC {\'e}aire}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Strat\IeC {\'e}gie de r\IeC {\'e}tention du corium en fond de cuve (IVR)}{4}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Objectif du stage}{6}{section.1.3}%
 \contentsline {chapter}{\numberline {2}\IeC {\'E}l\IeC {\'e}ments th\IeC {\'e}oriques sur la m\IeC {\'e}thode de champ de phase}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation des principales m\IeC {\'e}thodes de suivi et de capture d'interface}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}M\IeC {\'e}thode d'interface diffuse}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}\IeC {\'E}quation de Cahn-Hilliard g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}e}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Couplage avec les \IeC {\'e}quations de Navier-Stokes incompressible}{9}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Paysage thermodynamique analytique}{10}{subsection.2.2.3}%
-\contentsline {chapter}{\numberline {3}\IeC {\'E}tude hydrodynamique}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Exp\IeC {\'e}rience num\IeC {\'e}rique}{12}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Choix des conditions initiales}{12}{subsection.3.1.1}%
-\contentsline {chapter}{\numberline {4}Comparaison avec un cas de la litt\IeC {\'e}rature}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Pr\IeC {\'e}sentation du cas de r\IeC {\'e}f\IeC {\'e}rence}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Simulation r\IeC {\'e}alis\IeC {\'e}es}{15}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Choix du paysage thermodynamique}{15}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Validation d'un paysage}{17}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {A}Solution analytique pour une interface plane}{21}{chapter.1}%
-\contentsline {chapter}{\numberline {B}Calcul du coefficient de gradient \IeC {\`a} partir de la tension de surface}{23}{chapter.2}%
-\contentsline {chapter}{\numberline {C}D\IeC {\'e}termination des param\IeC {\`e}tres pour des simulations}{25}{chapter.3}%
-\contentsline {chapter}{\numberline {D}\IeC {\'E}l\IeC {\'e}ments de stabilit\IeC {\'e} de phase}{27}{chapter.4}%
-\contentsline {chapter}{\numberline {E}S\IeC {\'e}quence de d\IeC {\'e}gradation du c\oe ur}{29}{chapter.5}%
+\contentsline {section}{\numberline {2.2}M\IeC {\'e}thode champ de phase conservative}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Pr\IeC {\'e}sentation g\IeC {\'e}n\IeC {\'e}rale}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}\IeC {\'E}quation de Cahn-Hilliard g\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}e}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Couplage avec les \IeC {\'e}quations de Navier-Stokes incompressible}{10}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Paysage thermodynamique analytique}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Introduction d'un pseudo-grand potentiel}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Application pour un cas diphasique ternaire}{11}{subsection.2.3.2}%
 \contentsfinish

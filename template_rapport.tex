@@ -21,7 +21,7 @@
 \setlength{\parskip}{1em}   % Définition de l'espace entre les paragraphes
 \setlength{\parindent}{2em} % Définition de la longueur du "tab" = indentation
 \usepackage{setspace}
-\setstretch{1}
+%\setstretch{1.5}
 \usepackage{fancyhdr}       % Permet en-tête et pied de page
 \pagestyle{fancyplain}      % Pour avoir le même style sur les pages fancy et sur celles plains comme la toc
 \renewcommand\plainheadrulewidth{.4pt}  % Le trait noir sous les logos sur les pages plain
@@ -121,18 +121,13 @@ pdfauthor={Clément PLUMECOCQ},
 % Création de groupes de nomenclature : ATTENTION -> Uniquement des caractères uniques en identifiant
 \renewcommand\nomgroup[1]{%
   \item[\bfseries
-  \ifstrequal{#1}{A}{Groupe 1}{%
-  \ifstrequal{#1}{B}{Groupe 2}{%
-  \ifstrequal{#1}{C}{Groupe 3}{%
+  \ifstrequal{#1}{A}{Symboles latin}{%
+  \ifstrequal{#1}{B}{Symboles grecque}{%
+  \ifstrequal{#1}{C}{Indices et exposants}{%
   }}}%
 ]} % Attention aux accolades lors de la création de groupes
 
-\AtBeginDocument{   % Nomenclature à générer
-\nomenclature[A]{$c_{air}$}{Célérité du son dans l'air à \SI{15}{\celsius} \nomunit{\SI{340.29}{\meter\per\second}}}
-\nomenclature[B]{$T_N$}{Période propre de l'élément considéré}
-\nomenclature[B]{\(E\)}{{Module d'Young}}
-\nomenclature[C]{$\dot{\epsilon}$}{Vitesse de déformation \nomunit{\si{\per\second}}}
-}
+
 
 % ========== Gestion des figures ==========
 \usepackage{graphicx}               % Plus d'arguments pour la fonction \includegraphics
@@ -231,6 +226,9 @@ sorting=none
 \usetocstyle{standard}
 \usepackage{breqn}
 \usepackage{pifont}
+\usepackage{empheq}
+\makeatletter
+
 
 % ======================================== Fin Préambule Latex ========================================
 
@@ -323,7 +321,7 @@ sorting=none
         \vspace*{1cm}
 
         \Huge
-        \textbf{Validation d'un code CFD couplant hydrodynamique et transfert de masse}
+        \textbf{Validation d’un modèle CFD multiphasique couplant transfert de masse interphase et hydrodynamique}
 
         \vspace{0.5cm}
         \LARGE
@@ -348,7 +346,7 @@ sorting=none
 	\raggedright 
 	\noindent Maître de stage : Romain Le Tellier, Ingénieur-Chercheur LMAG\\
 	Encadrant :  Mirantsoa-Aimé Rasolofomanana, Doctorant LMAG \\
-	Tuteur école :   Marc Médale, Professeur des universités IUSTI-AMU 
+	Tuteur école :   Marc Médale 
 
         %\par\end{center}
         %\end{minipage}}
@@ -368,7 +366,7 @@ sorting=none
     \textbf{Résumé}
 \end{center}
 
-\blindtext
+\vspace{7cm}
 
 \begin{center}
 	\Large
@@ -376,7 +374,7 @@ sorting=none
 	\textbf{Abstract}
 \end{center}
 
-\blindtext
+
 
 % ======================================== Fin Page Résumé ========================================
 
@@ -387,26 +385,24 @@ sorting=none
 %\renewcommand{\baselinestretch}{0.}\normalsize
 \tableofcontents
 %\renewcommand{\baselinestretch}{1.0}\normalsize
-
-
-
-
+%\newpage
+%\listoffigures
 
 
 \newpage
-\printnomenclature
+
 
 % ======================================== Fin TOC & Co ========================================
 
 % ======================================== Début Document ========================================
 
 \newpage
-
+%\input{Chapitre/nomenclature.tex}
 \section*{Remerciements}
 \setcounter{page}{1}
 \input{Chapitre/chap1.tex}
 \input{Chapitre/chap2.tex}
-\input{Chapitre/chap3.tex}
+%\input{Chapitre/chap3.tex}
 % ======================================== Fin Document ========================================
 
 % ======================================== Début Listes & Co ========================================
@@ -416,12 +412,11 @@ sorting=none
 \newpage
 \printbibliography
 \appendix
-\input{Annexes/analytique.tex}
-\input{Annexes/coefficient_gradient.tex}
-\input{Annexes/parametrage.tex}
-\input{Annexes/stab_phases.tex}
-\input{Annexes/deroul_acc.tex}
-
+%\input{Annexes/analytique.tex}
+%\input{Annexes/coefficient_gradient.tex}
+%\input{Annexes/parametrage.tex}
+%\input{Annexes/stab_phases.tex}
+%\input{Annexes/deroul_acc.tex}
 
 \end{document}
 

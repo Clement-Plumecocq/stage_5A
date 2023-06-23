@@ -5,7 +5,7 @@ La solution analytique stationnaire permet de donner des conditions initiales co
 	f(\phi) = \phi^2 (1-\phi)^2
 	\label{eq:anal_bin}
 \end{equation}
-On rappel fonctionnelle de Ginzburg-Landau :
+On rappelle fonctionnelle de Ginzburg-Landau :
 \begin{equation}
 	\mathbb{F} =\int_V \lambda f(\phi) + \frac{1}{2}\kappa ||\nabla \phi||^2 dV
 \end{equation}
@@ -32,24 +32,28 @@ En remplaçant $f(\phi)$ par sa formulation analytique \ref{eq:anal_bin} :
 	\frac{d\phi}{\phi(1-\phi)} = \sqrt{\frac{2\lambda}{\kappa}} dz
 	\label{solution_statio_plane}
 \end{equation}
-Classiquement, la résolution s'effectue grâce un changement de variable en posant $u = 2\phi - 1$ soit $du = 2d\phi$
+En utilisant une décomposition en élément simple on obtient :
+\begin{equation}
+\frac{d\phi}{\phi} + \frac{d\phi}{1-\phi} = \sqrt{\frac{2\lambda}{\kappa}} dz
+\label{solution_statio_plane}
+\end{equation}
+Par simplification on pose $ \displaystyle \gamma = \sqrt{\frac{2\lambda}{\kappa}}$, puis en intégrant l'expression précédente on obtient : 
 \begin{align*}
-	 \cfrac{d\phi}{\phi(1-\phi)} &= \cfrac{\cfrac{du}{2}}{\left(\cfrac{u+1}{2}\right)\left( 1 -\cfrac{u+1}{2}\right)} \\
-	 & = \frac{2du}{(1+u)(1-u)} \\
-	 & = 2\frac{du}{1-u^2}
+	&\ln{(\phi)} + \ln{(1-\phi)}  = \gamma z + C \\
+\Leftrightarrow \hspace{0.25cm}	&\frac{\phi}{1-\phi}= e^{\gamma z +C } \\
+\Leftrightarrow \hspace{0.25cm}	&\phi = \cfrac{1}{1 + e^{-\gamma z +C}}
 \end{align*}
-Finalement l'équation \ref{solution_statio_plane} devient :
+On rappelle que : 
 \begin{equation}
-	\frac{du}{1-u^2} = \cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}}dz
+	\tanh x = \frac{1-e^{-2x}}{1+e^{-2x}}
 \end{equation}
-On remarque que le termes de gauche correspond à la dérivée de la fonction réciproque de la tangente hyperbolique, soit :
+Soit,
 \begin{equation}
-	\text{arctanh}(u) = \cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}} z + C
+	\frac{1}{2}{(1+\tanh x)} = \cfrac{1}{1-e^{-2x}}
 \end{equation}
-Avec $C$ une constante d'intégration.
-En réutilisant le changement de variable il est immédiat que :
- \begin{equation}
- \phi(z) = \cfrac{1}{2} + \frac{1}{2}\tanh \left(\cfrac{1}{2}\sqrt{\frac{2\lambda}{\kappa}}z +C\right)
+Par identification on retrouve dans notre cas $x = (\gamma z+ C)  /2$ soit  : 
+\begin{equation}
+	 \phi(z) = \cfrac{1}{2} \left\{ 1+\tanh \left(\cfrac{1}{2}\left(\sqrt{\frac{2\lambda}{\kappa}}z +C\right)\right)\right\}
  \end{equation}
 La constante $C$ peut être déterminé à partir d'une valeur moyenne du paramètre d'ordre, cette résolution ne sera pas explicité ici.
 

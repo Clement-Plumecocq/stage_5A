@@ -1,4 +1,4 @@
-\chapter{Détermination des paramètres pour des simulations}
+\chapter{Détermination des paramètres pour des simulations} \label{ann:parametrage}
 L'objectif est de ce placer dans le cas binaire, ainsi on pose $\phi_B^k = \phi_{B}^{eq,k}$ et $\phi_A^k = \phi^{k}$
 .\begin{align*} 
 \Omega^{\star} &= P^{disp} \times P^{cont} \\ 
@@ -22,14 +22,14 @@ Ainsi on peut écrire :
 \nonumber	&  = \sqrt{2\kappa\lambda} \Lambda \left[\cfrac{\phi^3}{3} - \cfrac{\phi^2}{2} \left(\phi^{eq,disp} +\phi^{eq,cont} \right) +\phi \phi^{eq,disp}\phi^{eq,cont}      \right]_{\phi^{disp,eq}}^{\phi^{cont,eq}}
 \end{align}
 Dans les cas où les composant ne sont pas totalement miscible/immiscible on obtient un résultat de la forme :
-%\begin{dmath*}
-%	\sigma=  \sqrt{2\lambda\kappa} \Lambda\left(\cfrac{\left(\phi^{eq,cont}\right)^3-\left(\phi^{eq,disp}\right)^3}{3} -\frac{1}{2} \left(\left(\phi^{eq,cont}\right)^2-\left(\phi^{eq,disp}\right)^2  \right)  \left(\phi^{eq,disp} +\phi^{eq,cont} \right) +\left(\phi^{eq,cont}-\phi^{eq,disp}\right)\phi^{eq,disp}\phi^{eq,cont}\right)
-%\end{dmath*}
-%Ainsi on pose : 
-%\begin{dmath*}
-%	\xi_1 = \left|\Lambda\left(\cfrac{\left(\phi^{eq,cont}\right)^3-\left(\phi^{eq,disp}\right)^3}{3} -\frac{1}{2} \left(\left(\phi^{eq,cont}\right)^2-\left(\phi^{eq,disp}\right)^2  \right)  \left(\phi^{eq,disp} +\phi^{eq,cont} \right) +\left(\phi^{eq,cont}-\phi^{eq,disp}\right)\phi^{eq,disp}\phi^{eq,cont}\right)\right|
-%\end{dmath*}
-On rappel également la définition de l'épaisseur d'interface :
+\begin{multline}
+	\sigma=  \sqrt{2\lambda\kappa} \Lambda\biggl(\cfrac{\left(\phi^{eq,cont}\right)^3-\left(\phi^{eq,disp}\right)^3}{3} -\frac{1}{2} \left(\left(\phi^{eq,cont}\right)^2-\left(\phi^{eq,disp}\right)^2  \right)  \left(\phi^{eq,disp} +\phi^{eq,cont} \right) \\ +\left(\phi^{eq,cont}-\phi^{eq,disp}\right)\phi^{eq,disp}\phi^{eq,cont}\biggl)
+\end{multline}
+Ainsi on pose : 
+\begin{multline}
+	\xi_1 = \bigg|\Lambda\bigg(\cfrac{\left(\phi^{eq,cont}\right)^3-\left(\phi^{eq,disp}\right)^3}{3} -\frac{1}{2} \left(\left(\phi^{eq,cont}\right)^2-\left(\phi^{eq,disp}\right)^2  \right) \left(\phi^{eq,disp}  +\phi^{eq,cont} \right) \\ +\left(\phi^{eq,cont}-\phi^{eq,disp}\right)\phi^{eq,disp}\phi^{eq,cont}\bigg)\bigg|
+\end{multline}
+On rappelle également la définition de l'épaisseur d'interface :
 \begin{align}
 \epsilon&= \cfrac{\phi_{}^{eq,cont}-\phi_{}^{eq,dis}}{\max\left(\cfrac{d\phi_{}}{dz}\right)}
 \\

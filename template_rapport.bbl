@@ -19,26 +19,567 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{rasolofomanana_modelisation_nodate}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=a161c54d886ebe1bfa4189bdc2fbbc62}{%
-           family={Rasolofomanana},
-           familyi={R\bibinitperiod},
-           given={M.A.},
-           giveni={M\bibinitperiod}}}%
+    \entry{noauthor_emmanuel_2021}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Après avoir annoncé mi-octobre des investissements d'un milliard d'euros dans les petits réacteurs nucléaires, Emmanuel Macron a indiqué que de nouveaux {EPR} allaient être construits en France.}
+      \field{day}{9}
+      \field{journaltitle}{Le Figaro}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{note}{Section: Économie}
+      \field{title}{Emmanuel Macron annonce la construction de nouveaux réacteurs nucléaires de type {EPR}}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/cp273896/Zotero/storage/YZI753UJ/emmanuel-macron-annonce-la-construction-de-nouveaux-reacteurs-nucleaires-de-type-epr-20211109.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.lefigaro.fr/economie/emmanuel-macron-annonce-la-construction-de-nouveaux-reacteurs-nucleaires-de-type-epr-20211109
+      \endverb
+      \verb{url}
+      \verb https://www.lefigaro.fr/economie/emmanuel-macron-annonce-la-construction-de-nouveaux-reacteurs-nucleaires-de-type-epr-20211109
+      \endverb
+    \endentry
+    \entry{noauthor_manuel_nodate}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Votre manuel numérique partout, tout le temps par Belin Éducation. Accès libre gratuit sur internet. Conçu par et pour les enseignants et les élèves. Conforme {RGPD} et {CNIL}, compatible {GAR} et {ENT}.}
+      \field{langid}{french}
+      \field{title}{Le Manuel numérique max - Belin Education}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/cp273896/Zotero/storage/4UQ5ARJA/es-tle-c06-134-04.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://manuelnumeriquemax.belin.education/enseignement_scientifique-terminale/topics/simple/es-tle-c06-134-04
+      \endverb
+      \verb{url}
+      \verb https://manuelnumeriquemax.belin.education/enseignement_scientifique-terminale/topics/simple/es-tle-c06-134-04
+      \endverb
+    \endentry
+    \entry{noauthor_ines_2011}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{L’échelle {INES} (International Nuclear Event Scale) est l’échelle internationale des événements nucléaires et radiologiques. Mise en place en 1991, elle constitue un outil d’information et un repère pour les médias et le public, indiquant la gravité des évènements nucléaires ou radiologiques. Cette échelle comporte huit niveaux qui vont de 0 à 7.}
+      \field{day}{27}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{shorttitle}{{INES}}
+      \field{title}{{INES} : échelle internationale des évènements nucléaires et radiologiques.}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/cp273896/Zotero/storage/PR226QQ9/echelle-ines.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.connaissancedesenergies.org/fiche-pedagogique/echelle-ines
+      \endverb
+      \verb{url}
+      \verb https://www.connaissancedesenergies.org/fiche-pedagogique/echelle-ines
+      \endverb
+    \endentry
+    \entry{shi_cap1400_2019}{article}{}
+      \name{author}{7}{}{%
+        {{hash=09783c73d4d87252672b7eb51ccde096}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Guobao},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7ef1339af6db0d56ebfa4e3e1d5e09af}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Peiwen},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cb550a145b27c55a56001120c672da49}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e29e28162e257f8490e10e97d18b1085}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiayun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d1a8eb589a2bc5021271169e5c90dbb7}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Kemei},
+           giveni={K\bibinitperiod}}}%
+        {{hash=62735e1af0391d63c09ff9fbcd3d4d54}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c746b48b7fd8b7b9878ed6bb35a371f3}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
       }
-      \strng{namehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
-      \strng{fullhash}{a161c54d886ebe1bfa4189bdc2fbbc62}
-      \strng{bibnamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
-      \strng{authorbibnamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
-      \strng{authornamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
-      \strng{authorfullhash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{namehash}{878d4c7397a53b4b82372d6a22410e59}
+      \strng{fullhash}{7fab2b3f8922cc801ad038c33666addb}
+      \strng{bibnamehash}{878d4c7397a53b4b82372d6a22410e59}
+      \strng{authorbibnamehash}{878d4c7397a53b4b82372d6a22410e59}
+      \strng{authornamehash}{878d4c7397a53b4b82372d6a22410e59}
+      \strng{authorfullhash}{7fab2b3f8922cc801ad038c33666addb}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In-Vessel Retention ({IVR}), which arrests relocated molten core materials in the vessel during severe accident, is an appealing accident management approach to many newly-designed reactors. It is implemented in {CAP}1400 because it’s highly compatible with {CAP}1400 design philosophy. Extensive studies of relevant phenomena are carried out to investigate the possible eﬀect on {IVR} strategy, which include core melting and relocation, in-vessel steam explosion, corium material interaction, heat ﬂux to {RPV} (Reactor Pressure Vessel) wall under the assumption of diﬀerent corium pool conﬁguration, ex-vessel {CHF} (Critical Heat Flux) test, {RPV} structural analysis and so on. For those that may have negative impact on {IVR} success, the corresponding design improvements are conducted to aid and facilitate the employment of {IVR}, such as lowering core support plate, increasing the mass of core internals, optimizing ex-vessel insulator and so on. The beneﬁt of taking decay heat from in to vessel cooling is also achieved by reﬂooding breaks or injecting {RCS} (Reactor Coolant System) under the instructions of {SAMG} (Severe Accident Mitigation Guideline). All the {IVR}-related phenomena and operator actions are reﬂected and linked together by {IVR} decomposition event tree ({DET}) to evaluate {CAP}1400 {IVR} strategy in a comprehensive manner. There is reasonable assurance that the {IVR} strategy implemented in {CAP}1400 is successful. About 93\% of core damage sequences can be terminated by retaining corium in the vessel.}
+      \field{issn}{00295493}
+      \field{journaltitle}{Nuclear Engineering and Design}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shortjournal}{Nuclear Engineering and Design}
+      \field{title}{{CAP}1400 {IVR} related design features and assessment}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{346}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{35\bibrangedash 45}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.nucengdes.2019.03.002
+      \endverb
+      \verb{file}
+      \verb 1-s2.0-S0029549319300366-main.pdf:/home/cp273896/Documents/1-s2.0-S0029549319300366-main.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549319300366
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549319300366
+      \endverb
+    \endentry
+    \entry{seiler_etudes_2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=1742c71296feac55eb5e15e20282fc3e}{%
+           family={Seiler},
+           familyi={S\bibinitperiod},
+           given={J.-M},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=f82030e5a741d2fbc5ba7411ab7439ed}{%
+           family={Fichot},
+           familyi={F\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=edc0b90da4e5f2fe73ad9db472e30ce6}{%
+           family={Cranga},
+           familyi={C\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=204c4e64f5e76dca48f1f82cd04f270c}{%
+           family={Azarian},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4f3665163eea75c8b9f21af4551d0a9f}{%
+           family={Atkhen},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fbd8ea39a89208e63767e000149e0bc}
+      \strng{fullhash}{9fd3f6ac536cda8267b68e397185358b}
+      \strng{bibnamehash}{3fbd8ea39a89208e63767e000149e0bc}
+      \strng{authorbibnamehash}{3fbd8ea39a89208e63767e000149e0bc}
+      \strng{authornamehash}{3fbd8ea39a89208e63767e000149e0bc}
+      \strng{authorfullhash}{9fd3f6ac536cda8267b68e397185358b}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L’article présente les enjeux et l’état des connaissances concernant les possibilités de rétention de matériaux issus d’un coeur de Réacteur à Eau Pressurisée en situation hypothétique d’accident grave. On discute les situations de rétention par renoyage du circuit primaire, par noyage du puits de cuve (refroidissement externe de la cuve) et on décrit le dispositif de récupération mis en place pour le réacteur {EPRTM}. L’ensemble se place dans un contexte d’une démarche {EPS}2.}
+      \field{day}{1}
+      \field{journaltitle}{Revue Générale Nucléaire}
+      \field{month}{1}
+      \field{shortjournal}{Revue Générale Nucléaire}
+      \field{title}{Etudes et stratégies pour la rétention du corium}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{63\bibrangedash 72}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1051/rgn/20101063
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/HNWVLANU/Seiler et al. - 2010 - Etudes et stratégies pour la rétention du corium.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{bouteille_epr_2006}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c478ab3d025eaf78e280e2965a9fab7a}{%
+           family={Bouteille},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88e5a44e76e5e0cfdc877acffc8cb7db}{%
+           family={Azarian},
+           familyi={A\bibinitperiod},
+           given={Garo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=925427a40befc9d23a4454126edc9f64}{%
+           family={Bittermann},
+           familyi={B\bibinitperiod},
+           given={Dietmar},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fa46f4b7804d9a09170b7b8f3080b9a6}{%
+           family={Brauns},
+           familyi={B\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e457afa25c1b522d28c764cc1d693c99}{%
+           family={Eyink},
+           familyi={E\bibinitperiod},
+           given={Juergen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{61127b5034af82bec1d0e5ff1dd25019}
+      \strng{fullhash}{fe8d3c40c06e28cc8328c37a0d2133da}
+      \strng{bibnamehash}{61127b5034af82bec1d0e5ff1dd25019}
+      \strng{authorbibnamehash}{61127b5034af82bec1d0e5ff1dd25019}
+      \strng{authornamehash}{61127b5034af82bec1d0e5ff1dd25019}
+      \strng{authorfullhash}{fe8d3c40c06e28cc8328c37a0d2133da}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00295493}
+      \field{journaltitle}{Nuclear Engineering and Design}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{14}
+      \field{shortjournal}{Nuclear Engineering and Design}
+      \field{title}{The {EPR} overall approach for severe accident mitigation}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{236}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1464\bibrangedash 1470}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.nucengdes.2006.04.013
+      \endverb
+      \verb{file}
+      \verb Bouteille et al. - 2006 - The EPR overall approach for severe accident mitig.pdf:/home/cp273896/Zotero/storage/CLELS97R/Bouteille et al. - 2006 - The EPR overall approach for severe accident mitig.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549306003244
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549306003244
+      \endverb
+    \endentry
+    \entry{shams_status_2020}{article}{}
+      \name{author}{13}{}{%
+        {{hash=a55e881f8ff032e4966fffad9a2a98b6}{%
+           family={Shams},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d8c23fae66e6a7a8402c00a03a9c22fc}{%
+           family={Dovizio},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4c75ffa91a568dd725e29fbb2fc7000c}{%
+           family={Zwijsen},
+           familyi={Z\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ec63c0604ae7a47068a5464157fda74f}{%
+           family={Le\bibnamedelima Guennic},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ec728cab9cd3df805745e23cc4724914}{%
+           family={Saas},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=58515c03c9c9b5d09037874b379c7d7b}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b5f3e562c327f537f3ef031d9f42d4c2}{%
+           family={Peybernes},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4d2a1b37127a9221fd0ca97c6ceb1758}{%
+           family={Bigot},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=47853b774559dc36e5e3a2843b830668}{%
+           family={Skrzypek},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=53d8b35cef31cd3187afa01b354ad187}{%
+           family={Skrzypek},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4fea33ad076dc07dac152201bddfdb47}{%
+           family={Vyskocil},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=118bce4697f02f0150bcc2b0a663ce58}{%
+           family={Carenini},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=12a589a1b8c9f2e104c193567c31549d}{%
+           family={Fichot},
+           familyi={F\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b284abf3131d422326e493bfc02d6bf}
+      \strng{fullhash}{7f3a36da19ff9fcebd09413a17dba908}
+      \strng{bibnamehash}{4b284abf3131d422326e493bfc02d6bf}
+      \strng{authorbibnamehash}{4b284abf3131d422326e493bfc02d6bf}
+      \strng{authornamehash}{4b284abf3131d422326e493bfc02d6bf}
+      \strng{authorfullhash}{7f3a36da19ff9fcebd09413a17dba908}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{During a severe accident in a nuclear reactor, core damage occurs and may lead to the formation of corium, followed by relocation to the vessel lower head. The decay heat released by the corium can threaten the integrity of the vessel, if no effective cooling mechanism is in place. In-Vessel Retention ({IVR}) is a severe accident mitigation strategy that has been shown to work for low-to-intermediate power reactors. For high power reactors, many uncertainties still exist. In an attempt to remove some of these uncertainties, the European H2020 {IVMR} project was launched in 2015. The focus of this project is on obtaining the additional, necessary, experimental data in order to improve on current modelling strategies. One of the modelling strategies investigated is the potential use of {CFD} codes in assessing the feasibility of {IVR} for high power reactors. The main focus of the {CFD} studies is on two important aspects of {IVR}: the presence of a metallic layer on top of the corium pool and the homogenous corium pool. These aspects are analysed by studying the thermal hydraulic features of a thin metal layer and that of a homogeneous pool. In this paper, ﬁrst the used codes and numerical approaches are presented. The numerical models are subsequently assessed by comparing numerical results with relevant simulant-based experimental data, resulting, in general, in good agreement. The codes are then used to perform exploratory computations under prototypical conditions. While the behaviours of water and prototypical materials are similar for the oxide pool, signiﬁcant differences are observed for the metallic layer.}
+      \field{issn}{03064549}
+      \field{journaltitle}{Annals of Nuclear Energy}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Annals of Nuclear Energy}
+      \field{shorttitle}{Status of computational fluid dynamics for in-vessel retention}
+      \field{title}{Status of computational fluid dynamics for in-vessel retention: Challenges and achievements}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{135}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{107004}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.anucene.2019.107004
+      \endverb
+      \verb{file}
+      \verb Shams et al. - 2020 - Status of computational fluid dynamics for in-vess.pdf:/home/cp273896/Zotero/storage/KFBUT9ZK/Shams et al. - 2020 - Status of computational fluid dynamics for in-vess.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0306454919305067
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0306454919305067
+      \endverb
+    \endentry
+    \entry{theofanous_-vessel_1997}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e71861a94835d70d6fa20fe47489433c}{%
+           family={Theofanous},
+           familyi={T\bibinitperiod},
+           given={T.G.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fda8a6476fa840f1f86a595e38f1212a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=364de452e0f30d0d1120efea7fc8d733}{%
+           family={Additon},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4f811b909815e5f592373d2805b7261c}{%
+           family={Angelini},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=83581420d56227fe88f70986d1d18e6c}{%
+           family={Kymäläinen},
+           familyi={K\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=cc1f5d173a6ba869cd77d3623e07eb3a}{%
+           family={Salmassi},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a522605c527bbf469559b4dc8fc185f}
+      \strng{fullhash}{c912a795bd189bd1e05103a7d48b8c22}
+      \strng{bibnamehash}{5a522605c527bbf469559b4dc8fc185f}
+      \strng{authorbibnamehash}{5a522605c527bbf469559b4dc8fc185f}
+      \strng{authornamehash}{5a522605c527bbf469559b4dc8fc185f}
+      \strng{authorfullhash}{c912a795bd189bd1e05103a7d48b8c22}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Modélisation à interface diffuse et simulation numérique de la thermohydraulique d'un bain liquide diphasique avec transfert de masse interfacial}
-      \field{type}{phdthesis}
+      \field{abstract}{The efficacy of external flooding of a reactor vessel as a severe accident management strategy is assessed for an {AP}600-1ike reactor design. The overall approach is based on the risk oriented accident analysis methodology ({ROAAM}) and the assessment includes consideration of bounding scenarios and sensitivity studies, as well as arbitrary parametric evaluations that allow for the delineation of the failure boundaries. The technical treatment in this assessment includes: (a) new data on energy flow from either volumetrically heated pools or non-heated layers on top, boiling and critical heat flux in inverted, curved geometries, emissivity of molten (superheated) samples of steel, and chemical reactivity proof tests; (b) a simple but accurate mathematical formulation that allows prediction of thermal loads by means of convenient hand calculations; (c) a detailed model programmed on the computer to sample input parameters over the uncertainty ranges, and to produce probability distributions of thermal loads and margins for departure from nucleate boiling at each angular position on the lower head; and (d) detailed structural evaluations that demonstrate that departure from nucleate boiling is a necessary and sufficient criterion for failure. Quantification of the input parameters is carried out for an {AP}600-1ike design, and the results of the assessment demonstrate that lower head failure is 'physically unreasonable.' Use of this conclusion for any specific application is subject to verifying the required reliability of the depressurization and cavity-flooding systems, and to showing the appropriateness (in relation to the database presented here, or by further testing as necessary) of the thermal insulation design and of the external surface properties of the lower head, including any applicable coatings. © 1997 Elsevier Science S.A.}
+      \field{issn}{00295493}
+      \field{journaltitle}{Nuclear Engineering and Design}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shortjournal}{Nuclear Engineering and Design}
+      \field{title}{In-vessel coolability and retention of a core melt}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{169}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 48}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.1016/S0029-5493(97)00009-5
+      \endverb
+      \verb{file}
+      \verb Theofanous et al. - 1997 - In-vessel coolability and retention of a core melt.pdf:/home/cp273896/Zotero/storage/FVBY5ACK/Theofanous et al. - 1997 - In-vessel coolability and retention of a core melt.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549397000095
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549397000095
+      \endverb
+    \endentry
+    \entry{le_tellier_transient_2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=58515c03c9c9b5d09037874b379c7d7b}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ec728cab9cd3df805745e23cc4724914}{%
+           family={Saas},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f3bba7ec645e5730f362e32435c95cd5}{%
+           family={Bajard},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d4bac604e80e63a2415b30b24b272a1}
+      \strng{fullhash}{0d4bac604e80e63a2415b30b24b272a1}
+      \strng{bibnamehash}{0d4bac604e80e63a2415b30b24b272a1}
+      \strng{authorbibnamehash}{0d4bac604e80e63a2415b30b24b272a1}
+      \strng{authornamehash}{0d4bac604e80e63a2415b30b24b272a1}
+      \strng{authorfullhash}{0d4bac604e80e63a2415b30b24b272a1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00295493}
+      \field{journaltitle}{Nuclear Engineering and Design}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Nuclear Engineering and Design}
+      \field{title}{Transient stratification modelling of a corium pool in a {LWR} vessel lower head}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{287}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{68\bibrangedash 77}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.nucengdes.2015.02.009
+      \endverb
+      \verb{file}
+      \verb Le Tellier et al. - 2015 - Transient stratification modelling of a corium poo.pdf:/home/cp273896/Zotero/storage/3NMXFN3S/Le Tellier et al. - 2015 - Transient stratification modelling of a corium poo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549315000916
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549315000916
+      \endverb
+    \endentry
+    \entry{tsurikov_main_nodate}{report}{}
+      \name{author}{5}{}{%
+        {{hash=288a5a2d58f4757a5a5421787637e0eb}{%
+           family={Tsurikov},
+           familyi={T\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=a210327831b4a45b64e68dd8bdd9f4ae}{%
+           family={Strizhov},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi F.},
+           giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=a38c3631806e970a5b2591b30cbfb39a}{%
+           family={Bechta},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=af0da67373fc3692513ca75f7844df16}{%
+           family={Zagriazkin},
+           familyi={Z\bibinitperiod},
+           given={V.\bibnamedelimi N.},
+           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=979be3f4c00a57e79f7ee6918c35b50c}{%
+           family={Kiselev},
+           familyi={K\bibinitperiod},
+           given={N.\bibnamedelimi P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5abc35837a3fa0e2abcaadcab316ac89}
+      \strng{fullhash}{f429e12dabd40e4b14aa560cf73e00dd}
+      \strng{bibnamehash}{5abc35837a3fa0e2abcaadcab316ac89}
+      \strng{authorbibnamehash}{5abc35837a3fa0e2abcaadcab316ac89}
+      \strng{authornamehash}{5abc35837a3fa0e2abcaadcab316ac89}
+      \strng{authorfullhash}{f429e12dabd40e4b14aa560cf73e00dd}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Material Scaling ({MASCA}) Project investigated in-vessel phenomena during a severe accident. In particular, it addressed the influence of the chemical composition of the molten corium on the heat transfer to the pressure vessel environment. The project addressed this by investigating stratificati...}
+      \field{langid}{english}
+      \field{shorttitle}{Main Results of the {MASCA}1 and 2 Projects}
+      \field{title}{Main Results of the {MASCA}1 and 2 Projects: Integrated Report}
+      \verb{file}
+      \verb Snapshot:/home/cp273896/Zotero/storage/WT5WVBKJ/main-results-of-the-masca1-and-2-projects-integrated-report.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.oecd-nea.org/jcms/pl_18510/main-results-of-the-masca1-and-2-projects-integrated-report?details=true
+      \endverb
+      \verb{url}
+      \verb https://www.oecd-nea.org/jcms/pl_18510/main-results-of-the-masca1-and-2-projects-integrated-report?details=true
+      \endverb
     \endentry
     \entry{tellier_interfaces_2019}{article}{}
       \name{author}{1}{}{%
@@ -54,8 +595,8 @@
       \strng{authorbibnamehash}{55daa7f8eedf106e4b24a5a32f95df42}
       \strng{authornamehash}{55daa7f8eedf106e4b24a5a32f95df42}
       \strng{authorfullhash}{55daa7f8eedf106e4b24a5a32f95df42}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{french}
@@ -79,6 +620,39 @@
       \verb{url}
       \verb http://rgdoi.net/10.13140/RG.2.2.27006.84801
       \endverb
+    \endentry
+    \entry{le_tellier_phenomenological_2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=58515c03c9c9b5d09037874b379c7d7b}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ec728cab9cd3df805745e23cc4724914}{%
+           family={Saas},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=48d63aba72530026d76aea7182bdd595}{%
+           family={Payot},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ad10226c555cad28f2049b6335d8e60}
+      \strng{fullhash}{7ad10226c555cad28f2049b6335d8e60}
+      \strng{bibnamehash}{7ad10226c555cad28f2049b6335d8e60}
+      \strng{authorbibnamehash}{7ad10226c555cad28f2049b6335d8e60}
+      \strng{authornamehash}{7ad10226c555cad28f2049b6335d8e60}
+      \strng{authorfullhash}{7ad10226c555cad28f2049b6335d8e60}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proc. of the 7th European Review Meeting on Severe Accident Research {ERMSAR}-2015, Marseille, France}
+      \field{title}{Phenomenological analyses of corium propagation in {LWRs} : the {PROCOR} software platform}
+      \field{year}{2015}
+      \field{dateera}{ce}
     \endentry
     \entry{cardon_modelisation_2016}{thesis}{}
       \name{author}{1}{}{%
@@ -107,8 +681,8 @@
       \strng{editorabibnamehash}{8131f638a4e5209909177e19b5afe8ca}
       \strng{editoranamehash}{8131f638a4e5209909177e19b5afe8ca}
       \strng{editorafullhash}{8131f638a4e5209909177e19b5afe8ca}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ce travail de thèse porte sur la modélisation de la cinétique de stratification des phases liquides oxyde et métallique dans un bain de corium (système U-O-Zr-acier) du point de vue de la diffusion multi-composants et multiphasique. Cette démarche de recherche s’inscrit dans le cadre du développement d’une modélisation « fine » du comportement d’un bain de corium basée sur une approche {CFD} (« Computational Fluid Dynamics ») de la thermo-hydraulique. Elle vise à améliorer la compréhension des phénomènes mis en jeu et construire des lois de fermetures adéquates pour des modèles macroscopiques intégraux.Pour ce faire, la méthode du champ de phase couplée avec une fonctionnelle d’énergie utilisant la méthode {CALPHAD} se révèle être un outil pertinent.Dans une première partie, nous nous sommes intéressés au système binaire U-O. Nous avons développé un modèle à interface diffuse (basé sur une équation de Cahn-Hilliard) pour décrire la diffusion dans ce système. Nous avons procédé à la mise en place du couplage entre ce modèle et une base de données thermodynamiques {CALPHAD}, ainsi qu’au paramétrage d’un tel modèle avec en particulier une procédure d’élargissement de l’interface.Ensuite, dans le cadre d’une modélisation sur le système ternaire U-O-Zr nous avons proposé une généralisation du modèle à interface diffuse par le biais d’une hypothèse d’équilibre local des mécanismes d’oxydo-réduction. Nous avons porté une attention particulière à l’analyse de ce modèle par le biais de simulations numériques 1D en nous intéressant notamment à l’état stationnaire et aux profils de composition obtenus.Finalement, nous avons montré l’application de ce modèle au système U-O-Zr-Fe. Pour cela, nous avons considéré une configuration similaire aux essais expérimentaux à « petite échelle » relatifs à l’étude de la stratification d’un bain oxyde-métal.}
@@ -134,48 +708,158 @@
       \endverb
       \keyw{Accidents Graves,Accidents nucléaires,Calphad,Corium,Diffuse interface method,Méthode d'interface diffuse,Modélisation,Modelling,Severe accidents,Stratification,Thermochimie}
     \endentry
-    \entry{tiwari_consistent_2019}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=20c5172984f811d2bd7b583b25eb9a9d}{%
-           family={Tiwari},
+    \entry{zanella_two-_2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=baecaefa69ec046b3dd9828fca5cc83b}{%
+           family={Zanella},
+           familyi={Z\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cbc2fc83233e204d8e056e58cb105ff3}{%
+           family={Tegze},
            familyi={T\bibinitperiod},
-           given={Vaishnvi},
-           giveni={V\bibinitperiod}}}%
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=58515c03c9c9b5d09037874b379c7d7b}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=685730e71e8fd461fcad1094858bf9f4}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Université Paris Saclay ({COmUE})}%
-      }
-      \strng{namehash}{20c5172984f811d2bd7b583b25eb9a9d}
-      \strng{fullhash}{20c5172984f811d2bd7b583b25eb9a9d}
-      \strng{bibnamehash}{20c5172984f811d2bd7b583b25eb9a9d}
-      \strng{authorbibnamehash}{20c5172984f811d2bd7b583b25eb9a9d}
-      \strng{authornamehash}{20c5172984f811d2bd7b583b25eb9a9d}
-      \strng{authorfullhash}{20c5172984f811d2bd7b583b25eb9a9d}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \strng{namehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{fullhash}{95726cc10e2f88969b3be99784f9aea5}
+      \strng{bibnamehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{authorbibnamehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{authornamehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{authorfullhash}{95726cc10e2f88969b3be99784f9aea5}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This Ph.D. thesis is focused on ensuring a thermodynamically consistent representation of in-vessel corium (a high temperature mixture of molten reactor core and structural materials, described as a U-O-Zr-steel system) in the coupled thermohydraulic-thermochemical models that are used for performing Severe Accident ({SA}) analysis of nuclear Light Water Reactors ({LWRs}); in particular, the In-Vessel Melt Retention ({IVMR}) Strategy. In this context, the use of a thermodynamic database obtained by the {CALPHAD} method seems relevant by providing closures and inputs to the thermohydraulic and thermochemical models respectively. These databases consist of models for Gibbs energy functions of the possible phases for a system that can be used to obtain the equilibrium thermodynamic description for the system as well as material thermodynamic properties for out-of-equilibrium conditions.Through this work, a systematic approach for ensuring extensive utilization of {CALPHAD} data in the coupled models has been developed, and the associated questions have been answered for ‘mock-up’ macroscopic and mesoscopic models developed for describing some of the phenomena pertaining to in-vessel corium behaviour.As a first step, the feasibility of using {CALPHAD} based closures (in the form of enthalpy-temperature relations and local equilibrium conditions) has been tested on the macroscopic model developed using the lumped parameter approach. Considering the ternary U-O-Zr system, this model describes the plane front solidification process at the boundary of a molten corium pool. The second part of the work is focused on the development of a general formulation for diffuse interface models under the phase-field approach, which can be used to simulate the kinetics of various thermochemical processes under non-isothermal conditions such as solidification and phase segregation. The questions related to the thermodynamic consistency of the model as well as its parameterization (in particular with respect to the up-scaling of the interface thickness) have been addressed and the numerical results have been discussed for binary U-Zr and U-O systems under isothermal conditions.}
-      \field{day}{26}
+      \field{day}{1}
+      \field{issn}{1070-6631, 1089-7666}
+      \field{journaltitle}{Physics of Fluids}
       \field{langid}{english}
-      \field{month}{11}
-      \field{title}{A consistent approach for coupling lumped-parameter and phase-field models for in-vessel corium to thermodynamic databases.}
-      \field{type}{phdthesis}
-      \field{urlday}{6}
-      \field{urlmonth}{6}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shortjournal}{Physics of Fluids}
+      \field{title}{Two- and three-dimensional simulations of Rayleigh–Taylor instabilities using a coupled Cahn–Hilliard/Navier–Stokes model}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
       \field{urlyear}{2023}
-      \field{year}{2019}
+      \field{volume}{32}
+      \field{year}{2020}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \field{pages}{124115}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0031179
+      \endverb
       \verb{file}
-      \verb Full Text PDF:/home/cp273896/Zotero/storage/UQ6RRETN/Tiwari - 2019 - A consistent approach for coupling lumped-paramete.pdf:application/pdf
+      \verb Texte intégral:/home/cp273896/Zotero/storage/S5IQTLP3/Zanella et al. - 2020 - Two- and three-dimensional simulations of Rayleigh.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://theses.hal.science/tel-02489384
+      \verb http://aip.scitation.org/doi/10.1063/5.0031179
       \endverb
       \verb{url}
-      \verb https://theses.hal.science/tel-02489384
+      \verb http://aip.scitation.org/doi/10.1063/5.0031179
       \endverb
+    \endentry
+    \entry{zanella_three-dimensional_2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=baecaefa69ec046b3dd9828fca5cc83b}{%
+           family={Zanella},
+           familyi={Z\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0ed70d25c7067d708135d0ed2a08ff15}{%
+           family={Tellier},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi Le},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=11cc732d0193cdeff4b0317ebf7ee12d}{%
+           family={Plapp},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cbc2fc83233e204d8e056e58cb105ff3}{%
+           family={Tegze},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=685730e71e8fd461fcad1094858bf9f4}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{fullhash}{188b13f73df6f5368570314c56b8a79a}
+      \strng{bibnamehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{authorbibnamehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{authornamehash}{d8a43631862467afb8c5141171cf272b}
+      \strng{authorfullhash}{188b13f73df6f5368570314c56b8a79a}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{During a severe accident in a nuclear reactor, the melting of the core may lead to the formation of a multiphase liquid pool (corium) in the vessel lower head. The heat transfer at the boundary with the vessel is affected by diffusive and convective mass fluxes. In particular, the development of Rayleigh–Taylor instabilities influence the thickness of the top metallic layer and therefore the “focusing effect” of the heat flux, which is the main risk for the vessel integrity. We use a Cahn–Hilliard pseudo-binary model to describe the uranium/oxygen/zirconium/ iron mixture. The diffusion and the convection are governed by the Cahn–Hilliard equation and the Navier–­ Stokes equations under the Boussinesq approximation. In this work, the model is isothermal and the buoyancy force is only due to the gradient of chemical composition. The model is solved in three dimensions with a pseudospectral code. The initial configuration consists of a light layer of iron-rich fluid above a heavy layer of uranium/ oxygen/zirconium mixture. A thin layer of heavier metallic phase lays at the interface and eventually triggers a Rayleigh–Taylor instability. The metallic phase forms a plume which falls downward and then breaks up into droplets due to the Rayleigh-Plateau instability. The phenomenon is alimented by diffusion which generates the heavy metallic phase at the interface. The droplet formation observed in an experiment of corium stratification transient from the literature is qualitatively captured. The mobility, the viscosity and the surface tension are shown to have an influence on the mass transfer.}
+      \field{issn}{00295493}
+      \field{journaltitle}{Nuclear Engineering and Design}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shortjournal}{Nuclear Engineering and Design}
+      \field{title}{Three-dimensional numerical simulation of droplet formation by Rayleigh–Taylor instability in multiphase corium}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{379}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{111177}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.nucengdes.2021.111177
+      \endverb
+      \verb{file}
+      \verb Zanella et al. - 2021 - Three-dimensional numerical simulation of droplet .pdf:/home/cp273896/Zotero/storage/FUNWWJRL/Zanella et al. - 2021 - Three-dimensional numerical simulation of droplet .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549321001291
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0029549321001291
+      \endverb
+    \endentry
+    \entry{rasolofomanana_modelisation_nodate}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a161c54d886ebe1bfa4189bdc2fbbc62}{%
+           family={Rasolofomanana},
+           familyi={R\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{fullhash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{bibnamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{authorbibnamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{authornamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \strng{authorfullhash}{a161c54d886ebe1bfa4189bdc2fbbc62}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modélisation à interface diffuse et simulation numérique de la thermohydraulique d'un bain liquide diphasique avec transfert de masse interfacial}
+      \field{type}{phdthesis}
     \endentry
     \entry{rao_influence_2015}{article}{}
       \name{author}{6}{}{%
@@ -216,8 +900,8 @@
       \strng{authorbibnamehash}{8bfb2efd18a5cd04e63f8995efdfcdc9}
       \strng{authornamehash}{8bfb2efd18a5cd04e63f8995efdfcdc9}
       \strng{authorfullhash}{cb196ed4e8af3082ba0e97b746b6723b}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Experimental and numerical investigations were conducted to study the effect of unsteady mass transfer on the dynamics of an organic droplet released in quiescent water. The situation is important and relevant to deep sea oil spill scenario. The droplet contains two components, one is heavier (immiscible) than water and other is lighter (miscible). When released, with an initial mixture density (890–975 kg/m3) lower than that of surrounding water, droplet rises in the column. The mass transfer of lighter solute component into water causes the droplet density to increase and droplet sinks when the density exceeds that of water. A mass-transfer correlation accounting for the loss of the solute, based on Reynolds, Grashoff, and Schmidt numbers was developed. A two-dimensional axisymmetric Computational Fluid Dynamics ({CFD}) model accounting for species transport was developed to emulate the experimental observations. The study also helped in identifying dominant mass-transfer mechanisms during different stages of droplet motion. © 2014 American Institute of Chemical Engineers {AIChE} J, 61: 342–354, 2015}
@@ -251,6 +935,96 @@
       \endverb
       \keyw{volume of fluid,computational fluid dynamics,droplet dynamics,mass-transfer coefficient,transport processes,unsteady mass transfer}
     \endentry
+    \entry{rowlinson_translation_1979}{article}{}
+      \name{author}{1}{}{%
+        {{hash=17548426961cf93ead9cfa8d89eeba82}{%
+           family={Rowlinson},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{17548426961cf93ead9cfa8d89eeba82}
+      \strng{fullhash}{17548426961cf93ead9cfa8d89eeba82}
+      \strng{bibnamehash}{17548426961cf93ead9cfa8d89eeba82}
+      \strng{authorbibnamehash}{17548426961cf93ead9cfa8d89eeba82}
+      \strng{authornamehash}{17548426961cf93ead9cfa8d89eeba82}
+      \strng{authorfullhash}{17548426961cf93ead9cfa8d89eeba82}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Van der Waals justifies the choice of minimization of the (Helmholtz) free energy as the criterion of equilibrium in a liquid-gas system (Sections 1–4). If densityρ is a function of heighth then the local free energy density differs from that of a homogeneous fluid by a term proportional to (d2ρ/dh2); the extra term arises from the energy not from the entropy (Section 5). He uses this result to show howρ varies withh (Section 6), how this variation leads to a stable minimum free energy (Section 7), and to calculate the capillary energy or surface tensionσ (Section 9). Near the critical pointσ varies as (τk-τ)3/2, whereτkis the critical temperature (Section 11). The paper closes with short discussions of the thickness of the surface layer (Section 12), of the difficulty of assuming thatρ varies discontinuously with height (Section 14), and of the possible effect of derivatives of higher order than (d2ρ/dh2) on the free energy and surface tension (Section 15).}
+      \field{day}{1}
+      \field{issn}{1572-9613}
+      \field{journaltitle}{Journal of Statistical Physics}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{J Stat Phys}
+      \field{title}{Translation of J. D. van der Waals' “The thermodynamik theory of capillarity under the hypothesis of a continuous variation of density”}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{20}
+      \field{year}{1979}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{197\bibrangedash 200}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1007/BF01011513
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/PEDU5684/Rowlinson - 1979 - Translation of J. D. van der Waals' “The thermodyn.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01011513
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01011513
+      \endverb
+      \keyw{surface tension,Capillarity,critical point,free energy density}
+    \endentry
+    \entry{landau_physique_1995}{book}{}
+      \name{author}{2}{}{%
+        {{hash=49c7db4f741b683fcc435f522e97b522}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={Lev},
+           giveni={L\bibinitperiod}}}%
+        {{hash=60bb5018b9c72366695193f68e6f1625}{%
+           family={Lifchitz},
+           familyi={L\bibinitperiod},
+           given={Evguéni},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Moscou Paris}%
+      }
+      \list{publisher}{1}{%
+        {ELLIPSES}%
+      }
+      \strng{namehash}{2f6c81faa2e8c0ea14697c06d85c69ac}
+      \strng{fullhash}{2f6c81faa2e8c0ea14697c06d85c69ac}
+      \strng{bibnamehash}{2f6c81faa2e8c0ea14697c06d85c69ac}
+      \strng{authorbibnamehash}{2f6c81faa2e8c0ea14697c06d85c69ac}
+      \strng{authornamehash}{2f6c81faa2e8c0ea14697c06d85c69ac}
+      \strng{authorfullhash}{2f6c81faa2e8c0ea14697c06d85c69ac}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Cet ouvrage est la traduction d’une nouvelle édition notablement remaniée et complétée du cours de Physique théorique de L. Landau et E. Lifchitz, consacré à la Physique statistique. On y trouve maintenant des paragraphes consacrés aux propriétés magnétiques des gaz, aux propriétés thermodynamiques du plasma dégénéré, aux cristaux liquides, à la théorie des fluctuations, des transitions de phase de second ordre et des phénomènes critiques. Les chapitres consacrés aux corps solides et à la symétrie des cristaux ont été remaniés (on y trouve notamment un exposé assez détaillé de la théorie des représentations irréductibles des groupes d’espace). L’ouvrage est destiné aux physiciens étudiant les problèmes théoriques de la physique moderne.}
+      \field{day}{15}
+      \field{edition}{4ème éd édition}
+      \field{isbn}{978-2-7298-9463-4}
+      \field{month}{5}
+      \field{pagetotal}{592}
+      \field{shorttitle}{Physique Théorique}
+      \field{title}{Physique Théorique : Physique Statistique}
+      \field{year}{1995}
+      \field{dateera}{ce}
+    \endentry
     \entry{cahn_free_1958}{article}{}
       \name{author}{2}{}{%
         {{hash=52dbce452736c579ce3afd0bc41401e2}{%
@@ -270,8 +1044,8 @@
       \strng{authorbibnamehash}{803d7022f245ce9165424789e4bba28f}
       \strng{authornamehash}{803d7022f245ce9165424789e4bba28f}
       \strng{authorfullhash}{803d7022f245ce9165424789e4bba28f}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606, 1089-7690}
@@ -300,6 +1074,54 @@
       \verb https://pubs.aip.org/aip/jcp/article/28/2/258-267/74794
       \endverb
     \endentry
+    \entry{cahn_free_2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=52dbce452736c579ce3afd0bc41401e2}{%
+           family={Cahn},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{52dbce452736c579ce3afd0bc41401e2}
+      \strng{fullhash}{52dbce452736c579ce3afd0bc41401e2}
+      \strng{bibnamehash}{52dbce452736c579ce3afd0bc41401e2}
+      \strng{authorbibnamehash}{52dbce452736c579ce3afd0bc41401e2}
+      \strng{authornamehash}{52dbce452736c579ce3afd0bc41401e2}
+      \strng{authorfullhash}{52dbce452736c579ce3afd0bc41401e2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The thermodynamic treatment of nonuniform systems of Cahn and Hilliard is shown to be equivalent to the self‐consistent thermodynamic formalism of Hart. All parameters of the two treatments have been rigorously related and key equations have been shown to be equivalent.}
+      \field{day}{13}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{8}
+      \field{number}{5}
+      \field{shortjournal}{The Journal of Chemical Physics}
+      \field{title}{Free Energy of a Nonuniform System. {II}. Thermodynamic Basis}
+      \field{urlday}{23}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{30}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1121\bibrangedash 1124}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.1730145
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/cp273896/Zotero/storage/YLH9NX6H/Free-Energy-of-a-Nonuniform-System-II.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1730145
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1730145
+      \endverb
+    \endentry
     \entry{introini_suivi_nodate}{misc}{}
       \name{author}{2}{}{%
         {{hash=813bfa2d98f04d016b954dd1f9c22a01}{%
@@ -319,13 +1141,101 @@
       \strng{authorbibnamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
       \strng{authornamehash}{ccfa5f340bcb60a0a006006f5b3e85ab}
       \strng{authorfullhash}{ccfa5f340bcb60a0a006006f5b3e85ab}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Suivi d’interfaces diffuses par une méthode de champ de phase, Séminaire Méthodes d’Interfaces, organisé par le réseau de numériciens de Cadarache/{IRESNE}}
       \verb{file}
       \verb Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:/home/cp273896/Zotero/storage/V5NDBPZK/Introïni et Le Tellier - Suivi d’interfaces diffuses par une méthode de cha.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{kim_phase-field_1999}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f98f7c6b1a55826d6cd10b6e261684a0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d2cb718c7a437ae29d02d7e227633c4f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={W.\bibnamedelimi T.},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=48a1e4f9aa44a68931a3bd8138ba6970}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4dfd17416972cee03fc8001ec7ad4fd4}
+      \strng{fullhash}{4dfd17416972cee03fc8001ec7ad4fd4}
+      \strng{bibnamehash}{4dfd17416972cee03fc8001ec7ad4fd4}
+      \strng{authorbibnamehash}{4dfd17416972cee03fc8001ec7ad4fd4}
+      \strng{authornamehash}{4dfd17416972cee03fc8001ec7ad4fd4}
+      \strng{authorfullhash}{4dfd17416972cee03fc8001ec7ad4fd4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a phase-field model ({PFM}) for solidification in binary alloys, which is found from the phase-field model for a pure material by direct comparison of the variables for a pure material solidification and alloy solidification. The model appears to be equivalent with the Wheeler-Boettinger-{McFadden} ({WBM}) model [A.A. Wheeler, W. J. Boettinger, and G. B. {McFadden}, Phys. Rev. A 45, 7424 (1992)], but has a different definition of the free energy density for interfacial region. An extra potential originated from the free energy density definition in the {WBM} model disappears in this model. At a dilute solution limit, the model is reduced to the Tiaden et al. model [Physica D 115, 73 (1998)] for a binary alloy. A relationship between the phase-field mobility and the interface kinetics coefficient is derived at a thin-interface limit condition under an assumption of negligible diffusivity in the solid phase. For a dilute alloy, a steady-state solution of the concentration profile across the diffuse interface is obtained as a function of the interface velocity and the resultant partition coefficient is compared with the previous solute trapping model. For one dimensional steady-state solidification, where the classical sharp-interface model is exactly soluble, we perform numerical simulations of the phase-field model: At low interface velocity, the simulated results from the thin-interface {PFM} are in excellent agreement with the exact solutions. As the partition coefficient becomes close to unit at high interface velocities, whereas, the sharp-interface {PFM} yields the correct answer.}
+      \field{issn}{1063-651X}
+      \field{journaltitle}{Physical Review. E, Statistical Physics, Plasmas, Fluids, and Related Interdisciplinary Topics}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shortjournal}{Phys Rev E Stat Phys Plasmas Fluids Relat Interdiscip Topics}
+      \field{title}{Phase-field model for binary alloys}
+      \field{volume}{60}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{7186\bibrangedash 7197}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1103/physreve.60.7186
+      \endverb
+    \endentry
+    \entry{rasolofomanana_numerical_nodate}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=a161c54d886ebe1bfa4189bdc2fbbc62}{%
+           family={Rasolofomanana},
+           familyi={R\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=58515c03c9c9b5d09037874b379c7d7b}{%
+           family={Le\bibnamedelima Tellier},
+           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=685730e71e8fd461fcad1094858bf9f4}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d1987e589d4861410bf578f768a2069}
+      \strng{fullhash}{1d1987e589d4861410bf578f768a2069}
+      \strng{bibnamehash}{1d1987e589d4861410bf578f768a2069}
+      \strng{authorbibnamehash}{1d1987e589d4861410bf578f768a2069}
+      \strng{authornamehash}{1d1987e589d4861410bf578f768a2069}
+      \strng{authorfullhash}{1d1987e589d4861410bf578f768a2069}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Numerical Simulation of the Dynamics of a Multicomponent Droplet in Water using the Phase-Field Model of {TrioCFD} Code}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Numerical Simulation of the Dynamics of a Multicom.pdf:/home/cp273896/Zotero/storage/NRKZ3F9I/Numerical Simulation of the Dynamics of a Multicom.pdf:application/pdf;Snapshot:/home/cp273896/Zotero/storage/8YBQE7Y8/63fc85bf75cafd151f3ae56b.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
+      \endverb
+      \verb{url}
+      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
       \endverb
     \endentry
     \entry{kim_phase-field_2012}{article}{}
@@ -342,8 +1252,8 @@
       \strng{authorbibnamehash}{30cf8944aef5c84ff549c5ad627a9adf}
       \strng{authornamehash}{30cf8944aef5c84ff549c5ad627a9adf}
       \strng{authorfullhash}{30cf8944aef5c84ff549c5ad627a9adf}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we review the recent development of phase-field models and their numerical methods for multi-component fluid flows with interfacial phenomena. The models consist of a Navier-Stokes system coupled with a multi-component Cahn-Hilliard system through a phase-field dependent surface tension force, variable density and viscosity, and the advection term. The classical infinitely thin boundary of separation between two immiscible fluids is replaced by a transition region of a small but finite width, across which the composition of the mixture changes continuously. A constant level set of the phase-field is used to capture the interface between two immiscible fluids. Phase-field methods are capable of computing topological changes such as splitting and merging, and thus have been applied successfully to multi-component fluid flows involving large interface deformations. Practical applications are provided to illustrate the usefulness of using a phase-field method. Computational results of various experiments show the accuracy and effectiveness of phase-field models.}
@@ -376,101 +1286,6 @@
       \verb https://www.cambridge.org/core/journals/communications-in-computational-physics/article/phasefield-models-for-multicomponent-fluid-flows/0672FBD318BBE2621A51AE0F2C9C2FE3
       \endverb
       \keyw{76D05,76D45,76T30,82C26,Cahn-Hilliard,interface capturing,interface dynamics,multi-component,Navier-Stokes,phase-field model,surface tension}
-    \endentry
-    \entry{noauthor_numerical_nodate}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Un éditeur {LaTeX} en ligne facile à utiliser. Pas d’installation, collaboration en temps réel, gestion des versions, des centaines de modèles de documents {LaTeX}, et plus encore.}
-      \field{langid}{french}
-      \field{title}{Numerical Simulation of the Dynamics of a Multicomponent Droplet in Water using the Phase-Field Model of {TrioCFD} Code}
-      \field{urlday}{4}
-      \field{urlmonth}{5}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Numerical Simulation of the Dynamics of a Multicom.pdf:/home/cp273896/Zotero/storage/NRKZ3F9I/Numerical Simulation of the Dynamics of a Multicom.pdf:application/pdf;Snapshot:/home/cp273896/Zotero/storage/8YBQE7Y8/63fc85bf75cafd151f3ae56b.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
-      \endverb
-      \verb{url}
-      \verb https://fr.overleaf.com/project/63fc85bf75cafd151f3ae56b
-      \endverb
-    \endentry
-    \entry{rasolofomanana_diffuse-interface_2022}{article}{}
-      \name{author}{6}{}{%
-        {{hash=a161c54d886ebe1bfa4189bdc2fbbc62}{%
-           family={Rasolofomanana},
-           familyi={R\bibinitperiod},
-           given={M.\bibnamedelimi A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=513ff85985ad3630b492baec4422d527}{%
-           family={Cardon},
-           familyi={C\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=11cc732d0193cdeff4b0317ebf7ee12d}{%
-           family={Plapp},
-           familyi={P\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2c9a60850e2298d5bcb04ca4ec7ddabd}{%
-           family={Philippe},
-           familyi={P\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=685730e71e8fd461fcad1094858bf9f4}{%
-           family={Henry},
-           familyi={H\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=58515c03c9c9b5d09037874b379c7d7b}{%
-           family={Le\bibnamedelima Tellier},
-           familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{69666a200d9f1edc99f345bb71f864d3}
-      \strng{fullhash}{d6edf8e276e396b4b131cd3df83285f6}
-      \strng{bibnamehash}{69666a200d9f1edc99f345bb71f864d3}
-      \strng{authorbibnamehash}{69666a200d9f1edc99f345bb71f864d3}
-      \strng{authornamehash}{69666a200d9f1edc99f345bb71f864d3}
-      \strng{authorfullhash}{d6edf8e276e396b4b131cd3df83285f6}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The ternary mixture of uranium, oxygen and zirconium is investigated as a minimal model for corium, the mixture that forms after the meltdown of a nuclear reactor. Like corium, U-O-Zr exhibits a liquid–liquid phase separation between a metal-rich and an oxide-rich phase at high temperatures. A {CALPHAD} database built on an associate model is used to set up a ternary Cahn–Hilliard model, which can describe two-phase patterns in U-O-Zr. The interface structure and properties, which depend on the choice on the gradient energy coefficients in the free-energy functional, are studied in detail. It is found that interface adsorption is generally present due to the diffuse character of the interface, but that its magnitude is small, such that the model remains a robust and useful tool for future simulations of corium pool stratification dynamics.}
-      \field{day}{1}
-      \field{issn}{0927-0256}
-      \field{journaltitle}{Computational Materials Science}
-      \field{langid}{english}
-      \field{month}{11}
-      \field{shortjournal}{Computational Materials Science}
-      \field{title}{Diffuse-interface modelling of multicomponent diffusion and phase separation in the U-O-Zr ternary system}
-      \field{urlday}{9}
-      \field{urlmonth}{3}
-      \field{urlyear}{2023}
-      \field{volume}{214}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{111650}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.commatsci.2022.111650
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Snapshot:/home/cp273896/Zotero/storage/VBZIGZPX/Rasolofomanana et al. - 2022 - Diffuse-interface modelling of multicomponent diff.html:text/html;Version soumise:/home/cp273896/Zotero/storage/TMPJK6UW/Rasolofomanana et al. - 2022 - Diffuse-interface modelling of multicomponent diff.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S092702562200386X
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S092702562200386X
-      \endverb
-      \keyw{Cahn–Hilliard,{CALPHAD},In-vessel corium,Liquid phase segregation,Multicomponent diffusion,U-O-Zr system}
     \endentry
     \entry{aursand_spinodal_2017}{article}{}
       \name{author}{5}{}{%
@@ -506,8 +1321,8 @@
       \strng{authorbibnamehash}{cdb36b22fd54c38c077383e97ccff6f4}
       \strng{authornamehash}{cdb36b22fd54c38c077383e97ccff6f4}
       \strng{authorfullhash}{d99c61dea7b7ad944f5c8422d99f3ef5}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The spinodal represents the limit of thermodynamic stability of a homogeneous fluid. In this work, we present a robust methodology to obtain the spinodal of multicomponent fluids described even with the most sophisticated equations of state ({EoS}) available. We elaborate how information about the spinodal and its uncertainty can contribute both in the development of modern {EoS} and to estimate their uncertainty in the metastable regions. Inequality constraints are presented that can be exploited in the fitting of modern {EoS} of single-component fluids to avoid inadmissible pseudo-stable states between the vapor and liquid spinodals. We find that even cubic {EoS} violate some of these constraints. With the use of a selection of {EoS} representative of modern applications, we compare vapor and liquid spinodal curves, superheat and supersaturation limits from classic nucleation theory ({CNT}), and available experimental data for the superheat limit. Computations are performed with pure species found in natural gas, binary mixtures, as well as a multi-component natural gas mixture in order to demonstrate the scalability of the approach. We demonstrate that there are large inconsistencies in predicted spinodals from a wide range of {EoS} such as cubic {EoS}, extended corresponding state {EoS}, {SAFT} and multiparameter {EoS}. The overall standard deviation in the prediction of the spinodal temperatures were 1.4 K and 2.7 K for single- and multi-component liquid-spinodals and 6.3 K and 26.9 K for single- and multi-component vapor spinodals. The relationship between the measurable limit of superheat, or supersaturation, and the theoretical concept of the spinodal is discussed. While nucleation rates from {CNT} can deviate orders of magnitude from experiments, we find that the limit of superheat from experiments agree within 1.0 K and 2.4 K with predictions from {CNT} for single- and multi-component fluids respectively. We demonstrate that a large part of the metastable domain of the phase diagram is currently unavailable to experiments, in particular for metastable vapor. Novel techniques, experimental or with computational simulations, should be developed to characterize the thermodynamic properties in these regions, and to identify the thermodynamic states that define the spinodal.}
@@ -540,54 +1355,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
       \endverb
       \keyw{Equation of state,Nucleation,Phase stability,Spinodal,Superheat limit,Thermodynamics}
-    \endentry
-    \entry{kolev_multiphase_2015}{book}{}
-      \name{author}{1}{}{%
-        {{hash=b4bec71da3b1acf56c431c460b9dcc6b}{%
-           family={Kolev},
-           familyi={K\bibinitperiod},
-           given={Nikolay\bibnamedelima Ivanov},
-           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{fullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{bibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{authorbibnamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{authornamehash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \strng{authorfullhash}{b4bec71da3b1acf56c431c460b9dcc6b}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-3-319-15155-7 978-3-319-15156-4}
-      \field{langid}{english}
-      \field{shorttitle}{Multiphase Flow Dynamics 5}
-      \field{title}{Multiphase Flow Dynamics 5: Nuclear Thermal Hydraulics}
-      \field{urlday}{12}
-      \field{urlmonth}{4}
-      \field{urlyear}{2023}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1007/978-3-319-15156-4
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/cp273896/Zotero/storage/VIC9MA2V/Kolev - 2015 - Multiphase Flow Dynamics 5 Nuclear Thermal Hydrau.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-3-319-15156-4
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/978-3-319-15156-4
-      \endverb
-      \keyw{fluid- and aerodynamics,Multiphase Dynamics,Multiphase Flow,Multiphase Flow Dynamics,Nuclear Reactor Safety,Nuclear Thermal Hydraulics}
     \endentry
   \enddatalist
 \endrefsection
