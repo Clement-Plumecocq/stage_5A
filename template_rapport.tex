@@ -4,11 +4,18 @@
 % LICENSE file in the root directory of this source tree.
 
 % ========== Classe du document ==========
-\documentclass[a4paper,10pt]{report}    % A4, police taille 11, report pour avoir les chapitres, fleqn pour avoir les équations alignées à gauche
+\documentclass[a4paper,11pt]{report}    % A4, police taille 11, report pour avoir les chapitres, fleqn pour avoir les équations alignées à gauche
 
 % ========== Langue française pour le document ==========
 \usepackage{latexsym}       % Police latex de base
-
+\usepackage{tikz}
+\usepackage{circuitikz}
+\newcommand{\oeil}[1][] % rouge par dÈfaut 
+{
+	\draw[#1,thick,rounded corners] (-15:1)--(0,0)--(15:1);
+	\draw[#1] (-15:0.8) arc (-15:15:0.8);
+	\draw[#1,fill=black] (0:0.75) ellipse(0.05 and 0.1);
+} 
 \usepackage[french]{babel}  % Dictionnaire français (indentation, caractères spéciaux, tirets...)
 \usepackage[utf8]{inputenc} % Encodage d'entrée pour les caractères accentués
 \usepackage[T1]{fontenc}    % Affichage correct des caractères accentués notamment
@@ -21,7 +28,7 @@
 \setlength{\parskip}{1em}   % Définition de l'espace entre les paragraphes
 \setlength{\parindent}{2em} % Définition de la longueur du "tab" = indentation
 \usepackage{setspace}
-%\setstretch{1.5}
+%\setstretch{1.3}
 \usepackage{fancyhdr}       % Permet en-tête et pied de page
 \pagestyle{fancyplain}      % Pour avoir le même style sur les pages fancy et sur celles plains comme la toc
 \renewcommand\plainheadrulewidth{.4pt}  % Le trait noir sous les logos sur les pages plain
@@ -58,7 +65,7 @@ pdfauthor={Clément PLUMECOCQ},
 }
 
 % ========== Graphique, police, maths ==========
-\usepackage[table,xcdraw]{xcolor}       % Package permettant d'utiliser de la couleur
+%\usepackage[table,xcdraw]{xcolor}       % Package permettant d'utiliser de la couleur
 % \usepackage{color}                      % Rajouter de la couleur au texte
 \usepackage{bm}                         % Mettre en gras des maths avec la commande \bm
 \usepackage{ragged2e}                   % Meilleure gestion de l'alignement des textes entre autres
@@ -73,6 +80,8 @@ pdfauthor={Clément PLUMECOCQ},
 
 \usepackage{lmodern}
 \usepackage[Lenny]{fncychap}
+
+
 
 \ChNameUpperCase
 \ChNumVar{\fontsize{40}{42}\usefont{OT1}{ptm}{m}{n}\selectfont}
@@ -194,6 +203,7 @@ backend=biber,
 style=numeric,
 sorting=none
 ]{biblatex}
+
 \usepackage{csquotes}           % Gestion des caractères " " lors des citations
 \addbibresource{biblio.bib}    % Importer le fichier de bibliographie
 %\nocite{*}                      % Importer les éléments non cités quand même dans la bibliographie
@@ -310,6 +320,11 @@ sorting=none
 %%%%% OPTIONS TIKZ
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{shapes}
+\usepackage{multirow}
+\usepackage{booktabs,tabularx}
+\usepackage{multirow}
+\usepackage{siunitx}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 
 \begin{document}
 
@@ -321,7 +336,7 @@ sorting=none
         \vspace*{1cm}
 
         \Huge
-        \textbf{Validation d’un modèle CFD multiphasique couplant transfert de masse interphase et hydrodynamique}
+        \textbf{Vers la validation d’un modèle CFD multiphasique couplant transfert de masse interphase et hydrodynamique}
 
         \vspace{0.5cm}
         \LARGE
@@ -344,9 +359,9 @@ sorting=none
         %\par\end{center}
         %\begin{center}
 	\raggedright 
-	\noindent Maître de stage : Romain Le Tellier, Ingénieur-Chercheur LMAG\\
-	Encadrant :  Mirantsoa-Aimé Rasolofomanana, Doctorant LMAG \\
-	Tuteur école :   Marc Médale 
+	\noindent Maître de stage : Romain Le Tellier, Ingénieur-Chercheur - LMAG\\
+	Encadrant : Mirantsoa-Aimé Rasolofomanana, Doctorant - LMAG \\
+	Tuteur école : Marc Médale, Professeur des universités - Polytech'Marseille 
 
         %\par\end{center}
         %\end{minipage}}
@@ -363,25 +378,27 @@ sorting=none
 \begin{center}
     \Large
     \vspace{0.9cm}
-    \textbf{Résumé}
+    \textbf{Résumé} 
 \end{center}
-
-\vspace{7cm}
-
+\textcolor{blue}{a refaire}
+\color{red}
+Lors d'un accident nucléaire entraînant la fusion du c\oe ur survient plusieurs stratégies de mitigation existent. Pour les réacteurs de faible puissance, la rétention du corium (matériau issu de la fusion des éléments du c\oe ur) dans la cuve avec un refroidissement externe est envisageable. Le comportement thermochimique de ce bain amène à la présence d'un écoulement stratifié avec de la diffusion d'espèces aux interfaces. Le comportement du bain et le nombre de couches de stratification dépendent fortement de ces échanges d'espèces. Une modélisation fine à l'échelle mésoscopique de ces transferts permettrait la validation de modèles intégraux intégrés dans des plateformes logicielles utilisées dans l'industrie nucléaire (PROCOR). Ce travail contribue à la validation d'un modèle champ de phase implémenté dans le code TrioCFD. Ce modèle résout l'équation de Cahn-Hilliard généralisée pour un système multicomposant. En effet, la méthode champ de phase traite naturellement la diffusion d'espèces. Les résultats obtenus seront comparés avec ceux issus d'une expérience de la littérature. Les ressources de calcul étant limitées, seule une validation qualitative sera apportée. L'influence des différents paramètres numériques (maillage, taille de domaine) sera discutée. L'étude permet également de discuter du choix des paramètres champ de phase et leur détermination à partir des paramètres physiques. Enfin, des comportements hydrodynamiques de la littérature seront reproduits, notamment la déformation d'une goutte ascendante et la formation d'instabilités de Rayleigh-Taylor induites par transfert de masse.
+\color{black}
+\vspace{0.3cm}\\
+\noindent\textbf{Mots clés :} CFD, Transfert de masse, Champ de phase, Thermodynamique
 \begin{center}
 	\Large
-	\vspace{0.9cm}
+	\vspace{0.6cm}
 	\textbf{Abstract}
 \end{center}
 
-
-
+\noindent\textbf{Keywords :} CFD, Mass Transfer, Phase-field, Thermodynamics
 % ======================================== Fin Page Résumé ========================================
 
 % ======================================== Début TOC & Co ========================================
 
 \newpage
-%\hypersetup{pageanchor=true}
+\hypersetup{pageanchor=true}
 %\renewcommand{\baselinestretch}{0.}\normalsize
 \tableofcontents
 %\renewcommand{\baselinestretch}{1.0}\normalsize
@@ -399,10 +416,26 @@ sorting=none
 \newpage
 %\input{Chapitre/nomenclature.tex}
 \section*{Remerciements}
+Avant de débuter ce rapport, il me semble important de commencer ce rapport en remerciant ceux qui m’ont aidé pendant ce stage rendant cette expérience enrichissante. Ainsi, j'aimerais remercier : 
+
+Monsieur Laurent Saas, directeur du Laboratoire de Modélisation des Accidents Graves (LMAG) de m'avoir accueilli dans son laboratoire et de m'avoir pleinement intégré.
+
+Monsieur Romain Le Tellier pour avoir été un maître de stage disponible et à l'écoute. J'espère que les trois prochaines années en thèse se dérouleront aussi bien.
+
+Monsieur Mirantsoa-Aimé Rasolofomanana, pour m'avoir encadré au jour le jour et avoir toujours pris le temps de répondre à mes questions.
+
+Monsieur Christophe Le Niliot, de m'avoir recommandé pour ce stage et pour ses précieux conseils concernant la recherche de thèse.
+
+Monsieur Marc Médale pour avoir suivi mon stage et apporté un regard critique sur ce travail.
+
+Plus globalement, je souhaite remercier l'ensemble du laboratoire pour son accueil facilitant l'intégration.
+
 \setcounter{page}{1}
 \input{Chapitre/chap1.tex}
 \input{Chapitre/chap2.tex}
-%\input{Chapitre/chap3.tex}
+\input{Chapitre/chap3.tex}
+\input{Chapitre/chap4.tex}
+\input{Chapitre/chap5.tex}
 % ======================================== Fin Document ========================================
 
 % ======================================== Début Listes & Co ========================================
@@ -413,10 +446,10 @@ sorting=none
 \printbibliography
 \appendix
 %\input{Annexes/analytique.tex}
-%\input{Annexes/coefficient_gradient.tex}
+%%\input{Annexes/coefficient_gradient.tex}
 %\input{Annexes/parametrage.tex}
-%\input{Annexes/stab_phases.tex}
-%\input{Annexes/deroul_acc.tex}
+%\input{Annexes/adsorption.tex}
+
 
 \end{document}
 

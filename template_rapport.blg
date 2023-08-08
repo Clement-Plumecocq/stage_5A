@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'template_rapport.blg'
-[15] biber:315> INFO - === ven. juin 23, 2023, 10:34:13
-[28] Biber.pm:371> INFO - Reading 'template_rapport.bcf'
-[67] Biber.pm:889> INFO - Found 26 citekeys in bib section 0
-[75] Biber.pm:4093> INFO - Processing section 0
-[81] Biber.pm:4254> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[87] bibtex.pm:1512> INFO - LaTeX decoding ...
-[178] bibtex.pm:1329> INFO - Found BibTeX data source 'biblio.bib'
-[319] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[319] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[319] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
-[319] Biber.pm:3927> INFO - No sort tailoring available for locale 'fr-FR'
-[332] bbl.pm:636> INFO - Writing 'template_rapport.bbl' with encoding 'UTF-8'
-[341] bbl.pm:739> INFO - Output to template_rapport.bbl
+[14] biber:315> INFO - === lun. août  7, 2023, 15:18:16
+[27] Biber.pm:371> INFO - Reading 'template_rapport.bcf'
+[66] Biber.pm:889> INFO - Found 29 citekeys in bib section 0
+[74] Biber.pm:4093> INFO - Processing section 0
+[80] Biber.pm:4254> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[86] bibtex.pm:1512> INFO - LaTeX decoding ...
+[195] bibtex.pm:1329> INFO - Found BibTeX data source 'biblio.bib'
+[344] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[344] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[344] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[344] Biber.pm:3927> INFO - No sort tailoring available for locale 'fr-FR'
+[358] bbl.pm:636> INFO - Writing 'template_rapport.bbl' with encoding 'UTF-8'
+[368] bbl.pm:739> INFO - Output to template_rapport.bbl

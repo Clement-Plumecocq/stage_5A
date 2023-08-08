@@ -20,8 +20,8 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global}
     \entry{noauthor_emmanuel_2021}{article}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labeltitlesource}{title}
       \field{abstract}{Après avoir annoncé mi-octobre des investissements d'un milliard d'euros dans les petits réacteurs nucléaires, Emmanuel Macron a indiqué que de nouveaux {EPR} allaient être construits en France.}
       \field{day}{9}
@@ -47,8 +47,8 @@
       \endverb
     \endentry
     \entry{noauthor_manuel_nodate}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labeltitlesource}{title}
       \field{abstract}{Votre manuel numérique partout, tout le temps par Belin Éducation. Accès libre gratuit sur internet. Conçu par et pour les enseignants et les élèves. Conforme {RGPD} et {CNIL}, compatible {GAR} et {ENT}.}
       \field{langid}{french}
@@ -67,30 +67,25 @@
       \verb https://manuelnumeriquemax.belin.education/enseignement_scientifique-terminale/topics/simple/es-tle-c06-134-04
       \endverb
     \endentry
-    \entry{noauthor_ines_2011}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{L’échelle {INES} (International Nuclear Event Scale) est l’échelle internationale des événements nucléaires et radiologiques. Mise en place en 1991, elle constitue un outil d’information et un repère pour les médias et le public, indiquant la gravité des évènements nucléaires ou radiologiques. Cette échelle comporte huit niveaux qui vont de 0 à 7.}
-      \field{day}{27}
+    \entry{noauthor_risque_nodate}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Information sur les risques nucléaires cartographie du risque nucléaire en région Provence-Alpes-Côte-d'Azur, consignes de sécurité, événements marquants sur les risques nucléaires}
       \field{langid}{french}
-      \field{month}{4}
-      \field{shorttitle}{{INES}}
-      \field{title}{{INES} : échelle internationale des évènements nucléaires et radiologiques.}
-      \field{urlday}{19}
-      \field{urlmonth}{6}
+      \field{title}{risque nucléaire}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
       \field{urlyear}{2023}
-      \field{year}{2011}
-      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb Snapshot:/home/cp273896/Zotero/storage/PR226QQ9/echelle-ines.html:text/html
+      \verb Snapshot:/home/cp273896/Zotero/storage/UV4J8F2F/risque-nucleaire.html:text/html
       \endverb
       \verb{urlraw}
-      \verb https://www.connaissancedesenergies.org/fiche-pedagogique/echelle-ines
+      \verb https://www.cypres.org/default/risque-nucleaire.aspx?_lg=fr-FR
       \endverb
       \verb{url}
-      \verb https://www.connaissancedesenergies.org/fiche-pedagogique/echelle-ines
+      \verb https://www.cypres.org/default/risque-nucleaire.aspx?_lg=fr-FR
       \endverb
     \endentry
     \entry{shi_cap1400_2019}{article}{}
@@ -137,8 +132,8 @@
       \strng{authorbibnamehash}{878d4c7397a53b4b82372d6a22410e59}
       \strng{authornamehash}{878d4c7397a53b4b82372d6a22410e59}
       \strng{authorfullhash}{7fab2b3f8922cc801ad038c33666addb}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In-Vessel Retention ({IVR}), which arrests relocated molten core materials in the vessel during severe accident, is an appealing accident management approach to many newly-designed reactors. It is implemented in {CAP}1400 because it’s highly compatible with {CAP}1400 design philosophy. Extensive studies of relevant phenomena are carried out to investigate the possible eﬀect on {IVR} strategy, which include core melting and relocation, in-vessel steam explosion, corium material interaction, heat ﬂux to {RPV} (Reactor Pressure Vessel) wall under the assumption of diﬀerent corium pool conﬁguration, ex-vessel {CHF} (Critical Heat Flux) test, {RPV} structural analysis and so on. For those that may have negative impact on {IVR} success, the corresponding design improvements are conducted to aid and facilitate the employment of {IVR}, such as lowering core support plate, increasing the mass of core internals, optimizing ex-vessel insulator and so on. The beneﬁt of taking decay heat from in to vessel cooling is also achieved by reﬂooding breaks or injecting {RCS} (Reactor Coolant System) under the instructions of {SAMG} (Severe Accident Mitigation Guideline). All the {IVR}-related phenomena and operator actions are reﬂected and linked together by {IVR} decomposition event tree ({DET}) to evaluate {CAP}1400 {IVR} strategy in a comprehensive manner. There is reasonable assurance that the {IVR} strategy implemented in {CAP}1400 is successful. About 93\% of core damage sequences can be terminated by retaining corium in the vessel.}
@@ -204,8 +199,8 @@
       \strng{authorbibnamehash}{3fbd8ea39a89208e63767e000149e0bc}
       \strng{authornamehash}{3fbd8ea39a89208e63767e000149e0bc}
       \strng{authorfullhash}{9fd3f6ac536cda8267b68e397185358b}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{L’article présente les enjeux et l’état des connaissances concernant les possibilités de rétention de matériaux issus d’un coeur de Réacteur à Eau Pressurisée en situation hypothétique d’accident grave. On discute les situations de rétention par renoyage du circuit primaire, par noyage du puits de cuve (refroidissement externe de la cuve) et on décrit le dispositif de récupération mis en place pour le réacteur {EPRTM}. L’ensemble se place dans un contexte d’une démarche {EPS}2.}
@@ -259,8 +254,8 @@
       \strng{authorbibnamehash}{61127b5034af82bec1d0e5ff1dd25019}
       \strng{authornamehash}{61127b5034af82bec1d0e5ff1dd25019}
       \strng{authorfullhash}{fe8d3c40c06e28cc8328c37a0d2133da}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00295493}
@@ -366,8 +361,8 @@
       \strng{authorbibnamehash}{4b284abf3131d422326e493bfc02d6bf}
       \strng{authornamehash}{4b284abf3131d422326e493bfc02d6bf}
       \strng{authorfullhash}{7f3a36da19ff9fcebd09413a17dba908}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{During a severe accident in a nuclear reactor, core damage occurs and may lead to the formation of corium, followed by relocation to the vessel lower head. The decay heat released by the corium can threaten the integrity of the vessel, if no effective cooling mechanism is in place. In-Vessel Retention ({IVR}) is a severe accident mitigation strategy that has been shown to work for low-to-intermediate power reactors. For high power reactors, many uncertainties still exist. In an attempt to remove some of these uncertainties, the European H2020 {IVMR} project was launched in 2015. The focus of this project is on obtaining the additional, necessary, experimental data in order to improve on current modelling strategies. One of the modelling strategies investigated is the potential use of {CFD} codes in assessing the feasibility of {IVR} for high power reactors. The main focus of the {CFD} studies is on two important aspects of {IVR}: the presence of a metallic layer on top of the corium pool and the homogenous corium pool. These aspects are analysed by studying the thermal hydraulic features of a thin metal layer and that of a homogeneous pool. In this paper, ﬁrst the used codes and numerical approaches are presented. The numerical models are subsequently assessed by comparing numerical results with relevant simulant-based experimental data, resulting, in general, in good agreement. The codes are then used to perform exploratory computations under prototypical conditions. While the behaviours of water and prototypical materials are similar for the oxide pool, signiﬁcant differences are observed for the metallic layer.}
@@ -854,12 +849,51 @@
       \strng{authorbibnamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
       \strng{authornamehash}{a161c54d886ebe1bfa4189bdc2fbbc62}
       \strng{authorfullhash}{a161c54d886ebe1bfa4189bdc2fbbc62}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Modélisation à interface diffuse et simulation numérique de la thermohydraulique d'un bain liquide diphasique avec transfert de masse interfacial}
       \field{type}{phdthesis}
+    \endentry
+    \entry{angeli_overview_2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4d42b8b13af580b26d56c739a48d2de0}{%
+           family={Angeli},
+           familyi={A\bibinitperiod},
+           given={Pierre-Emmanuel},
+           giveni={P\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=255a4ed2e18a59adeb6aa9acec9b9e8c}{%
+           family={Bieder},
+           familyi={B\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3ba429a36ac9987f7f49124fa4bc78ce}{%
+           family={Fauchet},
+           familyi={F\bibinitperiod},
+           given={Gauthier},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{472f9825f611e75077f469b9b916549d}
+      \strng{fullhash}{472f9825f611e75077f469b9b916549d}
+      \strng{bibnamehash}{472f9825f611e75077f469b9b916549d}
+      \strng{authorbibnamehash}{472f9825f611e75077f469b9b916549d}
+      \strng{authornamehash}{472f9825f611e75077f469b9b916549d}
+      \strng{authorfullhash}{472f9825f611e75077f469b9b916549d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The main objective of the present paper is to give an overview of the actual state of the {TrioCFD} project. {TrioCFD} is a software developed for about 20 years in the Nuclear Energy Division of {CEA}. The code is designed to treat efficiently various physical problems, such as turbulent flows, fluid/solid coupling, multiphase flows or flows in porous media. The domains of application are mainly related to the nuclear industry, in particular to the interaction of turbulent flow with the solid structures of nuclear reactors, that {TrioCFD} is able to handle successfully thanks to its massive parallelism. The {TrioCFD} project integrates a major procedure of Verification and Validation (V\&V). Numerous verification tests are performed to avoid unintentional modifications and assure a proper implementation of the numerical methods, models and options. Non-regression tests are automatically launched and provide an evaluation of the differences between the development version and the latest released version. The validation is the other part of procedure. Its purpose is to carry out reference calculations on a large range of physical problems and compare their results to analytical, experimental or literature results. It leads to the definition of compromises between accuracy, robustness and restitution time and guarantees that the requirement of a correct quality of results is met. Some typical examples of recent qualification studies in nuclear domain are presented here. Most of them correspond to international experimental or industrial facilities and combine various complex physical phenomena.}
+      \field{day}{30}
+      \field{month}{8}
+      \field{shorttitle}{{OVERVIEW} {OF} {THE} {TRIOCFD} {CODE}}
+      \field{title}{{OVERVIEW} {OF} {THE} {TRIOCFD} {CODE}: {MAIN} {FEATURES}, V\&V {PROCEDURES} {AND} {TYPICAL} {APPLICATIONS} {TO} {NUCLEAR} {ENGINEERING}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/home/cp273896/Zotero/storage/FPFN7HXI/Angeli et al. - 2015 - OVERVIEW OF THE TRIOCFD CODE MAIN FEATURES, V&V P.pdf:application/pdf
+      \endverb
     \endentry
     \entry{rao_influence_2015}{article}{}
       \name{author}{6}{}{%
@@ -1074,54 +1108,6 @@
       \verb https://pubs.aip.org/aip/jcp/article/28/2/258-267/74794
       \endverb
     \endentry
-    \entry{cahn_free_2004}{article}{}
-      \name{author}{1}{}{%
-        {{hash=52dbce452736c579ce3afd0bc41401e2}{%
-           family={Cahn},
-           familyi={C\bibinitperiod},
-           given={John\bibnamedelima W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \strng{namehash}{52dbce452736c579ce3afd0bc41401e2}
-      \strng{fullhash}{52dbce452736c579ce3afd0bc41401e2}
-      \strng{bibnamehash}{52dbce452736c579ce3afd0bc41401e2}
-      \strng{authorbibnamehash}{52dbce452736c579ce3afd0bc41401e2}
-      \strng{authornamehash}{52dbce452736c579ce3afd0bc41401e2}
-      \strng{authorfullhash}{52dbce452736c579ce3afd0bc41401e2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The thermodynamic treatment of nonuniform systems of Cahn and Hilliard is shown to be equivalent to the self‐consistent thermodynamic formalism of Hart. All parameters of the two treatments have been rigorously related and key equations have been shown to be equivalent.}
-      \field{day}{13}
-      \field{issn}{0021-9606}
-      \field{journaltitle}{The Journal of Chemical Physics}
-      \field{month}{8}
-      \field{number}{5}
-      \field{shortjournal}{The Journal of Chemical Physics}
-      \field{title}{Free Energy of a Nonuniform System. {II}. Thermodynamic Basis}
-      \field{urlday}{23}
-      \field{urlmonth}{6}
-      \field{urlyear}{2023}
-      \field{volume}{30}
-      \field{year}{2004}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1121\bibrangedash 1124}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1063/1.1730145
-      \endverb
-      \verb{file}
-      \verb Snapshot:/home/cp273896/Zotero/storage/YLH9NX6H/Free-Energy-of-a-Nonuniform-System-II.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1063/1.1730145
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1063/1.1730145
-      \endverb
-    \endentry
     \entry{introini_suivi_nodate}{misc}{}
       \name{author}{2}{}{%
         {{hash=813bfa2d98f04d016b954dd1f9c22a01}{%
@@ -1174,8 +1160,8 @@
       \strng{authorbibnamehash}{4dfd17416972cee03fc8001ec7ad4fd4}
       \strng{authornamehash}{4dfd17416972cee03fc8001ec7ad4fd4}
       \strng{authorfullhash}{4dfd17416972cee03fc8001ec7ad4fd4}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present a phase-field model ({PFM}) for solidification in binary alloys, which is found from the phase-field model for a pure material by direct comparison of the variables for a pure material solidification and alloy solidification. The model appears to be equivalent with the Wheeler-Boettinger-{McFadden} ({WBM}) model [A.A. Wheeler, W. J. Boettinger, and G. B. {McFadden}, Phys. Rev. A 45, 7424 (1992)], but has a different definition of the free energy density for interfacial region. An extra potential originated from the free energy density definition in the {WBM} model disappears in this model. At a dilute solution limit, the model is reduced to the Tiaden et al. model [Physica D 115, 73 (1998)] for a binary alloy. A relationship between the phase-field mobility and the interface kinetics coefficient is derived at a thin-interface limit condition under an assumption of negligible diffusivity in the solid phase. For a dilute alloy, a steady-state solution of the concentration profile across the diffuse interface is obtained as a function of the interface velocity and the resultant partition coefficient is compared with the previous solute trapping model. For one dimensional steady-state solidification, where the classical sharp-interface model is exactly soluble, we perform numerical simulations of the phase-field model: At low interface velocity, the simulated results from the thin-interface {PFM} are in excellent agreement with the exact solutions. As the partition coefficient becomes close to unit at high interface velocities, whereas, the sharp-interface {PFM} yields the correct answer.}
@@ -1192,6 +1178,42 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1103/physreve.60.7186
+      \endverb
+    \endentry
+    \entry{lapuerta_echanges_2006}{online}{}
+      \name{author}{1}{}{%
+        {{hash=443bb0201e3ab797104ca345163787dd}{%
+           family={Lapuerta},
+           familyi={L\bibinitperiod},
+           given={Céline},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{443bb0201e3ab797104ca345163787dd}
+      \strng{fullhash}{443bb0201e3ab797104ca345163787dd}
+      \strng{bibnamehash}{443bb0201e3ab797104ca345163787dd}
+      \strng{authorbibnamehash}{443bb0201e3ab797104ca345163787dd}
+      \strng{authornamehash}{443bb0201e3ab797104ca345163787dd}
+      \strng{authorfullhash}{443bb0201e3ab797104ca345163787dd}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Echanges de masse et de chaleur entre deux phases liquides stratifiées dans un écoulement à bulles.}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/cp273896/Zotero/storage/MZ6GCZC4/echanges-masse-chaleur-entre-deux-phases-liquides-stratifiees-dans-ecoulement-bulles.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.irsn.fr/recherche/echanges-masse-chaleur-entre-deux-phases-liquides-stratifiees-dans-ecoulement-bulles
+      \endverb
+      \verb{url}
+      \verb https://www.irsn.fr/recherche/echanges-masse-chaleur-entre-deux-phases-liquides-stratifiees-dans-ecoulement-bulles
       \endverb
     \endentry
     \entry{rasolofomanana_numerical_nodate}{misc}{}
@@ -1218,8 +1240,8 @@
       \strng{authorbibnamehash}{1d1987e589d4861410bf578f768a2069}
       \strng{authornamehash}{1d1987e589d4861410bf578f768a2069}
       \strng{authorfullhash}{1d1987e589d4861410bf578f768a2069}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{french}
@@ -1355,6 +1377,105 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0378381216306227
       \endverb
       \keyw{Equation of state,Nucleation,Phase stability,Spinodal,Superheat limit,Thermodynamics}
+    \endentry
+    \entry{verdier_phase-field_2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d3832af2a89a41ad94c2e11d6fa8adfa}{%
+           family={Verdier},
+           familyi={V\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+      }
+      \name{editora}{2}{}{%
+        {{hash=8131f638a4e5209909177e19b5afe8ca}{%
+           family={Plapp},
+           familyi={P\bibinitperiod},
+           given={Mathis},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b9929b021c36476399c7fefc0956702e}{%
+           family={Cartalade},
+           familyi={C\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Institut polytechnique de Paris}%
+      }
+      \strng{namehash}{d3832af2a89a41ad94c2e11d6fa8adfa}
+      \strng{fullhash}{d3832af2a89a41ad94c2e11d6fa8adfa}
+      \strng{bibnamehash}{d3832af2a89a41ad94c2e11d6fa8adfa}
+      \strng{authorbibnamehash}{d3832af2a89a41ad94c2e11d6fa8adfa}
+      \strng{authornamehash}{d3832af2a89a41ad94c2e11d6fa8adfa}
+      \strng{authorfullhash}{d3832af2a89a41ad94c2e11d6fa8adfa}
+      \strng{editorabibnamehash}{e7fff340119f9750c2a7b1f0f52d2520}
+      \strng{editoranamehash}{e7fff340119f9750c2a7b1f0f52d2520}
+      \strng{editorafullhash}{e7fff340119f9750c2a7b1f0f52d2520}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le confinement des déchets radioactifs issus des centrales est fait à l'aide de verres de confinement nucléaires: des verres spécifiquement élaborés pour assurer la meilleure isolation thermique, chimique et radioactive. Le projet {SIVIT} ({SImulation} de la {VITrification}) du {CEA} s’intéresse au comportement du verre lors du processus de vitrification, où le verre et les déchets sont mélangés et portés à haute température pour ensuite se solidifier. Il y a beaucoup de propriétés du matériau (chimiques, thermodynamiques, mécaniques...) qu'il est désirable de contrôler, et l'une d'entre elles en particulier est la cinétique de séparation de phase. Par example, lors de la vitrification de déchets riches en molybdène, les propriétés thermodynamiques du mélange verre et déchet permettent la séparation de phase du verre en une phase mère et une phase fille enrichie en molybdène selon un mécanisme de nucléation-croissance. Le présent travail s'inscrit alors dans le projet {SIVIT} pour modéliser et simuler un tel mécanisme de séparation de phase à l'échelle de l'interface qui sépare les deux phases liquides séparées du verre fondu. La modélisation doit satisfaire un certain nombre de contraintes pour répondre à ce but : le suivi d'une interface entièrement résolue ; la prise en compte de la diffusion chimique (qui pilote la dynamique de croissance) et de la dynamique d'écoulement et leur effets sur la cinétique de l'interface ; et le respect du paysage thermodynamique du verre. Nous pourrons nous intéresser d'abord à un verre ternaire modèle élaboré avec le composé Na2O-{SiO}2-{MoO}3, dont le diagramme de phase a été établi au {CEA} de Saclay et dont les observations sont en cours au {CEA} de Marcoule. Les simulations de ce modèle doivent aussi démontrer un haut degré de performance pour en permettre les comparaisons en 3D et à une échelle satisfaisante avec ces observations expérimentales. Pour répondre à toute ces contraintes, nous formulons un modèle basé sur la théorie du champ de phase avec une formulation par grand potentiel et son couplage à la diffusion des composants et aux équations de Navier-Stokes incompressibles. Nous discrétisons ce modèle avec la méthode de Boltzmann sur réseau et la programmons dans un nouveau code de simulation à haute performance portable, {LBM}\_saclay, capable d'exploiter les architectures des supercalculateurs modernes multi-{GPU}. Nous exposons ensuite la capacité du modèle à reproduire quantitativement la dynamique de maturation après séparation de phase et l'influence de l'écoulement et de la sédimentation sur cette dynamique. Ceci est fait avec une thermodynamique idéalisée : nous détaillons à la fin la méthodologie de couplage du modèle aux données thermodynamique du verre réel.}
+      \field{day}{12}
+      \field{editoratype}{collaborator}
+      \field{month}{12}
+      \field{title}{Phase-field modelling and simulations of phase separation in the two-phase nuclear glass na2o-sio2-moo3}
+      \field{type}{These de doctorat}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theses.fr/2022IPPAX126
+      \endverb
+      \verb{url}
+      \verb https://www.theses.fr/2022IPPAX126
+      \endverb
+      \keyw{Boltzmann sur réseau,Champ de phase,Computational fluid dynamics,Écoulement diphasique,Lattice Boltzmann,Mécanique des fluides numérique,Multiphase flow,Nuclear glass,Phase field,Verre de confinement}
+    \endentry
+    \entry{clift_bubbles_2005}{book}{}
+      \name{author}{3}{}{%
+        {{hash=700edbc68a93053534d16997de8434f0}{%
+           family={Clift},
+           familyi={C\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=aeaeaf609e62cfe4ac9b90072915c873}{%
+           family={Grace},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f98137a9651fee3d65f4838f5efcb638}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Martin\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{e583a0f57d67cd32ad9902238e25ac1b}
+      \strng{fullhash}{e583a0f57d67cd32ad9902238e25ac1b}
+      \strng{bibnamehash}{e583a0f57d67cd32ad9902238e25ac1b}
+      \strng{authorbibnamehash}{e583a0f57d67cd32ad9902238e25ac1b}
+      \strng{authornamehash}{e583a0f57d67cd32ad9902238e25ac1b}
+      \strng{authorfullhash}{e583a0f57d67cd32ad9902238e25ac1b}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This volume offers a critical review of the literature concerning the fluid dynamics, heat transfer, and mass transfer of single bubbles, drops, and particles. Upper-level undergraduates and graduate students, as well as professionals in the fields of engineering, physics, chemistry, geophysics, and applied mathematics, will find it a unified treatment of solid particles, liquid drops, and gas bubbles. Starting with a summary of the fundamental principles and equations governing the behavior of bubbles, drops, and solid particles in Newtonian fluids, the text proceeds to a survey of the parameters used to characterize the shape of rigid particles, and of the factors that determine the shape of bubbles and drops. Succeeding chapters examine the behavior of solid and fluid particles under steady incompressible flow in an extended external phase. The text concludes with an exploration of effects that complicate the relatively simple case of a particle moving steadily through an unbounded fluid.}
+      \field{day}{1}
+      \field{isbn}{978-0-486-44580-9}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Google-Books-{ID}: {UUrOmD}8niUQC}
+      \field{pagetotal}{402}
+      \field{title}{Bubbles, Drops, and Particles}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \keyw{Science / Applied Sciences,Technology \& Engineering / Hydraulics}
     \endentry
   \enddatalist
 \endrefsection
