@@ -325,7 +325,9 @@ sorting=none
 \usepackage{multirow}
 \usepackage{siunitx}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
-
+\renewcommand*\frenchtablename{%
+	{\scshape Tableau}%
+}
 \begin{document}
 
 % ======================================== Début Page de Garde ========================================
@@ -380,10 +382,12 @@ sorting=none
     \vspace{0.9cm}
     \textbf{Résumé} 
 \end{center}
-\textcolor{blue}{a refaire}
-\color{red}
+
+\textcolor{red}{
 Lors d'un accident nucléaire entraînant la fusion du c\oe ur survient plusieurs stratégies de mitigation existent. Pour les réacteurs de faible puissance, la rétention du corium (matériau issu de la fusion des éléments du c\oe ur) dans la cuve avec un refroidissement externe est envisageable. Le comportement thermochimique de ce bain amène à la présence d'un écoulement stratifié avec de la diffusion d'espèces aux interfaces. Le comportement du bain et le nombre de couches de stratification dépendent fortement de ces échanges d'espèces. Une modélisation fine à l'échelle mésoscopique de ces transferts permettrait la validation de modèles intégraux intégrés dans des plateformes logicielles utilisées dans l'industrie nucléaire (PROCOR). Ce travail contribue à la validation d'un modèle champ de phase implémenté dans le code TrioCFD. Ce modèle résout l'équation de Cahn-Hilliard généralisée pour un système multicomposant. En effet, la méthode champ de phase traite naturellement la diffusion d'espèces. Les résultats obtenus seront comparés avec ceux issus d'une expérience de la littérature. Les ressources de calcul étant limitées, seule une validation qualitative sera apportée. L'influence des différents paramètres numériques (maillage, taille de domaine) sera discutée. L'étude permet également de discuter du choix des paramètres champ de phase et leur détermination à partir des paramètres physiques. Enfin, des comportements hydrodynamiques de la littérature seront reproduits, notamment la déformation d'une goutte ascendante et la formation d'instabilités de Rayleigh-Taylor induites par transfert de masse.
-\color{black}
+}
+
+Lorsqu'un accident nucléaire entraînant la fusion du c\oe ur du récateur survient, plusieurs stratégies de mitigation existent pour limiter les conséquences radiologiques.
 \vspace{0.3cm}\\
 \noindent\textbf{Mots clés :} CFD, Transfert de masse, Champ de phase, Thermodynamique
 \begin{center}
@@ -418,7 +422,7 @@ Lors d'un accident nucléaire entraînant la fusion du c\oe ur survient plusieur
 \section*{Remerciements}
 Avant de débuter ce rapport, il me semble important de commencer ce rapport en remerciant ceux qui m’ont aidé pendant ce stage rendant cette expérience enrichissante. Ainsi, j'aimerais remercier : 
 
-Monsieur Laurent Saas, directeur du Laboratoire de Modélisation des Accidents Graves (LMAG) de m'avoir accueilli dans son laboratoire et de m'avoir pleinement intégré.
+Monsieur Laurent Saas, chef du Laboratoire de Modélisation des Accidents Graves (LMAG) de m'avoir accueilli dans son laboratoire et de m'avoir pleinement intégré.
 
 Monsieur Romain Le Tellier pour avoir été un maître de stage disponible et à l'écoute. J'espère que les trois prochaines années en thèse se dérouleront aussi bien.
 

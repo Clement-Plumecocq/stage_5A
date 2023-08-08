@@ -969,6 +969,99 @@
       \endverb
       \keyw{volume of fluid,computational fluid dynamics,droplet dynamics,mass-transfer coefficient,transport processes,unsteady mass transfer}
     \endentry
+    \entry{mirjalili_interface-capturing_nodate}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5dc87bd4c51bc22516c8bd1533a3ec07}{%
+           family={Mirjalili},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2223ad043043debff65589545bc8579e}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={S\bibnamedelima S},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e2588fb246797dce9dfddfdd33893c55}{%
+           family={Dodd},
+           familyi={D\bibinitperiod},
+           given={M\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab4c2102beffbbf90d52ec5bc1b37b8d}
+      \strng{fullhash}{ab4c2102beffbbf90d52ec5bc1b37b8d}
+      \strng{bibnamehash}{ab4c2102beffbbf90d52ec5bc1b37b8d}
+      \strng{authorbibnamehash}{ab4c2102beffbbf90d52ec5bc1b37b8d}
+      \strng{authornamehash}{ab4c2102beffbbf90d52ec5bc1b37b8d}
+      \strng{authorfullhash}{ab4c2102beffbbf90d52ec5bc1b37b8d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Interface-capturing methods for two-phase ﬂows: An overview and recent developments}
+      \verb{file}
+      \verb Mirjalili et al. - Interface-capturing methods for two-phase ﬂows An.pdf:/home/cp273896/Zotero/storage/5RD6F7QD/Mirjalili et al. - Interface-capturing methods for two-phase ﬂows An.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{boniou_comparison_2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1d75cf8f36658048d94d58dd45735b26}{%
+           family={Boniou},
+           familyi={B\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=13f9fa6d031d515546d90bffb18a0754}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=bdd59c9d2a4ce94e6fe9ff15079c0130}{%
+           family={Vié},
+           familyi={V\bibinitperiod},
+           given={Aymeric},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{26c9bfc7554cfdf90a4452ab2df4f1f5}
+      \strng{fullhash}{26c9bfc7554cfdf90a4452ab2df4f1f5}
+      \strng{bibnamehash}{26c9bfc7554cfdf90a4452ab2df4f1f5}
+      \strng{authorbibnamehash}{26c9bfc7554cfdf90a4452ab2df4f1f5}
+      \strng{authornamehash}{26c9bfc7554cfdf90a4452ab2df4f1f5}
+      \strng{authorfullhash}{26c9bfc7554cfdf90a4452ab2df4f1f5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper proposes a comparison of four popular interface capturing methods : the volume of fluid ({VOF}), the standard level set ({SLS}), the accurate conservative level set ({ACLS}) and the coupled level set and volume of fluid ({CLSVOF}). All methods are embedded into a unified low-Mach framework based on a Cartesian-grid finite-volume discretization. This framework includes a sharp transport of the interface, a well-balanced surface tension discretization and a consistent mass and momentum transport which allows capillary-driven simulations with high density ratio. The comparison relies on shared metrics for geometrical accuracy, mass and momentum conservation which exposes the weakness and strengths of each method. Finally, the versatility and capabilities of the proposed solver are demonstrated on the simulation of a 3D head-on collision of two water droplets. Overall, all methods manage to retrieve reasonable results for all test cases presented. {VOF}, {CLSVOF} and {ACLS} tend to artificially create little structures while {SLS} suffers from conservation issues in the mesh resolution limit. This study leads us to the conclusion that {CLSVOF} is the most promising method for two-phase flow simulations in our specific framework because of its inherent conservation properties and topology accuracy.}
+      \field{day}{1}
+      \field{issn}{0301-9322}
+      \field{journaltitle}{International Journal of Multiphase Flow}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{International Journal of Multiphase Flow}
+      \field{title}{Comparison of interface capturing methods for the simulation of two-phase flow in a unified low-Mach framework}
+      \field{urlday}{8}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{149}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103957}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ijmultiphaseflow.2021.103957
+      \endverb
+      \verb{file}
+      \verb Version soumise:/home/cp273896/Zotero/storage/THUAUHZY/Boniou et al. - 2022 - Comparison of interface capturing methods for the .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0301932221003530
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0301932221003530
+      \endverb
+      \keyw{Cartesian grids,Conservative level-set,Coupled level-set volume-of-fluid,Incompressible flows,Level-set,Volume-of-fluid}
+    \endentry
     \entry{rowlinson_translation_1979}{article}{}
       \name{author}{1}{}{%
         {{hash=17548426961cf93ead9cfa8d89eeba82}{%
@@ -1410,8 +1503,8 @@
       \strng{editorabibnamehash}{e7fff340119f9750c2a7b1f0f52d2520}
       \strng{editoranamehash}{e7fff340119f9750c2a7b1f0f52d2520}
       \strng{editorafullhash}{e7fff340119f9750c2a7b1f0f52d2520}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Le confinement des déchets radioactifs issus des centrales est fait à l'aide de verres de confinement nucléaires: des verres spécifiquement élaborés pour assurer la meilleure isolation thermique, chimique et radioactive. Le projet {SIVIT} ({SImulation} de la {VITrification}) du {CEA} s’intéresse au comportement du verre lors du processus de vitrification, où le verre et les déchets sont mélangés et portés à haute température pour ensuite se solidifier. Il y a beaucoup de propriétés du matériau (chimiques, thermodynamiques, mécaniques...) qu'il est désirable de contrôler, et l'une d'entre elles en particulier est la cinétique de séparation de phase. Par example, lors de la vitrification de déchets riches en molybdène, les propriétés thermodynamiques du mélange verre et déchet permettent la séparation de phase du verre en une phase mère et une phase fille enrichie en molybdène selon un mécanisme de nucléation-croissance. Le présent travail s'inscrit alors dans le projet {SIVIT} pour modéliser et simuler un tel mécanisme de séparation de phase à l'échelle de l'interface qui sépare les deux phases liquides séparées du verre fondu. La modélisation doit satisfaire un certain nombre de contraintes pour répondre à ce but : le suivi d'une interface entièrement résolue ; la prise en compte de la diffusion chimique (qui pilote la dynamique de croissance) et de la dynamique d'écoulement et leur effets sur la cinétique de l'interface ; et le respect du paysage thermodynamique du verre. Nous pourrons nous intéresser d'abord à un verre ternaire modèle élaboré avec le composé Na2O-{SiO}2-{MoO}3, dont le diagramme de phase a été établi au {CEA} de Saclay et dont les observations sont en cours au {CEA} de Marcoule. Les simulations de ce modèle doivent aussi démontrer un haut degré de performance pour en permettre les comparaisons en 3D et à une échelle satisfaisante avec ces observations expérimentales. Pour répondre à toute ces contraintes, nous formulons un modèle basé sur la théorie du champ de phase avec une formulation par grand potentiel et son couplage à la diffusion des composants et aux équations de Navier-Stokes incompressibles. Nous discrétisons ce modèle avec la méthode de Boltzmann sur réseau et la programmons dans un nouveau code de simulation à haute performance portable, {LBM}\_saclay, capable d'exploiter les architectures des supercalculateurs modernes multi-{GPU}. Nous exposons ensuite la capacité du modèle à reproduire quantitativement la dynamique de maturation après séparation de phase et l'influence de l'écoulement et de la sédimentation sur cette dynamique. Ceci est fait avec une thermodynamique idéalisée : nous détaillons à la fin la méthodologie de couplage du modèle aux données thermodynamique du verre réel.}

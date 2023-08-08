@@ -9,10 +9,10 @@ D'après Clift et al. \cite{clift_bubbles_2005} la déformation de la bulle est 
 \end{align}
 avec $\rho$ la masse volumique du fluide porteur, $\Delta\rho = |\rho - \rho^{droplet}|$, $D$ le diamètre de la goutte. \\
 L'étude de Clift et al. ayant été faite pour une goutte immiscible nous choisissons d'imposer une mobilité très faible de façon à rendre négligeable la diffusion.
-Au vu des capacités de calculs disponible et des problèmes liés au développement présentés en section \ref{sec:difficulte} certains régimes ne sont pas atteignables.
+Au vu des capacités de calculs disponibles et des problèmes liés au développement présentés en section \ref{sec:difficulte} certains régimes ne sont pas atteignables.
 
-\section{Conditions initiales et paramètres géométrique des simulations}
-Les paramètres pour obtenir les différents régimes sont résumés dans le Tableau \ref{table:cas_ref_clift}. Les conditions initiales et la détermination de l'ensemble des coefficients restent inchangées par rapport au chapitre précédent. Le paysage choisit est le paysage présenté en Figure \ref{fig:landscapechap45}, ce paysage est celui utilisé dans \cite{rasolofomanana_numerical_nodate} et possède l'avantage de ne pas présenter de pathologie liée au profil d'interface.
+\section{Conditions initiales et paramètres géométriques des simulations}
+Les paramètres pour obtenir les différents régimes sont résumés dans le Tableau \ref{table:cas_ref_clift}. Les conditions initiales et la détermination de l'ensemble des coefficients restent inchangées par rapport au chapitre précédent. Le paysage choisi est le paysage présenté en Figure \ref{fig:landscapechap45}, ce paysage est celui utilisé dans \cite{rasolofomanana_numerical_nodate} et possède l'avantage de ne pas présenter de pathologie liée au profil d'interface.
 
 
 \begin{figure}[H]
@@ -116,11 +116,11 @@ Les paramètres pour obtenir les différents régimes sont résumés dans le Tab
 %	\end{tabular} 
 %\end{center}
 \section{Résultats}
-Les résultats des simulations sont présentés en Figure \ref{fig:abaque}, on y retrouve 4 régimes de déformation de la goutte. Il est possible d'observer que les différents régimes sont globalement retranscrits. Cependant, il ne faut pas perdre de vue les problématiques liées à la convergence du maillage. Concernant les résultats obtenus, le régime \textit{skirted} est instable. Cette instabilité semble provenir du caractère diffus de l'interface détachant des "poches" de matière lorsque l'épaisseur de la jupe est trop fine. Ce phénomène est présent sur l'ensemble des résultats, en effet la séparation d'échelle entre l'épaisseur de l'interface est la goutte ne permet pas d'avoir des résultats plus cohérents.
+Les résultats des simulations sont présentés en Figure \ref{fig:abaque}, on y retrouve 4 régimes de déformation de la goutte. Il est possible d'observer que les différents régimes sont globalement retranscrits. Cependant, il ne faut pas perdre de vue les problématiques liées à la convergence du maillage. Concernant les résultats obtenus, le régime \textit{skirted} est instable. Cette instabilité semble provenir du caractère diffus de l'interface détachant des "poches" de matière lorsque l'épaisseur de la jupe est trop fine. Ce phénomène est présent sur l'ensemble des résultats, en effet la séparation d'échelle entre l'épaisseur de l'interface et le rayon de la goutte n'est sûrement pas suffisant pour garantir la convergence des résultats (comme discuté au paragraphe \ref{sec:raffinement}).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\linewidth]{figure/projet_abaque.png}
-	\caption{Déformation du goutte, d'après \cite{clift_bubbles_2005}, \textcolor{blue}{je vais refaire la figure avec une seule colorbar suffisamment grosse}}
+	\caption{Déformation du goutte, d'après \cite{clift_bubbles_2005}}
 	\label{fig:abaque}
 \end{figure}
 

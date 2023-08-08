@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2023.5.25)  8 AUG 2023 08:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2023.5.25)  8 AUG 2023 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2029,28 +2029,28 @@ LaTeX Warning: Label `sub@fig:three sin x' multiply defined.
 )
 \openout1 = `template_rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 329.
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 329.
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 329.
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 329.
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 329.
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 329.
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 329.
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 329.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 329.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 331.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 331.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 329.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 329.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 331.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2085,15 +2085,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \degres on input line 329.
-LaTeX Info: Redefining \dots on input line 329.
+LaTeX Info: Redefining \degres on input line 331.
+LaTeX Info: Redefining \dots on input line 331.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 329.
+(french.ldf)             reported on input line 331.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 329.
-LaTeX Info: Redefining \up on input line 329.
+(french.ldf)             reported on input line 331.
+LaTeX Info: Redefining \up on input line 331.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2130,7 +2130,7 @@ LaTeX Info: Redefining \up on input line 329.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box140
-Package hyperref Info: Link coloring ON on input line 329.
+Package hyperref Info: Link coloring ON on input line 331.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2139,9 +2139,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count533
 )
-LaTeX Info: Redefining \ref on input line 329.
-LaTeX Info: Redefining \pageref on input line 329.
-LaTeX Info: Redefining \nameref on input line 329.
+LaTeX Info: Redefining \ref on input line 331.
+LaTeX Info: Redefining \pageref on input line 331.
+LaTeX Info: Redefining \nameref on input line 331.
 
 (./template_rapport.out) (./template_rapport.out)
 \@outlinefile=\write22
@@ -2151,18 +2151,18 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 329.
+LaTeX Info: Redefining \selectfont on input line 331.
 \symgns@font=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 329.
-Package gensymb Info: Math companion symbols declared on input line 329.
-LaTeX Info: Redefining \degree on input line 329.
-LaTeX Info: Redefining \celsius on input line 329.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 331.
+Package gensymb Info: Math companion symbols declared on input line 331.
+LaTeX Info: Redefining \degree on input line 331.
+LaTeX Info: Redefining \celsius on input line 331.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 329.
-LaTeX Info: Redefining \ohm on input line 329.
-Package gensymb Info: Using \textohm for \ohm on input line 329.
-Package gensymb Info: Using \textmu for \micro on input line 329.
+erthousand on input line 331.
+LaTeX Info: Redefining \ohm on input line 331.
+Package gensymb Info: Using \textohm for \ohm on input line 331.
+Package gensymb Info: Using \textmu for \micro on input line 331.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -2184,8 +2184,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'template_rapport.bbl' found.
 
 (./template_rapport.bbl)
-Package biblatex Info: Reference section=0 on input line 329.
-Package biblatex Info: Reference segment=0 on input line 329.
+Package biblatex Info: Reference section=0 on input line 331.
+Package biblatex Info: Reference segment=0 on input line 331.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2212,73 +2212,73 @@ Package tocstyle Warning: Usage of `tocstyle' with `titletoc' detected.
 (tocstyle)                but not both of them together. I expect even
 (tocstyle)                error messages because of this combination.
 
-Package tocstyle Info: prepare \l@part for redefinition on input line 329.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 329.
+Package tocstyle Info: prepare \l@part for redefinition on input line 331.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 331.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 329.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 331.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 329
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 331
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 329
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 331
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 329.
+(Font)              <12> on input line 331.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 329.
+(Font)              <8> on input line 331.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 329.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 329.
+(Font)              <6> on input line 331.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 331.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 329.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 331.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 329.
-LaTeX Font Info:    Try loading font information for U+msa on input line 329.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 331.
+LaTeX Font Info:    Try loading font information for U+msa on input line 331.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 329.
+LaTeX Font Info:    Try loading font information for U+msb on input line 331.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 329.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 331.
 
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 329.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 331.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 329.
-Package tocstyle Info: prepare \l@section for redefinition on input line 329.
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 329
+(Font)              <10.95> on input line 331.
+Package tocstyle Info: prepare \l@section for redefinition on input line 331.
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 331
 .
 Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
-329.
-Package tocstyle Info: prepare \l@table for redefinition on input line 329.
-Package tocstyle Info: prepare \l@subtable for redefinition on input line 329.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 329.
-Package tocstyle Info: prepare \l@subfigure for redefinition on input line 329.
+331.
+Package tocstyle Info: prepare \l@table for redefinition on input line 331.
+Package tocstyle Info: prepare \l@subtable for redefinition on input line 331.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 331.
+Package tocstyle Info: prepare \l@subfigure for redefinition on input line 331.
 
 
 
@@ -2298,36 +2298,36 @@ p \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode \@tem
 pdima #3\relax \advance \leftskip \@tempdima \null \nobreak \hskip -\leftskip {
 #4}\nobreak \leaders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep m
 u$}\hfill \nobreak \hb@xt@ \@pnumwidth {\hfil \normalfont \normalcolor #5\kern 
--\p@ \kern \p@ }\par }\fi  on input line 329.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 329
+-\p@ \kern \p@ }\par }\fi  on input line 331.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 331
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 329
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 331
 .
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package hyperref Info: Option `pageanchor' set `false' on input line 333.
+Package hyperref Info: Option `pageanchor' set `false' on input line 335.
 <logo_iresne.png, id=155, 1505.625pt x 550.055pt>
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 353.
+Package pdftex.def Info: logo_iresne.png  used on input line 355.
 (pdftex.def)             Requested size: 225.834pt x 82.50468pt.
 <polytech.jpg, id=157, 1204.5pt x 473.77pt>
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 353.
+Package pdftex.def Info: polytech.jpg  used on input line 355.
 (pdftex.def)             Requested size: 240.89574pt x 94.75232pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 369.
+Package pdftex.def Info: logo_iresne.png  used on input line 371.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 369.
+Package pdftex.def Info: polytech.jpg  used on input line 371.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -2339,18 +2339,18 @@ tech.jpg>] (./template_rapport.mw)
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 400.
+Package pdftex.def Info: logo_iresne.png  used on input line 404.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 400.
+Package pdftex.def Info: polytech.jpg  used on input line 404.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
 [1] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-Package hyperref Info: Option `pageanchor' set `true' on input line 401.
+Package hyperref Info: Option `pageanchor' set `true' on input line 405.
  (./template_rapport.toc
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.33182pt
@@ -2559,11 +2559,11 @@ number indent calculated (toc, 1): 12.59247pt
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 409.
+Package pdftex.def Info: logo_iresne.png  used on input line 413.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 409.
+Package pdftex.def Info: polytech.jpg  used on input line 413.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -2652,7 +2652,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 	\item L
+l.35 	\item l
              e b√¢timent r√©acteur plac√© sous atmosph√®re d√©pressuris√©e, ...
 \openout6 = `template_rapport.mw'.
 
@@ -2836,7 +2836,15 @@ Chapitre 2.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/diffuse_interface.jpg, id=318, 850.37215pt x 383.30728pt>
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+<figure/diffuse_interface.jpg, id=320, 850.37215pt x 383.30728pt>
 File: figure/diffuse_interface.jpg Graphic file (type jpg)
 <use figure/diffuse_interface.jpg>
 Package pdftex.def Info: figure/diffuse_interface.jpg  used on input line 20.
@@ -2872,7 +2880,7 @@ Package pdftex.def Info: polytech.jpg  used on input line 24.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/champ_phase.png, id=329, 1312.905pt x 779.91376pt>
+<figure/champ_phase.png, id=333, 1312.905pt x 779.91376pt>
 File: figure/champ_phase.png Graphic file (type png)
 <use figure/champ_phase.png>
 Package pdftex.def Info: figure/champ_phase.png  used on input line 27.
@@ -2997,29 +3005,26 @@ Package pdftex.def Info: polytech.jpg  used on input line 133.
 
 \__morewrites_shipout_ii: ...rewrites_shipout_box 
                                                   \__morewrites_after_shipout: 
-l.133 \section
-              {Paysage thermodynamique analytique}pdfTeX warning (ext4): destin
-ation with the same identifier (name{equation.2.2.2}) has been already used, du
-plicate ignored
+l.133 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.2.2}) has been already used, duplicate ignored
 
 \__morewrites_shipout_ii: ...rewrites_shipout_box 
                                                   \__morewrites_after_shipout: 
-l.133 \section
-              {Paysage thermodynamique analytique}pdfTeX warning (ext4): destin
-ation with the same identifier (name{equation.2.3.1}) has been already used, du
-plicate ignored
+l.133 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.3.1}) has been already used, duplicate ignored
 
 \__morewrites_shipout_ii: ...rewrites_shipout_box 
                                                   \__morewrites_after_shipout: 
-l.133 \section
-              {Paysage thermodynamique analytique}pdfTeX warning (ext4): destin
-ation with the same identifier (name{equation.2.3.2}) has been already used, du
-plicate ignored
+l.133 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.3.2}) has been already used, duplicate ignored
 
 \__morewrites_shipout_ii: ...rewrites_shipout_box 
                                                   \__morewrites_after_shipout: 
-l.133 \section
-              {Paysage thermodynamique analytique}] (./template_rapport.mw)
+l.133 \begin{equation}
+                      ] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -3038,23 +3043,22 @@ l.133 \section
 
 \openout6 = `template_rapport.mw'.
 
-<figure/landscape.png, id=398, 794.2473pt x 658.3797pt>
+<figure/landscape.png, id=402, 794.2473pt x 658.3797pt>
 File: figure/landscape.png Graphic file (type png)
 <use figure/landscape.png>
-Package pdftex.def Info: figure/landscape.png  used on input line 155.
+Package pdftex.def Info: figure/landscape.png  used on input line 159.
 (pdftex.def)             Requested size: 290.22107pt x 240.5728pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 160.
+Package pdftex.def Info: logo_iresne.png  used on input line 164.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 160.
+Package pdftex.def Info: polytech.jpg  used on input line 164.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-
-[12] (./template_rapport.mw)
+ [12] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -3081,7 +3085,8 @@ Package pdftex.def Info: polytech.jpg  used on input line 160.
 
 \openout6 = `template_rapport.mw'.
 
-) (./Chapitre/chap3.tex
+)
+(./Chapitre/chap3.tex
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
 Package pdftex.def Info: logo_iresne.png  used on input line 1.
@@ -3105,7 +3110,7 @@ Chapitre 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\cite' on input line 6.
 
-<figure/exp.png, id=420, 335.2525pt x 284.06125pt>
+<figure/exp.png, id=426, 335.2525pt x 284.06125pt>
 File: figure/exp.png Graphic file (type png)
 <use figure/exp.png>
 Package pdftex.def Info: figure/exp.png  used on input line 10.
@@ -3118,13 +3123,25 @@ Package pdftex.def Info: figure/exp.png  used on input line 10.
 
 \openout6 = `template_rapport.mw'.
 
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 15.
+Package pdftex.def Info: logo_iresne.png  used on input line 33.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 15.
+Package pdftex.def Info: polytech.jpg  used on input line 33.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3145,127 +3162,102 @@ Package pdftex.def Info: polytech.jpg  used on input line 15.
 
 \openout6 = `template_rapport.mw'.
 
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 87.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 87.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+ [15] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
-\openout6 = `template_rapport.mw'.
-
-<figure/condition_init.png, id=434, 1305.87875pt x 863.225pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 96.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 96.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 96.
+<figure/condition_init.png, id=454, 1305.87875pt x 863.225pt>
 File: figure/condition_init.png Graphic file (type png)
 <use figure/condition_init.png>
-Package pdftex.def Info: figure/condition_init.png  used on input line 99.
+Package pdftex.def Info: figure/condition_init.png  used on input line 125.
 (pdftex.def)             Requested size: 241.84843pt x 159.86536pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 103.
+Package pdftex.def Info: logo_iresne.png  used on input line 128.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 103.
+Package pdftex.def Info: polytech.jpg  used on input line 128.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [15pdfTeX warning (ext4): destination with the same identifier (name{equation.
-3.2.1}) has been already used, duplicate ignored
+
+[16pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.3.1}) has been already used, duplicate ignored
 
 \__morewrites_shipout_ii: ...rewrites_shipout_box 
                                                   \__morewrites_after_shipout: 
-l.103 
-      pdfTeX warning (ext4): destination with the same identifier (name{equatio
-n.3.2.2}) has been already used, duplicate ignored
+l.128 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{equation.3.3.2}) has been already used, duplicate ignored
 
 \__morewrites_shipout_ii: ...rewrites_shipout_box 
                                                   \__morewrites_after_shipout: 
-l.103 
-      ] (./template_rapport.mw)
+l.128 \end{figure}
+                  ] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
-
-
-LaTeX Warning: Reference `eq:boussi' on page 16 undefined on input line 104.
-
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
-
-LaTeX Warning: Reference `eq:boussi' on page 16 undefined on input line 104.
-
-pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 	\end{empheq}
+l.136 	\end{empheq}
                    pdfTeX warning (ext4): destination with the same identifier 
-(name{equation.3.2.2}) has been already used, duplicate ignored
+(name{equation.3.3.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 	\end{empheq}
+l.136 	\end{empheq}
                    
-File: logo_iresne.png Graphic file (type png)
-<use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 121.
-(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
-File: polytech.jpg Graphic file (type jpg)
-<use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 121.
-(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
-\openout6 = `template_rapport.mw'.
-
- [16pdfTeX warning (ext4): destination with the same identifier (name{equation.
-3.2.3}) has been already used, duplicate ignored
-
-\__morewrites_shipout_ii: ...rewrites_shipout_box 
-                                                  \__morewrites_after_shipout: 
-l.121 
-       <./figure/condition_init.png>] (./template_rapport.mw)
-\openout6 = `template_rapport.mw'.
-
-\openout6 = `template_rapport.mw'.
-
-\openout6 = `template_rapport.mw'.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 130.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 130.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 130.
-<figure/landscape_base_chap3.png, id=461, 794.2473pt x 658.3797pt>
+<figure/landscape_base_chap3.png, id=469, 794.2473pt x 658.3797pt>
 File: figure/landscape_base_chap3.png Graphic file (type png)
 <use figure/landscape_base_chap3.png>
 Package pdftex.def Info: figure/landscape_base_chap3.png  used on input line 15
-0.
+1.
 (pdftex.def)             Requested size: 290.22107pt x 240.5728pt.
-<figure/separation_immi.png, id=462, 1015.795pt x 804.00375pt>
-File: figure/separation_immi.png Graphic file (type png)
-<use figure/separation_immi.png>
-Package pdftex.def Info: figure/separation_immi.png  used on input line 182.
-(pdftex.def)             Requested size: 193.47578pt x 153.13034pt.
-<figure/separation_misc.png, id=463, 1009.7725pt x 812.03375pt>
-File: figure/separation_misc.png Graphic file (type png)
-<use figure/separation_misc.png>
-Package pdftex.def Info: figure/separation_misc.png  used on input line 188.
-(pdftex.def)             Requested size: 193.47578pt x 155.58902pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 194.
+Package pdftex.def Info: logo_iresne.png  used on input line 154.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 194.
+Package pdftex.def Info: polytech.jpg  used on input line 154.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [17]
-(./template_rapport.mw)
+ [17pdfTeX warning (ext4): destination with the same identifier (name{equation.
+3.3.3}) has been already used, duplicate ignored
+
+\__morewrites_shipout_ii: ...rewrites_shipout_box 
+                                                  \__morewrites_after_shipout: 
+l.154  \end{figure}
+                    <./figure/condition_init.png>] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -3276,34 +3268,39 @@ Package pdftex.def Info: polytech.jpg  used on input line 194.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/paysage_neqlocal.png, id=479, 794.2473pt x 658.3797pt>
+<figure/separation_immi.png, id=479, 1015.795pt x 804.00375pt>
+File: figure/separation_immi.png Graphic file (type png)
+<use figure/separation_immi.png>
+Package pdftex.def Info: figure/separation_immi.png  used on input line 183.
+(pdftex.def)             Requested size: 193.47578pt x 153.13034pt.
+<figure/separation_misc.png, id=480, 1009.7725pt x 812.03375pt>
+File: figure/separation_misc.png Graphic file (type png)
+<use figure/separation_misc.png>
+Package pdftex.def Info: figure/separation_misc.png  used on input line 189.
+(pdftex.def)             Requested size: 193.47578pt x 155.58902pt.
+<figure/paysage_neqlocal.png, id=486, 794.2473pt x 658.3797pt>
 File: figure/paysage_neqlocal.png Graphic file (type png)
 <use figure/paysage_neqlocal.png>
-Package pdftex.def Info: figure/paysage_neqlocal.png  used on input line 202.
+Package pdftex.def Info: figure/paysage_neqlocal.png  used on input line 203.
 (pdftex.def)             Requested size: 261.19386pt x 216.51251pt.
 
-Overfull \hbox (43.53175pt too wide) in paragraph at lines 202--203
+Overfull \hbox (43.53175pt too wide) in paragraph at lines 203--204
  [][] 
  []
 
-<figure/direction_gradient.png, id=480, 658.3797pt x 658.3797pt>
+<figure/direction_gradient.png, id=487, 658.3797pt x 658.3797pt>
 File: figure/direction_gradient.png Graphic file (type png)
 <use figure/direction_gradient.png>
-Package pdftex.def Info: figure/direction_gradient.png  used on input line 209.
+Package pdftex.def Info: figure/direction_gradient.png  used on input line 210.
 
 (pdftex.def)             Requested size: 217.66211pt x 217.65776pt.
-<figure/eau_ref.png, id=481, 794.97pt x 578.16pt>
-File: figure/eau_ref.png Graphic file (type png)
-<use figure/eau_ref.png>
-Package pdftex.def Info: figure/eau_ref.png  used on input line 218.
-(pdftex.def)             Requested size: 241.84843pt x 175.89302pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 221.
+Package pdftex.def Info: logo_iresne.png  used on input line 216.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 221.
+Package pdftex.def Info: polytech.jpg  used on input line 216.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3311,18 +3308,23 @@ Package pdftex.def Info: polytech.jpg  used on input line 221.
 e/separation_misc.png>] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-<figure/Paysage_ecriture1.png, id=492, 794.2473pt x 658.3797pt>
+<figure/eau_ref.png, id=499, 794.97pt x 578.16pt>
+File: figure/eau_ref.png Graphic file (type png)
+<use figure/eau_ref.png>
+Package pdftex.def Info: figure/eau_ref.png  used on input line 219.
+(pdftex.def)             Requested size: 241.84843pt x 175.89302pt.
+<figure/Paysage_ecriture1.png, id=501, 794.2473pt x 658.3797pt>
 File: figure/Paysage_ecriture1.png Graphic file (type png)
 <use figure/Paysage_ecriture1.png>
-Package pdftex.def Info: figure/Paysage_ecriture1.png  used on input line 227.
+Package pdftex.def Info: figure/Paysage_ecriture1.png  used on input line 228.
 (pdftex.def)             Requested size: 290.22107pt x 240.5728pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 231.
+Package pdftex.def Info: logo_iresne.png  used on input line 232.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 231.
+Package pdftex.def Info: polytech.jpg  used on input line 232.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3337,54 +3339,54 @@ e/eau_ref.png>]
 
 
 
-LaTeX Warning: Reference `absorption' on page 20 undefined on input line 232.
+LaTeX Warning: Reference `absorption' on page 20 undefined on input line 233.
 
-<figure/nouveau_parametrage/immiscible_New_Parametrage.png, id=504, 794.97pt x 
+<figure/nouveau_parametrage/immiscible_New_Parametrage.png, id=513, 794.97pt x 
 578.16pt>
 File: figure/nouveau_parametrage/immiscible_New_Parametrage.png Graphic file (t
 ype png)
 <use figure/nouveau_parametrage/immiscible_New_Parametrage.png>
 Package pdftex.def Info: figure/nouveau_parametrage/immiscible_New_Parametrage.
-png  used on input line 237.
+png  used on input line 238.
 (pdftex.def)             Requested size: 239.42964pt x 174.12863pt.
 
-Overfull \hbox (21.76753pt too wide) in paragraph at lines 237--238
+Overfull \hbox (21.76753pt too wide) in paragraph at lines 238--239
  [][] 
  []
 
-<figure/nouveau_parametrage/miscible_New_Parametrage.png, id=505, 794.97pt x 57
+<figure/nouveau_parametrage/miscible_New_Parametrage.png, id=514, 794.97pt x 57
 8.16pt>
 File: figure/nouveau_parametrage/miscible_New_Parametrage.png Graphic file (typ
 e png)
 <use figure/nouveau_parametrage/miscible_New_Parametrage.png>
 Package pdftex.def Info: figure/nouveau_parametrage/miscible_New_Parametrage.pn
-g  used on input line 243.
+g  used on input line 244.
 (pdftex.def)             Requested size: 239.42964pt x 174.12863pt.
 
-Overfull \hbox (21.76753pt too wide) in paragraph at lines 243--244
+Overfull \hbox (21.76753pt too wide) in paragraph at lines 244--245
  [][] 
  []
 
-<figure/nouveau_parametrage/eau_New_Parametrage.png, id=506, 794.97pt x 578.16p
+<figure/nouveau_parametrage/eau_New_Parametrage.png, id=515, 794.97pt x 578.16p
 t>
 File: figure/nouveau_parametrage/eau_New_Parametrage.png Graphic file (type png
 )
 <use figure/nouveau_parametrage/eau_New_Parametrage.png>
 Package pdftex.def Info: figure/nouveau_parametrage/eau_New_Parametrage.png  us
-ed on input line 253.
+ed on input line 254.
 (pdftex.def)             Requested size: 239.42964pt x 174.12863pt.
 
-Overfull \hbox (21.76753pt too wide) in paragraph at lines 253--254
+Overfull \hbox (21.76753pt too wide) in paragraph at lines 254--255
  [][] 
  []
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 269.
+Package pdftex.def Info: logo_iresne.png  used on input line 270.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 269.
+Package pdftex.def Info: polytech.jpg  used on input line 270.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3395,11 +3397,11 @@ ew_Parametrage.png> <./figure/nouveau_parametrage/miscible_New_Parametrage.png>
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 339.
+Package pdftex.def Info: logo_iresne.png  used on input line 340.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 339.
+Package pdftex.def Info: polytech.jpg  used on input line 340.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3415,86 +3417,86 @@ t.mw)
 
 \openout6 = `template_rapport.mw'.
 
-<figure/trajectoire_Exp4.png, id=528, 939.51pt x 433.62pt>
+<figure/trajectoire_Exp4.png, id=537, 939.51pt x 433.62pt>
 File: figure/trajectoire_Exp4.png Graphic file (type png)
 <use figure/trajectoire_Exp4.png>
-Package pdftex.def Info: figure/trajectoire_Exp4.png  used on input line 346.
+Package pdftex.def Info: figure/trajectoire_Exp4.png  used on input line 347.
 (pdftex.def)             Requested size: 435.32422pt x 200.91663pt.
-<figure/miscible_NS.png, id=530, 794.97pt x 578.16pt>
+<figure/miscible_NS.png, id=539, 794.97pt x 578.16pt>
 File: figure/miscible_NS.png Graphic file (type png)
 <use figure/miscible_NS.png>
-Package pdftex.def Info: figure/miscible_NS.png  used on input line 355.
+Package pdftex.def Info: figure/miscible_NS.png  used on input line 356.
 (pdftex.def)             Requested size: 239.42964pt x 174.12863pt.
 
-Overfull \hbox (21.76753pt too wide) in paragraph at lines 355--356
+Overfull \hbox (21.76753pt too wide) in paragraph at lines 356--357
  [][] 
  []
 
-<figure/immiscible_NS.png, id=531, 794.97pt x 578.16pt>
+<figure/immiscible_NS.png, id=540, 794.97pt x 578.16pt>
 File: figure/immiscible_NS.png Graphic file (type png)
 <use figure/immiscible_NS.png>
-Package pdftex.def Info: figure/immiscible_NS.png  used on input line 361.
+Package pdftex.def Info: figure/immiscible_NS.png  used on input line 362.
 (pdftex.def)             Requested size: 239.42964pt x 174.12863pt.
 
-Overfull \hbox (21.76753pt too wide) in paragraph at lines 361--362
+Overfull \hbox (21.76753pt too wide) in paragraph at lines 362--363
  [][] 
  []
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 368.
+Package pdftex.def Info: logo_iresne.png  used on input line 369.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 368.
+Package pdftex.def Info: polytech.jpg  used on input line 369.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
 [22 <./figure/trajectoire_Exp4.png>] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-<figure/vitesse_Exp4.png, id=542, 939.51pt x 433.62pt>
+<figure/vitesse_Exp4.png, id=551, 939.51pt x 433.62pt>
 File: figure/vitesse_Exp4.png Graphic file (type png)
 <use figure/vitesse_Exp4.png>
-Package pdftex.def Info: figure/vitesse_Exp4.png  used on input line 378.
+Package pdftex.def Info: figure/vitesse_Exp4.png  used on input line 379.
 (pdftex.def)             Requested size: 435.32422pt x 200.91663pt.
-<fig_plateau_vitesse/visit0009.png, id=545, 127.4361pt x 187.1793pt>
+<fig_plateau_vitesse/visit0009.png, id=554, 127.4361pt x 187.1793pt>
 File: fig_plateau_vitesse/visit0009.png Graphic file (type png)
 <use fig_plateau_vitesse/visit0009.png>
 Package pdftex.def Info: fig_plateau_vitesse/visit0009.png  used on input line 
-387.
+388.
 (pdftex.def)             Requested size: 111.2482pt x 163.40733pt.
-<fig_plateau_vitesse/visit0013.png, id=546, 125.0271pt x 186.4566pt>
+<fig_plateau_vitesse/visit0013.png, id=555, 125.0271pt x 186.4566pt>
 File: fig_plateau_vitesse/visit0013.png Graphic file (type png)
 <use fig_plateau_vitesse/visit0013.png>
 Package pdftex.def Info: fig_plateau_vitesse/visit0013.png  used on input line 
-393.
+394.
 (pdftex.def)             Requested size: 111.2482pt x 165.91171pt.
-<fig_plateau_vitesse/visit0016.png, id=547, 124.0635pt x 185.7339pt>
+<fig_plateau_vitesse/visit0016.png, id=556, 124.0635pt x 185.7339pt>
 File: fig_plateau_vitesse/visit0016.png Graphic file (type png)
 <use fig_plateau_vitesse/visit0016.png>
 Package pdftex.def Info: fig_plateau_vitesse/visit0016.png  used on input line 
-399.
+400.
 (pdftex.def)             Requested size: 111.2482pt x 166.5468pt.
-<fig_plateau_vitesse/visit0019.png, id=548, 124.3044pt x 187.6611pt>
+<fig_plateau_vitesse/visit0019.png, id=557, 124.3044pt x 187.6611pt>
 File: fig_plateau_vitesse/visit0019.png Graphic file (type png)
 <use fig_plateau_vitesse/visit0019.png>
 Package pdftex.def Info: fig_plateau_vitesse/visit0019.png  used on input line 
-405.
+406.
 (pdftex.def)             Requested size: 111.2482pt x 167.95993pt.
-<fig_plateau_vitesse/colorbar1.png, id=549, 94.4328pt x 16.863pt>
+<fig_plateau_vitesse/colorbar1.png, id=558, 94.4328pt x 16.863pt>
 File: fig_plateau_vitesse/colorbar1.png Graphic file (type png)
 <use fig_plateau_vitesse/colorbar1.png>
 Package pdftex.def Info: fig_plateau_vitesse/colorbar1.png  used on input line 
-411.
+412.
 (pdftex.def)             Requested size: 193.47578pt x 34.55287pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 417.
+Package pdftex.def Info: logo_iresne.png  used on input line 418.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 417.
+Package pdftex.def Info: polytech.jpg  used on input line 418.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3503,68 +3505,68 @@ Exp4.png>]
 (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-<fig_plateau_vitesse2/visit0012.png, id=562, 72.7518pt x 185.493pt>
+<fig_plateau_vitesse2/visit0012.png, id=571, 72.7518pt x 185.493pt>
 File: fig_plateau_vitesse2/visit0012.png Graphic file (type png)
 <use fig_plateau_vitesse2/visit0012.png>
 Package pdftex.def Info: fig_plateau_vitesse2/visit0012.png  used on input line
- 422.
+ 423.
 (pdftex.def)             Requested size: 87.06189pt x 221.98193pt.
-<fig_plateau_vitesse2/visit0014.png, id=563, 76.6062pt x 186.2157pt>
+<fig_plateau_vitesse2/visit0014.png, id=572, 76.6062pt x 186.2157pt>
 File: fig_plateau_vitesse2/visit0014.png Graphic file (type png)
 <use fig_plateau_vitesse2/visit0014.png>
 Package pdftex.def Info: fig_plateau_vitesse2/visit0014.png  used on input line
- 427.
+ 428.
 (pdftex.def)             Requested size: 87.06189pt x 211.6431pt.
-<fig_plateau_vitesse2/visit0016.png, id=564, 75.4017pt x 188.3838pt>
+<fig_plateau_vitesse2/visit0016.png, id=573, 75.4017pt x 188.3838pt>
 File: fig_plateau_vitesse2/visit0016.png Graphic file (type png)
 <use fig_plateau_vitesse2/visit0016.png>
 Package pdftex.def Info: fig_plateau_vitesse2/visit0016.png  used on input line
- 432.
+ 433.
 (pdftex.def)             Requested size: 87.06189pt x 217.52214pt.
-<fig_plateau_vitesse2/visit0018.png, id=565, 75.8835pt x 185.7339pt>
+<fig_plateau_vitesse2/visit0018.png, id=574, 75.8835pt x 185.7339pt>
 File: fig_plateau_vitesse2/visit0018.png Graphic file (type png)
 <use fig_plateau_vitesse2/visit0018.png>
 Package pdftex.def Info: fig_plateau_vitesse2/visit0018.png  used on input line
- 437.
+ 438.
 (pdftex.def)             Requested size: 87.06189pt x 213.09352pt.
-<fig_plateau_vitesse2/visit0020.png, id=566, 75.6426pt x 187.4202pt>
+<fig_plateau_vitesse2/visit0020.png, id=575, 75.6426pt x 187.4202pt>
 File: fig_plateau_vitesse2/visit0020.png Graphic file (type png)
 <use fig_plateau_vitesse2/visit0020.png>
 Package pdftex.def Info: fig_plateau_vitesse2/visit0020.png  used on input line
- 442.
+ 443.
 (pdftex.def)             Requested size: 87.06189pt x 215.71744pt.
-<fig_plateau_vitesse2/colorbar2.png, id=567, 398.48875pt x 70.2625pt>
+<fig_plateau_vitesse2/colorbar2.png, id=576, 398.48875pt x 70.2625pt>
 File: fig_plateau_vitesse2/colorbar2.png Graphic file (type png)
 <use fig_plateau_vitesse2/colorbar2.png>
 Package pdftex.def Info: fig_plateau_vitesse2/colorbar2.png  used on input line
- 447.
+ 448.
 (pdftex.def)             Requested size: 193.47578pt x 34.11371pt.
 File: figure/Paysage_ecriture1.png Graphic file (type png)
 <use figure/Paysage_ecriture1.png>
-Package pdftex.def Info: figure/Paysage_ecriture1.png  used on input line 459.
+Package pdftex.def Info: figure/Paysage_ecriture1.png  used on input line 460.
 (pdftex.def)             Requested size: 239.42964pt x 198.4698pt.
 
-Overfull \hbox (21.76753pt too wide) in paragraph at lines 459--460
+Overfull \hbox (21.76753pt too wide) in paragraph at lines 460--461
  [][] 
  []
 
-<figure/paysagetocompare.png, id=572, 794.2473pt x 658.3797pt>
+<figure/paysagetocompare.png, id=580, 794.2473pt x 658.3797pt>
 File: figure/paysagetocompare.png Graphic file (type png)
 <use figure/paysagetocompare.png>
-Package pdftex.def Info: figure/paysagetocompare.png  used on input line 466.
+Package pdftex.def Info: figure/paysagetocompare.png  used on input line 467.
 (pdftex.def)             Requested size: 239.42964pt x 198.4698pt.
 
-Overfull \hbox (21.76753pt too wide) in paragraph at lines 466--467
+Overfull \hbox (21.76753pt too wide) in paragraph at lines 467--468
  [][] 
  []
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 472.
+Package pdftex.def Info: logo_iresne.png  used on input line 473.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 472.
+Package pdftex.def Info: polytech.jpg  used on input line 473.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3577,25 +3579,25 @@ NG copy)> <./fig_plateau_vitesse2/visit0020.png (PNG copy)> <./fig_plateau_vite
 sse2/colorbar2.png>] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-<figure/influence_Landscape_position.png, id=588, 722.7pt x 433.62pt>
+<figure/influence_Landscape_position.png, id=596, 722.7pt x 433.62pt>
 File: figure/influence_Landscape_position.png Graphic file (type png)
 <use figure/influence_Landscape_position.png>
 Package pdftex.def Info: figure/influence_Landscape_position.png  used on input
- line 495.
+ line 496.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-<figure/influence_Landscape_vitesse.png, id=589, 722.7pt x 433.62pt>
+<figure/influence_Landscape_vitesse.png, id=597, 722.7pt x 433.62pt>
 File: figure/influence_Landscape_vitesse.png Graphic file (type png)
 <use figure/influence_Landscape_vitesse.png>
 Package pdftex.def Info: figure/influence_Landscape_vitesse.png  used on input 
-line 500.
+line 501.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 506.
+Package pdftex.def Info: logo_iresne.png  used on input line 507.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 506.
+Package pdftex.def Info: polytech.jpg  used on input line 507.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3606,41 +3608,41 @@ Package pdftex.def Info: polytech.jpg  used on input line 506.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/somme_concentration_a_6s.png, id=599, 865.2325pt x 796.9775pt>
+<figure/somme_concentration_a_6s.png, id=607, 865.2325pt x 796.9775pt>
 File: figure/somme_concentration_a_6s.png Graphic file (type png)
 <use figure/somme_concentration_a_6s.png>
 Package pdftex.def Info: figure/somme_concentration_a_6s.png  used on input lin
-e 511.
+e 512.
 (pdftex.def)             Requested size: 227.3381pt x 209.39821pt.
-<figure/somme_concentration_other_6s.png, id=600, 896.34875pt x 795.97375pt>
+<figure/somme_concentration_other_6s.png, id=608, 896.34875pt x 795.97375pt>
 File: figure/somme_concentration_other_6s.png Graphic file (type png)
 <use figure/somme_concentration_other_6s.png>
 Package pdftex.def Info: figure/somme_concentration_other_6s.png  used on input
- line 516.
+ line 517.
 (pdftex.def)             Requested size: 238.70569pt x 211.96442pt.
 
-Overfull \hbox (11.36758pt too wide) in paragraph at lines 516--517
+Overfull \hbox (11.36758pt too wide) in paragraph at lines 517--518
  [][] 
  []
 
-<figure/masse_vol_a_6s.png, id=601, 868.24374pt x 803.0pt>
+<figure/masse_vol_a_6s.png, id=609, 868.24374pt x 803.0pt>
 File: figure/masse_vol_a_6s.png Graphic file (type png)
 <use figure/masse_vol_a_6s.png>
-Package pdftex.def Info: figure/masse_vol_a_6s.png  used on input line 521.
+Package pdftex.def Info: figure/masse_vol_a_6s.png  used on input line 522.
 (pdftex.def)             Requested size: 227.3381pt x 210.2454pt.
-<figure/masse_vol_other_6s.png, id=602, 879.285pt x 806.01125pt>
+<figure/masse_vol_other_6s.png, id=610, 879.285pt x 806.01125pt>
 File: figure/masse_vol_other_6s.png Graphic file (type png)
 <use figure/masse_vol_other_6s.png>
-Package pdftex.def Info: figure/masse_vol_other_6s.png  used on input line 526.
+Package pdftex.def Info: figure/masse_vol_other_6s.png  used on input line 527.
 
 (pdftex.def)             Requested size: 227.3381pt x 208.3896pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 532.
+Package pdftex.def Info: logo_iresne.png  used on input line 533.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 532.
+Package pdftex.def Info: polytech.jpg  used on input line 533.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3652,82 +3654,61 @@ itesse.png>] (./template_rapport.mw)
 
 \openout6 = `template_rapport.mw'.
 
-
-
-Package caption Warning: \label without proper reference on input line 543.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:champvitesse_init' on page 27 undefined on input 
-line 542.
-
-
-Package caption Warning: \label without proper reference on input line 558.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:resultat_vitesse' on page 27 undefined on input l
-ine 542.
-
-<figure/Champ_vitesse_initX.png, id=614, 942.52126pt x 663.47874pt>
-File: figure/Champ_vitesse_initX.png Graphic file (type png)
-<use figure/Champ_vitesse_initX.png>
-Package pdftex.def Info: figure/Champ_vitesse_initX.png  used on input line 547
-.
-(pdftex.def)             Requested size: 227.3381pt x 160.0278pt.
-<figure/Champ_vitesse_initY.png, id=615, 943.525pt x 656.4525pt>
-File: figure/Champ_vitesse_initY.png Graphic file (type png)
-<use figure/Champ_vitesse_initY.png>
-Package pdftex.def Info: figure/Champ_vitesse_initY.png  used on input line 553
-.
-(pdftex.def)             Requested size: 227.3381pt x 158.16283pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--557
-
- []
-
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 557.
+Package pdftex.def Info: logo_iresne.png  used on input line 541.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 557.
+Package pdftex.def Info: polytech.jpg  used on input line 541.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[27 <./figure/somme_concentration_a_6s.png> <./figure/somme_concentration_other
-_6s.png> <./figure/masse_vol_a_6s.png> <./figure/masse_vol_other_6s.png>]
-(./template_rapport.mw)
+ [27 <./figure/somme_concentration_a_6s.png> <./figure/somme_concentration_othe
+r_6s.png> <./figure/masse_vol_a_6s.png> <./figure/masse_vol_other_6s.png>] (./t
+emplate_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/influence_uinit_position.png, id=628, 722.7pt x 433.62pt>
+<figure/Champ_vitesse_initX.png, id=631, 942.52126pt x 663.47874pt>
+File: figure/Champ_vitesse_initX.png Graphic file (type png)
+<use figure/Champ_vitesse_initX.png>
+Package pdftex.def Info: figure/Champ_vitesse_initX.png  used on input line 548
+.
+(pdftex.def)             Requested size: 227.3381pt x 160.0278pt.
+<figure/Champ_vitesse_initY.png, id=632, 943.525pt x 656.4525pt>
+File: figure/Champ_vitesse_initY.png Graphic file (type png)
+<use figure/Champ_vitesse_initY.png>
+Package pdftex.def Info: figure/Champ_vitesse_initY.png  used on input line 554
+.
+(pdftex.def)             Requested size: 227.3381pt x 158.16283pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--559
+
+ []
+
+<figure/influence_uinit_position.png, id=633, 722.7pt x 433.62pt>
 File: figure/influence_uinit_position.png Graphic file (type png)
 <use figure/influence_uinit_position.png>
 Package pdftex.def Info: figure/influence_uinit_position.png  used on input lin
-e 562.
+e 564.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-<figure/influence_uinit_vitesse.png, id=629, 722.7pt x 433.62pt>
+<figure/influence_uinit_vitesse.png, id=634, 722.7pt x 433.62pt>
 File: figure/influence_uinit_vitesse.png Graphic file (type png)
 <use figure/influence_uinit_vitesse.png>
 Package pdftex.def Info: figure/influence_uinit_vitesse.png  used on input line
- 568.
+ 570.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-
-
-LaTeX Warning: Reference `eq:boussi' on page 28 undefined on input line 577.
-
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 578.
+Package pdftex.def Info: logo_iresne.png  used on input line 579.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 578.
+Package pdftex.def Info: polytech.jpg  used on input line 579.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3736,10 +3717,10 @@ gure/influence_uinit_position.png> <./figure/influence_uinit_vitesse.png>]
 (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-<figure/rho_droplet.png, id=640, 638.1441pt x 469.755pt>
+<figure/rho_droplet.png, id=650, 638.1441pt x 469.755pt>
 File: figure/rho_droplet.png Graphic file (type png)
 <use figure/rho_droplet.png>
-Package pdftex.def Info: figure/rho_droplet.png  used on input line 583.
+Package pdftex.def Info: figure/rho_droplet.png  used on input line 586.
 (pdftex.def)             Requested size: 314.40001pt x 231.44351pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3755,11 +3736,11 @@ Package pdftex.def Info: figure/rho_droplet.png  used on input line 583.
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 632.
+Package pdftex.def Info: logo_iresne.png  used on input line 635.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 632.
+Package pdftex.def Info: polytech.jpg  used on input line 635.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3770,36 +3751,36 @@ Package pdftex.def Info: polytech.jpg  used on input line 632.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/influence_DensityLaw_position.png, id=658, 722.7pt x 433.62pt>
+<figure/influence_DensityLaw_position.png, id=667, 722.7pt x 433.62pt>
 File: figure/influence_DensityLaw_position.png Graphic file (type png)
 <use figure/influence_DensityLaw_position.png>
 Package pdftex.def Info: figure/influence_DensityLaw_position.png  used on inpu
-t line 638.
+t line 641.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-<figure/influence_DensityLaw_vitesse.png, id=659, 722.7pt x 433.62pt>
+<figure/influence_DensityLaw_vitesse.png, id=668, 722.7pt x 433.62pt>
 File: figure/influence_DensityLaw_vitesse.png Graphic file (type png)
 <use figure/influence_DensityLaw_vitesse.png>
 Package pdftex.def Info: figure/influence_DensityLaw_vitesse.png  used on input
- line 644.
+ line 647.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
 pdfTeX warning (ext4): destination with the same identifier (name{equation.3.5.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.660 	\end{empheq}
+l.663 	\end{empheq}
                    pdfTeX warning (ext4): destination with the same identifier 
 (name{equation.3.5.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.660 	\end{empheq}
+l.663 	\end{empheq}
                    
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 663.
+Package pdftex.def Info: logo_iresne.png  used on input line 666.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 663.
+Package pdftex.def Info: polytech.jpg  used on input line 666.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3811,55 +3792,55 @@ w_vitesse.png>] (./template_rapport.mw)
 
 \openout6 = `template_rapport.mw'.
 
-<figure/knudsen_influence_k_position.png, id=669, 722.7pt x 433.62pt>
+<figure/knudsen_influence_k_position.png, id=678, 722.7pt x 433.62pt>
 File: figure/knudsen_influence_k_position.png Graphic file (type png)
 <use figure/knudsen_influence_k_position.png>
 Package pdftex.def Info: figure/knudsen_influence_k_position.png  used on input
- line 668.
+ line 671.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-<figure/knudsen_influence_k_vitesse.png, id=670, 722.7pt x 433.62pt>
+<figure/knudsen_influence_k_vitesse.png, id=679, 722.7pt x 433.62pt>
 File: figure/knudsen_influence_k_vitesse.png Graphic file (type png)
 <use figure/knudsen_influence_k_vitesse.png>
 Package pdftex.def Info: figure/knudsen_influence_k_vitesse.png  used on input 
-line 674.
+line 677.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-<compare_CL/t=7s.png, id=672, 300.6432pt x 504.4446pt>
+<compare_CL/t=7s.png, id=682, 300.6432pt x 504.4446pt>
 File: compare_CL/t=7s.png Graphic file (type png)
 <use compare_CL/t=7s.png>
-Package pdftex.def Info: compare_CL/t=7s.png  used on input line 685.
+Package pdftex.def Info: compare_CL/t=7s.png  used on input line 688.
 (pdftex.def)             Requested size: 145.11053pt x 243.47766pt.
-<compare_CL/t=7,5s.png, id=673, 302.0886pt x 504.9264pt>
+<compare_CL/t=7,5s.png, id=683, 302.0886pt x 504.9264pt>
 File: compare_CL/t=7,5s.png Graphic file (type png)
 <use compare_CL/t=7,5s.png>
-Package pdftex.def Info: compare_CL/t=7,5s.png  used on input line 690.
+Package pdftex.def Info: compare_CL/t=7,5s.png  used on input line 693.
 (pdftex.def)             Requested size: 145.11053pt x 242.54683pt.
-<compare_CL/t=8s.png, id=674, 302.3295pt x 503.9628pt>
+<compare_CL/t=8s.png, id=684, 302.3295pt x 503.9628pt>
 File: compare_CL/t=8s.png Graphic file (type png)
 <use compare_CL/t=8s.png>
-Package pdftex.def Info: compare_CL/t=8s.png  used on input line 695.
+Package pdftex.def Info: compare_CL/t=8s.png  used on input line 698.
 (pdftex.def)             Requested size: 145.11053pt x 241.884pt.
-<compare_CL/t=8,5s.png, id=675, 302.0886pt x 504.2037pt>
+<compare_CL/t=8,5s.png, id=685, 302.0886pt x 504.2037pt>
 File: compare_CL/t=8,5s.png Graphic file (type png)
 <use compare_CL/t=8,5s.png>
-Package pdftex.def Info: compare_CL/t=8,5s.png  used on input line 704.
+Package pdftex.def Info: compare_CL/t=8,5s.png  used on input line 707.
 (pdftex.def)             Requested size: 145.11053pt x 242.19966pt.
-<compare_CL/t=9s.png, id=676, 302.0886pt x 504.2037pt>
+<compare_CL/t=9s.png, id=686, 302.0886pt x 504.2037pt>
 File: compare_CL/t=9s.png Graphic file (type png)
 <use compare_CL/t=9s.png>
-Package pdftex.def Info: compare_CL/t=9s.png  used on input line 709.
+Package pdftex.def Info: compare_CL/t=9s.png  used on input line 712.
 (pdftex.def)             Requested size: 145.11053pt x 242.19966pt.
-<compare_CL/colorbar.png, id=677, 759.83875pt x 143.53625pt>
+<compare_CL/colorbar.png, id=687, 759.83875pt x 143.53625pt>
 File: compare_CL/colorbar.png Graphic file (type png)
 <use compare_CL/colorbar.png>
-Package pdftex.def Info: compare_CL/colorbar.png  used on input line 718.
+Package pdftex.def Info: compare_CL/colorbar.png  used on input line 721.
 (pdftex.def)             Requested size: 241.84843pt x 45.68504pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 722.
+Package pdftex.def Info: logo_iresne.png  used on input line 725.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 722.
+Package pdftex.def Info: polytech.jpg  used on input line 725.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3869,25 +3850,25 @@ vitesse.png> <./compare_CL/t=7s.png> <./compare_CL/t=7,5s.png> <./compare_CL/t=
 (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-<figure/impactDom_nospeed_position.png, id=694, 635.2533pt x 383.7537pt>
+<figure/impactDom_nospeed_position.png, id=704, 635.2533pt x 383.7537pt>
 File: figure/impactDom_nospeed_position.png Graphic file (type png)
 <use figure/impactDom_nospeed_position.png>
 Package pdftex.def Info: figure/impactDom_nospeed_position.png  used on input l
-ine 776.
+ine 779.
 (pdftex.def)             Requested size: 227.3381pt x 137.33144pt.
-<figure/impactDom_nospeed_vitesse.png, id=695, 630.1944pt x 386.6445pt>
+<figure/impactDom_nospeed_vitesse.png, id=705, 630.1944pt x 386.6445pt>
 File: figure/impactDom_nospeed_vitesse.png Graphic file (type png)
 <use figure/impactDom_nospeed_vitesse.png>
 Package pdftex.def Info: figure/impactDom_nospeed_vitesse.png  used on input li
-ne 781.
+ne 784.
 (pdftex.def)             Requested size: 227.3381pt x 139.4751pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 787.
+Package pdftex.def Info: logo_iresne.png  used on input line 790.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 787.
+Package pdftex.def Info: polytech.jpg  used on input line 790.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3903,24 +3884,37 @@ ng>] (./template_rapport.mw)
 
 \openout6 = `template_rapport.mw'.
 
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
 
 
-LaTeX Warning: Reference `fig:influencemesh' on page 33 undefined on input line
- 791.
-
-
-Overfull \hbox (10.84673pt too wide) in paragraph at lines 791--793
+Overfull \hbox (10.84673pt too wide) in paragraph at lines 794--796
 []\T1/lmr/m/n/10.95 Pour ter-mi-ner cette Ètude pa-ra-mÈ-trique, nous es-sayons
  de quan-ti-fier l'er-reur liÈe ‡ la non-convergence
  []
 
+<figure/legend_modif_epsilon.png, id=724, 535.5207pt x 151.0443pt>
+File: figure/legend_modif_epsilon.png Graphic file (type png)
+<use figure/legend_modif_epsilon.png>
+Package pdftex.def Info: figure/legend_modif_epsilon.png  used on input line 85
+6.
+(pdftex.def)             Requested size: 193.47578pt x 54.56949pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 857.
+Package pdftex.def Info: logo_iresne.png  used on input line 858.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 857.
+Package pdftex.def Info: polytech.jpg  used on input line 858.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
@@ -3932,38 +3926,18 @@ se.png>] (./template_rapport.mw)
 
 \openout6 = `template_rapport.mw'.
 
-<figure/legend_modif_epsilon.png, id=722, 535.5207pt x 151.0443pt>
-File: figure/legend_modif_epsilon.png Graphic file (type png)
-<use figure/legend_modif_epsilon.png>
-Package pdftex.def Info: figure/legend_modif_epsilon.png  used on input line 86
-2.
-(pdftex.def)             Requested size: 193.47578pt x 54.56949pt.
-<figure/influence_maillage_position.png, id=723, 722.7pt x 433.62pt>
+<figure/influence_maillage_position.png, id=736, 722.7pt x 433.62pt>
 File: figure/influence_maillage_position.png Graphic file (type png)
 <use figure/influence_maillage_position.png>
 Package pdftex.def Info: figure/influence_maillage_position.png  used on input 
-line 869.
+line 863.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-<figure/influence_maillage_vitesse.png, id=724, 722.7pt x 433.62pt>
+<figure/influence_maillage_vitesse.png, id=737, 722.7pt x 433.62pt>
 File: figure/influence_maillage_vitesse.png Graphic file (type png)
 <use figure/influence_maillage_vitesse.png>
 Package pdftex.def Info: figure/influence_maillage_vitesse.png  used on input l
-ine 874.
+ine 868.
 (pdftex.def)             Requested size: 227.3381pt x 136.39914pt.
-File: logo_iresne.png Graphic file (type png)
-<use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 885.
-(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
-File: polytech.jpg Graphic file (type jpg)
-<use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 885.
-(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
-\openout6 = `template_rapport.mw'.
-
- [34 <./figure/legend_modif_epsilon.png> <./figure/influence_maillage_position.
-png> <./figure/influence_maillage_vitesse.png>] (./template_rapport.mw)
-\openout6 = `template_rapport.mw'.
-
 ) (./Chapitre/chap4.tex
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
@@ -3975,11 +3949,25 @@ Package pdftex.def Info: polytech.jpg  used on input line 1.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
+ [34 <./figure/legend_modif_epsilon.png> <./figure/influence_maillage_position.
+png> <./figure/influence_maillage_vitesse.png>] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+\openout6 = `template_rapport.mw'.
+
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 1.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 1.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
  [35] (./template_rapport.mw)
-\openout6 = `template_rapport.mw'.
-
-\openout6 = `template_rapport.mw'.
-
 \openout6 = `template_rapport.mw'.
 
 
@@ -3996,7 +3984,7 @@ Chapitre 4.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/landscape_chap45.png, id=745, 794.2473pt x 658.3797pt>
+<figure/landscape_chap45.png, id=756, 794.2473pt x 658.3797pt>
 File: figure/landscape_chap45.png Graphic file (type png)
 <use figure/landscape_chap45.png>
 Package pdftex.def Info: figure/landscape_chap45.png  used on input line 20.
@@ -4028,11 +4016,11 @@ Package pdftex.def Info: polytech.jpg  used on input line 24.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/projet_abaque.png, id=757, 195.129pt x 220.1826pt>
+<figure/projet_abaque.png, id=769, 171.039pt x 215.3646pt>
 File: figure/projet_abaque.png Graphic file (type png)
 <use figure/projet_abaque.png>
 Package pdftex.def Info: figure/projet_abaque.png  used on input line 122.
-(pdftex.def)             Requested size: 483.69687pt x 545.80864pt.
+(pdftex.def)             Requested size: 483.69687pt x 609.07318pt.
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -4079,19 +4067,24 @@ Chapitre 5.
 
 \openout6 = `template_rapport.mw'.
 
+<figure/landscape_chap5.png, id=790, 794.2473pt x 658.3797pt>
+File: figure/landscape_chap5.png Graphic file (type png)
+<use figure/landscape_chap5.png>
+Package pdftex.def Info: figure/landscape_chap5.png  used on input line 11.
+(pdftex.def)             Requested size: 217.66211pt x 180.4271pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 57.
+Package pdftex.def Info: logo_iresne.png  used on input line 54.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 57.
+Package pdftex.def Info: polytech.jpg  used on input line 54.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
 [39
 
-] (./template_rapport.mw)
+ <./figure/landscape_chap5.png>] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -4102,50 +4095,210 @@ Package pdftex.def Info: polytech.jpg  used on input line 57.
 
 \openout6 = `template_rapport.mw'.
 
-<figure/RT.png, id=788, 713.064pt x 411.4572pt>
-File: figure/RT.png Graphic file (type png)
-<use figure/RT.png>
-Package pdftex.def Info: figure/RT.png  used on input line 100.
-(pdftex.def)             Requested size: 483.69687pt x 279.1154pt.
+<figure/PT_RT/concent1/visit0000.png, id=804, 107.4414pt x 193.4427pt>
+File: figure/PT_RT/concent1/visit0000.png Graphic file (type png)
+<use figure/PT_RT/concent1/visit0000.png>
+Package pdftex.def Info: figure/PT_RT/concent1/visit0000.png  used on input lin
+e 114.
+(pdftex.def)             Requested size: 96.73788pt x 174.1765pt.
+<figure/PT_RT/concent1/visit0001.png, id=805, 107.9232pt x 193.2018pt>
+File: figure/PT_RT/concent1/visit0001.png Graphic file (type png)
+<use figure/PT_RT/concent1/visit0001.png>
+Package pdftex.def Info: figure/PT_RT/concent1/visit0001.png  used on input lin
+e 119.
+(pdftex.def)             Requested size: 96.73788pt x 173.17836pt.
+<figure/PT_RT/concent1/visit0002.png, id=806, 107.2005pt x 192.4791pt>
+File: figure/PT_RT/concent1/visit0002.png Graphic file (type png)
+<use figure/PT_RT/concent1/visit0002.png>
+Package pdftex.def Info: figure/PT_RT/concent1/visit0002.png  used on input lin
+e 124.
+(pdftex.def)             Requested size: 96.73788pt x 173.69948pt.
+<figure/PT_RT/concent1/visit0003.png, id=807, 107.4414pt x 193.4427pt>
+File: figure/PT_RT/concent1/visit0003.png Graphic file (type png)
+<use figure/PT_RT/concent1/visit0003.png>
+Package pdftex.def Info: figure/PT_RT/concent1/visit0003.png  used on input lin
+e 129.
+(pdftex.def)             Requested size: 96.73788pt x 174.1765pt.
+<figure/PT_RT/concent1/visit0004.png, id=808, 107.6823pt x 194.4063pt>
+File: figure/PT_RT/concent1/visit0004.png Graphic file (type png)
+<use figure/PT_RT/concent1/visit0004.png>
+Package pdftex.def Info: figure/PT_RT/concent1/visit0004.png  used on input lin
+e 138.
+(pdftex.def)             Requested size: 96.73788pt x 174.6496pt.
+<figure/PT_RT/concent1/visit0005.png, id=809, 108.1641pt x 193.4427pt>
+File: figure/PT_RT/concent1/visit0005.png Graphic file (type png)
+<use figure/PT_RT/concent1/visit0005.png>
+Package pdftex.def Info: figure/PT_RT/concent1/visit0005.png  used on input lin
+e 143.
+(pdftex.def)             Requested size: 96.73788pt x 173.01944pt.
+<figure/PT_RT/concent1/visit0006.png, id=810, 107.9232pt x 193.6836pt>
+File: figure/PT_RT/concent1/visit0006.png Graphic file (type png)
+<use figure/PT_RT/concent1/visit0006.png>
+Package pdftex.def Info: figure/PT_RT/concent1/visit0006.png  used on input lin
+e 148.
+(pdftex.def)             Requested size: 96.73788pt x 173.61023pt.
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 104.
+Package pdftex.def Info: logo_iresne.png  used on input line 153.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 104.
+Package pdftex.def Info: polytech.jpg  used on input line 153.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [40] (./template_rapport.mw)
+ [40]
+(./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
 
+<figure/PT_RT/concent0/visit0007.png, id=824, 112.9821pt x 205.7286pt>
+File: figure/PT_RT/concent0/visit0007.png Graphic file (type png)
+<use figure/PT_RT/concent0/visit0007.png>
+Package pdftex.def Info: figure/PT_RT/concent0/visit0007.png  used on input lin
+e 160.
+(pdftex.def)             Requested size: 96.73788pt x 176.15718pt.
+<figure/PT_RT/concent0/visit0008.png, id=825, 113.7048pt x 205.2468pt>
+File: figure/PT_RT/concent0/visit0008.png Graphic file (type png)
+<use figure/PT_RT/concent0/visit0008.png>
+Package pdftex.def Info: figure/PT_RT/concent0/visit0008.png  used on input lin
+e 165.
+(pdftex.def)             Requested size: 96.73788pt x 174.6203pt.
+<figure/PT_RT/concent0/visit0009.png, id=826, 112.0185pt x 205.2468pt>
+File: figure/PT_RT/concent0/visit0009.png Graphic file (type png)
+<use figure/PT_RT/concent0/visit0009.png>
+Package pdftex.def Info: figure/PT_RT/concent0/visit0009.png  used on input lin
+e 170.
+(pdftex.def)             Requested size: 96.73788pt x 177.25102pt.
+<figure/PT_RT/concent0/visit0010.png, id=827, 111.5367pt x 205.2468pt>
+File: figure/PT_RT/concent0/visit0010.png Graphic file (type png)
+<use figure/PT_RT/concent0/visit0010.png>
+Package pdftex.def Info: figure/PT_RT/concent0/visit0010.png  used on input lin
+e 175.
+(pdftex.def)             Requested size: 96.73788pt x 178.02145pt.
+<figure/PT_RT/concent0/visit0011.png, id=828, 110.5731pt x 205.9695pt>
+File: figure/PT_RT/concent0/visit0011.png Graphic file (type png)
+<use figure/PT_RT/concent0/visit0011.png>
+Package pdftex.def Info: figure/PT_RT/concent0/visit0011.png  used on input lin
+e 184.
+(pdftex.def)             Requested size: 96.73788pt x 180.20085pt.
+<figure/PT_RT/concent0/visit0012.png, id=829, 110.3322pt x 206.4513pt>
+File: figure/PT_RT/concent0/visit0012.png Graphic file (type png)
+<use figure/PT_RT/concent0/visit0012.png>
+Package pdftex.def Info: figure/PT_RT/concent0/visit0012.png  used on input lin
+e 189.
+(pdftex.def)             Requested size: 96.73788pt x 181.01929pt.
+<figure/PT_RT/concent0/visit0013.png, id=830, 111.7776pt x 205.2468pt>
+File: figure/PT_RT/concent0/visit0013.png Graphic file (type png)
+<use figure/PT_RT/concent0/visit0013.png>
+Package pdftex.def Info: figure/PT_RT/concent0/visit0013.png  used on input lin
+e 194.
+(pdftex.def)             Requested size: 96.73788pt x 177.63623pt.
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 200.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 200.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+ [41 <./figure/PT_RT/concent1/visit0000.png> <./figure/PT_RT/concent1/visit0001
+.png> <./figure/PT_RT/concent1/visit0002.png> <./figure/PT_RT/concent1/visit000
+3.png> <./figure/PT_RT/concent1/visit0004.png> <./figure/PT_RT/concent1/visit00
+05.png> <./figure/PT_RT/concent1/visit0006.png> <./figure/PT_RT/concent0/visit0
+007.png> <./figure/PT_RT/concent0/visit0008.png> <./figure/PT_RT/concent0/visit
+0009.png> <./figure/PT_RT/concent0/visit0010.png>]
+(./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+<figure/PT_RT/masse_vol/visit0014.png, id=837, 108.405pt x 194.4063pt>
+File: figure/PT_RT/masse_vol/visit0014.png Graphic file (type png)
+<use figure/PT_RT/masse_vol/visit0014.png>
+Package pdftex.def Info: figure/PT_RT/masse_vol/visit0014.png  used on input li
+ne 206.
+(pdftex.def)             Requested size: 96.73788pt x 173.4927pt.
+<figure/PT_RT/masse_vol/visit0015.png, id=838, 108.405pt x 193.9245pt>
+File: figure/PT_RT/masse_vol/visit0015.png Graphic file (type png)
+<use figure/PT_RT/masse_vol/visit0015.png>
+Package pdftex.def Info: figure/PT_RT/masse_vol/visit0015.png  used on input li
+ne 211.
+(pdftex.def)             Requested size: 96.73788pt x 173.06273pt.
+<figure/PT_RT/masse_vol/visit0020.png, id=839, 116.3547pt x 205.9695pt>
+File: figure/PT_RT/masse_vol/visit0020.png Graphic file (type png)
+<use figure/PT_RT/masse_vol/visit0020.png>
+Package pdftex.def Info: figure/PT_RT/masse_vol/visit0020.png  used on input li
+ne 216.
+(pdftex.def)             Requested size: 96.73788pt x 171.2469pt.
+<figure/PT_RT/masse_vol/visit0016.png, id=840, 107.9232pt x 194.1654pt>
+File: figure/PT_RT/masse_vol/visit0016.png Graphic file (type png)
+<use figure/PT_RT/masse_vol/visit0016.png>
+Package pdftex.def Info: figure/PT_RT/masse_vol/visit0016.png  used on input li
+ne 221.
+(pdftex.def)             Requested size: 96.73788pt x 174.0421pt.
+<figure/PT_RT/masse_vol/visit0017.png, id=841, 109.1277pt x 193.9245pt>
+File: figure/PT_RT/masse_vol/visit0017.png Graphic file (type png)
+<use figure/PT_RT/masse_vol/visit0017.png>
+Package pdftex.def Info: figure/PT_RT/masse_vol/visit0017.png  used on input li
+ne 230.
+(pdftex.def)             Requested size: 96.73788pt x 171.9087pt.
+<figure/PT_RT/masse_vol/visit0018.png, id=842, 108.6459pt x 194.4063pt>
+File: figure/PT_RT/masse_vol/visit0018.png Graphic file (type png)
+<use figure/PT_RT/masse_vol/visit0018.png>
+Package pdftex.def Info: figure/PT_RT/masse_vol/visit0018.png  used on input li
+ne 235.
+(pdftex.def)             Requested size: 96.73788pt x 173.1041pt.
+<figure/PT_RT/masse_vol/visit0019.png, id=843, 108.8868pt x 193.4427pt>
+File: figure/PT_RT/masse_vol/visit0019.png Graphic file (type png)
+<use figure/PT_RT/masse_vol/visit0019.png>
+Package pdftex.def Info: figure/PT_RT/masse_vol/visit0019.png  used on input li
+ne 240.
+(pdftex.def)             Requested size: 96.73788pt x 171.86533pt.
 Missing character: There is no ; in font nullfont!
-<figure/prof_rho_RT.png, id=800, 828.2142pt x 513.117pt>
+<figure/prof_rho_RT.png, id=844, 828.2142pt x 513.117pt>
 File: figure/prof_rho_RT.png Graphic file (type png)
 <use figure/prof_rho_RT.png>
-Package pdftex.def Info: figure/prof_rho_RT.png  used on input line 122.
+Package pdftex.def Info: figure/prof_rho_RT.png  used on input line 263.
 (pdftex.def)             Requested size: 309.56834pt x 191.79204pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--127
+Underfull \hbox (badness 10000) in paragraph at lines 246--268
 
  []
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 131.
+Package pdftex.def Info: logo_iresne.png  used on input line 269.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 131.
+Package pdftex.def Info: polytech.jpg  used on input line 269.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[41 <./figure/RT.png> <./figure/prof_rho_RT.png>] (./template_rapport.mw)
+[42 <./figure/PT_RT/concent0/visit0011.png> <./figure/PT_RT/concent0/visit0012.
+png> <./figure/PT_RT/concent0/visit0013.png> <./figure/PT_RT/masse_vol/visit001
+4.png> <./figure/PT_RT/masse_vol/visit0015.png> <./figure/PT_RT/masse_vol/visit
+0020.png> <./figure/PT_RT/masse_vol/visit0016.png> <./figure/PT_RT/masse_vol/vi
+sit0017.png> <./figure/PT_RT/masse_vol/visit0018.png> <./figure/PT_RT/masse_vol
+/visit0019.png>] (./template_rapport.mw)
+\openout6 = `template_rapport.mw'.
+
+File: logo_iresne.png Graphic file (type png)
+<use logo_iresne.png>
+Package pdftex.def Info: logo_iresne.png  used on input line 272.
+(pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
+File: polytech.jpg Graphic file (type jpg)
+<use polytech.jpg>
+Package pdftex.def Info: polytech.jpg  used on input line 272.
+(pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
+\openout6 = `template_rapport.mw'.
+
+ [43 <./figure/prof_rho_RT.png>]
+(./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 \openout6 = `template_rapport.mw'.
@@ -4155,82 +4308,94 @@ Package pdftex.def Info: polytech.jpg  used on input line 131.
 )
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 445.
+Package pdftex.def Info: logo_iresne.png  used on input line 449.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 445.
+Package pdftex.def Info: polytech.jpg  used on input line 449.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-
-[42
+ [44
 
 ] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 446.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 450.
 
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 446.
+Package pdftex.def Info: logo_iresne.png  used on input line 450.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 446.
+Package pdftex.def Info: polytech.jpg  used on input line 450.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
- [43
+ [45
 
-]
-(./template_rapport.mw)
+] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 
-Overfull \hbox (21.18945pt too wide) in paragraph at lines 447--447
+Overfull \hbox (21.18945pt too wide) in paragraph at lines 451--451
 []\T1/lmr/m/n/10.95 Pierre-Emmanuel \T1/lmr/m/sc/10.95 An-geli\T1/lmr/m/n/10.95
  , Ul-rich \T1/lmr/m/sc/10.95 Bie-der \T1/lmr/m/n/10.95 et Gau-thier \T1/lmr/m/
 sc/10.95 Fau-chet\T1/lmr/m/n/10.95 . ^^S   OVER-VIEW OF THE TRIOCFD
  []
 
+
+! Package inputenc Error: Unicode character Ô¨Ç (U+FB02)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.451 \appendix
+               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 446.
+Package pdftex.def Info: logo_iresne.png  used on input line 450.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 446.
+Package pdftex.def Info: polytech.jpg  used on input line 450.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[44] (./template_rapport.mw)
+[46] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
 
-Overfull \hbox (12.43382pt too wide) in paragraph at lines 447--447
+Overfull \hbox (12.43382pt too wide) in paragraph at lines 451--451
 \T1/lmtt/m/n/10.95 phasefield -[] models -[] for -[] multicomponent -[] fluid -
 [] flows / 0672FBD318BBE2621A51AE0F2C9C2FE3$[][]
  []
 
 File: logo_iresne.png Graphic file (type png)
 <use logo_iresne.png>
-Package pdftex.def Info: logo_iresne.png  used on input line 454.
+Package pdftex.def Info: logo_iresne.png  used on input line 458.
 (pdftex.def)             Requested size: 75.28566pt x 27.50435pt.
 File: polytech.jpg Graphic file (type jpg)
 <use polytech.jpg>
-Package pdftex.def Info: polytech.jpg  used on input line 454.
+Package pdftex.def Info: polytech.jpg  used on input line 458.
 (pdftex.def)             Requested size: 60.22852pt x 23.68988pt.
 \openout6 = `template_rapport.mw'.
 
-[45] (./template_rapport.mw)
+[47] (./template_rapport.mw)
 \openout6 = `template_rapport.mw'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (./template_rapport.aux
 \openout6 = `template_rapport.mw'.
 
@@ -4393,12 +4558,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
 \openout6 = `template_rapport.mw'.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 \openout6 = `template_rapport.out'.
 
 Package rerunfilecheck Info: File `template_rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 047C94505611CE6C14D598F1E260FAE4;3678.
+(rerunfilecheck)             Checksum: 02A94B60F4AD3D5DB2F8AC62668CE500;3681.
 
 
 LaTeX Warning: There were undefined references.
@@ -4423,10 +4588,10 @@ Package logreq Info: Writing requests to 'template_rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56367 strings out of 492615
- 1182323 string characters out of 6131390
- 1945603 words of memory out of 5000000
- 59052 multiletter control sequences out of 15000+600000
+ 56494 strings out of 492615
+ 1186759 string characters out of 6131390
+ 1946266 words of memory out of 5000000
+ 59151 multiletter control sequences out of 15000+600000
  673695 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,77p,2985b,3334s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4452,10 +4617,10 @@ texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/l
 mtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
 bm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on template_rapport.pdf (49 pages, 10014199 bytes).
+Output written on template_rapport.pdf (51 pages, 9745915 bytes).
 PDF statistics:
- 1021 PDF objects out of 1200 (max. 8388607)
- 798 compressed objects within 8 object streams
- 213 named destinations out of 1000 (max. 500000)
- 639 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 831 compressed objects within 9 object streams
+ 221 named destinations out of 1000 (max. 500000)
+ 744 words of extra memory for PDF output out of 10000 (max. 10000000)
 

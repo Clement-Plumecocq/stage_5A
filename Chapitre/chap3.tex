@@ -4,15 +4,14 @@ Dans cette partie, on s'intéresse à la simulation d'une expérience de la litt
 
 
 \section{Présentation de l'expérience et des résultats rapportés dans Rao et al.  \cite{rao_influence_2015}} \label{sec:presExp}
-L'objectif de l'expérience présentée par Rao et al. est d'étudier expérimentalement l'influence de la diffusion massique sur la trajectoire goutte soumise à la gravité. Cette goutte est initialement composée d'acétonitrile (miscible dans l'eau) et de chlorobenzène (immiscible) dans de l'eau. La goutte est formée de telle sorte que sa masse volumique soit inférieure à celle de l'eau créant un mouvement ascendant de la goutte. La diffusion de l'acétonitrile dans l'eau va alors provoquer l'augmentation de la masse volumique de la goutte jusqu'à la redescente de celle-ci. Le schéma de l'installation expérimentale est présenté en Figure \ref{fig:exp}.
+L'objectif de l'expérience présentée par Rao et al. est d'étudier expérimentalement l'influence de la diffusion massique sur la trajectoire goutte soumise à la gravité. Cette goutte est initialement composée d'acétonitrile (miscible dans l'eau) et de chlorobenzène (immiscible) dans de l'eau. La goutte est formée de telle sorte que sa masse volumique soit inférieure à celle de l'eau créant un mouvement ascendant de la goutte. Le transfert de l'acétonitrile dans l'eau va alors provoquer l'augmentation de la masse volumique de la goutte jusqu'à la redescente de celle-ci. Le schéma de l'installation expérimentale est présenté en Figure \ref{fig:exp}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.3\linewidth]{figure/exp}
 	\caption{Schéma de l'installation expérimentale, d'après \cite{rao_influence_2015}}
 	\label{fig:exp}
 \end{figure}
-L'article présente également un modèle \textit{CFD} qui calcule le transfert de masse semi-empiriquement. Ce modèle propose une résolution 2D axisymétrique des équations de Navier-Stokes avec une capture d'interface de type VOF (\textit{Volume of fluid}) et une reconstruction linéaire de l'interface (PLIC). L'équation de suivi de l'évolution de la fraction massique d'acétonitrile contient un terme source quantifiant le transfert de masse entre les deux phases au travers d'un coefficient d'échange massique. Ce coefficient est obtenu à l'aide de corrélation en faisant l'hypothèse d'une goutte sphérique. L'objectif est de réaliser qualitativement sur TrioCFD le cas n$^\circ$ 4 de l'article. Les principaux paramètres de l'étude sont rassemblés dans le Tableau \ref{table:rao_al}.
-
+L'article présente également un modèle \textit{CFD} qui calcule le transfert de masse semi-empiriquement. Ce modèle propose une résolution 2D axisymétrique des équations de Navier-Stokes avec une capture d'interface de type VOF (\textit{Volume of fluid}) et une reconstruction linéaire de l'interface (PLIC). L'équation de suivi de l'évolution de la fraction massique d'acétonitrile contient un terme source quantifiant le transfert de masse entre les deux phases au travers d'un coefficient d'échange massique. Ce coefficient est obtenu à l'aide d'une corrélation construite sur la base des résultats expérimentaux et le recalage d'un modèle simplifié (dynamique 1D d'une sphère rigide couplé à un modèle intégral de transfert de masse). On s'intéressera au cas n$^\circ$ 4 de l'article. Les principaux paramètres des simulations issues de \cite{rao_influence_2015} sont rassemblés dans le Tableau \ref{table:rao_al}. Les simulations sont réalisée en utilisant un repère axisymétrique avec $x$ la direction radiale et $y$ la direction axiale. Pour l'ensemble des simulations la gravité est supposée axiale soit $\mathbf{g} = \{0,-g\}$.
 \begin{table}[H]
 	\centering  % not needed, since table is as wide as text block
 	\begin{tabularx}{\textwidth}{@{}lYYYYYYY@{}}
@@ -32,8 +31,8 @@ L'article présente également un modèle \textit{CFD} qui calcule le transfert 
 	\end{tabularx}
 	\caption{Paramètres des simulations CFD, d'après Rao et al.\cite{rao_influence_2015}} \label{table:rao_al}
 \end{table}
-Les paramètres de résolution de maillage ($dx,dy$) correspondent aux valeurs minimales de ces paramètres, le maillage étant raffiné au niveau de la goutte. Les résultats de l'article considèrent un temps initial correspondant à la seconde suivant la formation de la goutte. Ainsi, il existe une forte incertitude sur les conditions initiales de vitesse ainsi que sur la concentration. En effet, dès l'instant où la goutte est formée, le transfert de masse opère entre la goutte et l'eau. Pour la suite de ce travail nous considérons donc une vitesse initiale nulle ainsi que des concentrations initiales tels qu'elles nous sont données. Dans la suite de ce chapitre, nous considérons deux phases, l'une dispersée (notée $disp$) et l'autre continue (notée $cont$), de plus les éléments seront notés miscible ($misc$) pour l'acétonitrile et immiscible ($immi$) pour le chlorobenzène.
-Finalement, la suite de ce chapitre consistera en la comparaison entre les résultats obtenus via TrioCFD en utilisant une description analytique de l'énergie et ceux présentés par Rao et al. \cite{rao_influence_2015}.
+Les paramètres de résolution de maillage ($dx,dy$) correspondent aux valeurs minimales de ces paramètres, le maillage étant raffiné au niveau de la goutte. Les résultats de l'article considèrent un temps initial correspondant à la seconde suivant la formation de la goutte. Ainsi, il existe une forte incertitude sur les conditions initiales de vitesse ainsi que sur la concentration. En effet, dès l'instant où la goutte est formée, le transfert de masse opère entre la goutte et l'eau. Pour la suite de ce travail nous considérons donc une vitesse initiale nulle ainsi que des concentrations initiales tels qu'elles nous sont données. Dans la suite de ce chapitre, nous considérons deux phases, l'une dispersée (notée $disp$) et l'autre continue (notée $cont$), de plus les éléments seront notés miscible ($misc$) pour l'acétonitrile et immiscible ($immi$) pour le chlorobenzène.\\
+La suite de ce chapitre consistera en la comparaison entre les résultats obtenus via TrioCFD en utilisant une description analytique de l'énergie et ceux présentés par Rao et al. \cite{rao_influence_2015}.
 %\begin{figure}[H]
 %	\centering
 %	\small
@@ -80,43 +79,10 @@ Finalement, la suite de ce chapitre consistera en la comparaison entre les résu
 %	\caption{Algorithme de résolution développé par Rao et al.\cite{rao_influence_2015}}
 %	\label{fig:algoRao}
 %\end{figure}
-\section{Conditions initiales} \label{sec:difficulte}
-Au cours de cette étude, on distingue plusieurs types de simulations, les premières étant réalisées sans couplage avec les équations de Navier-Stokes pour vérifier le comportement de la goutte et la cohérence du paysage thermodynamique. Dans un second temps, des simulations avec couplage seront réalisées. Les conditions initiales de concentration s'écrivent sous la forme :
-\begin{equation}
-\phi_{i}(\mathbf{x},t=0) = \frac{\phi^{init,cont}_i + \phi^{init,disp}_i  }{2} +  \frac{\phi^{init,cont}_i - \phi^{init,disp}_i }{2}\tanh\left(\cfrac{\sqrt{(x-x_0)^2+(y-y_0)^2}-R}{\epsilon} \right)
-\end{equation}
-Avec ($x_0$, $y_0$) les coordonnées du centre de la goutte, $R$ le rayon de la goutte, $\epsilon$ l'épaisseur de l'interface et $\phi_i^{init,cont}$ (resp. $\phi_i^{init,disp}$) la concentration initiale de l'élément $i$ dans la phase continue (resp. dispersée). Les valeurs initiales du paramètre d'ordre sont calculées telles que :
-\begin{subequations}
-	\begin{empheq}[left={\empheqlbrace\,}]{align}
-	&\phi_{misc}^{init,disp} =  \frac{1}{\beta_{misc} - \beta_{immi}} \left( \frac{\rho^{init,disp}}{\rho_{eau}} - \beta_{immi} -1 \right) \\
-	%1 / (beta1Boussinesq - beta2Boussinesq) * ((rhoInitialDroplet / rhoWater) - beta2Boussinesq - 1)
-	&\phi_{immi}^{init,disp} = 1 - \phi_{misc}^{init,disp}
-	\end{empheq}
-\end{subequations}
-\noindent Avec $\rho^{init,disp}$ la masse volumique initiale de la goutte, $\beta_{k}$ le coefficient de dilation associé au composant $k\{misc,immi\}$, un exemple de condition initiale est donné en Figure \ref{fig:conditioninit}.
-\begin{figure}[H] 
-	\centering
-	\includegraphics[width=0.5\linewidth]{figure/condition_init.png}
-	\caption[Champ de concentration initiale]{Champ de concentration initiale, pour un domaine de taille $L_x = L_y = 18,5.10^{-3}$m des concentrations initiales de $\phi^{init,disp}_{misc} = 0,39,\phi^{init,disp}_{immi} = 0,60 $, un rayon de goutte de $R = 4,9.10^{-3}$m et une épaisseur d'interface $\epsilon = 8.10^{-4}$m }
-	\label{fig:conditioninit}
-\end{figure}
-
-Contrairement au cas de présenté par Rao et al., nous faisons l'hypothèse d'une viscosité dynamique constante et commune pour l'ensemble des éléments du système. De plus la loi de densité linéaire proposée en équation \ref{eq:boussi} ne permet pas de garantir la conservation de l'ensemble des conditions initiales fournies par l'article \cite{rao_influence_2015}. En effet l'article fournit les masses volumiques des corps purs, de la goutte à l'état initial ainsi que les concentrations dans la goutte à l'état initial. Nous choisissons de conserver les masses volumiques des corps purs et de la goutte à l'état initial, modifiant ainsi sa composition initiale. Les coefficients de dilatation $\beta_{immi},\beta_{misc}$ sont déterminé à partir de la loi de densité \ref{eq:boussi} et des densités des corps purs :
-\begin{subequations}
-	\begin{empheq}[left={\empheqlbrace\,}]{align}
-	&\rho(\phi^{misc} = 0, \phi^{immi} = 0) = \rho^* = \rho_{eau}\\
-	&\rho(\phi^{misc} = 1, \phi^{immi} = 0) = \rho^*(1+ \beta_{misc}) = \rho_{misc}\\
-	&\rho(\phi^{misc} = 0, \phi^{immi} = 1) = \rho^*(1+ \beta_{immi}) = \rho_{immi}
-	\end{empheq}
-\end{subequations}
-avec $\rho_{eau},\rho_{misc},\rho_{immi}$ les masses volumiques des corps purs de l'eau, des composants miscible et immiscibles. Finalement les coefficients de dilatation s'écrivent : 
-\begin{equation}
-	\beta_{k} = \frac{\rho_{k}}{\rho_{eau}} - 1 
-\end{equation}
-avec $k = \{misc,immi\}$.
 \section{Géométrie et maillage}
 La \textit{baltik}\footnote{Dans TrioCFD, les \textit{baltiks} correspondent aux applications/solveurs} champ de phase (\textit{Phase-field}) se base sur une discrétisation VDF (Volume Différence Finies), cette discrétisation traite les vitesses sur les faces des mailles tandis que les champs scalaires (pression, température, paramètres d'ordre, masse volumique...) sont calculés au centre des mailles. De plus, tout au long de l'étude, nous utiliserons un maillage cartésien uniforme.
-Il est également important de noter que le modèle étant encore en développement, il n'est pas possible de réaliser des calculs en parallèles. Les calculs étant longs, la convergence en maillage n'est pas assurée, l'effet de cette non-convergence est discuté au travers d'un exemple en section \ref{sec:raffinement}. De plus, pour des raisons de coût de calcul la taille du domaine utilisé ne peut pas être équivalente à celle de l'expérience proposée par Rao et al. et devient donc un paramètre de plus qui sera discuté en section \ref{sec:tailledom}. Les conditions aux limites de type symétrie étant également non-utilisable les calculs axisymétriques sont impossibles. L'ensemble des calculs sont donc réalisés en géométrie 2D cartésienne. L'épaisseur d'interface est supposée d'épaisseur égale à quatre mailles, l'impacte de cette épaisseur sur les résultats est discuté en section \ref{sec:raffinement}. Numériquement le choix a été fait de résoudre le terme diffusif de l'équation de Cahn-Hilliard en utilisant une méthode JFNK (\textit{Jacobian-Free Newton-Krylov}) associé à un solveur GMRES (\textit{Generalized Minimal RESidual}), le terme d'advection ainsi que les équations de l'hydrodynamique sont résolus avec une méthode de Range-Kutta d'ordre 3. Le pas de temps est supposé constant est égale à $dt = 10^{-4}$s pour l'ensemble des simulations. Un schéma représentatif du domaine et du maillage est présenté en Figure \ref{fig:Presentation_Dom}.
+Il est également important de noter que le modèle étant encore en développement, il n'est pas possible de réaliser des calculs en parallèles. Les conditions aux limites de type symétrie sont également inutilisable, les calculs axisymétriques sont impossibles. L'ensemble des calculs sont donc réalisés en géométrie 2D cartésienne. Les calculs étant longs, la convergence en maillage n'est pas assurée, l'effet de cette non-convergence est discuté au travers d'un exemple en section \ref{sec:raffinement}. De plus, pour des raisons de coût de calcul la taille du domaine utilisé ne peut pas être équivalente à celle de l'expérience proposée par Rao et al. et devient donc un paramètre de plus qui sera discuté en section \ref{sec:tailledom}. L'épaisseur d'interface est supposée d'épaisseur égale à quatre mailles, l'impacte de cette épaisseur sur les résultats est discuté en section \ref{sec:raffinement}. \\
+Les équations de Cahn-Hilliard et Navier-Stokes sont résolues de manière semi-explicite. D'abord, l'équation de Cahn-Hilliard est résolue au travers en deux étapes par un splitting d'opérateurs entre diffusion et advection. L'étape de diffusion utilise un schéma en temps de type "$\theta$-schéma" et le problème non-linéaire résultant est résolu par une méthode JFNK (Jacobian-Free Krylov Method) associée à un solveur linéaire GMRES (Generalized Minimal RESidual). L'opérateur d'advection est traité par le schéma QUICK (Quadratic Upstream Interpolation for Convective Kinematics) et l'intégration en temps de la seconde étape est réalisée par une méthode de Runge Kutta d'ordre 3. Ensuite l'équation de Navier-Stokes est résolue par une méthode de projection associée à une méthode de Runge Kutta d'ordre 3. Le terme de convection est lui aussi discrétisé selon le schéma QUICK. Le pas de temps est supposé constant est égale à $dt = 10^{-4}$s pour l'ensemble des simulations. Un schéma représentatif du domaine et du maillage est présenté en Figure \ref{fig:Presentation_Dom}.
 %Finalement au cours de ce travail on cherche à démontrer la capacité du code à réaliser une simulation couplant hydrodynamique et transfert de masse sans proposer une validation complète.
 
 \begin{figure}[H]
@@ -140,6 +106,41 @@ Il est également important de noter que le modèle étant encore en développem
 	\caption{Schéma du domaine de calcul et des conditions aux limites}
 	\label{fig:Presentation_Dom}
 \end{figure}
+\section{Conditions initiales} \label{sec:difficulte}
+Au cours de cette étude, on distingue plusieurs types de simulations, les premières étant réalisées sans couplage avec les équations de Navier-Stokes pour vérifier le comportement de la goutte et la cohérence du paysage thermodynamique. Dans un second temps, des simulations avec couplage seront réalisées. Les conditions initiales de concentration s'écrivent sous la forme :
+\begin{equation}
+\phi_{i}(\mathbf{x},t=0) = \frac{\phi^{init,cont}_i + \phi^{init,disp}_i  }{2} +  \frac{\phi^{init,cont}_i - \phi^{init,disp}_i }{2}\tanh\left(\cfrac{\sqrt{(x-x_0)^2+(y-y_0)^2}-R}{\epsilon} \right)
+\end{equation}
+Avec ($x_0$, $y_0$) les coordonnées du centre de la goutte, $R$ le rayon de la goutte, $\epsilon$ l'épaisseur de l'interface et $\phi_i^{init,cont}$ (resp. $\phi_i^{init,disp}$) la concentration initiale de l'élément $i$ dans la phase continue (resp. dispersée). Les valeurs initiales du paramètre d'ordre sont calculées telles que :
+\begin{subequations}
+	\begin{empheq}[left={\empheqlbrace\,}]{align}
+	&\phi_{misc}^{init,disp} =  \frac{1}{\beta_{misc} - \beta_{immi}} \left( \frac{\rho^{init,disp}}{\rho_{eau}} - \beta_{immi} -1 \right) \\
+	%1 / (beta1Boussinesq - beta2Boussinesq) * ((rhoInitialDroplet / rhoWater) - beta2Boussinesq - 1)
+	&\phi_{immi}^{init,disp} = 1 - \phi_{misc}^{init,disp}
+	\end{empheq}
+\end{subequations}
+\noindent Avec $\rho^{init,disp}$ la masse volumique initiale de la goutte, $\beta_{k}$ le coefficient de dilation associé au composant $k\{misc,immi\}$, un exemple de condition initiale est donné en Figure \ref{fig:conditioninit}.
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.5\linewidth]{figure/condition_init.png}
+	\caption[Champ de concentration initiale]{Champ de concentration initiale, pour un domaine de taille $L_x = L_y = 18,5.10^{-3}$m des concentrations initiales de $\phi^{init,disp}_{misc} = 0,39,\phi^{init,disp}_{immi} = 0,60 $, un rayon de goutte de $R = 4,9.10^{-3}$m et une épaisseur d'interface $\epsilon = 8.10^{-4}$m }
+	\label{fig:conditioninit}
+\end{figure}
+
+Contrairement au cas de présenté par Rao et al., nous faisons l'hypothèse d'une viscosité dynamique constante et commune pour l'ensemble des éléments du système. De plus la loi de densité linéaire proposée en équation \ref{eq:boussiref} ne permet pas de garantir la conservation de l'ensemble des conditions initiales fournies par l'article \cite{rao_influence_2015}. En effet l'article fournit les masses volumiques des corps purs, de la goutte à l'état initial ainsi que les concentrations dans la goutte à l'état initial. Nous choisissons de conserver les masses volumiques des corps purs et de la goutte à l'état initial, modifiant ainsi sa composition initiale. Les coefficients de dilatation $\beta_{immi},\beta_{misc}$ sont déterminés à partir de la loi de densité \ref{eq:boussiref} et des densités des corps purs :
+\begin{subequations}
+	\begin{empheq}[left={\empheqlbrace\,}]{align}
+	&\rho(\phi^{misc} = 0, \phi^{immi} = 0) = \rho^* = \rho_{eau}\\
+	&\rho(\phi^{misc} = 1, \phi^{immi} = 0) = \rho^*(1+ \beta_{misc}) = \rho_{misc}\\
+	&\rho(\phi^{misc} = 0, \phi^{immi} = 1) = \rho^*(1+ \beta_{immi}) = \rho_{immi}
+	\end{empheq}
+\end{subequations}
+avec $\rho_{eau},\rho_{misc},\rho_{immi}$ les masses volumiques des corps purs de l'eau, des composants miscible et immiscibles. Finalement les coefficients de dilatation s'écrivent : 
+\begin{equation}
+	\beta_{k} = \frac{\rho_{k}}{\rho_{eau}} - 1 
+\end{equation}
+avec $k = \{misc,immi\}$.
+
 
 \section{Paramétrage du paysage thermodynamique}
 \subsection{Critères d'admissibilité} \label{subsec:critere_admi}
@@ -189,7 +190,7 @@ Dans un premier temps, il est essentiel que les conditions initiales ne soient p
 		\caption{Concentration de l'élément miscible}
 		\label{fig:y equals x}
 	\end{subfigure}
-	\caption{Séparation de phases dans la goutte à $t=9s$, pour un domaine de taille $L_x = L_y = 15.10^{-3}$m des concentrations initiales de $\phi^{init,disp}_{misc} = 0,39,\phi^{init,disp}_{immi} = 0,60 $, un rayon de goutte de $R = 4,9.10^{-3}$m et une épaisseur d'interface $\epsilon = 8.10^{-4}$m, une mobilité de $\mathcal{M} = 10^{9}$m$^2$.s$^{-1}$ en utilisant le paysage présenté en Figure \ref{fig:landscapebase}}
+	\caption{Séparation de phases dans la goutte à $t=9s$, pour un domaine de taille $L_x = L_y = 15.10^{-3}$m des concentrations initiales de $\phi^{init,disp}_{misc} = 0,39,\phi^{init,disp}_{immi} = 0,60 $, un rayon de goutte de $R = 4,9.10^{-3}$m et une épaisseur d'interface $\epsilon = 8.10^{-4}$m, une mobilité de $\mathcal{M} = 10^{-9}$m$^2$.s$^{-1}$ en utilisant le paysage présenté en Figure \ref{fig:landscapebase}}
 	\label{land_base_sep}
 \end{figure} \vspace{-0.5cm}
 Le deuxième critère est associé à l'évolution initiale du système, un deuxième paysage est présenté en Figure \ref{fig:paysage_thermo_grad}. En effet, l'objectif est également de limiter l'entrée d'eau dans la goutte, pour cela il est nécessaire qu'en tout point de la goutte la somme des compositions des composants miscible et immiscible soit égale à l'unité. Pour que cela soit toujours le cas, il est important que l'orientation des gradients soit favorable dès l'instant initial. La Figure \ref{fig:gradpasbon} présente un exemple où ce gradient favorise une entrée d'eau dès les premiers instants, dans cet exemple le gradient favorise également un chemin qui passe par la zone instable. Ainsi, il est également possible de prévoir une séparation de phase, l'ensemble de ces phénomènes peuvent être observés sur la Figure \ref{fig:eauref}, l'entrée d'eau est visible dès les premiers instants (t$=0.3$s), la séparation de phase apparaît sur des temps intermédiaires (t$=10$s et t$=25$s) pour finalement retrouver l'état stationnaire attendu d'une goutte homogène ne contenant pas d'eau pour des temps longs (t$=50s$).
@@ -221,7 +222,7 @@ Le deuxième critère est associé à l'évolution initiale du système, un deux
  \end{figure}\vspace{-0.7cm}
 Finalement, au travers de ces deux exemples, nous avons illustré les pathologies auxquelles un choix inadapté de paysage thermodynamique peut conduire. Les critères concernent la position des conditions initiales, qui doivent être en dehors de la zone instable, un second critère concerne l'absence nécessaire de la zone instable sur le "chemin" de chacune des phases et finalement une direction initiale privilégiant l'absence d'eau dans la goutte.
 \subsection{Choix d'un paysage et simulations sans couplage avec l'hydrodynamique}
-Éviter les pathologies précédentes s'avère très contraignant dans le choix des paramètres du potentiel analytique. Divers tests ont mené au passage présenté à la Figure \ref{fig:thechoosenone} pour lequel nous allons maintenant analyser plus en détails le comportement de la goutte.
+Éviter les pathologies précédentes s'avère très contraignant dans le choix des paramètres du potentiel analytique. Divers tests ont mené au paysage présenté à la Figure \ref{fig:thechoosenone} pour lequel nous allons maintenant analyser plus en détails le comportement de la goutte.
 \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\textwidth]{figure/Paysage_ecriture1.png}
@@ -347,7 +348,7 @@ Ainsi pour déterminer la valeur de la mobilité, les trajectoires obtenues pour
 	\caption[Trajectoire de la goutte]{Trajectoire de la goutte pour différentes mobilités}
 	\label{fig:trajectoireexp4}
 \end{figure}
-Il est possible d'observer qu'aucune trajectoire ne semble correspondre, en termes d'amplitude, avec celle de l'expérience. Cette différence est certainement la cause d'une mauvaise estimation de la loi de densité. Cependant, il est possible de remarquer qu'une mobilité de l'ordre de $\mathcal{M} = 4.10^{-9}$ m$^2$.s$^{-1}$ permet d'obtenir des instants d'inversion de densité cohérents. C'est pourquoi pour la suite de ce travail une mobilité égale à cette valeur est considérée. Pour vérifier l'impact mineur de la non-monotonie de l'interface caractérisé précédemment, nous traçons les profils de concentration dans la goutte pour différents instants dans le cas d'une simulation couplée avec la mobilité de référence choisie. Ces profils de concentrations sont présentés en Figure \ref{fig:verifcouplage}. On y observe bien l'apparition de la non-monotonie aux temps longs de la simulation (t>6s). Pour nos temps de simulation, l'amplitude de la non-monotonie reste très faible et nous supposons l'effet négligeable, nous confortant ainsi dans l'utilisation du paysage choisi. Nous pouvons également observer, que les résultats sont identiques pour la première seconde de calcul (à l'exception d'une mobilité très forte $\mathcal{M} = 5.10^{-8}$m$^2$.s$^{-1}$). Ainsi, on en déduit que l'hydrodynamique domine aux temps courts.
+Il est possible d'observer qu'aucune trajectoire ne semble correspondre, en termes d'amplitude, avec celle de l'expérience. Cependant, il est possible de remarquer qu'une mobilité de l'ordre de $\mathcal{M} = 4.10^{-9}$ m$^2$.s$^{-1}$ permet d'obtenir des instants d'inversion de densité cohérents. C'est pourquoi pour la suite de ce travail une mobilité égale à cette valeur est considérée. Pour vérifier l'impact mineur de la non-monotonie de l'interface caractérisé précédemment, nous traçons les profils de concentration dans la goutte pour différents instants dans le cas d'une simulation couplée avec la mobilité de référence choisie. Ces profils de concentrations sont présentés en Figure \ref{fig:verifcouplage}. On y observe bien l'apparition de la non-monotonie aux temps longs de la simulation (t>6s). Pour nos temps de simulation, l'amplitude de la non-monotonie reste très faible et nous supposons l'effet négligeable, nous confortant ainsi dans l'utilisation du paysage choisi. Nous pouvons également observer, que les résultats sont identiques pour la première seconde de calcul (à l'exception d'une mobilité très forte $\mathcal{M} = 5.10^{-8}$m$^2$.s$^{-1}$). Ainsi, on en déduit que l'hydrodynamique domine aux temps courts. La suite de ce chapitre sera vouée à essayer de comprendre l'influence de certains paramètres sur cette trajectoire.
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[H]{0.45\textwidth}
@@ -379,7 +380,7 @@ L'article de Rao et al. présente également des résultats sur la vitesse de la
 	\caption[Vitesse de la goutte pour différentes mobilités]{Vitesse de la goutte pour différentes mobilités}
 	\label{fig:vitesseexp4}
 \end{figure}
-Il est possible d'observer, sur la Figure \ref{fig:vitesseexp4}, deux plateaux de vitesse sur la phase descendante (pour $5$s$<t<6$s et $t>7$s). Le premier plateau est dû à la rencontre entre la goutte et son sillage généré lors de la phase ascendante, ce phénomène est visible sur la Figure \ref{fig:rencotresillage}. Le domaine étant de taille réduite l'influence de ce phénomène est décuplée. De plus on remarque que la phase d'accélération importante (entre les deux plateaux pour 6,5s<t<7s) comme dès lors qu'une partie du sillage formé lors de la phase descendante de la goutte se détache, il est donc possible que ce détachement participe à ce profil de vitesse en "escalier". 
+Il est possible d'observer, sur la Figure \ref{fig:vitesseexp4}, deux plateaux de vitesse sur la phase descendante (pour $5$s$<t<6$s et $t>7$s). Le premier plateau est dû à la rencontre entre la goutte et son sillage généré lors de la phase ascendante, ce phénomène est visible sur la Figure \ref{fig:rencotresillage}. Le domaine étant de taille réduite l'influence de ce phénomène est décuplée. De plus on remarque une phase d'accélération importante entre les deux plateaux (pour 6,5s<t<7s) dès lors qu'une partie du sillage formé lors de la phase descendante de la goutte se détache, il est donc possible que ce détachement participe à ce profil de vitesse en "escalier". 
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[ht!]{0.23\textwidth}
@@ -451,7 +452,7 @@ Le second plateau semble également causé par les parois, en effet, il est poss
 \end{figure}
 
 \subsection{Sensibilité des résultats au choix du paysage thermodynamique}
-Le paysage étant déterminé de façon arbitraire, dans cette section nous cherchons à comparer les résultats relatifs à deux paysages pour démontrer l'impossibilité à réaliser des simulations quantitatives sans bases thermodynamiques liée au système. Ainsi, nous comparons deux paysages présentés en Figure \ref{fig:comparelandscape} (notés paysage a et b, le paysage a étant le paysage utilisé dans les simulations précédentes). Les deux paysages respectent les critères énoncés en section \ref{subsec:critere_admi} et possèdent les mêmes comportements aux temps longs. Les paramètres des simulations modifiés par rapport au tableau \ref{table:cas_ref} sont présentés dans le tableau \ref{table:newlandscape}. Le choix de la mobilité pour le paysage b a été réalisé suivant les mêmes critères, en choisissant la mobilité qui permet d'obtenir le temps de retour à la hauteur de départ équivalent.
+Le paysage étant déterminé de façon arbitraire, dans cette section nous cherchons à comparer les résultats relatifs à deux paysages pour évaluer la sensibilité des simulations à ce choix. Ainsi, nous comparons deux paysages présentés en Figure \ref{fig:comparelandscape} (notés paysage a et b, le paysage a étant le paysage utilisé dans les simulations précédentes). Les deux paysages semblent graphiquement très proche et possèdent les mêmes comportements aux temps longs. Les paramètres des simulations modifiés par rapport au tableau \ref{table:cas_ref} sont présentés dans le tableau \ref{table:newlandscape}. Le choix de la mobilité pour le paysage b a été réalisé suivant les mêmes critères, en choisissant la mobilité qui permet d'obtenir le temps de retour à la hauteur de départ équivalent.
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[H]{0.45\textwidth}
@@ -503,7 +504,7 @@ Les résultats de position et de vitesse de la goutte sont présentés en Figure
 	\caption{Trajectoire et vitesse de la goutte pour deux paysages différents}
 	\label{fig:impactpaysage}
 \end{figure}
-Sur ces figures, il est possible de remarquer qu'après 6s un important écart apparaît entre les vitesses selon le paysage. Pour comprendre cet écart, la somme des concentrations et les masses volumiques sont tracées en Figure \ref{fig:otherland_sommeConcent}. On y remarque que la contrainte sur la somme des concentrations n'est pas respectée pour le paysage b, ainsi la goutte contient 12,9\% de matière supplémentaire non-physique tandis que le paysage a n'en contient que 2\%. Il est également possible de remarque, au travers du panache présent dans le champ de masses volumiques du paysage b, que le paysage b diffuse bien plus d'élément miscible que le paysage a. Ainsi, on peut déduire que la goutte s'alourdit plus vite dans ce second cas favorisant une accélération et une vitesse plus importante.
+Sur ces figures, il est possible de remarquer qu'après 6s un important écart apparaît entre les vitesses selon le paysage. Pour comprendre cet écart, la somme des concentrations et les masses volumiques sont tracées en Figure \ref{fig:otherland_sommeConcent}. On y remarque que la contrainte sur la somme des concentrations n'est pas respectée pour le paysage b, ainsi la goutte contient 12,9\% de matière supplémentaire non-physique tandis que le paysage a n'en contient que 2\%. Ainsi, certaines problématiques du paysage a apparaissent pour des temps plus courts sans pour autant que l'on observe de non-monotonie sur les profils de concentration. Il est également possible de remarque, au travers du panache présent dans le champ de masses volumiques du paysage b, que le paysage b diffuse bien plus d'élément miscible que le paysage a. Ainsi, on peut déduire que la goutte s'alourdit plus vite dans ce second cas favorisant une accélération et une vitesse plus importante.
 \begin{figure}[H] 
 	\centering
 	\begin{subfigure}[H]{0.47\textwidth}
@@ -529,9 +530,9 @@ Sur ces figures, il est possible de remarquer qu'après 6s un important écart a
 	\caption{Somme des concentrations miscible et immiscible à t=6s}
 	\label{fig:otherland_sommeConcent}
 \end{figure}
-Finalement, nous avons montré que le choix du paysage pouvait grandement influer sur les résultats obtenus. De plus, nous avons pu observer que ce second paysage ne respecte pas les contraintes physiques liées au paramètre d'ordre. Ainsi, pour la suite de ce travail, nous utiliserons le paysage a.
+Finalement, nous avons montré que le choix du paysage pouvait grandement influer sur les résultats obtenus et qu'il parait difficile, en tous les cas, de réaliser des simulations quantitativement précises sans données supplémentaires sur la densité d'énergie libre de ce système thermodynamique.. De plus, nous avons pu observer que ce second paysage ne respecte pas les contraintes physiques liées au paramètre d'ordre. Ainsi, pour la suite de ce travail, nous utiliserons le paysage a.
 
-\subsection{Ajout d'un champ de vitesses initial}
+\subsection{Ajout d'un champ de vitesse initial}
 Comme expliqué en section \ref{sec:presExp}, il existe une forte incertitude sur les conditions initiales de l'expérience et notamment sur la vitesse initiale de goutte, les relevés des positions étant commencés 1s après la formation de la goutte. Ainsi pour nous rapprocher des résultats fournit par Rao et al. \cite{rao_influence_2015}, nous proposons d'initialiser un champ de vitesse. Ainsi, dans le jeu de données, la condition initiale de vitesse s'écrit :
 \begin{subequations}
 	\begin{empheq}[left={\empheqlbrace\,}]{align}
@@ -539,8 +540,8 @@ Comme expliqué en section \ref{sec:presExp}, il existe une forte incertitude su
 	&u_y(\mathbf{x},t=0) = C + C\tanh\left(\cfrac{\sqrt{(x-x_0)^2+(y-y_0)^2}-R}{\epsilon} \right)
 	\end{empheq}
 \end{subequations}
-Avec $C$ une constante dépendante de la valeur de vitesse souhaitée. Ces conditions initiales de la forme tangente hyperbolique proviennent de la solution analytique de l'état d'équilibre d'un système possédant une interface plane. La condition initiale de vitesse peut être discutée, en effet pour obtenir des conditions réalistes, il serait nécessaire de connaître l'entièreté du champ de vitesses. Cependant, c'est avec ce type de condition initiale que l'on arrive le mieux à retranscrire une vitesse initiale de la goutte. Cependant il est important de noter que les équations de Navier-Stokes sont résolues en utilisant une méthode de projection, ainsi la condition initiale de vitesse fournit dans le jeu de données n'est pas la condition initiale utilisée par TrioCFD, la Figure \ref{fig:champvitesse_init} représente les champs de vitesses initiales pour $C=0.05$. Les résultats associés à ce champ de vitesses initiales et à un champ de vitesses initiales nulles sont présentés en Figure \ref{fig:resultat_vitesse}. \\
-\begin{figure}[H] \label{fig:champvitesse_init}
+Avec $C$ une constante dépendante de la valeur de vitesse souhaitée. Ces conditions initiales de la forme tangente hyperbolique proviennent de la solution analytique de l'état d'équilibre d'un système possédant une interface plane. Cette condition initiale de vitesse, appliquée à notre géométrie 2D est discutable et n'est qu'un pis-aller faute de connaître l’entièreté du champ de vitesses. Il est important de noter que les équations de Navier-Stokes sont résolues en utilisant une méthode de projection sur un espace à divergence nulle de telle sorte que cette vitesse initiale est modifiée à l'initialisation par TrioCFD. la Figure \ref{fig:champvitesse_init} représente les champs de vitesses initiales pour $C=0.05$. Les résultats associés à ce champ de vitesses initiales et à un champ de vitesses initiales nulles sont présentés en Figure \ref{fig:resultat_vitesse}. Sur le champ de vitesses horizontales on observe que, sous l'effet de la projection, la goutte subit un champ de vitesse initial dénué de sens physique.\\
+\begin{figure}[H] 
 	\centering
 	\begin{subfigure}[H]{0.47\textwidth}
 		\centering
@@ -554,8 +555,9 @@ Avec $C$ une constante dépendante de la valeur de vitesse souhaitée. Ces condi
 		\caption{Champ de vitesses verticales $u_y$}
 	\end{subfigure}
 	\caption{Champ de vitesses initial après projection}
+	\label{fig:champvitesse_init}
 \end{figure}
-\begin{figure}[H] \label{fig:resultat_vitesse}
+\begin{figure}[H] 
 	\centering
 	\begin{subfigure}[H]{0.47\textwidth}
 		\centering
@@ -569,12 +571,13 @@ Avec $C$ une constante dépendante de la valeur de vitesse souhaitée. Ces condi
 		\caption{Vitesse de la goutte}
 	\end{subfigure}
 	\caption{Trajectoire et vitesse de la goutte pour une vitesse initiale nulle (bleu) et non-nulle (orange et vert)}
+	\label{fig:resultat_vitesse}
 \end{figure}
-On remarque alors que pour des temps supérieurs à t=1,5s, la vitesse de la goutte n'est quasiment plus influencée par la condition initiale de vitesse, les instants d'inversion étant sensiblement identiques (un écart inférieur à 0,25s), il en va de même sur la phase descendante ou les résultats semblent identiques. Ainsi, l'ajout d'une condition initiale de vitesse ne semble pas pertinent et nous nous limiterons à des conditions initiales de vitesses nulles pour la suite.
+On remarque alors que pour des temps supérieurs à t=1,5s, la vitesse de la goutte n'est quasiment plus influencée par la condition initiale de vitesse, les instants d'inversion étant sensiblement identiques (un écart inférieur à 0,25s), il en va de même sur la phase descendante ou les résultats semblent identiques. Il est alors possible de conclure que la vitesse initiale ne joue donc un rôle que sur la phase purement inertielle du début du transitoire. Ainsi, l'ajout d'une condition initiale de vitesse ne semble pas pertinent et nous nous limiterons à des conditions initiales de vitesses nulles pour la suite.
 
 
 \subsection{Modification de la loi de densité}
-Nous avons pu voir précédemment que l'amplitude de trajectoire de la goutte était réduite par rapport à l'expérience proposée par Rao et al.. L'amplitude étant pilotée par le terme de flottabilité dans l'équation de Navier-Stokes, le choix de la loi de densité est très important vis-à-vis des résultats. Ainsi, nous proposons de modifier la loi de densité pour se rapprocher des conditions expérimentales. Cette nouvelle loi de densité est construite de sorte à pouvoir conserver l'ensemble des conditions initiales (masse volumique des corps purs et de la goutte ainsi que les conditions initiales dans la goutte) soient satisfaites dans nos simulations. Cette loi est notée $\rho^{mix}$ (en opposition à $\rho^{lin}$ la loi précédemment utilisée présentée en équation \ref{eq:boussi}) et s'écrit sous la forme :
+Nous avons pu voir précédemment que l'amplitude de trajectoire de la goutte était réduite par rapport à l'expérience proposée par Rao et al.. L'amplitude étant pilotée par le terme de flottabilité dans l'équation de Navier-Stokes, le choix de la loi de densité est très important vis-à-vis des résultats. Ainsi, nous proposons de modifier la loi de densité pour se rapprocher des conditions expérimentales. Cette nouvelle loi de densité est construite de sorte à pouvoir conserver l'ensemble des conditions initiales (masse volumique des corps purs et de la goutte ainsi que les conditions initiales dans la goutte) soient satisfaites dans nos simulations. Cette loi est notée $\rho^{mix}$ (en opposition à $\rho^{lin}$ la loi précédemment utilisée présentée en équation \ref{eq:boussiref}) et s'écrit sous la forme :
 \begin{equation*}
 \rho^{mix}({\phi_{misc},\phi_{immi}}) = \rho_{eau} \left(   1 + \beta_{misc}\phi_{misc} +\beta_{immi} \phi_{immi} + \beta_{mix}\phi_{misc}\phi_{immi} \right)
 \end{equation*} \vspace{-1cm}
@@ -589,7 +592,7 @@ Le coefficient de dilation associé au terme non linéaire $\beta_{mix}$ se calc
 	\beta_{mix} = \frac{1}{\phi_{misc}^{init,disp}\phi_{immi}^{init,disp}} \left(\frac{\rho^{init,disp}}{\rho_{eau}}- 1 - \beta_{misc} \phi_{misc}^{init,disp} - \beta_{immi} \phi_{immi}^{init,disp}\right)
 \end{equation}
 Avec $\phi_{misc}^{init,disp}$ (resp. $\phi_{immi}^{init,disp}$) la valeur de concentration initiale de l'élément miscible (resp. immiscible) dans la goutte d'après Rao et al. \cite{rao_influence_2015}.\\
-Cette loi de densité va à l'encontre de l'hypothèse du volume molaire constant. En effet, si le volume molaire est constant alors la densité doit être une combinaison linéaire des densités des corps purs. Les paramètres relatifs aux simulations comparant deux lois de densité sont présentés dans le Tableau \ref{table:rhomix}, les résultats de trajectoire et de vitesse sont, quant à eux, tracés en Figure \ref{fig:resultat_rhomix}
+Les paramètres relatifs aux simulations comparant deux lois de densité sont présentés dans le Tableau \ref{table:rhomix}, les résultats de trajectoire et de vitesse sont, quant à eux, tracés en Figure \ref{fig:resultat_rhomix}.
 
 \begin{table}[H]
 	
@@ -647,12 +650,12 @@ Cette loi de densité va à l'encontre de l'hypothèse du volume molaire constan
 	\caption{Trajectoire et vitesse de la goutte pour différentes lois de densité}
 	\label{fig:resultat_rhomix}
 \end{figure}
-Ces résultats montrent que la modification de la loi de densité ne permet pas d'obtenir de meilleurs résultats, en effet les vitesses maximales atteinte par la goutte pour les phases ascendante et descendante sont plus faible pour une loi de densité linéaire. Ainsi, le temps terminal (temps pour lequel la goutte est à une hauteur nulle) est supérieur et ne correspond plus à l'expérience. Pour se rapprocher de l'expérience, en supposant que les conclusions faites en section \ref{sec:calibmo} sont transposables avec notre nouvelle loi de densité, la mobilité devrait être augmentée. Cependant augmenter la mobilité réduit la hauteur maximale atteinte par la goutte. Ainsi, cette nouvelle loi de densité ne sera plus considérée pour la suite de ce travail.
-
-
+Ces résultats montrent que la modification de la loi de densité n'a pas d'impact sur l'amplitude de la trajectoire de la goutte mais décale d'environ une seconde l'apogée de la goutte, en effet les vitesses maximales atteintes par la goutte pour les phases ascendante et descendante sont plus faible pour une loi de densité linéaire. Ainsi, le temps terminal (temps pour lequel la goutte est à une hauteur nulle) est supérieur et ne correspond plus à l'expérience. Pour se rapprocher de l'expérience, en supposant que les conclusions faites en section \ref{sec:calibmo} sont transposables avec notre nouvelle loi de densité, la mobilité devrait être augmentée. Cependant augmenter la mobilité réduit la hauteur maximale atteinte par la goutte. 
+De plus, cette loi de densité va à l'encontre de l'hypothèse du volume molaire constant. En effet, si le volume molaire est constant alors la densité doit être une combinaison linéaire des densités des corps purs.
+Ainsi, au vu de l'ensemble des éléments cette nouvelle loi de densité ne sera plus considérée pour la suite de ce travail.
 
 \subsection{Modification des conditions aux limites de parois}
-Nous avons vu précédemment que la taille du domaine pouvait avoir un impact négatif sur les résultats. Pour limiter l'impact du domaine une des solutions est de négliger l'influence de la couche limite. Pour cela, nous utilisons, sur les parois latérales du domaine une condition aux limites dites de Knudsen non-négligeable. Cette condition s'écrit pour un écoulement isotherme :
+Nous avons vu précédemment que la taille du domaine pouvait avoir un impact significatif sur les résultats. Pour limiter l'impact du domaine une des solutions est de négliger l'influence de la couche limite. Pour cela, nous utilisons, sur les parois latérales du domaine une condition aux limites dites de Knudsen non-négligeable. Cette condition s'écrit pour un écoulement isotherme :
 \begin{subequations}
 	\begin{empheq}[left={\empheqlbrace\,}]{align}
 	&u_n = 0\\
@@ -677,7 +680,7 @@ Avec $u_n$ (resp. $x_n$) la composante normale à la paroi de la vitesse (resp. 
 	\caption{Trajectoire et vitesse de la goutte pour différentes valeurs de $k$ (les courbes $k=10^4$ et $10^9$ sont superposées)}
 	\label{fig:resultat_knudsen}
 \end{figure}
-Il est alors possible d'observer que les résultats sont quasiment identiques sur la phase ascendante, c'est uniquement pour 6,5s<t<8s que la vitesse de la goutte est différente. Pour essayer de comprendre cet écart, le champ des vitesses verticales à différents instants est tracé en Figure \ref{fig:champvitesse_knud}. On y observe que dans le cas où la couche limite est négligée, le sillage de la goutte formé pendant la phase descendante se détache plus tard, en effet on observe que la vitesse nulle aux parois favorise le décrochage dans le cas d'une paroi fixe.
+Il est alors possible d'observer que les résultats sont quasiment identiques sur la phase ascendante, c'est uniquement pour 6,5s<t<8s que la vitesse de la goutte est différente. Pour essayer de comprendre cet écart, le champ des vitesses verticales à différents instants est tracé en Figure \ref{fig:champvitesse_knud}. On y observe que dans le cas où la couche limite est négligée, le sillage de la goutte formé pendant la phase descendante se détache plus tard, en effet on observe que la vitesse nulle aux parois favorise le décrochage dans le cas d'une paroi fixe. Ce décrochage conduit à une accélération de la goutte, ce qui est cohérent avec l'analyse des plateaux de vitesse réalisée en section \ref{sec:calibmo}.
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[ht!]{0.3\textwidth}
@@ -726,7 +729,7 @@ Il est alors possible d'observer que les résultats sont quasiment identiques su
 
 
 \subsection{Influence de la taille du domaine} \label{sec:tailledom}
-Nous avons pu observer que la taille du domaine pouvait avoir un effet non-négligeable sur les résultats, confinant la goutte et son champ de vitesse. On cherche donc à quantifier l'impact de la taille du domaine sur les résultats des simulations. L'augmentation de la taille du domaine augmente grandement le temps de calcul, environ 2 à 3 semaines pour un domaine de largeur $L_x = 20R$ contre quelques jours pour un domaine de largeur $L_x = 10R$. Le récapitulatif des paramètres utilisés pour les simulations est présenté en Tableau \ref{table:tailleDom}, les résultats sont quant à eux présentés en Figure \ref{fig:impactdom}.
+Nous avons pu observer que la taille du domaine pouvait avoir un effet non-négligeable sur les résultats, confinant la goutte et son champ de vitesse. On cherche donc à quantifier l'impact de la taille du domaine sur les résultats des simulations. L'augmentation de la taille du domaine augmente grandement le temps de calcul, le calcul d'un domaine de largeur $L_x = 20R$ est 5 à 6 fois plus long qu'un calcul pour un domaine de largeur $L_x=10R$. Le récapitulatif des paramètres utilisés pour les simulations est présenté en Tableau \ref{table:tailleDom}, les résultats sont quant à eux présentés en Figure \ref{fig:impactdom}.
 
 
 \begin{table}[H]
@@ -785,20 +788,11 @@ Nous avons pu observer que la taille du domaine pouvait avoir un effet non-négl
 	\label{fig:impactdom}
 \end{figure}
 
-Au regard des résultats, il est possible de dire que la goutte était également perturbée sur la phase ascendante. En effet, la vitesse de la goutte est plus importante lors de son ascension pour un domaine plus large. De plus, il est possible de constater que la perturbation liée à la rencontre de la goutte avec son sillage est plus faible, l'écoulement étant moins confiné. Le domaine de calcul utilisé dans Rao et al. \cite{rao_influence_2015} est encore bien plus grand que ceux proposé dans cette étude, il est donc possible de s'imaginer qu'un domaine encore plus grand soit nécessaire pour reproduire au mieux les résultats de l'expérience. On remarque également que l'agrandissement du domaine augmente le temps terminal, ainsi, il serait nécessaire de recalibrer la mobilité pour obtenir des résultats plus cohérents.
+Au regard des résultats, il est possible de dire que la goutte est également influencée par la distance aux bord du domaine dans sa phase ascendante. En effet, la vitesse de la goutte est plus importante lors de son ascension pour un domaine plus large. De plus, il est possible de constater que la perturbation liée à la rencontre de la goutte avec son sillage est plus faible, l'écoulement étant moins confiné. Le domaine de calcul utilisé dans Rao et al. \cite{rao_influence_2015} est encore bien plus grand que ceux proposé dans cette étude (dans \cite{rao_influence_2015} les calculs étant réalisés en géométrie axisymétrique, seule la moitié du domaine est représentée), il est donc possible de s'imaginer qu'un domaine encore plus grand soit nécessaire pour reproduire au mieux les résultats de l'expérience. On remarque également que l'agrandissement du domaine augmente le temps terminal, ainsi, il serait nécessaire de recalibrer la mobilité pour obtenir des résultats plus cohérents.
 
 \subsection{Influence d'un raffinement du maillage} \label{sec:raffinement}
 Pour terminer cette étude paramétrique, nous essayons de quantifier l'erreur liée à la non-convergence de notre maillage. Dans cette section, nous allons donc observer l'impact d'un raffinement du maillage ainsi que l'impact d'un raffinement du maillage et de l'interface. La Figure \ref{fig:influencemesh} présente trajectoires et vitesses obtenues pour différents maillages et différentes épaisseurs d'interfaces.
-Lorsque l'épaisseur d'interface est modifiée, on cherche à conserver le terme diffusion dans l'équation de Cahn-Hilliard, cette conservation se traduit par :
-\begin{equation} \label{eq:conservationflux}
-\sum_{j=1}^{n-1}{\mathcal{M}_{ij}} \nabla\tilde{\mu}_j = \text{cste} \hspace{1cm} \forall \epsilon
-\end{equation}
-L'équation \ref{eq:conservationflux} induit la condition :
-\begin{equation}
-	\overline{ \mathcal{M}}_{ij} = \lambda \mathcal{M}_{ij} = \text{cste} \hspace{1cm} \forall \epsilon
-\end{equation}
-Avec $\overline{ \mathcal{M}}_{ij}$ une mobilité modifiée invariante selon la paramétrisation géométrique. Les paramètres des simulations associées sont présentés dans le Tableau \ref{table:influenceMesh}.
-
+Lorsque l'épaisseur d'interface est modifiée, on cherche à conserver le terme diffusion dans l'équation de Cahn-Hilliard, d'après \cite{cardon_modelisation_2016,zanella_three-dimensional_2021} la mobilité est proportionnelle à l'épaisseur d'interface, ainsi lorsque l'épaisseur d'interface est modifié la mobilité doit également être modifiée en conséquence. Les paramètres des simulations associées sont présentés dans le Tableau \ref{table:influenceMesh}.
 
 \begin{table}[H]
 	\centering  % not needed, since table is as wide as text block
@@ -875,11 +869,11 @@ Avec $\overline{ \mathcal{M}}_{ij}$ une mobilité modifiée invariante selon la 
 		\caption{Vitesse de la goutte}
 	\end{subfigure}
 	\caption{Trajectoire et vitesse de la goutte pour différentes résolution de maillage et épaisseur d'interface}
-\label{fig:impactmesh}
+\label{fig:influencemesh}
 \end{figure}
-Au vu de ces résultats, il est possible de dire que la convergence seule du maillage n'est pas nécessaire ni impactante vis-à-vis des résultats. Cependant, l'amincissement modifie grandement les résultats, les vitesses maximales sur les phases ascendante et descendante sont plus importante tout en conservant la hauteur maximale atteinte. Finalement, la convergence de maillage a un effet non-négligeable. Malgré tout, vu les capacités de calcul disponible, réaliser l'ensemble des calculs convergé en maillage aurait été impossible. Les calculs avec les maillages les plus fin utilisés dans cette étude ont nécessité 3 semaines de calculs. Les résultats non convergé présentant les mêmes tendances, cette étude paramétrique permet tout de même d'obtenir des tendances qui pourront être validées par la suite lorsque les simulations parallèles pourront être menées.
+Au vu de ces résultats, il est possible de dire que la convergence seule du maillage à un impact limité sur les résultats. Cependant, l'amincissement de l'épaisseur de l'interface joue un rôle significatif, augmentant les vitesses maximales lors des phases ascendante et descendante tout en conservant la hauteur maximale atteinte inchangée. Finalement, la convergence de maillage a un effet non-négligeable au travers de la convergence vis-à-vis de la séparation d'échelle $\varepsilon/R$. Malgré tout, vu les capacités de calcul disponible, réaliser l'ensemble des calculs convergé en maillage aurait été impossible. Les calculs avec les maillages les plus fin utilisés dans cette étude ont nécessité cinq fois plus de temps que les calculs de référence pour une même taille de domaine. Les résultats non convergé présentant les mêmes tendances, cette étude paramétrique permet tout de même d'obtenir des tendances qui pourront être validées par la suite lorsque les simulations parallèles pourront être menées.
 
 \section{Conclusion sur la comparaison à l'expérience et perspectives d'améliorations}
-
+\textcolor{blue}{a corriger}
 Au travers de cette étude paramétrique, nous avons pu observer l'influence de divers paramètres sur la trajectoire d'une goutte soumise a de la diffusion massique. Pour permettre de reproduire l'expérience, il faudrait, dans un premier temps avoir la puissance de calcul nécessaire pour réaliser des simulations convergé en espace et en temps pour des domaines que l'on pourrait supposer infini vis-à-vis de la goutte (suffisamment grand pour ne pas impacter sa trajectoire et ses champs de vitesses). De plus, le manque d'information quant au paysage thermodynamique ne nous permettra jamais de réaliser des simulations satisfaisantes au vu de l'incertitude que le choix du paysage représente. Cependant, malgré ses difficultés, nous avons pu mener une étude qualitative sur un nombre important de paramètres permettant une première approche de validation.
 
